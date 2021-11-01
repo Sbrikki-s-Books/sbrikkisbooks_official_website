@@ -9,6 +9,7 @@ const Home = () => {
         <div className={styles.home}>
             <h1>{title}</h1>
             <h2>{subtitle}</h2>
+            <p>"We'll be here soon"</p>
         </div>
     )
 }
