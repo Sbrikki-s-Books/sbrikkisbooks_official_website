@@ -48,6 +48,9 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm ci
-    - run: npm install gh-pages
-    - run: npm run deploy
+    - run:  |
+        npm ci
+        npm install gh-pages
+        npm run deploy
+        git config --global user.email "michele00.pulvirenti@gmail.com"
+        git config --global user.name "Mike-cheek"
