@@ -42,9 +42,9 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - run: npm run build
     - name: Deploy using Node.js ${{ matrix.node-version }}
+      run: npm run build
       uses: JamesIves/github-pages-deploy-action@4.1.1
       with: 
-        branch: master
+        branch: gh-pages
         folder: build
