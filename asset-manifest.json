@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/sbrikkisbooks_official_website/static/css/main.0eede711.chunk.css",
-    "main.js": "/sbrikkisbooks_official_website/static/js/main.bd338a33.chunk.js",
-    "main.js.map": "/sbrikkisbooks_official_website/static/js/main.bd338a33.chunk.js.map",
-    "runtime-main.js": "/sbrikkisbooks_official_website/static/js/runtime-main.447bb345.js",
-    "runtime-main.js.map": "/sbrikkisbooks_official_website/static/js/runtime-main.447bb345.js.map",
-    "static/js/2.7b7be3f6.chunk.js": "/sbrikkisbooks_official_website/static/js/2.7b7be3f6.chunk.js",
-    "static/js/2.7b7be3f6.chunk.js.map": "/sbrikkisbooks_official_website/static/js/2.7b7be3f6.chunk.js.map",
-    "static/js/3.ddcca74f.chunk.js": "/sbrikkisbooks_official_website/static/js/3.ddcca74f.chunk.js",
-    "static/js/3.ddcca74f.chunk.js.map": "/sbrikkisbooks_official_website/static/js/3.ddcca74f.chunk.js.map",
+    "main.js": "/sbrikkisbooks_official_website/static/js/main.d3d87b0a.chunk.js",
+    "main.js.map": "/sbrikkisbooks_official_website/static/js/main.d3d87b0a.chunk.js.map",
+    "runtime-main.js": "/sbrikkisbooks_official_website/static/js/runtime-main.fbbc6359.js",
+    "runtime-main.js.map": "/sbrikkisbooks_official_website/static/js/runtime-main.fbbc6359.js.map",
+    "static/js/2.36ec8e07.chunk.js": "/sbrikkisbooks_official_website/static/js/2.36ec8e07.chunk.js",
+    "static/js/2.36ec8e07.chunk.js.map": "/sbrikkisbooks_official_website/static/js/2.36ec8e07.chunk.js.map",
+    "static/js/3.b64168bd.chunk.js": "/sbrikkisbooks_official_website/static/js/3.b64168bd.chunk.js",
+    "static/js/3.b64168bd.chunk.js.map": "/sbrikkisbooks_official_website/static/js/3.b64168bd.chunk.js.map",
     "index.html": "/sbrikkisbooks_official_website/index.html",
     "static/css/main.0eede711.chunk.css.map": "/sbrikkisbooks_official_website/static/css/main.0eede711.chunk.css.map",
-    "static/js/2.7b7be3f6.chunk.js.LICENSE.txt": "/sbrikkisbooks_official_website/static/js/2.7b7be3f6.chunk.js.LICENSE.txt"
+    "static/js/2.36ec8e07.chunk.js.LICENSE.txt": "/sbrikkisbooks_official_website/static/js/2.36ec8e07.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.447bb345.js",
-    "static/js/2.7b7be3f6.chunk.js",
+    "static/js/runtime-main.fbbc6359.js",
+    "static/js/2.36ec8e07.chunk.js",
     "static/css/main.0eede711.chunk.css",
-    "static/js/main.bd338a33.chunk.js"
+    "static/js/main.d3d87b0a.chunk.js"
   ]
 }
