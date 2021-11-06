@@ -12,7 +12,7 @@ html{
     font-family: 'Source Code Pro', monospace;  
     color: rgba(255,255,255,.70);
     font-size: 20px;
-    @media screen and (min-width: tablet){
+    @media screen and (min-width: phone){
       font-size: 25px;
     } 
 }
@@ -27,7 +27,7 @@ html{
 h1{
     color: rgba(255,255,255,.70);
     font-size: 25px;
-    @media screen and (min-width: tablet){
+    @include media(">phone"){
       font-size: 30px;
     } 
 }
@@ -35,8 +35,4 @@ h1{
 h2{
   border-right: solid 3px rgba(255, 255, 255, 0.75);
   color: rgba(255,255,255,.70); 
-  font-size: 20px;
-  @media screen and (min-width: tablet){
-    font-size: 25px;
-  } 
 }
