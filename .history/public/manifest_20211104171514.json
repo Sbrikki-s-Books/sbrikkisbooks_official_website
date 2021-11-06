@@ -1,6 +1,6 @@
 {
-  "short_name": "Sbrikki's Books",
-  "name": "Sbrikki's Books - Book Club",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
