@@ -15,6 +15,7 @@ const Home = () => {
                 <meta name="description" content="Sbrikki's Books - Book Club" />
                 <meta name="keywords" content="sbrikki, sbrikkis, book, club, libro, books" />
             </Helmet>
+            <NavBar />
             <div className={styles.home}>
                 <h1>{title}</h1>
                 <h2>{subtitle}</h2>

@@ -1,11 +1,11 @@
 import React from 'react';
 import * as styles from './navItem.module.scss';
 
-const NavItem = (props) => {
+const NavItem = () => {
     return (
-        <a className={styles.item} href={props.link}>
-            {props.text}
-        </a>
+        <div>
+            
+        </div>
     );
 }
 
