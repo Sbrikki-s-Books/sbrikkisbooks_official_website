@@ -26,6 +26,8 @@ html{
 
 h1{
     color: rgba(255,255,255,.70);
+    .focus-border{position: absolute; bottom: 0; left: 50%; width: 0; height: 2px; background-color: #3399FF; transition: 0.4s;}
+    .focus-border{width: 100%; transition: 0.4s; left: 0;}
     font-size: 25px;
     @media screen and (min-width: tablet){
       font-size: 30px;

@@ -26,6 +26,7 @@ html{
 
 h1{
     color: rgba(255,255,255,.70);
+    border-bottom: 4mm ridge rgb(170, 50, 220, .6);
     font-size: 25px;
     @media screen and (min-width: tablet){
       font-size: 30px;
