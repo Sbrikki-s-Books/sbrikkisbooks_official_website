@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
-@import '../../styles/globals.scss';
+@import '../../styles/globals.scss'
 
 $breakpoints: (
   phone: 480px,
@@ -9,9 +9,9 @@ $breakpoints: (
 );
 
 html{
-    background-color: var(--white-sbrikki); 
+    background-color: #202020; 
     font-family: 'Source Code Pro', monospace;  
-    color: var(--red-sbrikki);
+    color: rgba(255,255,255,.70);
     font-size: 20px;
     @media screen and (min-width: tablet){
       font-size: 25px;
@@ -26,6 +26,7 @@ html{
 }
 
 h1{
+    color: rgba(255,255,255,.70);
     font-size: 25px;
     @media screen and (min-width: tablet){
       font-size: 30px;
@@ -33,7 +34,7 @@ h1{
 }
 
 h2{
-  color: var(--green-sbrikki); 
+  color: rgba(255,255,255,.70); 
   font-size: 20px;
   @media screen and (min-width: tablet){
     font-size: 25px;
