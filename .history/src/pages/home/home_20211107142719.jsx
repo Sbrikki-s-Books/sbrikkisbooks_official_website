@@ -1,8 +1,8 @@
 import React from 'react';
 import * as styles from './home.module.scss';
 import Type from '../../atoms/type/type';
-import NavBar from '../../components/navBar/navBar';
-import Seo from '../../components/seo/seo';
+import { Helmet } from 'react-helmet';
+import NavBar from '../../components/navBar';
 
 const title = "Welcome to Sbrikki's Books";
 const subtitle = "Join us in this Book Club for nights full of reading";
@@ -10,11 +10,11 @@ const subtitle = "Join us in this Book Club for nights full of reading";
 const Home = () => {
     return (
         <>
-            <Seo 
-                title="Sbrikki's Books" 
-                description="Sbrikki's Books - Book Club"
-                keywords="sbrikki, books, sbrikkis, book, club, libro"
-            />
+            <Helmet>
+                <title>Sbrikki's Books</title>
+                <meta name="description" content="Sbrikki's Books - Book Club" />
+                <meta name="keywords" content="sbrikki, books, sbrikkis, book, club, libro" />
+            </Helmet>
             <NavBar />
             <div className={styles.home}>
                 <h1>{title}</h1>
