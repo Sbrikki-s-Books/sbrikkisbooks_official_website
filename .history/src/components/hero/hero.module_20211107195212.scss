@@ -1,0 +1,16 @@
+$breakpoints: (
+  phone: 480px,
+  tablet: 768px,
+  big-tablet: 1024px,
+  desktop: 1440px,
+);
+
+html{
+    background-color: var(--white-sbrikki); 
+    font-family: 'Source Code Pro', monospace;  
+    color: var(--red-sbrikki);
+    font-size: 20px;
+    @media screen and (min-width: tablet){
+      font-size: 25px;
+    } 
+}

@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import '../../styles/globals.scss';
+
+$breakpoints: (
+  phone: 480px,
+  tablet: 768px,
+  big-tablet: 1024px,
+  desktop: 1440px,
+);

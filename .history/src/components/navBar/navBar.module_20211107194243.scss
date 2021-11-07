@@ -1,0 +1,17 @@
+$breakpoints: (
+  phone: 480px,
+  tablet: 768px,
+  big-tablet: 1024px,
+  desktop: 1440px,
+);
+
+.navBar {
+  height: auto;
+  width: 100vw;
+  z-index: 1;
+  display: flex;
+  background-color: var(--grey-sbrikki);
+  align-items: center;
+  justify-content: space-around;
+  margin: -7px;
+}
