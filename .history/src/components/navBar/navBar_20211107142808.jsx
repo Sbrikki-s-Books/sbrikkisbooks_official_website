@@ -1,6 +1,6 @@
 import React from 'react'
 import * as styles from './navBar.module.scss'
-import NavItem from '../../atoms/navItem/navItem'
+import NavItem from '../atoms/navItem/navItem'
 
 const NavBar = () => {
 
