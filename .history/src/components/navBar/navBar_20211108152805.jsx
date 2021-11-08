@@ -24,7 +24,7 @@ const NavBar = () => {
             </div>
             {navBarOpen? 
                 <div className={styles.navigation}>
-                    <Navigation navBarOpen={navBarOpen} />
+                    <Navigation />
                 </div>
                 :
                 null

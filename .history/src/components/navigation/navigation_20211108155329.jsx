@@ -11,9 +11,11 @@ function Navigation(props) {
                 <NavItem text="When" link="/when" />
             </div>
             <div className={styles.navMobile}>
-                <NavItem text="What" link="/what" />
-                <NavItem text="Who" link="/who" />
-                <NavItem text="When" link="/when" />
+                <div className={styles.open}>
+                    <NavItem text="What" link="/what" />
+                    <NavItem text="Who" link="/who" />
+                    <NavItem text="When" link="/when" />
+                </div>
             </div>
         </>
     )

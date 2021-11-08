@@ -5,9 +5,10 @@ $breakpoints: (
   desktop: 1440px,
 );
 
-.hamburger{
-    transform: scaleX(-1);
-    width: 50px;
+.logo{
+    width: 10%;
     height: auto;
-    padding: 5px;
+    @media(min-width: 768px){
+        width: 50px;
+    }
 }

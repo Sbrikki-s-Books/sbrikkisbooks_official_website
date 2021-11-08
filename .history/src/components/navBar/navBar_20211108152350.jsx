@@ -14,7 +14,7 @@ const NavBar = () => {
     }
 
     const openNavBar = () => {
-        setNavBarOpen(true);
+        setNavBarOpen(false);
     }
 
     return (
@@ -22,20 +22,13 @@ const NavBar = () => {
             <div className={styles.logo}>
                 <Logo />
             </div>
-            {navBarOpen? 
-                <div className={styles.navigation}>
-                    <Navigation navBarOpen={navBarOpen} />
-                </div>
-                :
-                null
-            }
-            
+            <div className={styles.navigation}>
+                <Navigation />
+            </div>
             <div className={styles.hamburger}>
                 { 
                     navBarOpen ? 
-                        <Cross onclick={closeNavBar} />   
-                            :   
-                        <Hamburger onclick={openNavBar}/>
+                        <Cross />   :   <Hamburger />
                 }
             </div>
         </div>

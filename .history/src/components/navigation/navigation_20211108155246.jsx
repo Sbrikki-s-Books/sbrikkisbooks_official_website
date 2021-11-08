@@ -10,10 +10,10 @@ function Navigation(props) {
                 <NavItem text="Who" link="/who" />
                 <NavItem text="When" link="/when" />
             </div>
-            <div className={styles.navMobile}>
+            <div className={[styles.navMobile, props.navBarOpen? styles.opened : styles.closed]}>
                 <NavItem text="What" link="/what" />
                 <NavItem text="Who" link="/who" />
-                <NavItem text="When" link="/when" />
+                <NavItem text="When" link="/when" />                
             </div>
         </>
     )

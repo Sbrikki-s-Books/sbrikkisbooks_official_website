@@ -27,11 +27,21 @@ $breakpoints: (
     align-items: center;
     justify-content: flex-start;
     background-color: var(--grey-sbrikki);
-    animation: rotateMenu 600ms ease-in-out forwards;
-    transform-origin: top center;
 
-    > *{
-        padding: 50px;
+    .opened{
+        animation: rotateMenu 600ms ease-in-out forwards;
+        transform-origin: top center;
+        > *{
+            padding: 50px;
+        }
+    }
+
+    .closed{
+        animation: rotateMenu 600ms ease-in-out forwards reverse;
+        transform-origin: top center;
+        > *{
+            padding: 50px;
+        }
     }
 } 
 

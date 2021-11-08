@@ -9,6 +9,7 @@ $breakpoints: (
   height: auto;
   width: 100vw;
   z-index: 3;
+  position: absolute;
   display: flex;
   background-color: var(--grey-sbrikki);
   align-items: center;

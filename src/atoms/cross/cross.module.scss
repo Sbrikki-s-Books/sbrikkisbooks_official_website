@@ -5,9 +5,7 @@ $breakpoints: (
   desktop: 1440px,
 );
 
-.hamburger{
-    transform: scaleX(-1);
-    width: 50px;
+.cross {
+    width: 60px;
     height: auto;
-    padding: 5px;
 }

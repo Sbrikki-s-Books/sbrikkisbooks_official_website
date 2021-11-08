@@ -28,6 +28,8 @@ $breakpoints: (
     justify-content: flex-start;
     background-color: var(--grey-sbrikki);
     animation: rotateMenu 600ms ease-in-out forwards;
+    animation: rotateMenu 600ms ease-out reverse;
+
     transform-origin: top center;
 
     > *{
@@ -38,7 +40,7 @@ $breakpoints: (
 @keyframes rotateMenu {
     0% {
         transform: rotateX(-90deg);
-        opacity: 0.7;
+        opacity: 0.5;
     }
     70% {
         transform: rotateX(20deg);

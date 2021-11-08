@@ -13,39 +13,21 @@ $breakpoints: (
 }
 
 .navMobile{
-    @media (min-width: 768px) {
-        display: none;
-    }
     display: flex;
     position: absolute;
     flex-direction: column;
     z-index: 1;
     width: 100vw;
-    height: auto;
+    height: 100vw;
     left: 0;
     top: 80px;
     align-items: center;
     justify-content: flex-start;
     background-color: var(--grey-sbrikki);
-    animation: rotateMenu 600ms ease-in-out forwards;
-    transform-origin: top center;
-
     > *{
-        padding: 50px;
+        padding-top: 10px;
     }
-} 
-
-@keyframes rotateMenu {
-    0% {
-        transform: rotateX(-90deg);
-        opacity: 0.7;
-    }
-    70% {
-        transform: rotateX(20deg);
-        opacity: 1;
-    }
-    100% {
-        transform: rotateX(0deg);
-        opacity: 1; 
+    @media (min-width: 768px) {
+        display: none;
     }
 }

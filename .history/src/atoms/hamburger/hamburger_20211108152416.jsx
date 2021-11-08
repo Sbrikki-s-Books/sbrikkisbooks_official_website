@@ -7,7 +7,6 @@ function Hamburger(props) {
         <img    
             src={hamburger}
             className={styles.hamburger}
-            alt="Open"
             onClick={props.onclick}
         />
     )
