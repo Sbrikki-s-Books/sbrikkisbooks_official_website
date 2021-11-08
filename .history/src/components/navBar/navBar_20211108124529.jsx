@@ -1,7 +1,7 @@
 import React from 'react'
 import * as styles from './navBar.module.scss'
+import NavItem from '../../atoms/navItem/navItem'
 import Logo from '../../atoms/logo/logo'
-import Navigation from '../navigation/navigation'
 
 const NavBar = () => {
 
@@ -11,7 +11,9 @@ const NavBar = () => {
                 <Logo width="70px" height="70px"/>
             </div>
             <div className={styles.navigation}>
-                <Navigation />
+                <NavItem text="Read" link="/read" />
+                <NavItem text="Alcool" link="/alcool" />
+                <NavItem text="Pfizer" link="/pfizer" />
             </div>
         </div>
     )

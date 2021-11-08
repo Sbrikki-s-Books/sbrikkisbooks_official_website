@@ -1,3 +1,5 @@
+@import "compass/css3";
+
 $breakpoints: (
   phone: 480px,
   tablet: 768px,
@@ -14,7 +16,7 @@ $breakpoints: (
 
 h1{
     font-size: 25px;
-    @media (min-width: 768px){
+    @include media(">tablet"){
       font-size: 30px;
     } 
 }

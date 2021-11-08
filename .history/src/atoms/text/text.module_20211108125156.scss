@@ -3,7 +3,7 @@ $breakpoints: (
   tablet: 768px,
   big-tablet: 1024px,
   desktop: 1440px,
-) !default;
+);
 
 .text{
     display: flex;
@@ -14,7 +14,7 @@ $breakpoints: (
 
 h1{
     font-size: 25px;
-    @media (min-width: 768px){
+    @media screen and (min-width: 768px){
       font-size: 30px;
     } 
 }

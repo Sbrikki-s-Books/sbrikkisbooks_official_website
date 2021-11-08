@@ -1,17 +1,19 @@
 import React from 'react'
 import * as styles from './navBar.module.scss'
+import NavItem from '../../atoms/navItem/navItem'
 import Logo from '../../atoms/logo/logo'
-import Navigation from '../navigation/navigation'
 
 const NavBar = () => {
 
     return (
         <div className={styles.navBar}>
             <div className={styles.logo}>
-                <Logo width="70px" height="70px"/>
+                <Logo width="100px" height="100px"/>
             </div>
             <div className={styles.navigation}>
-                <Navigation />
+                <NavItem text="Read" link="/read" />
+                <NavItem text="Alcool" link="/alcool" />
+                <NavItem text="Pfizer" link="/pfizer" />
             </div>
         </div>
     )

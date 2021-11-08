@@ -1,5 +1,6 @@
 import React from 'react'
 import * as styles from './navBar.module.scss'
+import NavItem from '../../atoms/navItem/navItem'
 import Logo from '../../atoms/logo/logo'
 import Navigation from '../navigation/navigation'
 
