@@ -23,13 +23,13 @@ const NavBar = () => {
                 <Logo />
             </div>
 
-            <div className={styles.navigationDesktop}>
+            <div className={styles.navigation}>
                 <Navigation />
             </div>
 
             {
                 navBarOpen?
-                    <div className={styles.navigationMobile}>
+                    <div className={styles.navigation}>
                         <Navigation />
                     </div>
                 :

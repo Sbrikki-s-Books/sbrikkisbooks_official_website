@@ -23,7 +23,7 @@ const NavBar = () => {
                 <Logo />
             </div>
 
-            <div className={styles.navigationDesktop}>
+            <div className={styles.navigation}>
                 <Navigation />
             </div>
 

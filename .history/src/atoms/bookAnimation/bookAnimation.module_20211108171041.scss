@@ -1,0 +1,27 @@
+$breakpoints: (
+  phone: 480px,
+  tablet: 768px,
+  big-tablet: 1024px,
+  desktop: 1440px,
+);
+
+.gif {
+    animation: fadeInAndPop 500ms;
+    width: 300px;
+    height: auto;
+}
+
+@keyframes fadeInAndPop{
+    0% {
+        opacity: 0;
+        scale: 0.8;
+    }
+    70%{
+        opacity: 0.5;
+        scale: 1.5;
+    }
+    100%{
+        opacity: 1;
+        scale: 1;
+    }
+}

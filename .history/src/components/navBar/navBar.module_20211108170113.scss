@@ -31,13 +31,6 @@ $breakpoints: (
   }
 }
 
-.navigationMobile {
-  display: flex;
-  @media (min-width:768px){
-    display: none;
-  }
-}
-
 .hamburger{
   @media (min-width:768px){
     display: none;

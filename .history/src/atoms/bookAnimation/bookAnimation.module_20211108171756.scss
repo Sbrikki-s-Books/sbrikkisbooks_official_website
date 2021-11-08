@@ -5,23 +5,24 @@ $breakpoints: (
   desktop: 1440px,
 );
 
-.logo{
-    width: 40px;
+.gif {
+    opacity: 0;
+    animation: fadeInAndPop 500ms 1s;
+    width: 300px;
     height: auto;
-    animation: pop 500ms;
-    @media(min-width: 768px){
-        width: 50px;
-    }
 }
 
-@keyframes pop{
+@keyframes fadeInAndPop{
     0% {
+        opacity: 0;
         transform: scale(0.8);
     }
     70%{
+        opacity: 0.5;
         transform: scale(1.2)
     }
     100%{
+        opacity: 1;
         transform: scale(1)
     }
 }

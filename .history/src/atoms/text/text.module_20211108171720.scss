@@ -19,10 +19,11 @@ $breakpoints: (
 h1{
     font-size: 25px;
     text-align: center;
-    animation: slide-right 600ms;
+    animation: slide-down 300ms;
     @media (min-width: 768px){
       font-size: 30px;
       text-align: left;
+      animation: slide-right 600ms;
     } 
 }
 
@@ -30,10 +31,11 @@ h2 {
   color: var(--green-sbrikki); 
   font-size: 20px;
   text-align: center;
-  animation: slide-right 1000ms;
+  animation: slide-down 600ms;
   @media (min-width: 768px){
     font-size: 25px;
     text-align: left;
+    animation: slide-right 1000ms;
   } 
 }
 
@@ -46,5 +48,17 @@ h2 {
   to {
     margin-left: 0%;
     width: 100%;
+  }
+}
+
+@keyframes slide-down {
+  from {
+    margin-top: -100%;
+    height: 300%; 
+  }
+
+  to {
+    margin-top: 0%;
+    height: 100%;
   }
 }

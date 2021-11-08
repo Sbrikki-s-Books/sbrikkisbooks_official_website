@@ -10,17 +10,17 @@ $breakpoints: (
     width: 50px;
     height: auto;
     padding: 5px;
-    animation: pop 500ms;
+    animation: fadeIn 500ms ease-in-out forwards;
 }
 
-@keyframes pop{
+@keyframes fadeIn{
     0% {
-        transform: scale(0.8);
+        opacity: 0;
     }
     70%{
-        transform: scale(1.2)
+        opacity: 0.5;
     }
     100%{
-        transform: scale(1)
+        opacity: 1;
     }
 }

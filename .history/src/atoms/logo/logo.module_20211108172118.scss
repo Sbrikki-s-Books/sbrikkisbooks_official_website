@@ -8,13 +8,12 @@ $breakpoints: (
 .logo{
     width: 40px;
     height: auto;
-    animation: pop 500ms;
     @media(min-width: 768px){
         width: 50px;
     }
 }
 
-@keyframes pop{
+@keyframes Pop{
     0% {
         transform: scale(0.8);
     }

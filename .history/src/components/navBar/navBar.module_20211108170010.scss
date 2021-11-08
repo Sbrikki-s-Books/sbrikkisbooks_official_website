@@ -23,18 +23,11 @@ $breakpoints: (
   justify-self: flex-start;
 }
 
-.navigationDesktop{
+.navigation{
   justify-self: flex-end;
   display: none;
   @media (min-width:768px){
     display: flex;
-  }
-}
-
-.navigationMobile {
-  display: flex;
-  @media (min-width:768px){
-    display: none;
   }
 }
 

@@ -22,19 +22,16 @@ const NavBar = () => {
             <div className={styles.logo}>
                 <Logo />
             </div>
-
-            <div className={styles.navigationDesktop}>
+            {navBarOpen? 
+                <div className={styles.navigation}>
+                    <Navigation />
+                </div>
+                :
+                null
+            }
+            <div className={styles.navBarDesktop}>
                 <Navigation />
             </div>
-
-            {
-                navBarOpen?
-                    <div className={styles.navigationMobile}>
-                        <Navigation />
-                    </div>
-                :
-                    null
-            }
             
             <div className={styles.hamburger}>
                 { 

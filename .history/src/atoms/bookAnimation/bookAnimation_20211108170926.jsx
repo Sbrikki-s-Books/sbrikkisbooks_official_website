@@ -2,10 +2,12 @@ import React from 'react'
 import bookLoading from '../../assets/book-paging.gif'
 import * as styles from './bookAnimation.module.scss'
 
-function BookAnimation() {
+function BookAnimation(props) {
     return (
         <img 
-            src={bookLoading}
+            src={bookLoading} 
+            width={props.width}
+            height={props.height}
             alt="Reading..." 
             className={styles.gif}
         />
