@@ -18,10 +18,8 @@ $breakpoints: (
 
 h1{
     font-size: 25px;
-    text-align: center;
     @media (min-width: 768px){
       font-size: 30px;
-      text-align: left;
     } 
 }
 

@@ -10,7 +10,6 @@ $breakpoints: (
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 5%;
     @media screen and (min-width: 768px) {
       align-items: flex-start;
   }
@@ -18,19 +17,15 @@ $breakpoints: (
 
 h1{
     font-size: 25px;
-    text-align: center;
     @media (min-width: 768px){
       font-size: 30px;
-      text-align: left;
     } 
 }
 
 h2{
   color: var(--green-sbrikki); 
   font-size: 20px;
-  text-align: center;
   @media (min-width: 768px){
     font-size: 25px;
-    text-align: left;
   } 
 }
