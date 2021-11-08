@@ -1,0 +1,21 @@
+$breakpoints: (
+  phone: 480px,
+  tablet: 768px,
+  big-tablet: 1024px,
+  desktop: 1440px,
+);
+
+.navDesktop{
+    display: none;
+    @media (min-width: 1024px) {
+        display: flex;
+    }
+}
+
+.navMobile{
+    display: flex;
+    z-index: 1;
+    @media (min-width: 1024px) {
+        display: none;
+    }
+}

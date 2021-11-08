@@ -1,0 +1,14 @@
+$breakpoints: (
+  phone: 480px,
+  tablet: 768px,
+  big-tablet: 1024px,
+  desktop: 1440px,
+);
+
+.logo{
+    width: 30px;
+    height: auto;
+    @include media(">tablet"){
+        width: 50px;
+    }
+}
