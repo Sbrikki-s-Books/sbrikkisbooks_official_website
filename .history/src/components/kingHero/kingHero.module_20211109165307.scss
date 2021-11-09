@@ -17,6 +17,9 @@ $breakpoints: (
     display: flex;
     flex-direction: column;
     align-items: center;
+    h2{
+        flex-wrap: nowrap;
+    }
     @media (min-width:768px){
         flex-direction: row;
     }
@@ -37,7 +40,7 @@ $breakpoints: (
     }
   
     to {
-      margin-right: -20%;
+      margin-right: 0%;
       width: 100%;
     }
   }

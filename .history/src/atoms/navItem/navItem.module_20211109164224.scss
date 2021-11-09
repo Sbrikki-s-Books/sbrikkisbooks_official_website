@@ -9,9 +9,13 @@ $breakpoints: (
     text-decoration: none;
     text-transform: uppercase;
     color: var(--green-sbrikki);
-    padding: 0px;
+    padding: 10px;
     background-color: transparent;
     border: none;
+    > * {
+      margin: 0;
+      padding: 0;
+    }
 }
 
 .item:hover{

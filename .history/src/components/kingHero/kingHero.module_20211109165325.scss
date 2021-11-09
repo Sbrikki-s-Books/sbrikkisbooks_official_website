@@ -33,11 +33,11 @@ $breakpoints: (
 @keyframes slide-left {
     from {
       margin-right: -100%;
-      width: 300%; 
+      width: 200%; 
     }
   
     to {
-      margin-right: -20%;
+      margin-right: 0%;
       width: 100%;
     }
   }

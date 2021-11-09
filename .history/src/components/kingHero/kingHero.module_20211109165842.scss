@@ -27,7 +27,7 @@ $breakpoints: (
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    animation: slide-left 1000ms ease-in-out;
+    animation: slide-left 1000ms ease-in;
 }
 
 @keyframes slide-left {
@@ -37,7 +37,7 @@ $breakpoints: (
     }
   
     to {
-      margin-right: -20%;
+      margin-right: 0%;
       width: 100%;
     }
   }

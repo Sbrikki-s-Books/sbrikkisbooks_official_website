@@ -31,6 +31,7 @@ const KingHero = () => {
 
             <div className={styles.players}>
                 <h2>How many players?</h2>
+                <div style="width: 50px"></div>
                 <div className={styles.countPlayers}>
                     <button onClick={decreasePlayers}>
                         <p>-</p>
