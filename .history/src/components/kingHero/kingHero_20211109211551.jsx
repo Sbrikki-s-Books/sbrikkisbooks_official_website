@@ -33,7 +33,7 @@ const KingHero = () => {
             playersTmp.push(
                 {
                     id: i,
-                    name: name.value,
+                    name: name,
                 }
             );
         }
@@ -56,7 +56,8 @@ const KingHero = () => {
                     getPlayers={getPlayers}
                 />
             }
-            {console.log(players)}
+
+            
 
         </div>
     )

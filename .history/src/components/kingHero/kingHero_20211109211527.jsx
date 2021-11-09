@@ -33,7 +33,7 @@ const KingHero = () => {
             playersTmp.push(
                 {
                     id: i,
-                    name: name.value,
+                    name: name,
                 }
             );
         }
@@ -45,18 +45,12 @@ const KingHero = () => {
         <div className={styles.kingHero} id="/king">
             <h1>Let's play King</h1>
 
-            {
-                start ?
-                    null
-                :
-                <ChoosePlayers 
-                    decreasePlayers={decreasePlayers}
-                    increasePlayers={increasePlayers}
-                    numPlayers={numPlayers}
-                    getPlayers={getPlayers}
-                />
-            }
-            {console.log(players)}
+            <ChoosePlayers 
+                decreasePlayers={decreasePlayers}
+                increasePlayers={increasePlayers}
+                numPlayers={numPlayers}
+                getPlayers={getPlayers}
+            />
 
         </div>
     )

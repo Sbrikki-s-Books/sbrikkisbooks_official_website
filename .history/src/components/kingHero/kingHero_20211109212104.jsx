@@ -33,7 +33,7 @@ const KingHero = () => {
             playersTmp.push(
                 {
                     id: i,
-                    name: name.value,
+                    name: name,
                 }
             );
         }

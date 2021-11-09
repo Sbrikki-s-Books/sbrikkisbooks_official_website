@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
 import * as styles from './kingHero.module.scss'
-import ChoosePlayers from '../choosePlayers/choosePlayers';
+import PlayersList from './playersList/playersList';
 
 const KingHero = () => {
 
-    const [start, setStart] = useState(false);
     const [numPlayers, setNumPlayers] = useState(5);
     const [players, setPlayers] = useState([]);
     let playersTmp = [];
@@ -33,31 +32,34 @@ const KingHero = () => {
             playersTmp.push(
                 {
                     id: i,
-                    name: name.value,
+                    name: name,
                 }
             );
         }
         setPlayers(playersTmp);
-        setStart(true);
     }
 
     return (
         <div className={styles.kingHero} id="/king">
             <h1>Let's play King</h1>
 
-            {
-                start ?
-                    null
-                :
-                <ChoosePlayers 
-                    decreasePlayers={decreasePlayers}
-                    increasePlayers={increasePlayers}
-                    numPlayers={numPlayers}
-                    getPlayers={getPlayers}
-                />
-            }
-            {console.log(players)}
+            <div className={styles.players}>
+                <h2>How many players?</h2>
+                <div className={styles.countPlayers}>
+                    <button onClick={decreasePlayers}>
+                        <p>-</p>
+                    </button>
+                    <p>{numPlayers}</p>
+                    <button onClick={increasePlayers}>
+                        <p>+</p>
+                    </button>
+                </div>
 
+            </div>
+            <form>
+                <PlayersList numPlayers={numPlayers} onClick={getPlayers}/>
+            </form>
+            
         </div>
     )
 }
