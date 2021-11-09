@@ -23,7 +23,7 @@ $breakpoints: (
     width: 100vw;
     height: auto;
     left: 0;
-    top: 75px;
+    top: 78px;
     align-items: center;
     justify-content: flex-start;
     background-color: var(--grey-sbrikki);
@@ -38,11 +38,14 @@ $breakpoints: (
 @keyframes rotateMenu {
     0% {
         transform: rotateX(-90deg);
+        opacity: 0.7;
     }
     70% {
         transform: rotateX(20deg);
+        opacity: 1;
     }
     100% {
         transform: rotateX(0deg);
+        opacity: 1; 
     }
 }

@@ -13,7 +13,8 @@ $breakpoints: (
 }
 
 .item:hover{
-  animation: hov 200ms ease-in-out forwards;
+  
+  transform: scale(1.2);
 }
 
 @keyframes hov{

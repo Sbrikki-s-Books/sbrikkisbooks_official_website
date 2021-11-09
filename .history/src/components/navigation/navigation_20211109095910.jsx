@@ -3,15 +3,21 @@ import NavItem from '../../atoms/navItem/navItem'
 import * as styles from './navigation.module.scss'
 
 function Navigation() {
+    const menu = () =>{
+        return(
+            <>
+                <NavItem text="What" link="/what" />
+                <NavItem text="Who" link="/who" />
+            </>
+        );
+    }
     return (
         <>
             <div className={styles.navDesktop}>
-                <NavItem text="Home" link="/home" />
-                <NavItem text="King" link="/king" />
+                {menu}
             </div>
             <div className={styles.navMobile}>
-                <NavItem text="Home" link="/home" />
-                <NavItem text="King" link="/king" />
+                {menu}
             </div>
         </>
     )

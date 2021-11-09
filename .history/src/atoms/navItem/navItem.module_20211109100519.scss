@@ -13,15 +13,5 @@ $breakpoints: (
 }
 
 .item:hover{
-  animation: hov 200ms ease-in-out forwards;
-}
-
-@keyframes hov{
-  0%{
-    transform: scale(1);
-  }
-  100%{
-    transform: scale(1.1);
-    color:var(--red-sbrikki);
-  }
+  color:var(--red-sbrikki);
 }

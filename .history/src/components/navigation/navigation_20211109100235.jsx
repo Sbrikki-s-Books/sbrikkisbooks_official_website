@@ -6,12 +6,12 @@ function Navigation() {
     return (
         <>
             <div className={styles.navDesktop}>
-                <NavItem text="Home" link="/home" />
-                <NavItem text="King" link="/king" />
+                <NavItem text="What" link="/what" />
+                <NavItem text="Who" link="/who" />
             </div>
             <div className={styles.navMobile}>
-                <NavItem text="Home" link="/home" />
-                <NavItem text="King" link="/king" />
+                <NavItem text="What" link="/what" />
+                <NavItem text="Who" link="/who" />
             </div>
         </>
     )

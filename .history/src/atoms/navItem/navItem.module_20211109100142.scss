@@ -10,18 +10,7 @@ $breakpoints: (
     text-transform: uppercase;
     color: var(--green-sbrikki);
     padding: 10px;
-}
-
-.item:hover{
-  animation: hov 200ms ease-in-out forwards;
-}
-
-@keyframes hov{
-  0%{
-    transform: scale(1);
-  }
-  100%{
-    transform: scale(1.1);
-    color:var(--red-sbrikki);
-  }
+    :hover{
+      color:var(--red-sbrikki);
+    }
 }
