@@ -1,0 +1,19 @@
+$breakpoints: (
+  phone: 480px,
+  tablet: 768px,
+  big-tablet: 1024px,
+  desktop: 1440px,
+);
+
+.kingHero{
+    display: flex;
+    flex-direction: column;
+}
+
+.players{
+    display: flex;
+    flex-direction: column;
+    @media (min-width:768px){
+        flex-direction: row;
+    }
+}

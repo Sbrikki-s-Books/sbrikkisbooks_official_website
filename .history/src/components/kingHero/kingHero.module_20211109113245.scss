@@ -34,9 +34,10 @@ button{
     margin: 20px;
     border-left: none;
     border-right: none;
-    border-top: none;
-    border-bottom: solid;
-    background-color: transparent;
+    border-top: 5px;
+    border-bottom: 5px;
+    background: rgb(121,31,40);
+background: radial-gradient(circle, rgba(121,31,40,1) 0%, rgba(255,255,255,0) 100%);
     >*{
         align-self: center;
         justify-self: center;

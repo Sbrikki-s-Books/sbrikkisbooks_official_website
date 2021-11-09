@@ -9,17 +9,11 @@ const KingHero = () => {
         if(numPlayers > 0){
             setNumPlayers(numPlayers-1)
         }
-        if(numPlayers <= 0){
-            alert("Mbare ocaca menu un cristiano non si po fari");
-        }
     }
 
     const increasePlayers = () => {
         if(numPlayers < 10){
             setNumPlayers(numPlayers+1)
-        }
-        if(numPlayers >= 10){
-            alert("Mbare quantu spacchiu siti");
         }
     }
 

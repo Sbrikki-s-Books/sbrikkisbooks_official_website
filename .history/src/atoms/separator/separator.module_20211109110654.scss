@@ -1,0 +1,11 @@
+$breakpoints: (
+  phone: 480px,
+  tablet: 768px,
+  big-tablet: 1024px,
+  desktop: 1440px,
+);
+
+.separator{
+    margin-bottom: solid 2px;
+    border-radius: 20%;
+}

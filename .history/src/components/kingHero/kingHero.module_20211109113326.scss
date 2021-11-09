@@ -28,14 +28,14 @@ $breakpoints: (
 }
 
 button{
-    width: 40px;
+    width: 0px;
     height: 40px;
     border-radius: 20%;
     margin: 20px;
     border-left: none;
     border-right: none;
-    border-top: none;
-    border-bottom: solid;
+    border-top: 5px;
+    border-bottom: 5px;
     background-color: transparent;
     >*{
         align-self: center;

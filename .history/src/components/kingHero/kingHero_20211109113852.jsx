@@ -9,7 +9,7 @@ const KingHero = () => {
         if(numPlayers > 0){
             setNumPlayers(numPlayers-1)
         }
-        if(numPlayers <= 0){
+        if(numPlayers >= 10){
             alert("Mbare ocaca menu un cristiano non si po fari");
         }
     }

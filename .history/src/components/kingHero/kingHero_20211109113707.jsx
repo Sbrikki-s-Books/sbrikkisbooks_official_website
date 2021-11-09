@@ -9,17 +9,11 @@ const KingHero = () => {
         if(numPlayers > 0){
             setNumPlayers(numPlayers-1)
         }
-        if(numPlayers <= 0){
-            alert("Mbare ocaca menu un cristiano non si po fari");
-        }
     }
 
     const increasePlayers = () => {
-        if(numPlayers < 10){
+        if(numPlayers <= 10){
             setNumPlayers(numPlayers+1)
-        }
-        if(numPlayers >= 10){
-            alert("Mbare quantu spacchiu siti");
         }
     }
 
@@ -31,11 +25,11 @@ const KingHero = () => {
                 <h2>How many players?</h2>
 
                 <div className={styles.countPlayers}>
-                    <button onClick={decreasePlayers}>
+                    <button onClick={() => }>
                         <p>-</p>
                     </button>
                     <p>{numPlayers}</p>
-                    <button onClick={increasePlayers}>
+                    <button onClick={() => setNumPlayers(numPlayers+1)}>
                         <p>+</p>
                     </button>
                 </div>

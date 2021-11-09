@@ -4,7 +4,7 @@ import NavBar from '../../components/navBar/navBar';
 import Seo from '../../components/seo/seo';
 import Hero from '../../components/hero/hero';
 import KingHero from '../../components/kingHero/kingHero';
-import Separator from '../../atoms/separator/separator'
+
 const Home = () => {
     return (
         <>
@@ -15,8 +15,6 @@ const Home = () => {
             />
             <NavBar />
             <Hero />
-            <Separator />
-            <KingHero />
         </>
     )
 }
