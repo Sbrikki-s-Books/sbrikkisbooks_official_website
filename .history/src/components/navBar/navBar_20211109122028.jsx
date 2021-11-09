@@ -13,7 +13,7 @@ const NavBar = () => {
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
             var currentScrollPos = window.pageYOffset;
-            if (prevScrollpos > currentScrollPos && navBarOpen) {
+            if (prevScrollpos > currentScrollPos) {
                 document.getElementById("navBar").style.top = "0";
             } else {
                 document.getElementById("navBar").style.top = "-80px";

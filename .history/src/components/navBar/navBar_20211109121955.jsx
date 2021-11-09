@@ -9,18 +9,26 @@ const NavBar = () => {
 
     const [navBarOpen, setNavBarOpen] = useState(false);
 
-    useEffect( ()=>{
-        var prevScrollpos = window.pageYOffset;
-        window.onscroll = function() {
-            var currentScrollPos = window.pageYOffset;
-            if (prevScrollpos > currentScrollPos && navBarOpen) {
-                document.getElementById("navBar").style.top = "0";
-            } else {
-                document.getElementById("navBar").style.top = "-80px";
+        useEffect( ()=>{
+            {navBarOpen?
+                null
+                :
+                {
+                    var prevScrollpos = window.pageYOffset;
+                    window.onscroll = function() {
+                        var currentScrollPos = window.pageYOffset;
+                        if (prevScrollpos > currentScrollPos) {
+                            document.getElementById("navBar").style.top = "0";
+                        } else {
+                            document.getElementById("navBar").style.top = "-80px";
+                        }
+                        prevScrollpos = currentScrollPos;
+                    }  
+                } 
             }
-            prevScrollpos = currentScrollPos;
-        }   
-    });
+        });
+        
+    
 
     const closeNavBar = () => {
         setNavBarOpen(false);
