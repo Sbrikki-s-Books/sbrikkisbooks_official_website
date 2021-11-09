@@ -12,15 +12,13 @@ function PlayersList(props) {
 
     return(
         <>
-            {
-                players.map((index) => {
-                    return(
-                        <div className={styles.list}>
-                            <input type="input" placeholder="Name" />
-                        </div>
-                    )
-                })
-            }
+        {players.map((index) => {
+            return(
+                <div className={styles.list}>
+                    <input type="input" placeholder="Name" />
+                </div>
+            )
+        })}
         </>
     );
     
