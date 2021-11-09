@@ -43,7 +43,10 @@ const KingHero = () => {
             </div>
             
             <PlayersList numPlayers={numPlayers} />
-            
+
+            <button>
+                <h3>START!</h3>
+            </button>
         </div>
     )
 }

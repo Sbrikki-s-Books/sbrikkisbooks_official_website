@@ -5,6 +5,7 @@ import PlayersList from './playersList/playersList';
 const KingHero = () => {
 
     const [numPlayers, setNumPlayers] = useState(5);
+    const [start, setStart] = useState(false);
 
     const decreasePlayers = () => {
         if(numPlayers > 0){
@@ -43,7 +44,10 @@ const KingHero = () => {
             </div>
             
             <PlayersList numPlayers={numPlayers} />
-            
+
+            <button>
+                <h3>START!</h3>
+            </button>
         </div>
     )
 }

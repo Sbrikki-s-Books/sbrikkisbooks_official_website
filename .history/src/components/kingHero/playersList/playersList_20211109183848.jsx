@@ -21,15 +21,9 @@ function PlayersList(props) {
                     )
                 })
             }
-
-            { 
-                props.numPlayers > 0 ?
-                    <button>
-                        <h3>START!</h3>
-                    </button>
-                    :
-                    null
-            }
+            <button>
+                <h3>START!</h3>
+            </button>
         </>
     );
     
