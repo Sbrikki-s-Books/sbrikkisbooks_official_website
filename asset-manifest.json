@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/sbrikkisbooks_official_website/static/css/main.809440ce.chunk.css",
-    "main.js": "/sbrikkisbooks_official_website/static/js/main.9f527e24.chunk.js",
-    "main.js.map": "/sbrikkisbooks_official_website/static/js/main.9f527e24.chunk.js.map",
+    "main.css": "/sbrikkisbooks_official_website/static/css/main.5a16790e.chunk.css",
+    "main.js": "/sbrikkisbooks_official_website/static/js/main.c2b85101.chunk.js",
+    "main.js.map": "/sbrikkisbooks_official_website/static/js/main.c2b85101.chunk.js.map",
     "runtime-main.js": "/sbrikkisbooks_official_website/static/js/runtime-main.6115bd87.js",
     "runtime-main.js.map": "/sbrikkisbooks_official_website/static/js/runtime-main.6115bd87.js.map",
-    "static/js/2.1daf5b9f.chunk.js": "/sbrikkisbooks_official_website/static/js/2.1daf5b9f.chunk.js",
-    "static/js/2.1daf5b9f.chunk.js.map": "/sbrikkisbooks_official_website/static/js/2.1daf5b9f.chunk.js.map",
+    "static/js/2.7c2d1c80.chunk.js": "/sbrikkisbooks_official_website/static/js/2.7c2d1c80.chunk.js",
+    "static/js/2.7c2d1c80.chunk.js.map": "/sbrikkisbooks_official_website/static/js/2.7c2d1c80.chunk.js.map",
     "static/js/3.6e070cb3.chunk.js": "/sbrikkisbooks_official_website/static/js/3.6e070cb3.chunk.js",
     "static/js/3.6e070cb3.chunk.js.map": "/sbrikkisbooks_official_website/static/js/3.6e070cb3.chunk.js.map",
     "index.html": "/sbrikkisbooks_official_website/index.html",
-    "static/css/main.809440ce.chunk.css.map": "/sbrikkisbooks_official_website/static/css/main.809440ce.chunk.css.map",
-    "static/js/2.1daf5b9f.chunk.js.LICENSE.txt": "/sbrikkisbooks_official_website/static/js/2.1daf5b9f.chunk.js.LICENSE.txt",
+    "static/css/main.5a16790e.chunk.css.map": "/sbrikkisbooks_official_website/static/css/main.5a16790e.chunk.css.map",
+    "static/js/2.7c2d1c80.chunk.js.LICENSE.txt": "/sbrikkisbooks_official_website/static/js/2.7c2d1c80.chunk.js.LICENSE.txt",
     "static/media/book-paging.c80b5674.gif": "/sbrikkisbooks_official_website/static/media/book-paging.c80b5674.gif",
     "static/media/cross.7714b4bb.svg": "/sbrikkisbooks_official_website/static/media/cross.7714b4bb.svg",
     "static/media/hamburger.d46ad84e.svg": "/sbrikkisbooks_official_website/static/media/hamburger.d46ad84e.svg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6115bd87.js",
-    "static/js/2.1daf5b9f.chunk.js",
-    "static/css/main.809440ce.chunk.css",
-    "static/js/main.9f527e24.chunk.js"
+    "static/js/2.7c2d1c80.chunk.js",
+    "static/css/main.5a16790e.chunk.css",
+    "static/js/main.c2b85101.chunk.js"
   ]
 }
