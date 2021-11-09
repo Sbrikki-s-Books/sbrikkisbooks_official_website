@@ -24,13 +24,13 @@ html{
 
 /* width */
 ::-webkit-scrollbar {
-  width: 7px;
+  width: 10px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px var(--grey-sbrikki);
-  border-radius: 7px;
+  border-radius: 10px;
 }
 
 /* Handle */
