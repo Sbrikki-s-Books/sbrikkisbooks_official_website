@@ -39,13 +39,13 @@ const NavBar = (props) => {
             </div>
 
             <div className={styles.navigationDesktop}>
-                <Navigation viewHero={props.viewHero} viewKing={props.viewKing}/>
+                <Navigation />
             </div>
 
             {
                 navBarOpen?
                     <div className={styles.navigationMobile}>
-                        <Navigation viewHero={props.viewHero} viewKing={props.viewKing}/>
+                        <Navigation />
                     </div>
                 :
                     null

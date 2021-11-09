@@ -6,11 +6,11 @@ const Navigation = (props) => {
     return (
         <>
             <div className={styles.navDesktop}>
-                <NavItem text="Home" onClick={props.viewHero} />
+                <NavItem text="Home" onClick={props.viewHome} />
                 <NavItem text="King" onClick={props.viewKing} />
             </div>
             <div className={styles.navMobile}>
-                <NavItem text="Home" onClick={props.viewHero} />
+                <NavItem text="Home" onClick={props.viewHome} />
                 <NavItem text="King" onClick={props.viewKing} />
             </div>
         </>

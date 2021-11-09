@@ -28,11 +28,10 @@ const Home = () => {
                 description="Sbrikki's Books - Book Club"
                 keywords="sbrikki, books, sbrikkis, book, club, libro"
             />
-            <NavBar viewHero={viewHero} viewKing={viewKing} />
-            { heroVisible ? <Hero /> : null }
-            { kingVisible ? <KingHero /> : null }
+            <NavBar />
+            <Hero />
             <Separator />
-            
+            <KingHero />
         </>
     )
 }

@@ -6,20 +6,9 @@ import Hero from '../../components/hero/hero';
 import KingHero from '../../components/kingHero/kingHero';
 import Separator from '../../atoms/separator/separator'
 const Home = () => {
-
+    
     const [heroVisible, setHeroVisible] = useState(true);
     const [kingVisible, setKingVisible] = useState(false);
-
-    const viewKing = () => {
-        setHeroVisible(false);
-        setKingVisible(true);
-    }
-
-    const viewHero = () => {
-        setHeroVisible(true);
-        setKingVisible(false);
-    }
-
 
     return (
         <>
@@ -28,11 +17,10 @@ const Home = () => {
                 description="Sbrikki's Books - Book Club"
                 keywords="sbrikki, books, sbrikkis, book, club, libro"
             />
-            <NavBar viewHero={viewHero} viewKing={viewKing} />
-            { heroVisible ? <Hero /> : null }
-            { kingVisible ? <KingHero /> : null }
+            <NavBar />
+            <Hero />
             <Separator />
-            
+            <KingHero />
         </>
     )
 }

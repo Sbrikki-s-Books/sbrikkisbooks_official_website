@@ -1,11 +1,9 @@
 import React, { useState } from 'react'
 import * as styles from './kingHero.module.scss'
-import PlayersList from './playersList/playersList';
 
 const KingHero = () => {
 
     const [numPlayers, setNumPlayers] = useState(5);
-    const [start, setStart] = useState(false);
 
     const decreasePlayers = () => {
         if(numPlayers > 0){
@@ -43,10 +41,9 @@ const KingHero = () => {
                 </div>
 
             </div>
-            <button onClick={() => setStart(true)}>
+            <button>
                 <h3>START!</h3>
             </button>
-            {start ? <PlayersList numPlayers={numPlayers} /> : null }
         </div>
     )
 }
