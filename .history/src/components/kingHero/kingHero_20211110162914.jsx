@@ -44,7 +44,7 @@ const KingHero = () => {
         }
         setPlayers(playersTmp);
         setStart(true);
-        setRounds(parseInt(deck/numPlayers));
+        setRounds((deck/numPlayers).toPrecision(1));
         setRemoveCards(deck % numPlayers);
     }
 
@@ -69,13 +69,6 @@ const KingHero = () => {
                     <h3>You have to remove {removeCards} {removeCards === 1 ? "card" : "cards" } from the deck</h3>
                 :
                     null
-            }
-
-            {
-                rounds > 0 ? 
-                    <h3>We are going to play {rounds} {rounds === 1 ? "round" : "rounds" }</h3>
-                :
-                    <h3>Insert names to start</h3>
             }
 
             {

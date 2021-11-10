@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import * as styles from './playersList.module.scss'
 
 function PlayersList(props) {
@@ -6,9 +6,11 @@ function PlayersList(props) {
 
     let players = [];
 
-    for(i=0; i<props.numPlayers; i++){
-        players.push(i);
-    }
+    useEffect(() => {
+        for(i=0; i<props.numPlayers; i++){
+            players.push(i);
+        }    
+    }, [props]);
 
     return(
         <>

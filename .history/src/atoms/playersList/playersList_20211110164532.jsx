@@ -6,9 +6,11 @@ function PlayersList(props) {
 
     let players = [];
 
-    for(i=0; i<props.numPlayers; i++){
-        players.push(i);
-    }
+    useEffect(() => {
+        for(i=0; i<props.numPlayers; i++){
+            players.push(i);
+        }    
+    }, [props.numPlayers]);
 
     return(
         <>

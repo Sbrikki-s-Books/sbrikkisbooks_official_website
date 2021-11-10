@@ -44,7 +44,7 @@ const KingHero = () => {
         }
         setPlayers(playersTmp);
         setStart(true);
-        setRounds(parseInt(deck/numPlayers));
+        setRounds((deck/numPlayers).toPrecision(1));
         setRemoveCards(deck % numPlayers);
     }
 
@@ -73,17 +73,17 @@ const KingHero = () => {
 
             {
                 rounds > 0 ? 
-                    <h3>We are going to play {rounds} {rounds === 1 ? "round" : "rounds" }</h3>
+                    <h3>We are going to play {rounds.toPrecision(0)} {rounds === 1 ? "round" : "rounds" }</h3>
                 :
-                    <h3>Insert names to start</h3>
+                    <h3>No rounds to play</h3>
             }
 
-            {
+            {/*
                 start ?
                     <Play players={players} />
                 :
                     null
-            }
+            */}
 
         </div>
     )

@@ -78,12 +78,12 @@ const KingHero = () => {
                     <h3>Insert names to start</h3>
             }
 
-            {
+            {/*
                 start ?
                     <Play players={players} />
                 :
                     null
-            }
+            */}
 
         </div>
     )

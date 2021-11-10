@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import * as styles from './kingHero.module.scss'
 import ChoosePlayers from '../choosePlayers/choosePlayers';
-import Play from '../play/play';
 
 const KingHero = () => {
 
@@ -37,14 +36,13 @@ const KingHero = () => {
             playersTmp.push(
                 {
                     id: i,
-                    key: i,
                     name: name.value,
                 }
             );
         }
         setPlayers(playersTmp);
         setStart(true);
-        setRounds(parseInt(deck/numPlayers));
+        setRounds((int)(deck/numPlayers));
         setRemoveCards(deck % numPlayers);
     }
 
@@ -66,21 +64,7 @@ const KingHero = () => {
 
             {
                 removeCards > 0 ? 
-                    <h3>You have to remove {removeCards} {removeCards === 1 ? "card" : "cards" } from the deck</h3>
-                :
-                    null
-            }
-
-            {
-                rounds > 0 ? 
-                    <h3>We are going to play {rounds} {rounds === 1 ? "round" : "rounds" }</h3>
-                :
-                    <h3>Insert names to start</h3>
-            }
-
-            {
-                start ?
-                    <Play players={players} />
+                    <h3>You have to remove ${removeCards} cards from the deck</h3>
                 :
                     null
             }
