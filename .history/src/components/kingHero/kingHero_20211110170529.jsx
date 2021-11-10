@@ -32,10 +32,14 @@ const KingHero = () => {
     }
 
     const getPlayers = () => {
-        let check = true;
+        let check = false;
         for(let i = 0; i < numPlayers; i++ ){
-            let name = document.getElementById("player"+i).value;
-            if(name === "") check = false;
+            let name = document.getElementById("player"+i);
+            if(name === ""){
+                return(<h3>Insert all names!</h3>)
+            } else {
+                check = true;
+            }
         }
         
         if(check){

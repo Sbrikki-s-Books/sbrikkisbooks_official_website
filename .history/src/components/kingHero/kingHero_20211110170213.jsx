@@ -32,29 +32,27 @@ const KingHero = () => {
     }
 
     const getPlayers = () => {
-        let check = true;
         for(let i = 0; i < numPlayers; i++ ){
-            let name = document.getElementById("player"+i).value;
-            if(name === "") check = false;
-        }
-        
-        if(check){
-            for(let i = 0; i < numPlayers; i++ ){
-                let name = document.getElementById("player"+i);
-                playersTmp.push(
-                    {
-                        id: i,
-                        key: i,
-                        name: name.value,
-                    }
-                );
+            let name = document.getElementById("player"+i);
+            if(name === ''){
+                return(<h3>Insert all names!</h3>)
             }
-            setPlayers(playersTmp);
-            setStart(true);
-            setRounds(parseInt(deck/numPlayers));
-            setRemoveCards(deck % numPlayers);
         }
-        
+
+        for(let i = 0; i < numPlayers; i++ ){
+            let name = document.getElementById("player"+i);
+            playersTmp.push(
+                {
+                    id: i,
+                    key: i,
+                    name: name.value,
+                }
+            );
+        }
+        setPlayers(playersTmp);
+        setStart(true);
+        setRounds(parseInt(deck/numPlayers));
+        setRemoveCards(deck % numPlayers);
     }
 
     return (

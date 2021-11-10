@@ -32,7 +32,7 @@ const KingHero = () => {
     }
 
     const getPlayers = () => {
-        let check = true;
+        let check = false;
         for(let i = 0; i < numPlayers; i++ ){
             let name = document.getElementById("player"+i).value;
             if(name === "") check = false;
