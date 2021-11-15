@@ -27,7 +27,7 @@ const PlayerGame = (props) => {
                         array.map((elem) => {
                             return(
                                 <td>
-                                    <td><h6>Round {elem}</h6></td>
+                                    <td>Round {elem}</td>
                                     <div className={styles.bet}>
                                         <h5>Bet</h5>
                                         <input

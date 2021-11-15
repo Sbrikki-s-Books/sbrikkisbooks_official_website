@@ -14,7 +14,14 @@ th, td {
   border: 1px;
   border-radius: 10px;
   border-style: outset;
-  color: var(--black-sbrikki);
+}
+
+.name{
+  width: 100px;
+  text-align: center;
+  @media screen and (min-width: tablet){
+    width: 150px;
+  }
 }
 
 .field{
@@ -26,14 +33,6 @@ th, td {
   > *{
     margin: 1px;
   }
-}
-
-h3{
-  color: var(--green-sbrikki);
-}
-
-h5 {
-  color: var(--black-sbrikki);
 }
 
 .bet{

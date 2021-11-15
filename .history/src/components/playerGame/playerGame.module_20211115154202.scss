@@ -14,7 +14,7 @@ th, td {
   border: 1px;
   border-radius: 10px;
   border-style: outset;
-  color: var(--black-sbrikki);
+  color: var($--grey-sbrikki);
 }
 
 .field{
@@ -26,14 +26,6 @@ th, td {
   > *{
     margin: 1px;
   }
-}
-
-h3{
-  color: var(--green-sbrikki);
-}
-
-h5 {
-  color: var(--black-sbrikki);
 }
 
 .bet{

@@ -23,17 +23,10 @@ th, td {
   justify-content: center;
   flex-direction: column;
   margin: 5px;
+  color: var(--black-sbrikki);
   > *{
     margin: 1px;
   }
-}
-
-h3{
-  color: var(--green-sbrikki);
-}
-
-h5 {
-  color: var(--black-sbrikki);
 }
 
 .bet{
