@@ -18,7 +18,4 @@ $breakpoints: (
   overflow: scroll;
   width: 100vw;
   margin-left: 10px;
-  @media screen and (min-width: tablet){
-    width: auto;
-  }
 }

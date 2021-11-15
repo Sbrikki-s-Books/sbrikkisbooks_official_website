@@ -1,0 +1,26 @@
+$breakpoints: (
+  phone: 480px,
+  tablet: 768px,
+  big-tablet: 1024px,
+  desktop: 1440px,
+);
+
+.playerGame {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.bet{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.win{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

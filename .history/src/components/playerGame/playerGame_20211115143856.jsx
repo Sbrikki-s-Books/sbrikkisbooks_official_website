@@ -21,12 +21,12 @@ const PlayerGame = (props) => {
     return (
         <table className={styles.playerGame}>
             <tr>
-                <td><h3 className={styles.name}>{props.name}</h3></td>
+                <td><h3>{props.name}</h3></td>
+
                 {
                     array.map((elem) => {
                         return(
                             <td>
-                                <th>Round {elem}</th>
                                 <div className={styles.bet}>
                                     <h5>Bet</h5>
                                     <input

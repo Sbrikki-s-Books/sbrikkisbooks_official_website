@@ -5,23 +5,14 @@ $breakpoints: (
   desktop: 1440px,
 );
 
+table{
+  border: 1px solid;
+}
+
 .playerGame {
-  display: flex;
-  flex-direction: row;
-}
-
-th, td {
-  border: 1px;
-  border-radius: 10px;
-  border-style: outset;
-}
-
-.name{
-  width: 100px;
-  text-align: center;
-  @media screen and (min-width: tablet){
-    width: 150px;
-  }
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 
 .field{

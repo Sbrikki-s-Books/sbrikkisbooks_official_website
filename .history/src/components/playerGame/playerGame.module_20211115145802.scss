@@ -17,11 +17,7 @@ th, td {
 }
 
 .name{
-  width: 100px;
-  text-align: center;
-  @media screen and (min-width: tablet){
-    width: 150px;
-  }
+  width: 150px;
 }
 
 .field{

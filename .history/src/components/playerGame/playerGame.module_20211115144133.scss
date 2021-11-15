@@ -7,21 +7,13 @@ $breakpoints: (
 
 .playerGame {
   display: flex;
+  align-items: center;
   flex-direction: row;
 }
 
 th, td {
-  border: 1px;
+  border: 1px solid black;
   border-radius: 10px;
-  border-style: outset;
-}
-
-.name{
-  width: 100px;
-  text-align: center;
-  @media screen and (min-width: tablet){
-    width: 150px;
-  }
 }
 
 .field{
