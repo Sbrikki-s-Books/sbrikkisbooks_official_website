@@ -28,8 +28,8 @@ const PlayerGame = (props) => {
         <>
             <table className={styles.playerGame}>
                 <tbody>
-                    <p className={styles.name}><strong>{props.name}</strong> (Points: {points})</p>
-                        <tr>
+                    <p><strong>{props.name}</strong> (Points: {points})</p>
+                        <tr style="overflow-x: scroll;">
                         {
                             array.map((elem) => {
                                 return(

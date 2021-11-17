@@ -19,8 +19,6 @@ th, td {
 
 tr {
   margin-top: 10px;
-  padding-top: 26px;
-  display: inline-table;
 }
 
 .field{
@@ -36,6 +34,7 @@ tr {
 
 .name{
   position: absolute;
+  margin-top: -10px;
   background-color: var(--white-sbrikki);
   border: outset var(--white-sbrikki);
   border-radius: 8px;
