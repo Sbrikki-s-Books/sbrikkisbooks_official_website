@@ -9,10 +9,6 @@ $breakpoints: (
     animation: fadeInAndPop 700ms;
     width: 70%;
     height: auto;
-    max-width: 600px;
-    @media screen and (min-width: 768px){
-        width: 30%;
-    }
 }
 
 @keyframes fadeInAndPop{
