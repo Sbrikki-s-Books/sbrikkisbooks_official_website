@@ -28,7 +28,7 @@ const PlayerGame = (props) => {
         <>
             <table className={styles.playerGame}>
                 <tbody>
-                    <p><strong>{props.name}</strong> (Points: {points})</p>
+                    <h3><strong>{props.name}</strong> (Points: {points})</h3>
                         <tr>
                         {
                             array.map((elem) => {
