@@ -8,6 +8,8 @@ const PlayerGame = (props) => {
     let array = [];
 
     const [points, setPoints] = useState(0);
+    const [king, setKing] = useState[''];
+    const [kingPoints, setKingPoints] = useState[0];
 
     for(i = 1; i <= props.rounds; i++){
         array.push(i);
@@ -65,6 +67,10 @@ const PlayerGame = (props) => {
                     </tr>
                 </tbody>
             </table>
+            <div className={styles.king}>
+                <h3>The king is...</h3>
+                <h3>{king} with {kingPoints}</h3>
+            </div>
         </>
     )
 }

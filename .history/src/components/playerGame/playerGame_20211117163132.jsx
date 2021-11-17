@@ -65,6 +65,10 @@ const PlayerGame = (props) => {
                     </tr>
                 </tbody>
             </table>
+            <div className={styles.king}>
+                <h3>The king is...</h3>
+                <h3>{king} with {kingPoints}</h3>
+            </div>
         </>
     )
 }
