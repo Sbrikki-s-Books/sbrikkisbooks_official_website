@@ -45,10 +45,7 @@ const PlayerGame = (props) => {
                                         <td><h6>Round {elem}</h6></td>
                                         <div className={styles.bet}>
                                             <h5>Bet</h5>
-                                            <select
-                                                id={"num" + props.name + elem} 
-                                                placeholder="0"
-                                            >
+                                            <select>
                                             {
                                                 createRange(elem).map((index) => {
                                                     return(
@@ -60,6 +57,14 @@ const PlayerGame = (props) => {
                                                 })
                                             }
                                             </select>
+                                            <input
+                                                type="number" 
+                                                id={"num" + props.name + elem} 
+                                                min="0" 
+                                                max={elem} 
+                                                step="1"
+                                                placeholder="0"
+                                            />
                                         </div>
                                         <div className={styles.win}>
                                             <h5>Win?</h5>
