@@ -8,6 +8,7 @@ const PlayerGame = (props) => {
     let array = [];
 
     const [points, setPoints] = useState(0);
+    const [checked, setChecked] = useState(false);
 
     for(i = 1; i <= props.rounds; i++){
         array.push(i);
@@ -16,11 +17,11 @@ const PlayerGame = (props) => {
     const addPoints = (checked, idNum) => {
         if(checked){
             setPoints(points*1 + 10 + document.getElementById(idNum).value*1);
-            document.getElementById(idNum).disabled = true;
+            setChecked(true);
         }
         else{
             setPoints(points*1 - 10 - document.getElementById(idNum).value*1);
-            document.getElementById(idNum).disabled = false;
+            setChecked(false);
         }
     }
 
@@ -39,14 +40,28 @@ const PlayerGame = (props) => {
                                         <td><h6>Round {elem}</h6></td>
                                         <div className={styles.bet}>
                                             <h5>Bet</h5>
-                                            <input
-                                                type="number" 
-                                                id={"num" + props.name + elem} 
-                                                min="0" 
-                                                max={elem} 
-                                                step="1"
-                                                placeholder="0"
-                                            />
+                                            {
+                                                checked ? 
+                                                    <input
+                                                        type="number" 
+                                                        id={"num" + props.name + elem} 
+                                                        min="0" 
+                                                        max={elem} 
+                                                        step="1"
+                                                        placeholder="0"
+                                                        disabled
+                                                    />
+                                                :
+                                                    <input
+                                                        type="number" 
+                                                        id={"num" + props.name + elem} 
+                                                        min="0" 
+                                                        max={elem} 
+                                                        step="1"
+                                                        placeholder="0"
+                                                    />
+                                            }
+                                            
                                         </div>
                                         <div className={styles.win}>
                                             <h5>Win?</h5>

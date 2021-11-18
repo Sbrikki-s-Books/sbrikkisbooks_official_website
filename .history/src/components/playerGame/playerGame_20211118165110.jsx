@@ -8,6 +8,7 @@ const PlayerGame = (props) => {
     let array = [];
 
     const [points, setPoints] = useState(0);
+    const [checked, setPoints] = useState(false);
 
     for(i = 1; i <= props.rounds; i++){
         array.push(i);
@@ -16,11 +17,9 @@ const PlayerGame = (props) => {
     const addPoints = (checked, idNum) => {
         if(checked){
             setPoints(points*1 + 10 + document.getElementById(idNum).value*1);
-            document.getElementById(idNum).disabled = true;
         }
         else{
             setPoints(points*1 - 10 - document.getElementById(idNum).value*1);
-            document.getElementById(idNum).disabled = false;
         }
     }
 
@@ -46,6 +45,7 @@ const PlayerGame = (props) => {
                                                 max={elem} 
                                                 step="1"
                                                 placeholder="0"
+                                                {...checked? disabled : null}
                                             />
                                         </div>
                                         <div className={styles.win}>
