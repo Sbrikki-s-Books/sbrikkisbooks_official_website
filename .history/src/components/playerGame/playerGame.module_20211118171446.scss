@@ -59,7 +59,9 @@ select{
   padding: 2px;
 }
 
-
+option{
+  padding: 30px
+}
 
 .bet{
   @extend .field;

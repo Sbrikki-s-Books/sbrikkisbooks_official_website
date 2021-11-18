@@ -59,7 +59,9 @@ select{
   padding: 2px;
 }
 
-
+option{
+  animation: 100ms;
+}
 
 .bet{
   @extend .field;
