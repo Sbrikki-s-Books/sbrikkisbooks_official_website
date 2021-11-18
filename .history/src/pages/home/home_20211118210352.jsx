@@ -6,8 +6,6 @@ import Hero from '../../components/hero/hero';
 import KingHero from '../../components/kingHero/kingHero';
 import Separator from '../../atoms/separator/separator'
 import Spotify from '../../components/spotify/spotify';
-import Stats from '../../components/stats/stats';
-
 const Home = () => {
 
     const [heroVisible, setHeroVisible] = useState(true);
@@ -50,11 +48,10 @@ const Home = () => {
                 description="Sbrikki's Books - Book Club"
                 keywords="sbrikki, books, sbrikkis, book, club, libro"
             />
-            <NavBar viewHero={viewHero} viewKing={viewKing} viewSpotify={viewSpotify} viewStats={viewStats} />
+            <NavBar viewHero={viewHero} viewKing={viewKing} viewSpotify={viewSpotify} />
             { heroVisible ? <Hero /> : null }
             { kingVisible ? <KingHero /> : null }
             { spotifyVisible ? <Spotify /> : null }
-            { statsVisible ? <Stats /> : null }
             <Separator />
             
         </>

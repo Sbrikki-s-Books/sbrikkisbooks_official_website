@@ -8,14 +8,14 @@ const Navigation = (props) => {
             <div className={styles.navDesktop}>
                 <NavItem text="Home" onClick={props.viewHero} />
                 <NavItem text="Spotify" onClick={props.viewSpotify} />
-                <NavItem text="Stats" onClick={props.viewStats} />
                 <NavItem text="King" onClick={props.viewKing} />
+                <NavItem text="Stats" onClick={props.viewStats} />
             </div>
             <div className={styles.navMobile}>
                 <NavItem text="Home" onClick={props.viewHero} />
                 <NavItem text="Spotify" onClick={props.viewSpotify} />
-                <NavItem text="Stats" onClick={props.viewStats} />
                 <NavItem text="King" onClick={props.viewKing} />
+                <NavItem text="Stats" onClick={props.viewStats} />
             </div>
         </>
     )

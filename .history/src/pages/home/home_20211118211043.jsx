@@ -7,7 +7,6 @@ import KingHero from '../../components/kingHero/kingHero';
 import Separator from '../../atoms/separator/separator'
 import Spotify from '../../components/spotify/spotify';
 import Stats from '../../components/stats/stats';
-
 const Home = () => {
 
     const [heroVisible, setHeroVisible] = useState(true);

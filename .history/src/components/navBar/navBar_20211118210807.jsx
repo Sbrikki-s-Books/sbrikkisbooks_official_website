@@ -59,7 +59,7 @@ const NavBar = (props) => {
             </div>
 
             <div className={styles.navigationDesktop}>
-                <Navigation viewHero={props.viewHero} viewKing={props.viewKing} viewSpotify={props.viewSpotify} viewStats={props.viewStats} />
+                <Navigation viewHero={props.viewHero} viewKing={props.viewKing} viewSpotify={props.viewSpotify}/>
             </div>
 
             {
