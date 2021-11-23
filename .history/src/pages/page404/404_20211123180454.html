@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Chango&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        .page404{
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            @media screen and (min-width: 768px) {
+                flex-direction: row;        
+            }
+        }
+
+        img{
+            width: 30%;
+            animation: slideDown 2000ms ease-in-out;
+            @media screen and (min-width: 768px) {
+                width: 30%;    
+                animation: slideRight 2000ms ease-in-out;
+            }
+        }
+
+        .text{
+            text-align: center;
+            font-size: 20rem;
+            @media screen and (min-width: 768px) {
+                text-align: left;        
+            }
+        }
+
+        h2{
+            color: var(--black-sbrikki);
+        }
+
+        @keyframes slideRight{
+            0%{
+                margin-left: -100%;
+            }
+            100%{
+                margin-left: 0;
+            }
+        }
+
+        @keyframes slideDown{
+            0%{
+                margin-top: -100%;
+            }
+            100%{
+                margin-top: 0;
+            }
+        }
+    </style>
+    <script>
+        const array = [
+            "Le domeniche d'Agosto quanta neve che cadrà",
+            "Il mio petto da cuscino per la vita ti farà",
+            "Miele, sei bella da morire, mi hai fatto innamorare",
+            "Quanti amori nascono così!",
+            "Bésame, siente còmo suena el corazon",
+            "E quella notte nel fuoco il mio cuore con lei si bruciò",
+            "Mai non mollare mai"
+        ];
+        const min = 0;
+        const max = array.length;
+        const rand = min + Math.random() * (max - min);
+        document.getElementById("random").innerHTML = array[rand];
+    </script>
+</head>
+<body>
+    <main>
+        <div class="page404">
+            <img src="../../assets/gigi.png" alt="Gigi" />
+            <div className="text">
+                <h1>404</h1>
+                <h1>Sorry mbare, I can't find the page you asked</h1>
+                <h2 id="random">""</h2>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
