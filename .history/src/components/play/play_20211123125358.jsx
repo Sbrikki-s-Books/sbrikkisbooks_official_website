@@ -12,6 +12,7 @@ const Play = (props) => {
                     
                 );
             })}
+        <button type="submit">Submit</button>
         </form>
     );
     

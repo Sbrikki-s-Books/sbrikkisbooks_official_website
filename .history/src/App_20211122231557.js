@@ -3,7 +3,7 @@ import Home from './pages/home/home'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Spotify from './pages/spotify/spotify'
 import NavBar from './components/navBar/navBar'
-import King from './pages/king/king'
+import King from './components/king/king'
 import Stats from './pages/stats/stats'
 import Seo from './components/seo/seo'
 

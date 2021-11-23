@@ -3,7 +3,7 @@ import Home from './pages/home/home'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Spotify from './pages/spotify/spotify'
 import NavBar from './components/navBar/navBar'
-import King from './pages/king/king'
+import KingHero from './pages/kingHero/kingHero'
 import Stats from './pages/stats/stats'
 import Seo from './components/seo/seo'
 
@@ -21,7 +21,7 @@ const App = () => {
                 <Route exact path="/sbrikkisbooks_official_website" element={ <Home /> } />
                 <Route path="/sbrikkisbooks_official_website/spotify" element={ <Spotify /> } />
                 <Route path="/sbrikkisbooks_official_website/stats" element={ <Stats /> } />
-                <Route path="/sbrikkisbooks_official_website/king" element={ <King /> } />
+                <Route path="/sbrikkisbooks_official_website/king" element={ <KingHero /> } />
             </Routes>
             </div>
         </Router>

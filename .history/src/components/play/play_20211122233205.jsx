@@ -2,6 +2,14 @@ import React from 'react'
 import PlayerGame from '../playerGame/playerGame'
 
 const Play = (props) => {
+    const isDirty = () => {
+        return true
+    };
+    
+    window.confirm(
+        "Are you sure you want to leave?",
+        isDirty() 
+    )
     return(
         <form>
             {props.players.map((player) => {
@@ -12,6 +20,7 @@ const Play = (props) => {
                     
                 );
             })}
+        <button type="submit">Submit</button>
         </form>
     );
     
