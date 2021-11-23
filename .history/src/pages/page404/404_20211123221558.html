@@ -64,7 +64,7 @@
             <div className="text">
                 <h1>404</h1>
                 <h1>Sorry mbare, I can't find the page you asked</h1>
-                <h2 id="random"></h2>
+                <textarea id="random"></textarea>
             </div>
         </div>
     </main>
@@ -81,7 +81,7 @@
         var min = 0;
         var max = array.length;
         var rand = min + Math.random() * (max - min);
-        document.getElementById("random").innerHTML = array[parseInt(rand)];
+        document.getElementById("random").value = array[rand];
     </script>
     
 </body>
