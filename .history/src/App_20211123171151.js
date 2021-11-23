@@ -19,11 +19,11 @@ const App = () => {
             <NavBar />
             <div>
                 <Routes>
-                    <Route exact path="/sbrikkisbooks_official_website" element={ <Home /> } />
+                    <Route path="/sbrikkisbooks_official_website" element={ <Home /> } />
                     <Route exact path="/sbrikkisbooks_official_website/spotify" element={ <Spotify /> } />
                     <Route exact path="/sbrikkisbooks_official_website/stats" element={ <Stats /> } />
                     <Route exact path="/sbrikkisbooks_official_website/king" element={ <King /> } />
-                    <Route path="*" element={ <Page404 /> } />
+                    <Route exact path="*" element={ <Page404 /> } />
                 </Routes>
             </div>
         </Router>
