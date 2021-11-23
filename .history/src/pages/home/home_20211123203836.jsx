@@ -2,14 +2,13 @@ import React, { useState } from 'react';
 import './home.module.scss';
 import Hero from '../../components/hero/hero';
 import Separator from '../../atoms/separator/separator'
-import Page404 from '../page404/page404';
 
-const Gigi = (props) => {
+const [showGigi, setShowGigi] = useState(false);
 
+const Gigi = () => {
     function handleKeyPress(e) {
-        console.log(e)
-        if(e.key === 'g'){
-            props.setShowGigi(!props.showGigi);
+        if(e === 'g'){
+            setShowGigi(!showGigi)
         }
     }
     return (
@@ -20,18 +19,11 @@ const Gigi = (props) => {
 }
 
 const Home = () => {
-    const [showGigi, setShowGigi] = useState(false);
 
     return (
         <>
-            {
-                showGigi ?
-                    <Page404 />
-                :
-                    <Hero />
-            }
+            <Hero />
             <Separator />
-            <Gigi showGigi={showGigi} setShowGigi={setShowGigi} />
         </>
     )
 }

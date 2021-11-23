@@ -4,7 +4,7 @@ import Hero from '../../components/hero/hero';
 import Separator from '../../atoms/separator/separator'
 import Page404 from '../page404/page404';
 
-const Gigi = (props) => {
+const Gigi = () => {
 
     function handleKeyPress(e) {
         console.log(e)

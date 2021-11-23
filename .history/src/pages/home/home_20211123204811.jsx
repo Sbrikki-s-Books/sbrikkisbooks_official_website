@@ -4,17 +4,23 @@ import Hero from '../../components/hero/hero';
 import Separator from '../../atoms/separator/separator'
 import Page404 from '../page404/page404';
 
-const Gigi = (props) => {
+const Gigi = () => {
 
     function handleKeyPress(e) {
         console.log(e)
         if(e.key === 'g'){
-            props.setShowGigi(!props.showGigi);
+            setShowGigi(!showGigi);
         }
     }
     return (
         <div>
             <input type="text" onKeyPress={(e) => handleKeyPress(e)} />
+            {
+                showGigi ?
+                    <Page404 />
+                :
+                    null
+            }
         </div>
     )
 }
@@ -24,14 +30,9 @@ const Home = () => {
 
     return (
         <>
-            {
-                showGigi ?
-                    <Page404 />
-                :
-                    <Hero />
-            }
+            <Hero />
             <Separator />
-            <Gigi showGigi={showGigi} setShowGigi={setShowGigi} />
+            <Gigi setShowGigi={setShowGigi} />
         </>
     )
 }
