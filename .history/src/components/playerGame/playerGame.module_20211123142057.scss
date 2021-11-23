@@ -44,8 +44,8 @@ tr {
   border: outset var(--white-sbrikki);
   border-radius: 8px;
   padding: 5px;
-  margin-top: 20px;
-  @media screen and (min-width: 441px) {
+  margin-top: 0;
+  @media screen and (min-width: 768px) {
     margin-top: -85px;
   }
 }

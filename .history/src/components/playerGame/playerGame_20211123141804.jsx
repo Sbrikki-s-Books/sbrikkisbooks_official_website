@@ -37,11 +37,11 @@ const PlayerGame = (props) => {
             <table className={styles.playerGame}>
                 <tbody>
                     <tr>
-                        <td>
+                        <div>
                             <p className={styles.name}>
                                 <strong>{props.name}</strong> (Points: <strong>{points}</strong>)
                             </p>
-                        </td>
+                        </div>
                     </tr>
                         <tr>
                         {
