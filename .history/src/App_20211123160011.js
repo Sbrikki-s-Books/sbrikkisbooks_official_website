@@ -23,7 +23,7 @@ const App = () => {
                 <Route path="/sbrikkisbooks_official_website/spotify" element={ <Spotify /> } />
                 <Route path="/sbrikkisbooks_official_website/stats" element={ <Stats /> } />
                 <Route path="/sbrikkisbooks_official_website/king" element={ <King /> } />
-                <Route path="*" element={ <Page404 /> } />
+                <Route element={ <Page404 /> } />
             </Routes>
             </div>
         </Router>
