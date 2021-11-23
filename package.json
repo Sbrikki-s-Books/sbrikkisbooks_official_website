@@ -47,6 +47,7 @@
   },
   "devDependencies": {
     "@types/react": "^17.0.33",
-    "file-loader": "^6.2.0"
+    "file-loader": "^6.2.0",
+    "react-image-webp": "^0.8.0"
   }
 }

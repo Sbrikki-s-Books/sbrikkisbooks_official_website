@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useMemo } from 'react'
 import * as styles from './page404.module.scss'
 import gigi from "../../assets/gigi.webp"
 
@@ -17,17 +17,15 @@ const Page404 = () => {
         const min = 0;
         const max = array.length;
         const rand = min + Math.random() * (max - min);
-        console.log(rand)
-        setRandom(r => parseInt(r + rand));
-    }, [])
+        setRandom(random + rand);
+    }, [array, random])
 
     return (
         <div className={styles.page404}>
             <img src={gigi} alt="Gigi" />
             <div className={styles.text}>
                 <h1>404</h1>
-                <h1>Sorry mbare, I can't find the page you asked</h1>
-                <h2>"{array[random]}"</h2>
+                <h3>Sorry mbare, I can't find the page you asked</h3>
             </div>
         </div>
     )

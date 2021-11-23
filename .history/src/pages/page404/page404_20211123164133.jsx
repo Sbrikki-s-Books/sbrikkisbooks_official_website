@@ -18,7 +18,7 @@ const Page404 = () => {
         const max = array.length;
         const rand = min + Math.random() * (max - min);
         console.log(rand)
-        setRandom(r => parseInt(r + rand));
+        setRandom(r => r + rand);
     }, [])
 
     return (
@@ -26,8 +26,8 @@ const Page404 = () => {
             <img src={gigi} alt="Gigi" />
             <div className={styles.text}>
                 <h1>404</h1>
-                <h1>Sorry mbare, I can't find the page you asked</h1>
-                <h2>"{array[random]}"</h2>
+                <h2>Sorry mbare, I can't find the page you asked</h2>
+                <h3>"{array[random]}"</h3>
             </div>
         </div>
     )
