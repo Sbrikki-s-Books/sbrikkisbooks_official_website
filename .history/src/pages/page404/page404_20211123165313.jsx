@@ -8,8 +8,7 @@ const array = [
     "Miele, sei bella da morire, mi hai fatto innamorare",
     "Quanti amori nascono così!",
     "Bésame, siente còmo suena el corazon",
-    "E quella notte nel fuoco il mio cuore con lei si bruciò",
-    "Mai non mollare mai"
+    "E quella notte nel fuoco il mio cuore con lei si bruciò"
 ];
 
 const Page404 = () => {
