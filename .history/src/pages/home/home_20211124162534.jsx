@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import * as styles from './home.module.scss';
+import './home.module.scss';
 import Hero from '../../components/hero/hero';
 import Separator from '../../atoms/separator/separator'
 import Page404 from '../page404/page404';
@@ -14,7 +14,7 @@ const Gigi = (props) => {
     }
     return (
         <div>
-            <input type="text" className={styles.hiddenInput} onKeyPress={(e) => handleKeyPress(e)} />
+            <input type="text" className={"hiddenInput"} onKeyPress={(e) => handleKeyPress(e)} />
         </div>
     )
 }
