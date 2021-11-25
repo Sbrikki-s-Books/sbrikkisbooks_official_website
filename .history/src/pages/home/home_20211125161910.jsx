@@ -24,10 +24,8 @@ const Home = () => {
 
     return (
         <div className={styles.home}>
-            <div className={styles.head}>
-                <h1>Sbrikki's Books</h1>
-                <h2>- Book Club -</h2>
-            </div>
+            <h1>Sbrikki's Books</h1>
+            <h2>- Book Club -</h2>
             {
                 showGigi ?
                     <Page404 />

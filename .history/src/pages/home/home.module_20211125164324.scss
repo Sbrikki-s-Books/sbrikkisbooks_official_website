@@ -23,7 +23,7 @@ html{
 }
 
 .home{
-  margin-top: 80px;
+  margin-top: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,15 +35,9 @@ html{
   .head{
     margin-left: 5%;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    :first-child{
-      margin-right: 20px;
-    }
 
     @media screen and (min-width: 768px) {
-      flex-direction: row;
+      text-align: left;
       margin: auto;
     }
   }
