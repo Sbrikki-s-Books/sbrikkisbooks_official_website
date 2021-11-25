@@ -18,26 +18,28 @@ $breakpoints: (
 }
 
 h1{
-    font-size: 1.2rem;
+    font-size: 25px;
     text-align: center;
     animation: pop 1000ms ease-in-out;
     @media (min-width: 768px){
+      font-size: 30px;
       text-align: left;
     } 
 }
 
 h2 {
   color: var(--green-sbrikki); 
-  font-size: 2rem;
+  font-size: 20px;
   text-align: center;
   animation: pop 1400ms ease-in-out;
   @media (min-width: 768px){
+    font-size: 25px;
     text-align: left;
   } 
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: 7rem;
 }
 
 @keyframes pop {

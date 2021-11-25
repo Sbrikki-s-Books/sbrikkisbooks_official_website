@@ -36,8 +36,12 @@ html{
     margin-left: 5%;
     text-align: center;
     align-items: center;
+    :first-child{
+      margin-right: 20px;
+    }
 
     @media screen and (min-width: 768px) {
+      flex-direction: row;
       margin: auto;
     }
   }
