@@ -25,7 +25,7 @@ const Home = () => {
     return (
         <div className={styles.home}>
             <div className={styles.head}>
-                <h1><strong>Sbrikki's Books</strong> - Book Club</h1>
+                <h1>Sbrikki's Books - Book Club</h1>
             </div>
             {
                 showGigi ?

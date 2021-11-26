@@ -10,20 +10,10 @@ $breakpoints: (
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     @media screen and (min-width: 768px) {
         width: 100vw;
         > * {
             text-align: center;
         }       
     }
-}
-
-.link{
-    border-radius: 10px;
-    background-color: var(--spicy-pink);
-    margin-top: 20px;
-    padding: 10px;
-    text-decoration: none;
-    color: var(--red-sbrikki);
 }
