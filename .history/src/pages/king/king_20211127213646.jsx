@@ -1,15 +1,14 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect } from 'react'
 import KingHero from '../../components/kingHero/kingHero'
 
 import * as styles from './king.module.scss'
 
 function King(props) {
-    let blocked = useRef();
-    blocked.current = false;
+
+    
 
     useEffect(()=>{
-         if(!blocked) props.startBlocked();
-         blocked.current = true;
+         props.startBlocked();
     }, [props])
 
     return (

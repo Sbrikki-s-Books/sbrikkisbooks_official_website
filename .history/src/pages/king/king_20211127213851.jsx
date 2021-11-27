@@ -4,12 +4,11 @@ import KingHero from '../../components/kingHero/kingHero'
 import * as styles from './king.module.scss'
 
 function King(props) {
-    let blocked = useRef();
-    blocked.current = false;
+    const blocked = useRef(false);
 
     useEffect(()=>{
          if(!blocked) props.startBlocked();
-         blocked.current = true;
+         blocked = true;
     }, [props])
 
     return (
