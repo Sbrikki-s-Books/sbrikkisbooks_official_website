@@ -12,10 +12,6 @@ import Blocking from './atoms/blocking'
 const App = () => {
 
     const [isBlocking, setIsBlocking] = useState(false);
-
-    const changeBlocking = () => {
-        setIsBlocking(!isBlocking);
-    }
     
     return (
         <Router>
@@ -32,7 +28,7 @@ const App = () => {
                     <Route exact path="/sbrikkisbooks_official_website" element={ <Home /> } />
                     <Route exact path="/sbrikkisbooks_official_website/spotify" element={ <Spotify /> } />
                     <Route exact path="/sbrikkisbooks_official_website/stats" element={ <Stats /> } />
-                    <Route exact path="/sbrikkisbooks_official_website/king" element={ <King isBlocking={isBlocking} toggleIsBlocking={changeBlocking} /> } />
+                    <Route exact path="/sbrikkisbooks_official_website/king" element={ <King isBlocking={isBlocking} setIsBlocking={setIsBlocking} /> } />
                     <Route exact path="/sbrikkisbooks_official_website/404" element={ <Page404 /> } />
                     <Route path="*" element={ <Page404 /> } />
                 </Routes>

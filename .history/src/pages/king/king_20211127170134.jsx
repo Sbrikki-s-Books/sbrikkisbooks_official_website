@@ -10,14 +10,7 @@ function King(props) {
             <button 
                 className={props.isBlocking? styles.buttonBlocked : styles.buttonUnblocked} 
                 onClick={props.toggleIsBlocking}
-            >
-                {
-                props.isBlocking?
-                    "Exit is NOT allowed"
-                :
-                    "Exit is allowed"
-                }
-            </button>
+            >Exit is allowed</button>
             <KingHero />
         </div>
     )

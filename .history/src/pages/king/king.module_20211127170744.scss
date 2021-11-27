@@ -11,10 +11,10 @@
 
 .buttonBlocked{
     @extend .buttonAll;
-    background-color: var(--red-sbrikki);
+    background-color: var(--green-sbrikki);
 }
 
 .buttonUnblocked{
     @extend .buttonAll;
-    background-color: var(--green-sbrikki);
+    background-color: var(--red-sbrikki);
 }
