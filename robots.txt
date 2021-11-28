@@ -1,2 +1,4 @@
-User-Agent: *
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
 Disallow:
+Sitemap: sitemap.xml
