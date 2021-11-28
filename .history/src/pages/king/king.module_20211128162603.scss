@@ -9,9 +9,7 @@
     text-transform: uppercase;
     font-weight: bolder;
     border-style: double;
-    opacity: 0.8;
-    width: 50%;
-    justify-self: center;
+    opacity: 0.9;
 }
 
 .buttonBlocked{
@@ -27,7 +25,7 @@
 
 @keyframes moving{
     0%{
-        transform: scale(0.9);
+        transform: scale(0.9), rotate3d(3)
     }
     100%{
         transform: scale(1.1);

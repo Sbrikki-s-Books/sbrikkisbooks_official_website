@@ -9,9 +9,18 @@
     text-transform: uppercase;
     font-weight: bolder;
     border-style: double;
-    opacity: 0.8;
-    width: 50%;
-    justify-self: center;
+    opacity: 0.9;
+}
+
+@keyframes moving{
+    0%{
+        transform: scale(0.9);
+        transform: rotateX(-90deg);
+    }
+    100%{
+        transform: scale(1.1);
+        transform: rotateX(-90deg);
+    }
 }
 
 .buttonBlocked{
@@ -22,14 +31,5 @@
 .buttonUnblocked{
     @extend .buttonAll;
     background-color: var(--green-sbrikki);
-    animation: moving 2000ms infinite alternate ease-in-out;
-}
-
-@keyframes moving{
-    0%{
-        transform: scale(0.9);
-    }
-    100%{
-        transform: scale(1.1);
-    }
+    animation: moving 1000ms infinite alternate ease-in-out;
 }

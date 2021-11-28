@@ -1,6 +1,8 @@
 .kingPage{
     margin-top: 80px;
     display: grid;
+    align-items: center;
+    justify-content: center;
 }
 
 .buttonAll{
@@ -8,10 +10,6 @@
     padding: 10px;
     text-transform: uppercase;
     font-weight: bolder;
-    border-style: double;
-    opacity: 0.8;
-    width: 50%;
-    justify-self: center;
 }
 
 .buttonBlocked{
@@ -22,14 +20,4 @@
 .buttonUnblocked{
     @extend .buttonAll;
     background-color: var(--green-sbrikki);
-    animation: moving 2000ms infinite alternate ease-in-out;
-}
-
-@keyframes moving{
-    0%{
-        transform: scale(0.9);
-    }
-    100%{
-        transform: scale(1.1);
-    }
 }
