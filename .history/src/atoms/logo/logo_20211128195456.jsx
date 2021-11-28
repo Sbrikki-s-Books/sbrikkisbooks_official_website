@@ -4,13 +4,12 @@ import * as styles from './logo.module.scss'
 
 const Logo = (props) => {
     return (
-        <a href="/">
-            <img 
-                src={logo} 
-                alt="Sbrikki's Books Logo"
-                className={styles.logo}
-            />
-        </a>
+        <img 
+            src={logo} 
+            alt="Sbrikki's Books Logo"
+            href="\"
+            className={styles.logo}
+        />
     )
 }
 

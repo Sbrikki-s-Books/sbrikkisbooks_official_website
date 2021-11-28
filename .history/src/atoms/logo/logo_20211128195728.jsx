@@ -1,16 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import logo from '../../assets/logo.svg'
 import * as styles from './logo.module.scss'
 
 const Logo = (props) => {
     return (
-        <a href="/">
+        <Link to="/">
             <img 
                 src={logo} 
                 alt="Sbrikki's Books Logo"
                 className={styles.logo}
             />
-        </a>
+        </Link>
     )
 }
 
