@@ -22,14 +22,10 @@ h6{
   margin-bottom: 5px;
 }
 
-.round{
-  padding: 0 50px 0;
-}
-
 tr {
+  margin-top: 10px;
   padding-top: 26px;
   display: inline-table;
-  scroll-behavior: smooth;
 }
 
 .field{
@@ -51,7 +47,7 @@ tr {
   padding: 5px;
   margin-top: 20px;
   @media screen and (min-width: 441px) {
-    margin-top: 0px;
+    margin-top: -85px;
   }
 }
 
