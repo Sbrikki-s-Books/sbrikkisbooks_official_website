@@ -11,7 +11,6 @@ function King(props) {
          if(!blocked) props.startBlocked();
          blocked.current = true;
     }, [props])
-    
 
     return (
         <div className={styles.kingPage}>
