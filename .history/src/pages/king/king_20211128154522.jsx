@@ -9,7 +9,7 @@ function King(props) {
 
     useEffect(()=>{
          if(!blocked.current) {
-            action.current();
+            action.current;
             blocked.current = true;
         }
     }, [])

@@ -5,11 +5,11 @@ import * as styles from './king.module.scss'
 
 function King(props) {
     let blocked = useRef(false);
-    let action = useRef(props.startBlocked);
+    let action = useRef(props.startBlocked());
 
     useEffect(()=>{
          if(!blocked.current) {
-            action.current();
+            action.current;
             blocked.current = true;
         }
     }, [])
