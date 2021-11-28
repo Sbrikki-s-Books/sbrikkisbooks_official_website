@@ -1,5 +1,5 @@
 import React from 'react'
-import * as styles from './spotify.module.scss'
+import './spotify.module.scss'
 
 function Spotify() {
     return (
@@ -7,7 +7,7 @@ function Spotify() {
             <h1>Sbrikki's Books Spotify playlist</h1>
             <p>
                 The <strong>Sbrikki's Books</strong> Spotify playlist is available here<br/>
-                Feel <strong>free</strong> to add songs, during meetings we will <strong>listen</strong> to it
+                Feel free to add songs, during meetings we will listen to it
             </p>
             <iframe 
                 src="https://open.spotify.com/embed/playlist/3XWNoTPdXdIRapbK86Y11l" 

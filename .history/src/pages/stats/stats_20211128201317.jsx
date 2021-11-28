@@ -23,7 +23,7 @@ const Stats = () => {
             <p>
                 <strong>SEO</strong> is a very important thing <br/>
                 That's why I'm studying ways to <strong>improve</strong> it <br/>
-                See our <strong>score</strong> by clicking on the link below 
+                Click on the below button to see our <strong>score</strong>
             </p>
             <a className={styles.link} href="https://freetools.seobility.net/en/seocheck/check?url=https%3A%2F%2Fmike-cheek.github.io%2Fsbrikkisbooks_official_website%2F&crawltype=1">
                 SEOBILITY

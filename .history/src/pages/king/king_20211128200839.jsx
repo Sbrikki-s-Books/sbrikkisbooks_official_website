@@ -29,8 +29,8 @@ function King(props) {
                 }
             </button>
             <p>
-                <strong>King</strong> is a very good <strong>card game</strong> mbare.<br/>
-                In this section you <strong>cannot</strong> play, but it's a <strong>scorer</strong> 
+                <strong>King</strong> is a very good game mbare.<br/>
+                In this section you cannot play, but it's a <strong>scorer</strong> 
             </p>
             <KingHero />
         </div>
