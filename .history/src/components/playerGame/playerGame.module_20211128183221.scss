@@ -15,7 +15,6 @@ th, td {
   border-radius: 10px;
   border-style: outset;
   color: var(--green-sbrikki);
-  text-align: center;
   text-align: -webkit-center;
 }
 
@@ -38,9 +37,6 @@ tr {
   margin-top: 20px;
   @media screen and (min-width: 441px) {
     margin-top: 0px;
-  }
-  @media screen and (min-width: 1446px) {
-    margin-top: -80px;
   }
 }
 

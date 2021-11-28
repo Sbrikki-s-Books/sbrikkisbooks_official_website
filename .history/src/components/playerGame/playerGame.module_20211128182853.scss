@@ -16,7 +16,6 @@ th, td {
   border-style: outset;
   color: var(--green-sbrikki);
   text-align: center;
-  text-align: -webkit-center;
 }
 
 .round{
@@ -29,6 +28,17 @@ tr {
   scroll-behavior: smooth;
 }
 
+.field{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5px;
+  > *{
+    margin: 1px;
+  }
+}
+
 .name{
   position: absolute;
   background-color: var(--white-sbrikki);
@@ -38,9 +48,6 @@ tr {
   margin-top: 20px;
   @media screen and (min-width: 441px) {
     margin-top: 0px;
-  }
-  @media screen and (min-width: 1446px) {
-    margin-top: -80px;
   }
 }
 
@@ -62,16 +69,6 @@ select{
   padding: 2px;
 }
 
-.field{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: row;
-  margin: 5px;
-  > *{
-    margin: 1px;
-  }
-}
 
 
 .bet{
