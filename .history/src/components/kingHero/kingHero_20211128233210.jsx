@@ -34,7 +34,11 @@ const KingHero = () => {
     }
 
     const decreaseCurrentRound = () => {
-        setCurrentRound(currentRound - 1);        
+        setCurrentRound(currentRound - 1);
+        for(let i = 1; i <= rounds ; i++){
+            let calc = 50*i;
+            document.getElementById('table'+i).style.left = `-${calc}px`;
+        }
     }
 
     const increaseCurrentRound = () => {
@@ -84,15 +88,15 @@ const KingHero = () => {
             }
 
             {
+                removeCards > 0 ? 
+                    <h3>You have to remove {removeCards} {removeCards === 1 ? "card" : "cards" } from the deck</h3>
+                :
+                    null
+            }
+
+            {
                 rounds > 0 ? 
-                    <h3>We are going to play {rounds} {rounds === 1 ? "round" : "rounds" }
-                    {
-                        removeCards > 0 ? 
-                            ` and you have to remove ${removeCards} ${removeCards === 1 ? "card" : "cards" } from the deck`
-                        :
-                            null
-                    }
-                    </h3>
+                    <h3>We are going to play {rounds} {rounds === 1 ? "round" : "rounds" }</h3>
                 :
                     <h3>Insert names to start</h3>
             }

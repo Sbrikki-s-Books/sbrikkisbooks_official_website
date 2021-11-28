@@ -88,7 +88,7 @@ const KingHero = () => {
                     <h3>We are going to play {rounds} {rounds === 1 ? "round" : "rounds" }
                     {
                         removeCards > 0 ? 
-                            ` and you have to remove ${removeCards} ${removeCards === 1 ? "card" : "cards" } from the deck`
+                            `You have to remove ${removeCards} ${removeCards === 1 ? "card" : "cards" } from the deck`
                         :
                             null
                     }

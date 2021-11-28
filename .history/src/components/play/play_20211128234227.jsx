@@ -4,11 +4,11 @@ import PlayerGame from '../playerGame/playerGame'
 const Play = (props) => {
 
     return(
-        <form>
+        <form id="table">
             {props.players.map((player,i) => {
                 return(
                     <div key={player.key} id={'table'+i}>
-                        <PlayerGame name={player.name} rounds={props.rounds} currentRound={props.currentRound} />
+                        <PlayerGame name={player.name} rounds={props.rounds} />
                     </div>
                     
                 );

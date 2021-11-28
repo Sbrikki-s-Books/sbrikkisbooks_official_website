@@ -33,14 +33,6 @@ const KingHero = () => {
         }
     }
 
-    const decreaseCurrentRound = () => {
-        setCurrentRound(currentRound - 1);        
-    }
-
-    const increaseCurrentRound = () => {
-        setCurrentRound(currentRound + 1);
-    }
-
     const getPlayers = () => {
         let check = true;
         for(let i = 0; i < numPlayers; i++ ){
@@ -84,47 +76,33 @@ const KingHero = () => {
             }
 
             {
+                removeCards > 0 ? 
+                    <h3>You have to remove {removeCards} {removeCards === 1 ? "card" : "cards" } from the deck</h3>
+                :
+                    null
+            }
+
+            {
                 rounds > 0 ? 
-                    <h3>We are going to play {rounds} {rounds === 1 ? "round" : "rounds" }
-                    {
-                        removeCards > 0 ? 
-                            ` and you have to remove ${removeCards} ${removeCards === 1 ? "card" : "cards" } from the deck`
-                        :
-                            null
-                    }
-                    </h3>
+                    <h3>We are going to play {rounds} {rounds === 1 ? "round" : "rounds" }</h3>
                 :
                     <h3>Insert names to start</h3>
             }
 
             {
                 start ?
-                    <>
-                        <div className={styles.play}>
-                            <Play players={players} rounds={rounds} currentRound={currentRound} />
-                        </div> 
-                        <div className={styles.changeRound}>
-                            {currentRound>1? 
-                                <button onClick={decreaseCurrentRound}>
-                                    {`<-`}
-                                </button> 
-                            : 
-                                <button disabled>{`<-`}</button> 
-                            }
-                            <p className={styles.roundText} >Round {currentRound}</p>
-                            {currentRound<rounds? 
-                                <button onClick={increaseCurrentRound}>
-                                    {`->`}
-                                </button> 
-                            :
-                                <button disabled>{`->`}</button> 
-                            }
-                        </div>
-                    </>
-                    
+                    <div className={styles.play}>
+                        <Play players={players} rounds={rounds} />
+                    </div> 
                 :
                     null
             }
+
+            <div>
+                <button><-</button>
+                <p>Round {currentRound}</p>
+                <button>-></button>
+            </div>
         </div>
     )
 }

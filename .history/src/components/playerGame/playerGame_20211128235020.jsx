@@ -51,7 +51,7 @@ const PlayerGame = (props) => {
                                         <h6>Round {elem}</h6>
                                         <div className={styles.bet}>
                                             <h5>Bet</h5>
-                                            {i === props.currentRound-1?
+                                            {i === props.currentRound?
                                                 <select
                                                     id={"num" + props.name + elem} 
                                                     placeholder="0"
@@ -88,20 +88,11 @@ const PlayerGame = (props) => {
                                         </div>
                                         <div className={styles.win}>
                                             <h5>Won?</h5>
-                                            {i === props.currentRound-1?
-                                                <input
-                                                    type="checkbox" 
-                                                    id={"check" + props.name + elem} 
-                                                    onChange={(e) => addPoints(e.target.checked, "num" + props.name + elem)} 
-                                                />
-                                            :
-                                                <input
-                                                    type="checkbox" 
-                                                    id={"check" + props.name + elem} 
-                                                    onChange={(e) => addPoints(e.target.checked, "num" + props.name + elem)} 
-                                                    disabled
-                                                />
-                                            }
+                                            <input
+                                                type="checkbox" 
+                                                id={"check" + props.name + elem} 
+                                                onChange={(e) => addPoints(e.target.checked, "num" + props.name + elem)} 
+                                            />
                                         </div>
                                     </td>
                                 )

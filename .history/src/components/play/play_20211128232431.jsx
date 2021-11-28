@@ -7,8 +7,8 @@ const Play = (props) => {
         <form>
             {props.players.map((player,i) => {
                 return(
-                    <div key={player.key} id={'table'+i}>
-                        <PlayerGame name={player.name} rounds={props.rounds} currentRound={props.currentRound} />
+                    <div key={player.key} id={i}>
+                        <PlayerGame name={player.name} rounds={props.rounds} />
                     </div>
                     
                 );

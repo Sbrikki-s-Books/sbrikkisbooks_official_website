@@ -31,14 +31,8 @@ $breakpoints: (
   justify-content: center;
   border-radius: 20%;
   border-style: ridge;
-  background-color: var(--white-sbrikki);
+  background-color: var(--grey-sbrikki);
   border-color: var(--white-sbrikki);
-  width: 70%;
-  z-index: 5;
-}
-
-.roundText{
+  width: 80%;
   text-transform: uppercase;
-  padding: 0 10px 0;
-  font-weight: bold;
 }
