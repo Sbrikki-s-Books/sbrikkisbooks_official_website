@@ -1,0 +1,79 @@
+$breakpoints: (
+  phone: 480px,
+  tablet: 768px,
+  big-tablet: 1024px,
+  desktop: 1440px,
+);
+
+.playerGame {
+  display: flex;
+  flex-direction: column;
+}
+
+th, td {
+  border: 1px;
+  border-radius: 10px;
+  border-style: outset;
+  color: var(--green-sbrikki);
+  text-align: center;
+}
+
+h6{
+  margin-bottom: 5px;
+}
+
+.round{
+  padding: 0 50px 0;
+}
+
+tr {
+  padding-top: 26px;
+  display: inline-table;
+  scroll-behavior: smooth;
+}
+
+.field{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5px;
+  > *{
+    margin: 1px;
+  }
+}
+
+.name{
+  position: absolute;
+  background-color: var(--white-sbrikki);
+  border: outset var(--white-sbrikki);
+  border-radius: 8px;
+  padding: 5px;
+  margin-top: 20px;
+  @media screen and (min-width: 441px) {
+    margin-top: 0px;
+  }
+}
+
+h3{
+  color: var(--green-sbrikki);
+}
+
+h5 {
+  color: var(--red-sbrikki);
+}
+
+select{
+  border-radius: 2px;
+  padding: 2px;
+}
+
+
+
+.bet{
+  @extend .field;
+}
+
+.win{
+  @extend .field;
+}
