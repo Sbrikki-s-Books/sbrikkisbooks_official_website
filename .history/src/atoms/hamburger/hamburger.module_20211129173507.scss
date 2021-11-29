@@ -7,10 +7,9 @@ $breakpoints: (
 
 .line{
     background-color: black;
-    width: 40px;
+    width: 100%;
     height: 5px;
     border-radius: 100px;
-    position: absolute;
 }
 
 .hamburger{
@@ -28,14 +27,14 @@ $breakpoints: (
 
     .hamLine1{
         @extend .line;
-        margin-bottom: 25px;
+        margin-bottom: 10px;
     }
     .hamLine2{
         @extend .line;
     }
     .hamLine3{
         @extend .line;
-        margin-top: 25px;
+        margin-top: 10px;
     }
 }
 
@@ -58,7 +57,7 @@ $breakpoints: (
     }
     50%{
         margin: 0;
-        transform: translateY(20px);
+        transform: translateY(25px) rotateZ(-45deg);
     }
     100%{
         margin: 0;        
@@ -70,10 +69,10 @@ $breakpoints: (
     0%{
         opacity: 1;
     }
-    19%{
+    29%{
         opacity: 1;
     }
-    20%{
+    30%{
         opacity: 0;
     }
     100%{
@@ -87,7 +86,7 @@ $breakpoints: (
     }
     50%{
         margin: 0;
-        transform: translateY(-20px);
+        transform: translateY(-25px) rotateZ(45deg);
     }
     100%{
         margin: 0;

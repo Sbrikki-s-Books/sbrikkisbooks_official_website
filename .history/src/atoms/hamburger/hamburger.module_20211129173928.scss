@@ -7,7 +7,7 @@ $breakpoints: (
 
 .line{
     background-color: black;
-    width: 40px;
+    width: 50px;
     height: 5px;
     border-radius: 100px;
     position: absolute;
@@ -58,7 +58,7 @@ $breakpoints: (
     }
     50%{
         margin: 0;
-        transform: translateY(20px);
+        transform: translateY(25px);
     }
     100%{
         margin: 0;        
@@ -87,7 +87,7 @@ $breakpoints: (
     }
     50%{
         margin: 0;
-        transform: translateY(-20px);
+        transform: translateY(-25px);
     }
     100%{
         margin: 0;
