@@ -32,12 +32,6 @@ const PlayerGame = (props) => {
         return array;
     });
 
-    const checkCheckbox = (id) => {
-        if(document.getElementById(id) == null)
-            return false;
-        return document.getElementById(id).checked;
-    }
-
     return (
         <>
             <table className={styles.playerGame}>
@@ -57,7 +51,7 @@ const PlayerGame = (props) => {
                                         <h6>Round {elem}</h6>
                                         <div className={styles.bet}>
                                             <h5>Bet</h5>
-                                            {i === props.currentRound-1 && !checkCheckbox("check" + props.name + elem)?
+                                            {i === props.currentRound-1 && document.getElementById("check" + props.name + elem).checked?
                                                 <select
                                                     id={"num" + props.name + elem} 
                                                     placeholder="0"

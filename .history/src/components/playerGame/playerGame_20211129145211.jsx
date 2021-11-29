@@ -34,7 +34,7 @@ const PlayerGame = (props) => {
 
     const checkCheckbox = (id) => {
         if(document.getElementById(id) == null)
-            return false;
+            return true;
         return document.getElementById(id).checked;
     }
 

@@ -33,8 +33,6 @@ const PlayerGame = (props) => {
     });
 
     const checkCheckbox = (id) => {
-        if(document.getElementById(id) == null)
-            return false;
         return document.getElementById(id).checked;
     }
 
@@ -50,11 +48,28 @@ const PlayerGame = (props) => {
                         </td>
                     </tr>
                         <tr>
+                        <td className={styles.round}> 
                         {
                             array.map((elem,i) => {
                                 return(
-                                    <td className={styles.round}> 
-                                        <h6>Round {elem}</h6>
+                                    <>
+                                        <div className={styles.win}>
+                                            <h5>Won?</h5>
+                                            {i === props.currentRound-1?
+                                                <input
+                                                    type="checkbox" 
+                                                    id={"check" + props.name + elem} 
+                                                    onChange={(e) => addPoints(e.target.checked, "num" + props.name + elem)} 
+                                                />
+                                            :
+                                                <input
+                                                    type="checkbox" 
+                                                    id={"check" + props.name + elem} 
+                                                    onChange={(e) => addPoints(e.target.checked, "num" + props.name + elem)} 
+                                                    disabled
+                                                />
+                                            }
+                                        </div>
                                         <div className={styles.bet}>
                                             <h5>Bet</h5>
                                             {i === props.currentRound-1 && !checkCheckbox("check" + props.name + elem)?
@@ -92,27 +107,12 @@ const PlayerGame = (props) => {
                                                 </select>                                
                                             }
                                         </div>
-                                        <div className={styles.win}>
-                                            <h5>Won?</h5>
-                                            {i === props.currentRound-1?
-                                                <input
-                                                    type="checkbox" 
-                                                    id={"check" + props.name + elem} 
-                                                    onChange={(e) => addPoints(e.target.checked, "num" + props.name + elem)} 
-                                                />
-                                            :
-                                                <input
-                                                    type="checkbox" 
-                                                    id={"check" + props.name + elem} 
-                                                    onChange={(e) => addPoints(e.target.checked, "num" + props.name + elem)} 
-                                                    disabled
-                                                />
-                                            }
-                                        </div>
-                                    </td>
+                                        <h6>Round {elem}</h6>
+                                   </>
                                 )
-                            })
+                            }) 
                         }
+                        </td>
                     </tr>
                 </tbody>
             </table>
