@@ -3,6 +3,7 @@ import * as styles from './navBar.module.scss'
 import Logo from '../../atoms/logo/logo'
 import Navigation from '../navigation/navigation'
 import Hamburger from '../../atoms/hamburger/hamburger'
+import Cross from '../../atoms/cross/cross'
 
 const NavBar = (props) => {
 
@@ -58,7 +59,7 @@ const NavBar = (props) => {
                     null
                     :
                     <div className={styles.hamburger}>
-                        <Hamburger onClick={navBarOpen ? closeNavBar : openNavBar} navBarOpen={navBarOpen} />
+                        <Hamburger onClick={openNavBar} navBarOpen={navBarOpen} />
                     </div>
             }
         </div>

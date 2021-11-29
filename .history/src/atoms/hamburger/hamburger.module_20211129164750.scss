@@ -25,47 +25,47 @@ $breakpoints: (
         width: 50px;
     }
 
-    .hamLine1{
+    .line1{
         @extend .line;
         margin-bottom: 10px;
     }
-    .hamLine2{
+    .line2{
         @extend .line;
     }
-    .hamLine3{
+    .line3{
         @extend .line;
         margin-top: 10px;
     }
 }
 
     .crossLine1{
-        @extend .hamLine1;
-        animation: animateHamLine1 1s ease-in-out forwards;
+        @extend .line1;
+        animation: animateLine1 1s ease-in-out forwards;
     }
     .crossLine2{
-        @extend .hamLine2;
-        animation: animateHamLine2 1s ease-in-out forwards;
+        @extend .line2;
+        animation: animateLine2 1s ease-in-out forwards;
     }
     .crossLine3{
-        @extend .hamLine3;
-        animation: animateHamLine3 1s ease-in-out forwards;
+        @extend .line3;
+        animation: animateLine3 1s ease-in-out forwards;
     }
 
-@keyframes animateHamLine1{
+@keyframes animateLine1{
     0%{
 
     }
     50%{
         margin: 0;
-        transform: translateY(10px);
+        transform: translateY(5px);
     }
     100%{
-        margin: 0;        
+        margin-top: -5px;
         transform: rotateZ(45deg);
     }
 }
 
-@keyframes animateHamLine2{
+@keyframes animateLine2{
     0%{
         opacity: 1;
     }
@@ -80,13 +80,13 @@ $breakpoints: (
     }
 }
 
-@keyframes animateHamLine3{
+@keyframes animateLine3{
     0%{
 
     }
     50%{
         margin: 0;
-        transform: translateY(-10px);
+        transform: translateY(-5px);
     }
     100%{
         margin: 0;

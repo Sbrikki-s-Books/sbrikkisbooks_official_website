@@ -1,0 +1,39 @@
+$breakpoints: (
+  phone: 480px,
+  tablet: 768px,
+  big-tablet: 1024px,
+  desktop: 1440px,
+);
+
+.hamburger{
+    width: 45px;
+    height: auto;
+    padding: 5px;
+    animation: pop 500ms;
+    @media(min-width: 768px){
+        width: 50px;
+    }
+}
+
+.flip{
+    transform: scaleX(-1);
+}
+
+.line{
+    background-color: black;
+    width: 20px;
+    height: 5px;
+    border-radius: 50px;
+}
+
+@keyframes pop{
+    0% {
+        transform: scale(0.8);
+    }
+    70%{
+        transform: scale(1.1)
+    }
+    100%{
+        transform: scale(1)
+    }
+}

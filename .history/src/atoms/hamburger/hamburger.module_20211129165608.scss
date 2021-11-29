@@ -59,6 +59,10 @@ $breakpoints: (
         margin: 0;
         transform: translateY(10px);
     }
+    75%{
+        margin: 0;
+        transform: translateY(5px);
+    }
     100%{
         margin: 0;        
         transform: rotateZ(45deg);
@@ -87,6 +91,10 @@ $breakpoints: (
     50%{
         margin: 0;
         transform: translateY(-10px);
+    }
+    75%{
+        margin: 0;
+        transform: translateY(-5px);
     }
     100%{
         margin: 0;

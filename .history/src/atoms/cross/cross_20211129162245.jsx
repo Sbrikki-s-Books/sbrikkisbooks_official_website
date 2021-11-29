@@ -8,7 +8,7 @@ function Cross(props) {
             src={cross} 
             alt="Close" 
             className={styles.cross}
-            onClick={props.onclick}    
+            onClick={props.onClick}    
         />
     )
 }

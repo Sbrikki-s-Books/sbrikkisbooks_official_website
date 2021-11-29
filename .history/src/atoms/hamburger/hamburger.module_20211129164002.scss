@@ -9,67 +9,59 @@ $breakpoints: (
     background-color: black;
     width: 100%;
     height: 5px;
-    border-radius: 100px;
+    border-radius: 50px;
 }
 
 .hamburger{
     width: 45px;
-    height: 45px;
+    height: auto;
     padding: 5px;
     animation: pop 500ms;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     @media(min-width: 768px){
         width: 50px;
     }
 
-    .hamLine1{
+    .line1{
         @extend .line;
         margin-bottom: 10px;
     }
-    .hamLine2{
+    .line2{
         @extend .line;
     }
-    .hamLine3{
+    .line3{
         @extend .line;
         margin-top: 10px;
     }
 }
 
     .crossLine1{
-        @extend .hamLine1;
-        animation: animateHamLine1 1s ease-in-out forwards;
+        @extend .line1;
+        animation: animateLine1 1s ease-in-out forwards;
     }
     .crossLine2{
-        @extend .hamLine2;
-        animation: animateHamLine2 1s ease-in-out forwards;
+        @extend .line2;
     }
     .crossLine3{
-        @extend .hamLine3;
-        animation: animateHamLine3 1s ease-in-out forwards;
+        @extend .line3;
+        animation: animateLine3 1s ease-in-out forwards;
     }
 
-@keyframes animateHamLine1{
+@keyframes animateLine1{
     0%{
 
     }
     50%{
         margin: 0;
-        transform: translateY(10px);
+        transform: translateY(5px);
     }
     100%{
-        margin: 0;        
+        margin: 0;
         transform: rotateZ(45deg);
     }
 }
 
-@keyframes animateHamLine2{
+@keyframes animateLine2{
     0%{
-        opacity: 1;
-    }
-    49%{
         opacity: 1;
     }
     50%{
@@ -80,13 +72,13 @@ $breakpoints: (
     }
 }
 
-@keyframes animateHamLine3{
+@keyframes animateLine3{
     0%{
 
     }
     50%{
         margin: 0;
-        transform: translateY(-10px);
+        transform: translateY(-5px);
     }
     100%{
         margin: 0;
