@@ -25,36 +25,39 @@ $breakpoints: (
     @media(min-width: 768px){
         width: 50px;
     }
-}
-.hamLine1{
-    @extend .line;
-    animation: animateCrossLine1 1s ease-in-out forwards;
-}
-.hamLine2{
-    @extend .line;
-    animation: animateCrossLine2 1s ease-in-out forwards;
-}
-.hamLine3{
-    @extend .line;
-    animation: animateCrossLine3 1s ease-in-out forwards;
+
+    .hamLine1{
+        @extend .line;
+        margin-bottom: 25px;
+        animation: animateCrossLine1 1s ease-in-out forwards;
+    }
+    .hamLine2{
+        @extend .line;
+        animation: animateCrossLine2 1s ease-in-out forwards;
+    }
+    .hamLine3{
+        @extend .line;
+        margin-top: 25px;
+        animation: animateCrossLine3 1s ease-in-out forwards;
+    }
 }
 
-.crossLine1{
-    @extend .hamLine1;
-    animation: animateHamLine1 1s ease-in-out forwards;
-}
-.crossLine2{
-    @extend .hamLine2;
-    animation: animateHamLine2 1s ease-in-out forwards;
-}
-.crossLine3{
-    @extend .hamLine3;
-    animation: animateHamLine3 1s ease-in-out forwards;
-}
+    .crossLine1{
+        @extend .hamLine1;
+        animation: animateHamLine1 1s ease-in-out forwards;
+    }
+    .crossLine2{
+        @extend .hamLine2;
+        animation: animateHamLine2 1s ease-in-out forwards;
+    }
+    .crossLine3{
+        @extend .hamLine3;
+        animation: animateHamLine3 1s ease-in-out forwards;
+    }
 
 @keyframes animateHamLine1{
     0%{
-        margin-bottom: 25px;
+
     }
     50%{
         margin: 0;
@@ -68,16 +71,22 @@ $breakpoints: (
 
 @keyframes animateHamLine2{
     0%{
-        transform: none;
+        opacity: 1;
+    }
+    19%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 0;
     }
     100%{
-        transform: translateX(200px);
+        opacity: 0;
     }
 }
 
 @keyframes animateHamLine3{
     0%{
-        margin-top: 25px;
+
     }
     50%{
         margin: 0;
@@ -90,10 +99,10 @@ $breakpoints: (
 }
 
 @keyframes animateCrossLine1{
-    0%{
-        transform: rotateZ(45deg);
+    from{
+
     }
-    100%{
+    to{
         transform: none;
         margin-bottom: 25px;
     }
@@ -101,18 +110,24 @@ $breakpoints: (
 
 @keyframes animateCrossLine2{
     0%{
-        transform: translateX(200px);
+        opacity: 0;
+    }
+    79%{
+        opacity: 0;
+    }
+    89%{
+        opacity: 1;
     }
     100%{
-        transform: none;
+        opacity: 1;
     }
 }
 
 @keyframes animateCrossLine3{
-    0%{
-        transform: rotateZ(-45deg);
+    from{
+
     }
-    100%{
+    to{
         transform: none;
         margin-top: 25px;
     }

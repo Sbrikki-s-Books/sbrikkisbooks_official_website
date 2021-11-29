@@ -54,7 +54,7 @@ $breakpoints: (
 
 @keyframes animateHamLine1{
     0%{
-        margin-bottom: 25px;
+
     }
     50%{
         margin: 0;
@@ -68,16 +68,22 @@ $breakpoints: (
 
 @keyframes animateHamLine2{
     0%{
-        transform: none;
+        opacity: 1;
+    }
+    19%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 0;
     }
     100%{
-        transform: translateX(200px);
+        opacity: 0;
     }
 }
 
 @keyframes animateHamLine3{
     0%{
-        margin-top: 25px;
+
     }
     50%{
         margin: 0;
@@ -101,10 +107,16 @@ $breakpoints: (
 
 @keyframes animateCrossLine2{
     0%{
-        transform: translateX(200px);
+        opacity: 0;
+    }
+    79%{
+        opacity: 0;
+    }
+    89%{
+        opacity: 1;
     }
     100%{
-        transform: none;
+        opacity: 1;
     }
 }
 

@@ -71,7 +71,7 @@ $breakpoints: (
         transform: none;
     }
     100%{
-        transform: translateX(200px);
+        transform: translateX(100px);
     }
 }
 
@@ -101,7 +101,7 @@ $breakpoints: (
 
 @keyframes animateCrossLine2{
     0%{
-        transform: translateX(200px);
+        transform: translateX(100px);
     }
     100%{
         transform: none;
