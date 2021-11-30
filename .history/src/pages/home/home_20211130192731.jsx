@@ -3,7 +3,7 @@ import * as styles from './home.module.scss';
 import Hero from '../../components/hero/hero';
 import Separator from '../../atoms/separator/separator'
 import Page404 from '../page404/page404';
-//import Try from '../../atoms/try/try';
+import Try from '../../atoms/try/try';
 
 const Gigi = (props) => {
 
@@ -45,7 +45,7 @@ const Home = () => {
             </div>
             <Separator />
             <Gigi showGigi={showGigi} setShowGigi={setShowGigi} />
-            {/*<Try />*/}
+            <Try />
         </div>
     )
 }

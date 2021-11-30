@@ -45,7 +45,7 @@ const Home = () => {
             </div>
             <Separator />
             <Gigi showGigi={showGigi} setShowGigi={setShowGigi} />
-            {/*<Try />*/}
+            //<Try />
         </div>
     )
 }
