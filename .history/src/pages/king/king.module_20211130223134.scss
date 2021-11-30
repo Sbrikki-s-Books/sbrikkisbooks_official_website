@@ -23,7 +23,11 @@
 .buttonUnblocked{
     @extend .buttonAll;
     background-color: var(--green-sbrikki);
-    animation: moving 500ms infinite alternate ease-in-out;
+    animation: moving 1000ms infinite alternate ease-in-out;
+}
+
+.reverseAnimation{
+    animation: moving 1000ms infinite reverse ease-in-out;
 }
 
 @keyframes moving{
