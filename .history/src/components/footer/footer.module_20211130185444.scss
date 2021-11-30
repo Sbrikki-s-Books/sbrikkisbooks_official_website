@@ -1,0 +1,22 @@
+$breakpoints: (
+  phone: 480px,
+  tablet: 768px,
+  big-tablet: 1024px,
+  desktop: 1440px,
+);
+
+.footer{
+    display: flex;
+    width: 100vm;
+    height: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--hemp);
+    padding: 50px;
+    margin-top: 50px;
+
+    :first-child{
+        color: var(--black-sbrikki);
+        font-weight: bold;
+    }
+}
