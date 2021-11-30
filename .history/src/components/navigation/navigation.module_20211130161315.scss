@@ -12,13 +12,17 @@ $breakpoints: (
         justify-content: space-around;
         width: 300px;
     }
-    animation: slideIn 1000ms ease-out;
+    animation: slideIn 1s ease-in-out;
 }
 
 @keyframes slideIn{
     0%{
-        width: 700px;
-        transform: translateX(700px);
+        width: 900px;
+        transform: translateX(900px);
+    }
+    50%{
+        width: 300px;
+        transform: translateX(-50px);
     }
     100%{
         width: 300px;

@@ -10,18 +10,17 @@ $breakpoints: (
     @media (min-width: 768px) {
         display: flex;
         justify-content: space-around;
-        width: 300px;
     }
-    animation: slideIn 1000ms ease-out;
+    animation: slideIn 1s ease-in-out;
 }
 
 @keyframes slideIn{
     0%{
-        width: 700px;
-        transform: translateX(700px);
+        width: 300%;
+        transform: translateX(500px);
     }
     100%{
-        width: 300px;
+        width: 100%;
         transform: translateX(0);
     }
 }
