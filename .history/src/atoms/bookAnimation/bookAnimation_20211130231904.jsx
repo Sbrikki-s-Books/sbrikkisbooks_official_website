@@ -1,11 +1,13 @@
 import React from 'react'
-import bookLoading from '../../assets/readingSbrikki.gif'
+import bookLoading from '../../assets/book-paging.gif'
 import * as styles from './bookAnimation.module.scss'
 
 function BookAnimation() {
+    
     return (
+        
         <img 
-            src={bookLoading}
+            src={"https://tenor.com/bersX.gif"}
             alt="Sbrikki's Books Reading..." 
             className={styles.gif}
         />

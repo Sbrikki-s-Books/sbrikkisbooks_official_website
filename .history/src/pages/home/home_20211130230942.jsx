@@ -3,6 +3,7 @@ import * as styles from './home.module.scss';
 import Hero from '../../components/hero/hero';
 import Separator from '../../atoms/separator/separator'
 import Page404 from '../page404/page404';
+import ImageMoving from '../../atoms/imageMoving/imageMoving';
 
 const Gigi = (props) => {
 
@@ -44,6 +45,7 @@ const Home = () => {
             </div>
             <Separator />
             <Gigi showGigi={showGigi} setShowGigi={setShowGigi} />
+            <ImageMoving />
         </div>
     )
 }
