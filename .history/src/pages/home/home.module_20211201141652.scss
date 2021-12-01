@@ -7,6 +7,18 @@ $breakpoints: (
   desktop: 1440px,
 );
 
+html{
+  background-color: var(--white-sbrikki); 
+  color: var(--red-sbrikki);
+  overflow-x: hidden;
+  body{
+    margin: 0;
+  }
+  @media screen and (min-width: tablet){
+    font-size: 25px;
+  } 
+}
+
 .home{
   margin-top: 80px;
   display: flex;

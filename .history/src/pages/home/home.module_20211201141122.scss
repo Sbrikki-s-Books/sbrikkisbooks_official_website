@@ -7,6 +7,20 @@ $breakpoints: (
   desktop: 1440px,
 );
 
+html{
+  background-color: var(--white-sbrikki); 
+  font-family: 'Helvetica', monospace;  
+  color: var(--red-sbrikki);
+  font-size: 17px;
+  overflow-x: hidden;
+  body{
+    margin: 0;
+  }
+  @media screen and (min-width: tablet){
+    font-size: 25px;
+  } 
+}
+
 .home{
   margin-top: 80px;
   display: flex;
