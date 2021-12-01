@@ -34,11 +34,11 @@ const App = () => {
             <div>
                 <Routes>
                     <Route index element={<Home />} />
-                    <Route exact path="/sbrikkisbooks_official_website" element={ <Home /> } />
-                    <Route exact path="/sbrikkisbooks_official_website/spotify" element={ <Spotify /> } />
-                    <Route exact path="/sbrikkisbooks_official_website/stats" element={ <Stats /> } />
-                    <Route exact path="/sbrikkisbooks_official_website/king" element={ <King isBlocking={isBlocking} toggleIsBlocking={changeBlocking} startBlocked={startBlocked} /> } />
-                    <Route exact path="/sbrikkisbooks_official_website/404" element={ <Page404 /> } />
+                    <Route exact path="/sbrikkisbooks" element={ <Home /> } />
+                    <Route exact path="/sbrikkisbooks/spotify" element={ <Spotify /> } />
+                    <Route exact path="/sbrikkisbooks/stats" element={ <Stats /> } />
+                    <Route exact path="/sbrikkisbooks/king" element={ <King isBlocking={isBlocking} toggleIsBlocking={changeBlocking} startBlocked={startBlocked} /> } />
+                    <Route exact path="/sbrikkisbooks/404" element={ <Page404 /> } />
                     <Route path="*" element={ <Page404 /> } />
                 </Routes>
             </div>
