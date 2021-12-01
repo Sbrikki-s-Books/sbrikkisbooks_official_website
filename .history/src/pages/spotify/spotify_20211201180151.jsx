@@ -18,13 +18,6 @@ function Spotify() {
                 Feel <strong>free</strong> to add songs, during meetings we will <strong>listen</strong> to it
             </p>
 
-            {loaded ?
-                null
-                :
-                <LoadingBooks>
-                    <p>I'm looking for the playlist...</p>
-                </LoadingBooks>
-            }
             <iframe
                 src="https://open.spotify.com/embed/playlist/3XWNoTPdXdIRapbK86Y11l"
                 width="100%"
@@ -35,6 +28,14 @@ function Spotify() {
                 title="Spotify"
                 onLoad={() => ready()}
             ></iframe>
+
+{loaded ?
+                null
+                :
+                <LoadingBooks>
+                    <p>I'm looking for the playlist...</p>
+                </LoadingBooks>
+            }
 
             <Separator />
         </div>

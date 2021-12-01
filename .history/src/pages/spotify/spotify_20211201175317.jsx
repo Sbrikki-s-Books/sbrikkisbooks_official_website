@@ -6,10 +6,6 @@ import LoadingBooks from '../../atoms/loadingBooks/loadingBooks';
 function Spotify() {
     const [loaded, setLoaded] = useState(false);
 
-    const ready = () => {
-        setLoaded(true);
-    }
-
     return (
         <div className={styles.spotify}>
             <h1>Sbrikki's Books Spotify playlist</h1>
@@ -19,22 +15,19 @@ function Spotify() {
             </p>
 
             {loaded ?
-                null
+                <LoadingBooks />
                 :
-                <LoadingBooks>
-                    <p>I'm looking for the playlist...</p>
-                </LoadingBooks>
+                <iframe
+                    src="https://open.spotify.com/embed/playlist/3XWNoTPdXdIRapbK86Y11l"
+                    width="100%"
+                    height="380"
+                    frameBorder="0"
+                    allowtransparency="true"
+                    allow="encrypted-media"
+                    title="Spotify"
+                    onLoad={setLoaded(true)}
+                ></iframe>
             }
-            <iframe
-                src="https://open.spotify.com/embed/playlist/3XWNoTPdXdIRapbK86Y11l"
-                width="100%"
-                height="380"
-                frameBorder="0"
-                allowtransparency="true"
-                allow="encrypted-media"
-                title="Spotify"
-                onLoad={() => ready()}
-            ></iframe>
 
             <Separator />
         </div>

@@ -1,0 +1,23 @@
+.bookWrapper{
+    width: 70px;
+    height: 70px;
+}
+
+.book{
+    width: max-content;
+    height: auto;
+}
+
+.book1{
+    @extend .book;
+}
+
+.book2{
+    @extend .book;
+    margin-top: -54px;
+}
+
+.book3{
+    @extend .book;
+    margin-top: -54px;
+}

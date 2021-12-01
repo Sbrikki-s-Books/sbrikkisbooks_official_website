@@ -10,17 +10,15 @@
 
 iframe{
     margin-top: 80px;
-    animation: fadeIn 2000ms ease-in-out;
+    animation: fadeIn 1500ms 1000ms ease-in-out;
     border-radius: 10px;
 }
 
 @keyframes fadeIn {
     0%{
-        opacity: (0);
-        transform: translateY(100px);
+        opacity: (0.1);
     }
     100%{
         opacity: (1);
-        transform: translateY(0);
     }
 }

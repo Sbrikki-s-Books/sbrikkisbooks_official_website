@@ -4,7 +4,7 @@ import Separator from '../../atoms/separator/separator'
 import LoadingBooks from '../../atoms/loadingBooks/loadingBooks';
 
 function Spotify() {
-    const [loaded, setLoaded] = useState(false);
+    const [loaded, setLoaded] = useState(true);
 
     const ready = () => {
         setLoaded(true);
@@ -19,22 +19,21 @@ function Spotify() {
             </p>
 
             {loaded ?
-                null
-                :
-                <LoadingBooks>
-                    <p>I'm looking for the playlist...</p>
-                </LoadingBooks>
+                <iframe
+                    src="https://open.spotify.com/embed/playlist/3XWNoTPdXdIRapbK86Y11l"
+                    width="100%"
+                    height="380"
+                    frameBorder="0"
+                    allowtransparency="true"
+                    allow="encrypted-media"
+                    title="Spotify"
+                    onLoad={() => ready}
+                ></iframe>
+            :
+            <LoadingBooks>
+                <p>I'm looking for the playlist...</p>
+            </LoadingBooks>
             }
-            <iframe
-                src="https://open.spotify.com/embed/playlist/3XWNoTPdXdIRapbK86Y11l"
-                width="100%"
-                height="380"
-                frameBorder="0"
-                allowtransparency="true"
-                allow="encrypted-media"
-                title="Spotify"
-                onLoad={() => ready()}
-            ></iframe>
 
             <Separator />
         </div>
