@@ -1,6 +1,6 @@
 {
-  "name": "sbrikkisbooks_official_website",
-  "homepage": "https://Mike-cheek.github.io/sbrikkisbooks_official_website",
+  "name": "sbrikkisbooks",
+  "homepage": "https://Mike-cheek.github.io/sbrikkisbooks",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
