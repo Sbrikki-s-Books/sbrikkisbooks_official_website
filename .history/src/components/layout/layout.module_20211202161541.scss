@@ -1,0 +1,14 @@
+.layout{
+    width: 100vw;
+    height: auto;
+}
+
+.layoutScrollable{
+    @extend .layout;
+    overflow-y: scroll;
+}
+
+.layoutNotScrollable{
+    @extend .layout;
+    overflow-y: hidden;
+}

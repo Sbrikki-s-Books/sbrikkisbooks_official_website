@@ -1,0 +1,14 @@
+.contactUs{
+    position: absolute;
+    z-index: 10;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+    bottom: 20%;
+    padding: 5%;
+    align-self: center;
+    justify-self: center;
+    border-radius: 10%;
+    background-color: var(--white-sbrikki);
+    box-shadow:2px 3px 5px #999;
+}
