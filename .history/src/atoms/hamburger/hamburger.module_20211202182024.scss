@@ -1,0 +1,132 @@
+$breakpoints: (
+  phone: 480px,
+  tablet: 768px,
+  big-tablet: 1024px,
+  desktop: 1440px,
+);
+
+.line{
+    background-color: black;
+    width: 40px;
+    height: 5px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+.hamburger{
+    width: 45px;
+    height: 45px;
+    padding: 5px;
+    animation: pop 500ms ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    @media(min-width: 768px){
+        width: 50px;
+    }
+}
+.hamLine1{
+    @extend .line;
+    animation: animateCrossLine1 1s ease-in-out forwards;
+}
+.hamLine2{
+    @extend .line;
+    animation: animateCrossLine2 1s ease-in-out forwards;
+}
+.hamLine3{
+    @extend .line;
+    animation: animateCrossLine3 1s ease-in-out forwards;
+}
+
+.crossLine1{
+    @extend .hamLine1;
+    animation: animateHamLine1 1s ease-in-out forwards;
+}
+.crossLine2{
+    @extend .hamLine2;
+    animation: animateHamLine2 1s ease-in-out forwards;
+}
+.crossLine3{
+    @extend .hamLine3;
+    animation: animateHamLine3 1s ease-in-out forwards;
+}
+
+@keyframes animateHamLine1{
+    0%{
+        margin-bottom: 25px;
+    }
+    50%{
+        margin: 0;
+        transform: translateY(20px);
+    }
+    100%{
+        margin: 0;        
+        transform: rotateZ(45deg);
+    }
+}
+
+@keyframes animateHamLine2{
+    0%{
+        transform: none;
+    }
+    100%{
+        transform: translateX(200px);
+        opacity: 0;
+    }
+}
+
+@keyframes animateHamLine3{
+    0%{
+        margin-top: 25px;
+    }
+    50%{
+        margin: 0;
+        transform: translateY(-20px);
+    }
+    100%{
+        margin: 0;
+        transform: rotateZ(-45deg);
+    }
+}
+
+@keyframes animateCrossLine1{
+    0%{
+        transform: rotateZ(45deg);
+    }
+    100%{
+        transform: none;
+        margin-bottom: 25px;
+    }
+}
+
+@keyframes animateCrossLine2{
+    0%{
+        transform: translateX(200px);
+    }
+    100%{
+        transform: none;
+    }
+}
+
+@keyframes animateCrossLine3{
+    0%{
+        transform: rotateZ(-45deg);
+    }
+    100%{
+        transform: none;
+        margin-top: 25px;
+    }
+}
+
+@keyframes pop{
+    0% {
+        transform: scale(0.8);
+    }
+    70%{
+        transform: scale(1.1)
+    }
+    100%{
+        transform: scale(1)
+    }
+}
