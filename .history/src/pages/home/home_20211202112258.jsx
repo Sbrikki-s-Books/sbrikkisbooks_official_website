@@ -3,7 +3,6 @@ import * as styles from './home.module.scss';
 import Hero from '../../components/hero/hero';
 import Separator from '../../atoms/separator/separator'
 import Page404 from '../page404/page404';
-import LoadingBooks from '../../atoms/loadingBooks/loadingBooks'
 
 const Gigi = (props) => {
 

@@ -18,7 +18,7 @@ function Spotify() {
                 Feel <strong>free</strong> to add songs, during meetings we will <strong>listen</strong> to it
             </p>
 
-            {loaded ?
+            {!loaded ?
                 null
                 :
                 <div className={styles.loading}>

@@ -10,25 +10,13 @@
 
 iframe{
     margin-top: 80px;
-    animation: fadeIn 3000ms ease-in-out;
+    animation: fadeIn 2000ms ease-in-out;
     border-radius: 10px;
-}
-
-.loading{
-    z-index: 4;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 @keyframes fadeIn {
     0%{
         opacity: (0);
-    }
-    10%{
-        opacity: 0;
     }
     100%{
         opacity: (1);
