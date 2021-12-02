@@ -8,10 +8,7 @@ function ContactUs(props) {
     const [surname, setSurname] = useState();
 
     const changeName = () => {
-        setName(document.getElementById("nameIn").value);
-    }
-    const changeSurname = () => {
-        setSurname(document.getElementById("surnameIn").value);
+
     }
     
     return (
@@ -21,8 +18,8 @@ function ContactUs(props) {
                     <Hamburger navBarOpen={props.formOpened} onClick={props.closeForm} />
                 </div>
                 <p>Insert name and surname and contact us!</p>
-                <input type="text" id="nameIn" onChange={changeName} className={styles.nsInput} placeholder="Name" />
-                <input type="text" id="surnameIn" onChange={changeSurname} className={styles.nsInput} placeholder="Surname"/>
+                <input type="text" id="nameIn" onChange={e => setName(e.target.)} className={styles.nsInput} placeholder="Name" />
+                <input type="text" id="surnameIn" onChange={e => setSurname(e.value)} className={styles.nsInput} placeholder="Surname"/>
 
                 <MailTo email="sbrikkisbooks@gmail.com" subject="I want to join!" body={"Hi, I'm "+name+" "+surname+". I want to join to your Book Club!"}>
                     Send us a mail!

@@ -9,6 +9,7 @@ function ContactUs(props) {
 
     const changeName = () => {
         setName(document.getElementById("nameIn").value);
+        console.log(name)
     }
     const changeSurname = () => {
         setSurname(document.getElementById("surnameIn").value);
