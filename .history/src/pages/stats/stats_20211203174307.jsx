@@ -1,7 +1,7 @@
 import React from 'react'
 import * as styles from './stats.module.scss'
 import Separator from '../../atoms/separator/separator'
-import LoadingBooks from '../../atoms/loadingBooks/loadingBooks'
+import LoadingBooks from '../../atoms/loadingBooks'
 //import firebase from '../../atoms/firebase'
 
 const Stats = () => {
