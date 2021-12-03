@@ -1,0 +1,64 @@
+$breakpoints: (
+  phone: 480px,
+  tablet: 768px,
+  big-tablet: 1024px,
+  desktop: 1440px,
+);
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 30%;
+    box-shadow: 0px 0px 20px 10px inset;
+
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+    }
+}
+
+.sbrikki{
+    font-size: 2rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.word{
+    max-width: 100%;
+    letter-spacing: 5px;
+    font-size: 3rem;
+    position: absolute;
+    text-transform: uppercase;
+    animation: word 15s infinite ease-in-out;
+}
+
+.word:nth-child(1){
+    animation-delay: -15s;
+}
+.word:nth-child(2){
+    animation-delay: -11s;
+}
+.word:nth-child(3){
+    animation-delay: -7s;
+}
+.word:nth-child(4){
+    animation-delay: -3s;
+}
+
+@keyframes word{
+    0%, 5%, 100%{
+        filter: blur(0px);
+        opacity: 1;
+    }
+    20%, 80%{
+        filter: blur(35px);
+        opacity: 0;
+    }
+}

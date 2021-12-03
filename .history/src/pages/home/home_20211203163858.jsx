@@ -3,6 +3,7 @@ import * as styles from './home.module.scss';
 import Hero from '../../components/hero/hero';
 import Separator from '../../atoms/separator/separator'
 import Page404 from '../page404/page404';
+import LoadingBooks from '../../atoms/loadingBooks/loadingBooks'
 import BookClub from '../../atoms/bookClub/bookClub';
 
 const Gigi = (props) => {
@@ -45,7 +46,7 @@ const Home = () => {
             </div>
             <Separator />
             <Gigi showGigi={showGigi} setShowGigi={setShowGigi} />
-            {/*<LoadingBooks />*/}
+            <LoadingBooks />
             <BookClub />
         </div>
     )
