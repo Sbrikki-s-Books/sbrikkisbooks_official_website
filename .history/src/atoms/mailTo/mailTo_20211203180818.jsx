@@ -14,10 +14,6 @@ const MailTo = ({ email, subject = '', body = '', children, enabled }) => {
         <a href={`mailto:${email}${params}`} className={enabled? styles.mailto : styles.mailtoDisabled}>
             {children}
         </a>
-        {
-            enabled?
-            null: <p className={styles.suggestion}>Fill in the fields above first</p>
-        }
         </>
     );
 }

@@ -29,7 +29,6 @@ $breakpoints: (
   }
 }
 
-.suggestion{
-  font-size: 0.7rem;
-  margin-top: -3%;
+.mailtoDisabled::after{
+  content: "Fill in the fields above first";
 }

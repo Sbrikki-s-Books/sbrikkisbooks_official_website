@@ -13,14 +13,6 @@ function ContactUs(props) {
     const changeSurname = () => {
         setSurname(document.getElementById("surnameIn").value);
     }
-
-    const checkNameSurname = () => {
-        if(name === undefined || surname === undefined)
-            return false;
-        if(name === '' || surname === '')
-            return false;
-        return true;
-    }
     
     return (
         <div className={styles.contactUs} >
@@ -31,12 +23,12 @@ function ContactUs(props) {
                 <p>Insert name and surname and contact us!</p>
                 <input type="text" id="nameIn" onChange={changeName} className={styles.nsInput} placeholder="Name" />
                 <input type="text" id="surnameIn" onChange={changeSurname} className={styles.nsInput} placeholder="Surname"/>
-                {console.log(name + " " + surname )}
+
                 <MailTo
                     email="sbrikkisbooks@gmail.com" 
                     subject="I want to join!" 
                     body={"Hi, I'm "+name+" "+surname+". I want to join to your Book Club!"}
-                    enabled={checkNameSurname() ? true : false}
+                    enabled={name & surname ? false : true}
                 >
                     Send us a mail!
                 </MailTo>

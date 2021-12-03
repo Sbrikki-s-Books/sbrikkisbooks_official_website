@@ -13,14 +13,6 @@ function ContactUs(props) {
     const changeSurname = () => {
         setSurname(document.getElementById("surnameIn").value);
     }
-
-    const checkNameSurname = () => {
-        if(name === undefined || surname === undefined)
-            return false;
-        if(name === '' || surname === '')
-            return false;
-        return true;
-    }
     
     return (
         <div className={styles.contactUs} >
@@ -36,7 +28,7 @@ function ContactUs(props) {
                     email="sbrikkisbooks@gmail.com" 
                     subject="I want to join!" 
                     body={"Hi, I'm "+name+" "+surname+". I want to join to your Book Club!"}
-                    enabled={checkNameSurname() ? true : false}
+                    enabled={name & surname ? false : true}
                 >
                     Send us a mail!
                 </MailTo>

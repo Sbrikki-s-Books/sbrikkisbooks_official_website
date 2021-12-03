@@ -36,7 +36,7 @@ function ContactUs(props) {
                     email="sbrikkisbooks@gmail.com" 
                     subject="I want to join!" 
                     body={"Hi, I'm "+name+" "+surname+". I want to join to your Book Club!"}
-                    enabled={checkNameSurname() ? true : false}
+                    enabled={checkNameSurname ? true : false}
                 >
                     Send us a mail!
                 </MailTo>

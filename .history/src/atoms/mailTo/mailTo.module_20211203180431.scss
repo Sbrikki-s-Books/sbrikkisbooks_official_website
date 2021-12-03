@@ -25,11 +25,5 @@ $breakpoints: (
       @extend .mailto;
       pointer-events: none;
       cursor: default;
-      opacity: 0.3;
   }
-}
-
-.suggestion{
-  font-size: 0.7rem;
-  margin-top: -3%;
 }

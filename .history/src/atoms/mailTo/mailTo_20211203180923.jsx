@@ -16,7 +16,7 @@ const MailTo = ({ email, subject = '', body = '', children, enabled }) => {
         </a>
         {
             enabled?
-            null: <p className={styles.suggestion}>Fill in the fields above first</p>
+            null: <p className={styles.suggestion}>"Fill in the fields above first"</p>
         }
         </>
     );

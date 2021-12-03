@@ -21,15 +21,8 @@ $breakpoints: (
   border-color: var(--grey-sbrikki);
   color: var(--black-sbrikki);
 
-  &Disabled{
-      @extend .mailto;
+  &-disabled{
       pointer-events: none;
       cursor: default;
-      opacity: 0.3;
   }
-}
-
-.suggestion{
-  font-size: 0.7rem;
-  margin-top: -3%;
 }
