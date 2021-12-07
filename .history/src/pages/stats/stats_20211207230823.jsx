@@ -10,6 +10,7 @@ const Stats = () => {
     const [data, setData] = useState({Sorry: "I'm loading"});
 
     const fetchData = async () => {
+        let dataarray = [];
         console.log(database);
         const dbRef = ref(database);
         get(child(dbRef, `meeting/`)).then((snapshot) => {

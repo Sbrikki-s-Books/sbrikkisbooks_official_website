@@ -1,6 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from 'firebase/app';
-import { getDatabase } from "firebase/database";
+import { getDatabase, ref, get, child } from "firebase/database";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -18,9 +18,21 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+const app = await initializeApp(firebaseConfig);
 
 // Get a reference to the database service
-const database = getDatabase(app, "https://sbrikkis-books-website-default-rtdb.firebaseio.com/");
+const database = getDatabase(app, process.env.DATABASE_URL);
+
+
+const dbRef = ref(database);
+get(child(dbRef, `Test`)).then((snapshot) => {
+  if (snapshot.exists()) {
+    console.log(snapshot.val());
+  } else {
+    console.log("No data available");
+  }
+}).catch((error) => {
+  console.error(error);
+});
 
 export default database;

@@ -7,7 +7,7 @@ import { ref, get, child } from 'firebase/database'
 
 const Stats = () => {
 
-    const [data, setData] = useState({Sorry: "I'm loading"});
+    const [data, setData] = useState({});
 
     const fetchData = async () => {
         console.log(database);
@@ -40,7 +40,7 @@ const Stats = () => {
             </a>
             <Separator />
             <div>
-                <p>{JSON.stringify(data)}</p>
+                {console.log(data)}
             </div>
             <LoadingBooks />
         </div>

@@ -21,6 +21,5 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 
 // Get a reference to the database service
-const database = getDatabase(app, "https://sbrikkis-books-website-default-rtdb.firebaseio.com/");
-
+const database = getDatabase(app);
 export default database;

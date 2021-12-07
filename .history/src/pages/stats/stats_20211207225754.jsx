@@ -7,14 +7,15 @@ import { ref, get, child } from 'firebase/database'
 
 const Stats = () => {
 
-    const [data, setData] = useState({Sorry: "I'm loading"});
+    const [data, setData] = useState([]);
 
     const fetchData = async () => {
+        let dataarray = [];
         console.log(database);
         const dbRef = ref(database);
         get(child(dbRef, `meeting/`)).then((snapshot) => {
             if (snapshot.exists()) {
-                setData(snapshot.toJSON());
+                setData(snapshot.val().forEach((x,y) => console.log(x,y)));
             } else {
                 console.log("No data available");
             }
@@ -40,7 +41,6 @@ const Stats = () => {
             </a>
             <Separator />
             <div>
-                <p>{JSON.stringify(data)}</p>
             </div>
             <LoadingBooks />
         </div>

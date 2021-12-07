@@ -7,9 +7,10 @@ import { ref, get, child } from 'firebase/database'
 
 const Stats = () => {
 
-    const [data, setData] = useState({Sorry: "I'm loading"});
+    const [data, setData] = useState({});
 
     const fetchData = async () => {
+        let dataarray = [];
         console.log(database);
         const dbRef = ref(database);
         get(child(dbRef, `meeting/`)).then((snapshot) => {
@@ -40,7 +41,7 @@ const Stats = () => {
             </a>
             <Separator />
             <div>
-                <p>{JSON.stringify(data)}</p>
+                <p>{data.name}</p>
             </div>
             <LoadingBooks />
         </div>

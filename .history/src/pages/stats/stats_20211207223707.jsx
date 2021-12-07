@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import * as styles from './stats.module.scss'
 import Separator from '../../atoms/separator/separator'
 import LoadingBooks from '../../atoms/loadingBooks/loadingBooks'
@@ -7,14 +7,14 @@ import { ref, get, child } from 'firebase/database'
 
 const Stats = () => {
 
-    const [data, setData] = useState({Sorry: "I'm loading"});
+    const [data, setData] = useState({});
 
     const fetchData = async () => {
         console.log(database);
         const dbRef = ref(database);
-        get(child(dbRef, `meeting/`)).then((snapshot) => {
+        get(child(dbRef, `Test/`)).then((snapshot) => {
             if (snapshot.exists()) {
-                setData(snapshot.toJSON());
+                setData(JSON.stringify(snapshot.val()));
             } else {
                 console.log("No data available");
             }
@@ -39,9 +39,6 @@ const Stats = () => {
                 SEOBILITY
             </a>
             <Separator />
-            <div>
-                <p>{JSON.stringify(data)}</p>
-            </div>
             <LoadingBooks />
         </div>
     )
