@@ -7,7 +7,7 @@ import { ref, get, child } from 'firebase/database'
 
 const Stats = () => {
 
-    const [data, setData] = useState([]);
+    const [data, setData] = useState({Sorry: "I'm loading"});
 
     const fetchData = async () => {
         let tmpArray = [];
@@ -15,9 +15,8 @@ const Stats = () => {
         const dbRef = ref(database);
         get(child(dbRef, `meeting/`)).then((snapshot) => {
             if (snapshot.exists()) {
-                tmpArray = JSON.stringify(snapshot.toJSON()).split(/(?<=[,{}])/);
-                console.log(tmpArray)
-                setData(tmpArray);
+                tmpArray = JSON.stringify(data).split(',');
+                setData(snapshot.toJSON());
             } else {
                 console.log("No data available");
             }
@@ -43,10 +42,7 @@ const Stats = () => {
             </a>
             <Separator />
             <div>
-                {data
-                .map((elem, i) => {
-                    return <p>{elem}</p>
-                })}
+                <p>{JSON.stringify(data)}</p>
             </div>
             <LoadingBooks />
         </div>

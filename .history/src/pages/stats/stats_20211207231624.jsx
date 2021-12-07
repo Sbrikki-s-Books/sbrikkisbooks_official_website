@@ -15,7 +15,7 @@ const Stats = () => {
         const dbRef = ref(database);
         get(child(dbRef, `meeting/`)).then((snapshot) => {
             if (snapshot.exists()) {
-                tmpArray = JSON.stringify(snapshot.toJSON()).split(/(?<=[,{}])/);
+                tmpArray = JSON.stringify(snapshot.toJSON()).split(',');
                 console.log(tmpArray)
                 setData(tmpArray);
             } else {
@@ -43,9 +43,8 @@ const Stats = () => {
             </a>
             <Separator />
             <div>
-                {data
-                .map((elem, i) => {
-                    return <p>{elem}</p>
+                {data.map((elem, i) => {
+                    return <p>{elem+", "+i}</p>
                 })}
             </div>
             <LoadingBooks />
