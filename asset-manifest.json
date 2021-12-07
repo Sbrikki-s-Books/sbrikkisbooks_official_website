@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/sbrikkisbooks/static/css/main.71ed2316.chunk.css",
-    "main.js": "/sbrikkisbooks/static/js/main.112d00d4.chunk.js",
-    "main.js.map": "/sbrikkisbooks/static/js/main.112d00d4.chunk.js.map",
-    "runtime-main.js": "/sbrikkisbooks/static/js/runtime-main.f502b966.js",
-    "runtime-main.js.map": "/sbrikkisbooks/static/js/runtime-main.f502b966.js.map",
-    "static/js/2.527e389a.chunk.js": "/sbrikkisbooks/static/js/2.527e389a.chunk.js",
-    "static/js/2.527e389a.chunk.js.map": "/sbrikkisbooks/static/js/2.527e389a.chunk.js.map",
-    "static/js/3.d725e293.chunk.js": "/sbrikkisbooks/static/js/3.d725e293.chunk.js",
-    "static/js/3.d725e293.chunk.js.map": "/sbrikkisbooks/static/js/3.d725e293.chunk.js.map",
+    "main.js": "/sbrikkisbooks/static/js/main.658a68f9.chunk.js",
+    "main.js.map": "/sbrikkisbooks/static/js/main.658a68f9.chunk.js.map",
+    "runtime-main.js": "/sbrikkisbooks/static/js/runtime-main.0bb05aee.js",
+    "runtime-main.js.map": "/sbrikkisbooks/static/js/runtime-main.0bb05aee.js.map",
+    "static/js/2.6a96401c.chunk.js": "/sbrikkisbooks/static/js/2.6a96401c.chunk.js",
+    "static/js/2.6a96401c.chunk.js.map": "/sbrikkisbooks/static/js/2.6a96401c.chunk.js.map",
+    "static/js/3.bc6b2001.chunk.js": "/sbrikkisbooks/static/js/3.bc6b2001.chunk.js",
+    "static/js/3.bc6b2001.chunk.js.map": "/sbrikkisbooks/static/js/3.bc6b2001.chunk.js.map",
     "index.html": "/sbrikkisbooks/index.html",
     "static/css/main.71ed2316.chunk.css.map": "/sbrikkisbooks/static/css/main.71ed2316.chunk.css.map",
-    "static/js/2.527e389a.chunk.js.LICENSE.txt": "/sbrikkisbooks/static/js/2.527e389a.chunk.js.LICENSE.txt",
+    "static/js/2.6a96401c.chunk.js.LICENSE.txt": "/sbrikkisbooks/static/js/2.6a96401c.chunk.js.LICENSE.txt",
     "static/media/book2.3c2c3423.png": "/sbrikkisbooks/static/media/book2.3c2c3423.png",
     "static/media/gigi.6cdf0e9e.webp": "/sbrikkisbooks/static/media/gigi.6cdf0e9e.webp",
     "static/media/logo.72546d34.svg": "/sbrikkisbooks/static/media/logo.72546d34.svg",
     "static/media/readingSbrikki.8a8c4a62.gif": "/sbrikkisbooks/static/media/readingSbrikki.8a8c4a62.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.f502b966.js",
-    "static/js/2.527e389a.chunk.js",
+    "static/js/runtime-main.0bb05aee.js",
+    "static/js/2.6a96401c.chunk.js",
     "static/css/main.71ed2316.chunk.css",
-    "static/js/main.112d00d4.chunk.js"
+    "static/js/main.658a68f9.chunk.js"
   ]
 }
