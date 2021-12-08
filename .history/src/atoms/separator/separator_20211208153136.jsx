@@ -3,7 +3,8 @@ import * as styles from './separator.module.scss'
 
 const Separator = () => {
     return (
-        <div className={styles.separator} />
+        <div className={styles.separator}>
+        </div>
     )
 }
 
