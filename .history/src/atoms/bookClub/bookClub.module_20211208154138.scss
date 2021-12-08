@@ -22,42 +22,11 @@ $breakpoints: (
     }
 }
 
-.borders{
-    height: 2px;
-    border-radius: 50px;
-    background-color: var(--red-sbrikki);
-}
-
 .sbrikki{
     font-size: 1.7rem;
     text-align: center;
     padding: 20px 20px 40px;
     width: -webkit-fill-available;
-    align-items: center;
-    justify-content: center;
-    :nth-child(1){
-        @extend .borders;
-        margin-bottom: -7%;
-        transform: scaleX(-1);
-        margin-left: auto;
-        margin-right: auto;
-        @media screen and (min-width: 768px) {
-            margin-right: 0;
-        }
-        animation: borderAnimation 2s infinite ease-in-out alternate;
-    }
-    :nth-child(3){
-        @extend .borders;
-        margin-top: -7%;
-        margin-left: auto;
-        margin-right: auto;
-        @media screen and (min-width: 768px) {
-            margin-right: 0;
-            margin-left: 0;
-            animation: borderAnimation 2s infinite ease-in-out alternate;
-        }
-        animation: borderAnimation 2s infinite ease-in-out alternate-reverse;
-    }
     @media screen and (min-width: 768px) {
         font-size: 2rem;
         padding: 20px;
@@ -74,11 +43,11 @@ $breakpoints: (
 
 .word{
     letter-spacing: 5px;
-    font-size: 1.8rem;
+    font-size: 2rem;
     position: absolute;
-    animation: word 15s infinite ease-in;
+    animation: word 15s infinite ease-in-out;
     @media screen and (min-width: 768px) {
-        font-size: 2.8rem;
+        font-size: 3rem;
     }
 }
 
@@ -108,11 +77,12 @@ $breakpoints: (
 
 @keyframes borderAnimation{
     0%{
+        border-bottom: 2px inset var(--red-sbrikki);
         width: 0;
-        opacity: 0;
+        left: -100px;
     }
     100%{
-        width: 90%;
-        opacity: 0.5;
+        width: 100%;
+        left: 0;
     }
 }

@@ -54,9 +54,8 @@ $breakpoints: (
         @media screen and (min-width: 768px) {
             margin-right: 0;
             margin-left: 0;
-            animation: borderAnimation 2s infinite ease-in-out alternate;
         }
-        animation: borderAnimation 2s infinite ease-in-out alternate-reverse;
+        animation: borderAnimation 2s infinite ease-in-out alternate;
     }
     @media screen and (min-width: 768px) {
         font-size: 2rem;
@@ -74,11 +73,11 @@ $breakpoints: (
 
 .word{
     letter-spacing: 5px;
-    font-size: 1.8rem;
+    font-size: 2rem;
     position: absolute;
-    animation: word 15s infinite ease-in;
+    animation: word 15s infinite ease-in-out;
     @media screen and (min-width: 768px) {
-        font-size: 2.8rem;
+        font-size: 3rem;
     }
 }
 
@@ -112,7 +111,7 @@ $breakpoints: (
         opacity: 0;
     }
     100%{
-        width: 90%;
-        opacity: 0.5;
+        width: 100%;
+        opacity: 1;
     }
 }

@@ -5,7 +5,6 @@ function BookClub() {
     return (
         <div className={styles.wrap}>
             <div className={styles.sbrikki}>
-                <div></div>
                 <p>Sbrikki's Books is </p>
                 <div></div>
             </div>
