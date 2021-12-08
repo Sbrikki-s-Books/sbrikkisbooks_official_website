@@ -48,14 +48,13 @@ const Stats = () => {
                 SEOBILITY
             </a>
             <Separator />
-            <div className={styles.lastMeetings}>
+            <div>
                 <p>Here there are last meetings info</p>
                 {data
                 .map((elem, i) => {
-                    return <p className={styles.meeting}>{"Meeting "+ elem[0] + ", Date: " + elem[1]}</p>
+                    return <p>{"Meeting "+ elem[0] + ", Date: " + elem[1]}</p>
                 })}
             </div>
-            <Separator />
             <LoadingBooks />
         </div>
     )

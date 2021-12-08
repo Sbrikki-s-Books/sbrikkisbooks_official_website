@@ -55,7 +55,6 @@ const Stats = () => {
                     return <p className={styles.meeting}>{"Meeting "+ elem[0] + ", Date: " + elem[1]}</p>
                 })}
             </div>
-            <Separator />
             <LoadingBooks />
         </div>
     )

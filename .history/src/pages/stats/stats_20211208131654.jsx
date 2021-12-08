@@ -20,7 +20,6 @@ const Stats = () => {
                     .split(/(?<=[,])/);
                 for(let i = 0; i < tmpArray.length; i++){
                     tmpArray[i] = tmpArray[i].replace(',', '').split(/(?<=[:])/);
-                    tmpArray[i][0] = tmpArray[i][0].replace(':', '')
                 }
                 console.log(tmpArray)
                 setData(tmpArray);
@@ -48,14 +47,12 @@ const Stats = () => {
                 SEOBILITY
             </a>
             <Separator />
-            <div className={styles.lastMeetings}>
-                <p>Here there are last meetings info</p>
+            <div>
                 {data
                 .map((elem, i) => {
-                    return <p className={styles.meeting}>{"Meeting "+ elem[0] + ", Date: " + elem[1]}</p>
+                    return <p>{elem}</p>
                 })}
             </div>
-            <Separator />
             <LoadingBooks />
         </div>
     )

@@ -10,7 +10,7 @@ const Stats = () => {
     const [data, setData] = useState([]);
 
     const fetchData = async () => {
-        let tmpArray = [[]];
+        let tmpArray = [];
         console.log(database);
         const dbRef = ref(database);
         get(child(dbRef, `meeting/`)).then((snapshot) => {
@@ -18,10 +18,6 @@ const Stats = () => {
                 tmpArray = JSON.stringify(snapshot.toJSON())
                     .replace('{', '').replace('}', '').replaceAll('"', '')
                     .split(/(?<=[,])/);
-                for(let i = 0; i < tmpArray.length; i++){
-                    tmpArray[i] = tmpArray[i].replace(',', '').split(/(?<=[:])/);
-                    tmpArray[i][0] = tmpArray[i][0].replace(':', '')
-                }
                 console.log(tmpArray)
                 setData(tmpArray);
             } else {
@@ -48,14 +44,12 @@ const Stats = () => {
                 SEOBILITY
             </a>
             <Separator />
-            <div className={styles.lastMeetings}>
-                <p>Here there are last meetings info</p>
+            <div>
                 {data
                 .map((elem, i) => {
-                    return <p className={styles.meeting}>{"Meeting "+ elem[0] + ", Date: " + elem[1]}</p>
+                    return <p>{elem}</p>
                 })}
             </div>
-            <Separator />
             <LoadingBooks />
         </div>
     )

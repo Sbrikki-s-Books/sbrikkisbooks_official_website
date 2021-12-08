@@ -33,10 +33,9 @@ $breakpoints: (
         font-size: 1.5rem;
         font-weight: bold;
     }
-    .meeting{
+    :nth-child(2){
         color: var(--black-sbrikki);
         border-radius: 10%;
-        box-shadow: 0px 0px 10px 5px inset var(--grey-sbrikki);
-        padding: 10px;
+        box-shadow: 0px 0px 10px 10px;
     }
 }
