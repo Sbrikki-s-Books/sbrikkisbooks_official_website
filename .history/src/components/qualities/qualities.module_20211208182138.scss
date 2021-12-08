@@ -1,0 +1,22 @@
+$breakpoints: (
+  phone: 480px,
+  tablet: 768px,
+  big-tablet: 1024px,
+  desktop: 1440px,
+);
+
+.wrap{
+    display: flex;
+    flex-direction: row;
+    :nth-child(1){
+        font-size: 0.6rem;
+    }
+}
+
+.graphs{
+    display: flex;
+    flex-direction: row;
+    :nth-child(1){
+        font-size: 0.5rem;
+    }
+}

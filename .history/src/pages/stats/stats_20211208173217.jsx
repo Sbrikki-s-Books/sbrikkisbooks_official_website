@@ -4,7 +4,6 @@ import Separator from '../../atoms/separator/separator'
 import LoadingBooks from '../../atoms/loadingBooks/loadingBooks'
 import database from '../../atoms/firebase'
 import { ref, get, child } from 'firebase/database'
-import Qualities from '../../components/qualities/qualities'
 
 const Stats = () => {
 
@@ -79,12 +78,10 @@ const Stats = () => {
             <Separator />
             <div className={styles.lastMeetings}>
                 <p>Here there are last meetings info</p>
-                {   
-                    data.map((elem, i) => {
-                        return <p className={styles.meeting} key={i}>{"Meeting "+ elem[0] + ", Date: " + elem[1]}</p>
-                    })
-                }
-                <Qualities quality={quality} />
+                {data
+                .map((elem, i) => {
+                    return <p className={styles.meeting}>{"Meeting "+ elem[0] + ", Date: " + elem[1]}</p>
+                })}
             </div>
             <Separator />
             <LoadingBooks />

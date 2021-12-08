@@ -51,7 +51,9 @@ const Stats = () => {
                     }
                 }
                 for(let i = 0; i < tmpArray.length; i++)
-                    tmpArray[i] = tmpArray[i].split('_')
+                    tmpArray[i] = tmpArray[i].split('_').array.forEach(element => {
+                        element = parseFloat(element)
+                    });
                 setQuality(tmpArray);
             } else {
                 console.log("No data available");
@@ -81,7 +83,7 @@ const Stats = () => {
                 <p>Here there are last meetings info</p>
                 {   
                     data.map((elem, i) => {
-                        return <p className={styles.meeting} key={i}>{"Meeting "+ elem[0] + ", Date: " + elem[1]}</p>
+                        return <p className={styles.meeting}>{"Meeting "+ elem[0] + ", Date: " + elem[1]}</p>
                     })
                 }
                 <Qualities quality={quality} />
