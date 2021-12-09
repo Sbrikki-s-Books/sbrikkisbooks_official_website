@@ -8,7 +8,7 @@ const Qualities = ({quality}) => {
             {
                 quality.map((elem, i) => {
                     return (
-                        <div className={styles.wrap} key={i} id={"meeting"+i*1+1} hidden>
+                        <div className={styles.wrap} key={i} id={"meeting"+i*1+1}>
                             <p>Meeting {i*1 + 1}</p>
                             <div>
                                 <MeetingQuality elem={elem} />

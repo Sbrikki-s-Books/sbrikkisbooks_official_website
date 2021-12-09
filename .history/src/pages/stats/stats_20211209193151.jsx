@@ -43,7 +43,7 @@ const Stats = () => {
         setError1(err);
       });
 
-    get(child(dbRef, `meetingQuality/`))
+    get(child(dbRef, `meetingQualityf/`))
       .then((snapshot) => {
         setFetched(true);
         setLoaded(true);
@@ -113,8 +113,8 @@ const Stats = () => {
             <p>Here there are last meetings info</p>
             {data.map((elem, i) => {
               return (
-                <div onClick={setVisibility("meeting" + i)} key={i}>
-                  <p className={styles.meeting}>
+                <div onClick={setVisibility("meeting" + i)}>
+                  <p className={styles.meeting} key={i}>
                     {"Meeting " + elem[0] + ", Date: " + elem[1]}
                   </p>
                 </div>

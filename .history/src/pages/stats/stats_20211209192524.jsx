@@ -15,10 +15,12 @@ const Stats = () => {
   const [error2, setError2] = useState(Error());
   const [error3, setError3] = useState(false);
 
+
+
   const fetchData = async () => {
     let tmpArray = [[]];
     const dbRef = ref(database);
-    get(child(dbRef, `meeting/`))
+    get(child(dbRef, `meetingfg/`))
       .then((snapshot) => {
         setFetched(true);
         setLoaded(true);
@@ -43,7 +45,7 @@ const Stats = () => {
         setError1(err);
       });
 
-    get(child(dbRef, `meetingQuality/`))
+    get(child(dbRef, `meetingQualityfg/`))
       .then((snapshot) => {
         setFetched(true);
         setLoaded(true);
@@ -73,7 +75,9 @@ const Stats = () => {
             tmpArray[i] = tmpArray[i].split("_");
           setQuality(tmpArray);
         } else {
-            setError3(true);
+            setLoaded(true);
+            setFetched(false);
+            setError3(true)
         }
       })
       .catch((err) => {
@@ -113,8 +117,8 @@ const Stats = () => {
             <p>Here there are last meetings info</p>
             {data.map((elem, i) => {
               return (
-                <div onClick={setVisibility("meeting" + i)} key={i}>
-                  <p className={styles.meeting}>
+                <div onClick={setVisibility("meeting" + i)}>
+                  <p className={styles.meeting} key={i}>
                     {"Meeting " + elem[0] + ", Date: " + elem[1]}
                   </p>
                 </div>

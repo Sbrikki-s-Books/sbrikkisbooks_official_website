@@ -11,9 +11,7 @@ const Stats = () => {
   const [quality, setQuality] = useState([]);
   const [fetched, setFetched] = useState(false);
   const [loaded, setLoaded] = useState(false);
-  const [error1, setError1] = useState(Error());
-  const [error2, setError2] = useState(Error());
-  const [error3, setError3] = useState(false);
+  const [error, setError] = useState(Error());
 
   const fetchData = async () => {
     let tmpArray = [[]];
@@ -34,16 +32,16 @@ const Stats = () => {
           }
           setData(tmpArray);
         } else {
-            setError3(true)
+            setError({message: "No data avaiable"})
         }
       })
       .catch((err) => {
         setFetched(false);
         setLoaded(true);
-        setError1(err);
+        setError(err);
       });
 
-    get(child(dbRef, `meetingQuality/`))
+    get(child(dbRef, `meetingQualitys/`))
       .then((snapshot) => {
         setFetched(true);
         setLoaded(true);
@@ -73,13 +71,15 @@ const Stats = () => {
             tmpArray[i] = tmpArray[i].split("_");
           setQuality(tmpArray);
         } else {
-            setError3(true);
+            setLoaded(true);
+            setFetched(false);
+            setError({message: "No data avaiable"})
         }
       })
       .catch((err) => {
         setFetched(false);
         setLoaded(true);
-        setError2(err);
+        setError(err);
       });
   };
 
@@ -113,8 +113,8 @@ const Stats = () => {
             <p>Here there are last meetings info</p>
             {data.map((elem, i) => {
               return (
-                <div onClick={setVisibility("meeting" + i)} key={i}>
-                  <p className={styles.meeting}>
+                <div onClick={setVisibility("meeting" + i)}>
+                  <p className={styles.meeting} key={i}>
                     {"Meeting " + elem[0] + ", Date: " + elem[1]}
                   </p>
                 </div>
@@ -123,7 +123,7 @@ const Stats = () => {
             <Qualities quality={quality} />
           </div>
         ) : (
-            <p>{error1.message + <br/> + error2.message + <br/> + error3? "No data avaiable" : null}</p>
+          <p>{error.message}</p>
         )
       ) : (
         <LoadingBooks />

@@ -34,6 +34,8 @@ const Stats = () => {
           }
           setData(tmpArray);
         } else {
+            setLoaded(true);
+            setFetched(false);
             setError3(true)
         }
       })
@@ -73,6 +75,8 @@ const Stats = () => {
             tmpArray[i] = tmpArray[i].split("_");
           setQuality(tmpArray);
         } else {
+            setLoaded(true);
+            setFetched(false);
             setError3(true);
         }
       })
@@ -113,8 +117,8 @@ const Stats = () => {
             <p>Here there are last meetings info</p>
             {data.map((elem, i) => {
               return (
-                <div onClick={setVisibility("meeting" + i)} key={i}>
-                  <p className={styles.meeting}>
+                <div onClick={setVisibility("meeting" + i)}>
+                  <p className={styles.meeting} key={i}>
                     {"Meeting " + elem[0] + ", Date: " + elem[1]}
                   </p>
                 </div>
