@@ -6,7 +6,7 @@ const NavItem = (props) => {
     return (<>
         {
             props.isHref ?
-                <a href={props.path} className={styles.item} onClick={props.onClick}>
+                <a href={props.path} className={styles.item}>
                     {props.text}
                 </a>
                 :

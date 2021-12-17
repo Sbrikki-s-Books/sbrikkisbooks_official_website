@@ -28,18 +28,12 @@ const NavBar = (props) => {
 
     const closeNavBar = () => {
         setNavBarOpen(false);
-        document.body.style.overflowY = "scroll";
-        document.body.style.height = "auto";
-        document.getElementsByTagName("html")[0].style.overflowY = "scroll";
-        document.getElementsByTagName("html")[0].style.height = "auto";
+        //props.setScrolling();
     }
 
     const openNavBar = () => {
         setNavBarOpen(true);
-        document.body.style.overflow = "hidden";
-        document.body.style.height = "100%";
-        document.getElementsByTagName("html")[0].style.overflow = "hidden";
-        document.getElementsByTagName("html")[0].style.height = "100%";
+        //props.setNotScrolling();
     }
 
     return (
