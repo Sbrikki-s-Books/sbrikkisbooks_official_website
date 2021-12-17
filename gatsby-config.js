@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/sbrikkisbooks",
   siteMetadata: {
     siteUrl: "https://Mike-cheek.github.io/sbrikkisbooks",
     title: "sbrikkisbooks",
