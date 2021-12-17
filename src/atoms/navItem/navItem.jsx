@@ -1,6 +1,6 @@
 import React from 'react';
 import * as styles from './navItem.module.scss';
-import { Link } from 'react-router-dom';
+import { Link } from 'gatsby';
 
 const NavItem = (props) => {
     return (<>

@@ -1,0 +1,57 @@
+@import './globals.scss';
+
+$breakpoints: (
+  phone: 480px,
+  tablet: 768px,
+  big-tablet: 1024px,
+  desktop: 1440px,
+);
+
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  @media screen and (min-width: 768px) {
+    justify-content: none;
+  }
+
+  .head{
+    text-align: center;
+    align-items: center;
+
+    @media screen and (min-width: 768px) {
+      margin: auto;
+    }
+  }
+}
+
+.hiddenInput{
+  background: none;
+  border: none;
+  height: 30px;
+  opacity: 0.1;
+}
+
+.description{
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px var(--grey-sbrikki);
+  border-radius: 7px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--red-sbrikki);
+  border-radius: 10px;
+}

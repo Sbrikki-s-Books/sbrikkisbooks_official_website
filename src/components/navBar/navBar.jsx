@@ -28,12 +28,12 @@ const NavBar = (props) => {
 
     const closeNavBar = () => {
         setNavBarOpen(false);
-        props.setScrolling();
+        //props.setScrolling();
     }
 
     const openNavBar = () => {
         setNavBarOpen(true);
-        props.setNotScrolling();
+        //props.setNotScrolling();
     }
 
     return (
