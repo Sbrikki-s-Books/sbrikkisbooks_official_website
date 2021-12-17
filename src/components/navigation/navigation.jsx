@@ -17,7 +17,7 @@ const Navigation = (props) => {
                 <NavItem text="Spotify" path="/spotify" onClick={props.onClick} />
                 <NavItem text="Stats" path="/stats" onClick={props.onClick} />
                 <NavItem text="King" path="/king" onClick={props.onClick} />
-                <NavItem text="Contact us" path="/#contactUs" onClick={props.onClick} isHref={true} />
+                <NavItem text="Contact us" path="#contactUs" onClick={props.onClick} isHref={true} />
             </div>
         </>
     )
