@@ -28,7 +28,7 @@ const Home = () => {
 
     return (
         <Layout>
-            <Seo title={"Home"} description={"Sbrikki's Books - A Book Club for everyone"} />
+            <Seo title={"Sbrikki's Books - A Book Club For Everyone"} description={"Sbrikki's Books is an apolitical book club for everyone. The main aim is the growth of every member from a cultural point of view. We also drink."} />
             <div className={styles.home}>
                 <div className={styles.head}>
                     <h1><strong>Sbrikki's Books</strong> - Book Club</h1>
