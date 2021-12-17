@@ -7,7 +7,7 @@ import database from "../atoms/firebase";
 import { ref, get, child } from "firebase/database";
 import Qualities from "../components/qualities/qualities";
 import Layout from "../components/layout/layout";
-import Seo from '../components/seo/seo'
+import SEO from '../components/seo/seo'
 
 const Stats = () => {
   const [data, setData] = useState([]);
@@ -97,7 +97,7 @@ const Stats = () => {
 
   return (
     <Layout>
-      <Seo title={"Stats"} description={"Look at our stats"} />
+      <SEO title={"Stats"} description={"Look at our stats"} />
       <div className={styles.tmp}>
         <h1>Sbrikki's Books SEO score</h1>
         <p>

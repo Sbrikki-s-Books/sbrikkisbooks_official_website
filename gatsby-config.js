@@ -2,7 +2,12 @@ module.exports = {
   pathPrefix: "/sbrikkisbooks",
   siteMetadata: {
     siteUrl: "https://Mike-cheek.github.io/sbrikkisbooks",
-    title: "sbrikkisbooks",
+    title: "Sbrikki's Books",
+    titleTemplate: "%s · Sbrikki's Books",
+    description:
+      "Sbrikki's Books is an apolitical book club for everyone. The main aim is the growth of every member from a cultural point of view. We also drink.",
+    url: "https://Mike-cheek.github.io/sbrikkisbooks", // No trailing slash allowed!
+    image: "/icon.png", // Path to the image placed in the 'static' folder, in the project's root directory.
   },
   plugins: [
     "gatsby-plugin-sass",
@@ -23,6 +28,7 @@ module.exports = {
       options: {
         name: "images",
         path: "./src/images/",
+        path: "./src/assets/",
       },
       __key: "images",
     },

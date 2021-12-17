@@ -4,7 +4,7 @@ import Separator from "../atoms/separator/separator";
 
 import * as styles from "../styles/king.module.scss";
 import Layout from "../components/layout/layout";
-import Seo from "../components/seo/seo";
+import SEO from "../components/seo/seo";
 
 const King = () => {
   //const [isBlocking, setIsBlocking] = useState(true);
@@ -26,7 +26,7 @@ const King = () => {
 
   return (
     <Layout isBlocking={isBlocking}>
-      <Seo title={"King"} description={"Let's play king!"} />
+      <SEO title={"King"} description={"Let's play king!"} />
       <div className={styles.kingPage}>
         {isBlocking ? (
           <button className={styles.buttonBlocked} /*onClick={unBlock()}*/>

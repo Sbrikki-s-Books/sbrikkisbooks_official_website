@@ -3,7 +3,7 @@ import * as styles from '../styles/spotify.module.scss'
 import Separator from '../atoms/separator/separator'
 import LoadingBooks from '../atoms/loadingBooks/loadingBooks';
 import Layout from '../components/layout/layout';
-import Seo from '../components/seo/seo'
+import SEO from '../components/seo/seo'
 
 function Spotify() {
     const [loaded, setLoaded] = useState(false);
@@ -14,7 +14,7 @@ function Spotify() {
 
     return (
         <Layout>
-            <Seo title={"Spotify"} description={"Our spotify playlist"} />
+            <SEO title={"Spotify"} description={"Our spotify playlist"} />
             <div className={styles.spotify}>
                 <h1>Sbrikki's Books Spotify playlist</h1>
                 <p>
