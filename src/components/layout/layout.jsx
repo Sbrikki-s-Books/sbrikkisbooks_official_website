@@ -3,11 +3,12 @@ import * as styles from './layout.module.scss'
 import NavBar from '../navBar/navBar'
 import Footer from '../footer/footer'
 
-function Layout({children, isScrollable}) {
+const Layout = ({children, isBlocking}) => {
+
     return (
         <>
-            <NavBar />
-            <div className={isScrollable? styles.layoutScrollable : styles.layoutNotScrollable} >
+            <NavBar isBlocking={isBlocking} />
+            <div className={styles.layout} >
                 {children}
             </div>
             <Footer />

@@ -4,7 +4,7 @@ import * as styles from './logo.module.scss'
 
 const Logo = (props) => {
     return (
-        <a href="/sbrikkisbooks">
+        <a href="/">
             <img 
                 src={logo} 
                 alt="Sbrikki's Books Logo"

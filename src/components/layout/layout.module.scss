@@ -2,15 +2,6 @@
     width: 100vw;
     height: auto;
     margin-top: 80px;
-}
-
-.layoutScrollable{
-    @extend .layout;
     overflow-y: scroll;
     overflow-x: hidden;
-}
-
-.layoutNotScrollable{
-    @extend .layout;
-    overflow: hidden;
 }
