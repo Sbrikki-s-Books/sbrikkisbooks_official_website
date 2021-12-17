@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet"
 import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
 
-const SEO = ({ title, description, image, article }) => {
+const Seo = ({ title, description, image, article }) => {
   const { pathname } = useLocation()
   const { site } = useStaticQuery(query)
 
@@ -58,33 +58,34 @@ const SEO = ({ title, description, image, article }) => {
   )
 }
 
-export default SEO
 
-SEO.propTypes = {
-  title: PropTypes.string,
-  description: PropTypes.string,
+Seo.propTypes = {
+    title: PropTypes.string,
+    description: PropTypes.string,
   image: PropTypes.string,
   article: PropTypes.bool,
 }
 
-SEO.defaultProps = {
-  title: "Sbrikki's Books - A Book Club for everyone",
+Seo.defaultProps = {
+    title: "Sbrikki's Books - A Book Club for everyone",
   description: "Sbrikki's Books is an apolitical book club for everyone. The main aim is the growth of every member from a cultural point of view. We also drink.",
   image: null,
   article: false,
 }
 
 const query = graphql`
-  query SEO {
+query Seo {
     site {
       siteMetadata {
         defaultTitle: title
-        titleTemplate
+        titleTemplate: titleTemplate
         defaultDescription: description
         siteUrl: url
         defaultImage: image
-        twitterUsername
       }
     }
   }
-`
+    
+  `
+
+  export default Seo

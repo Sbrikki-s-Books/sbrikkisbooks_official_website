@@ -6,7 +6,7 @@ import Separator from '../atoms/separator/separator'
 import NotFoundPage from './404';
 import BookClub from '../atoms/bookClub/bookClub';
 import Layout from '../components/layout/layout'
-import SEO from '../components/seo/seo'
+import Seo from '../components/seo/seo'
 
 const Gigi = (props) => {
 
@@ -28,7 +28,7 @@ const Home = () => {
 
     return (
         <Layout>
-            <SEO title={"Sbrikki's Books - A Book Club For Everyone"} description={"Sbrikki's Books is an apolitical book club for everyone. The main aim is the growth of every member from a cultural point of view. We also drink."} />
+            <Seo title={"Sbrikki's Books - A Book Club For Everyone"} description={"Sbrikki's Books is an apolitical book club for everyone. The main aim is the growth of every member from a cultural point of view. We also drink."} />
             <div className={styles.home}>
                 <div className={styles.head}>
                     <h1><strong>Sbrikki's Books</strong> - Book Club</h1>

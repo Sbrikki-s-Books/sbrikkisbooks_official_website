@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     siteUrl: "https://Mike-cheek.github.io/sbrikkisbooks",
     title: "Sbrikki's Books",
-    titleTemplate: "%s · Sbrikki's Books",
+    titleTemplate: "%s | Sbrikki's Books",
     description:
       "Sbrikki's Books is an apolitical book club for everyone. The main aim is the growth of every member from a cultural point of view. We also drink.",
     url: "https://Mike-cheek.github.io/sbrikkisbooks", // No trailing slash allowed!
