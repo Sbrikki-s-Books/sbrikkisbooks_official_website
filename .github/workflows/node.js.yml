@@ -27,4 +27,5 @@ jobs:
       - name: npm ci, build
         run: |
           npm ci
+          npm i gh-pages
           npm run deploy
