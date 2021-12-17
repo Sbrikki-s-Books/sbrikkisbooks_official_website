@@ -13,7 +13,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -b master -r \"https://Mike-cheek:$ACCESS_TOKEN@github.com:Mike-cheek/sbrikkisbooks.git\""
+    "deploy": "gatsby build && gh-pages -d public -b master -r \"https://Mike-cheek:$ACCESS_TOKEN@github.com/Mike-cheek/Mike-cheek.github.io.git\""
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
