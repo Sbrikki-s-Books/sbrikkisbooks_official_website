@@ -1,12 +1,12 @@
 import React from 'react';
 import * as styles from './navItem.module.scss';
-import { Link } from 'react-router-dom';
+import { Link } from 'gatsby';
 
 const NavItem = (props) => {
     return (<>
         {
             props.isHref ?
-                <a href={props.path} className={styles.item}>
+                <a href={props.path} className={styles.item} onClick={props.onClick}>
                     {props.text}
                 </a>
                 :

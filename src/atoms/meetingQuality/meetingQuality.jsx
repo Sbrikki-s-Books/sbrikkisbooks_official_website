@@ -18,7 +18,7 @@ const MeetingQuality = ({ elem }) => {
         return (
           <div className={styles.graphs} key={k}>
             <p>{titles[k]}</p>
-            <div className={styles.progressWrap}>
+            <div>
               <progress
                 id={titles[k]}
                 value={((value * 1) / 5) * 100}

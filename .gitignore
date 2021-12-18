@@ -1,4 +1,6 @@
-build
-<gh-pages>
-<gh-pages>.pub
+node_modules/
+.cache/
+.history/
+public
 .env
+.cache

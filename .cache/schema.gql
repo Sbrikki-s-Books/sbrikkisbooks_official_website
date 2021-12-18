@@ -1,4 +1,4 @@
-### Type definitions saved at 2021-12-17T16:53:23.042Z ###
+### Type definitions saved at 2021-12-18T18:56:26.022Z ###
 
 type File implements Node @dontInfer {
   sourceInstanceName: String!
@@ -82,6 +82,9 @@ type SiteSiteMetadata {
   title: String
   description: String
   siteUrl: String
+  titleTemplate: String
+  url: String
+  image: String
 }
 
 type SiteFunction implements Node @dontInfer {

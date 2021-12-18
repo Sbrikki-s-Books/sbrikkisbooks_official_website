@@ -13,7 +13,7 @@ var plugins = [{
     },{
       name: 'gatsby-plugin-manifest',
       plugin: require('/home/mike/Developing/sbrikkisbooks_official_website/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"icon":"src/images/icon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"4d42b60bbdbd4198c06a6d009c896d89"},
+      options: {"plugins":[],"icon":"src/assets/icon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"4d42b60bbdbd4198c06a6d009c896d89"},
     },{
       name: 'gatsby-plugin-mdx',
       plugin: require('/home/mike/Developing/sbrikkisbooks_official_website/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
