@@ -4,7 +4,6 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
-  "component---cache-dev-404-page-js": preferDefault(require("/home/mike/Developing/sbrikkisbooks_official_website/.cache/dev-404-page.js")),
   "component---src-pages-404-jsx": preferDefault(require("/home/mike/Developing/sbrikkisbooks_official_website/src/pages/404.jsx")),
   "component---src-pages-home-jsx": preferDefault(require("/home/mike/Developing/sbrikkisbooks_official_website/src/pages/home.jsx")),
   "component---src-pages-index-js": preferDefault(require("/home/mike/Developing/sbrikkisbooks_official_website/src/pages/index.js")),

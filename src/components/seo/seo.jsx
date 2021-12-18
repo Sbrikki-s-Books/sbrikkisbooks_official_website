@@ -25,8 +25,13 @@ const Seo = ({ title, description, image, article }) => {
   };
 
   return (
-    <html lang="en">
-      <Helmet title={seo.title} titleTemplate={titleTemplate}>
+      <Helmet 
+        title={seo.title} 
+        titleTemplate={titleTemplate}
+        htmlAttributes={{
+          lang: 'en',
+        }}
+      >
         <meta name="description" content={seo.description} />
         <meta name="image" content={seo.image} />
         <meta name="keywords" content="sbrikki, books, sbrikki's books, book club, sbrikkisbooks" />
@@ -59,7 +64,6 @@ const Seo = ({ title, description, image, article }) => {
 
         {seo.image && <meta name="twitter:image" content={seo.image} />}
       </Helmet>
-    </html>
   );
 };
 
