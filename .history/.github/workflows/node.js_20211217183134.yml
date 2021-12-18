@@ -1,0 +1,26 @@
+name: GitHub Pages
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: '16.x'
+    - run: yarn
+    - run: |
+        git config --global user.email "michele00.pulvirenti@gmail.com"
+        git config --global user.name "Mike-cheek"
+
+    - run: yarn deploy
+      env:
+        PA_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        CI: true
