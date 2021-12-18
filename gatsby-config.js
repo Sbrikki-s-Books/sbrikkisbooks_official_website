@@ -40,5 +40,13 @@ module.exports = {
       __key: "pages",
     },
     "gatsby-plugin-sitemap",
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://sbrikkisbooks.ga',
+        sitemap: 'https://sbrikkisbooks.ga/sitemap/sitemap-0.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
   ],
 };

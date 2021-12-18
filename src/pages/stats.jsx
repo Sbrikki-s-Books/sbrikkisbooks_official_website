@@ -107,7 +107,7 @@ const Stats = () => {
         </p>
         <a
           className={styles.link}
-          href="https://freetools.seobility.net/en/seocheck/check?url=https%3A%2F%2Fmike-cheek.github.io%2Fsbrikkisbooks%2F&crawltype=1"
+          href="https://freetools.seobility.net/en/seocheck/sbrikkisbooks.ga"
         >
           SEOBILITY
         </a>
