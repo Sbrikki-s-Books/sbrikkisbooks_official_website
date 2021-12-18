@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://mike-cheek.github.io/sbrikkisbooks/sitemap/sitemap-0.xml
+Host: https://mike-cheek.github.io
