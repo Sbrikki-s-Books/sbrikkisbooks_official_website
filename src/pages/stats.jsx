@@ -105,12 +105,7 @@ const Stats = () => {
           That's why I'm studying ways to <strong>improve</strong> it <br />
           See our <strong>score</strong> by clicking on the link below
         </p>
-        <a
-          className={styles.link}
-          href="https://freetools.seobility.net/en/seocheck/sbrikkisbooks.ga"
-        >
-          SEOBILITY
-        </a>
+        <a href="https://freetools.seobility.net/en/seocheck/sbrikkisbooks.ga"><img src="https://freetools.seobility.net/widget/widget.png?url=sbrikkisbooks.ga" alt="Seobility Score für sbrikkisbooks.ga" /></a>
         <Separator />
         {loaded ? (
           fetched ? (

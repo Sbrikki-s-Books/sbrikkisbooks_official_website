@@ -1,20 +1,341 @@
-exports.id = 363;
-exports.ids = [363];
+exports.id = "component---src-pages-stats-jsx";
+exports.ids = ["component---src-pages-stats-jsx"];
 exports.modules = {
 
-/***/ 6130:
+/***/ "./src/atoms/hamburger/hamburger.module.scss":
+/*!***************************************************!*\
+  !*** ./src/atoms/hamburger/hamburger.module.scss ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "line": () => (/* binding */ line),
+/* harmony export */   "hamLine3": () => (/* binding */ hamLine3),
+/* harmony export */   "crossLine3": () => (/* binding */ crossLine3),
+/* harmony export */   "hamLine2": () => (/* binding */ hamLine2),
+/* harmony export */   "crossLine2": () => (/* binding */ crossLine2),
+/* harmony export */   "hamLine1": () => (/* binding */ hamLine1),
+/* harmony export */   "crossLine1": () => (/* binding */ crossLine1),
+/* harmony export */   "hamburger": () => (/* binding */ hamburger),
+/* harmony export */   "pop": () => (/* binding */ pop),
+/* harmony export */   "animateCrossLine1": () => (/* binding */ animateCrossLine1),
+/* harmony export */   "animateCrossLine2": () => (/* binding */ animateCrossLine2),
+/* harmony export */   "animateCrossLine3": () => (/* binding */ animateCrossLine3),
+/* harmony export */   "animateHamLine1": () => (/* binding */ animateHamLine1),
+/* harmony export */   "animateHamLine2": () => (/* binding */ animateHamLine2),
+/* harmony export */   "animateHamLine3": () => (/* binding */ animateHamLine3)
+/* harmony export */ });
+// Exports
+var line = "hamburger-module--line--jtWV5";
+var hamLine3 = "hamburger-module--hamLine3--JPMju";
+var crossLine3 = "hamburger-module--crossLine3--AYcoW";
+var hamLine2 = "hamburger-module--hamLine2--zIAoH";
+var crossLine2 = "hamburger-module--crossLine2--6T+aQ";
+var hamLine1 = "hamburger-module--hamLine1--jCuN0";
+var crossLine1 = "hamburger-module--crossLine1--kEFxb";
+var hamburger = "hamburger-module--hamburger--XhWSf";
+var pop = "hamburger-module--pop--ycd0f";
+var animateCrossLine1 = "hamburger-module--animateCrossLine1--5k+kW";
+var animateCrossLine2 = "hamburger-module--animateCrossLine2--h2y0S";
+var animateCrossLine3 = "hamburger-module--animateCrossLine3--j5knc";
+var animateHamLine1 = "hamburger-module--animateHamLine1--fmdaI";
+var animateHamLine2 = "hamburger-module--animateHamLine2--WdrVq";
+var animateHamLine3 = "hamburger-module--animateHamLine3--G4z0y";
+
+
+/***/ }),
+
+/***/ "./src/atoms/loadingBooks/loadingBooks.module.scss":
+/*!*********************************************************!*\
+  !*** ./src/atoms/loadingBooks/loadingBooks.module.scss ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "bookWrapper": () => (/* binding */ bookWrapper),
+/* harmony export */   "book": () => (/* binding */ book),
+/* harmony export */   "book3": () => (/* binding */ book3),
+/* harmony export */   "book2": () => (/* binding */ book2),
+/* harmony export */   "book1": () => (/* binding */ book1),
+/* harmony export */   "aBook1": () => (/* binding */ aBook1),
+/* harmony export */   "aBook2": () => (/* binding */ aBook2),
+/* harmony export */   "aBook3": () => (/* binding */ aBook3)
+/* harmony export */ });
+// Exports
+var bookWrapper = "loadingBooks-module--bookWrapper--96AHb";
+var book = "loadingBooks-module--book--fxtig";
+var book3 = "loadingBooks-module--book3--WlUVd";
+var book2 = "loadingBooks-module--book2--xoSNs";
+var book1 = "loadingBooks-module--book1--yP-3O";
+var aBook1 = "loadingBooks-module--aBook1--xxbkr";
+var aBook2 = "loadingBooks-module--aBook2--iCu6O";
+var aBook3 = "loadingBooks-module--aBook3--asIou";
+
+
+/***/ }),
+
+/***/ "./src/atoms/logo/logo.module.scss":
+/*!*****************************************!*\
+  !*** ./src/atoms/logo/logo.module.scss ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "logo": () => (/* binding */ logo),
+/* harmony export */   "pop": () => (/* binding */ pop)
+/* harmony export */ });
+// Exports
+var logo = "logo-module--logo--EQ6xL";
+var pop = "logo-module--pop--uvp39";
+
+
+/***/ }),
+
+/***/ "./src/atoms/mailTo/mailTo.module.scss":
+/*!*********************************************!*\
+  !*** ./src/atoms/mailTo/mailTo.module.scss ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "mailto": () => (/* binding */ mailto),
+/* harmony export */   "mailtoDisabled": () => (/* binding */ mailtoDisabled),
+/* harmony export */   "suggestion": () => (/* binding */ suggestion)
+/* harmony export */ });
+// Exports
+var mailto = "mailTo-module--mailto--rzFFj";
+var mailtoDisabled = "mailTo-module--mailtoDisabled--77y+n";
+var suggestion = "mailTo-module--suggestion--OMfQ2";
+
+
+/***/ }),
+
+/***/ "./src/atoms/meetingQuality/meetingQuality.module.scss":
+/*!*************************************************************!*\
+  !*** ./src/atoms/meetingQuality/meetingQuality.module.scss ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "graphs": () => (/* binding */ graphs)
+/* harmony export */ });
+// Exports
+var graphs = "meetingQuality-module--graphs--V0ksk";
+
+
+/***/ }),
+
+/***/ "./src/atoms/navItem/navItem.module.scss":
+/*!***********************************************!*\
+  !*** ./src/atoms/navItem/navItem.module.scss ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "item": () => (/* binding */ item),
+/* harmony export */   "hov": () => (/* binding */ hov)
+/* harmony export */ });
+// Exports
+var item = "navItem-module--item--HpDHa";
+var hov = "navItem-module--hov--o6pox";
+
+
+/***/ }),
+
+/***/ "./src/atoms/separator/separator.module.scss":
+/*!***************************************************!*\
+  !*** ./src/atoms/separator/separator.module.scss ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "separator": () => (/* binding */ separator)
+/* harmony export */ });
+// Exports
+var separator = "separator-module--separator--elrPK";
+
+
+/***/ }),
+
+/***/ "./src/components/contactUs/contactUs.module.scss":
+/*!********************************************************!*\
+  !*** ./src/components/contactUs/contactUs.module.scss ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "contactUs": () => (/* binding */ contactUs),
+/* harmony export */   "contactHero": () => (/* binding */ contactHero),
+/* harmony export */   "hamWrapper": () => (/* binding */ hamWrapper),
+/* harmony export */   "nsInput": () => (/* binding */ nsInput)
+/* harmony export */ });
+// Exports
+var contactUs = "contactUs-module--contactUs--9475g";
+var contactHero = "contactUs-module--contactHero--BLjmv";
+var hamWrapper = "contactUs-module--hamWrapper---ph+j";
+var nsInput = "contactUs-module--nsInput--TgDYx";
+
+
+/***/ }),
+
+/***/ "./src/components/footer/footer.module.scss":
+/*!**************************************************!*\
+  !*** ./src/components/footer/footer.module.scss ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "footer": () => (/* binding */ footer),
+/* harmony export */   "formButton": () => (/* binding */ formButton)
+/* harmony export */ });
+// Exports
+var footer = "footer-module--footer--lU7l1";
+var formButton = "footer-module--formButton--HXgpd";
+
+
+/***/ }),
+
+/***/ "./src/components/layout/layout.module.scss":
+/*!**************************************************!*\
+  !*** ./src/components/layout/layout.module.scss ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "layout": () => (/* binding */ layout)
+/* harmony export */ });
+// Exports
+var layout = "layout-module--layout--4I4G6";
+
+
+/***/ }),
+
+/***/ "./src/components/navBar/navBar.module.scss":
+/*!**************************************************!*\
+  !*** ./src/components/navBar/navBar.module.scss ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "navBar": () => (/* binding */ navBar),
+/* harmony export */   "logo": () => (/* binding */ logo),
+/* harmony export */   "navigationDesktop": () => (/* binding */ navigationDesktop),
+/* harmony export */   "navigationMobile": () => (/* binding */ navigationMobile),
+/* harmony export */   "hamburger": () => (/* binding */ hamburger),
+/* harmony export */   "navBarDesktop": () => (/* binding */ navBarDesktop)
+/* harmony export */ });
+// Exports
+var navBar = "navBar-module--navBar--TdHdv";
+var logo = "navBar-module--logo--WgOHQ";
+var navigationDesktop = "navBar-module--navigationDesktop--foGDZ";
+var navigationMobile = "navBar-module--navigationMobile--DS1-I";
+var hamburger = "navBar-module--hamburger---A7xu";
+var navBarDesktop = "navBar-module--navBarDesktop--LUTvt";
+
+
+/***/ }),
+
+/***/ "./src/components/navigation/navigation.module.scss":
+/*!**********************************************************!*\
+  !*** ./src/components/navigation/navigation.module.scss ***!
+  \**********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "navDesktop": () => (/* binding */ navDesktop),
+/* harmony export */   "slideIn": () => (/* binding */ slideIn),
+/* harmony export */   "navMobile": () => (/* binding */ navMobile),
+/* harmony export */   "rotateMenu": () => (/* binding */ rotateMenu)
+/* harmony export */ });
+// Exports
+var navDesktop = "navigation-module--navDesktop--V4wOn";
+var slideIn = "navigation-module--slideIn--CHVah";
+var navMobile = "navigation-module--navMobile--7U-MJ";
+var rotateMenu = "navigation-module--rotateMenu--A7sIT";
+
+
+/***/ }),
+
+/***/ "./src/components/qualities/qualities.module.scss":
+/*!********************************************************!*\
+  !*** ./src/components/qualities/qualities.module.scss ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "wrap": () => (/* binding */ wrap)
+/* harmony export */ });
+// Exports
+var wrap = "qualities-module--wrap--BEX5j";
+
+
+/***/ }),
+
+/***/ "./src/styles/stats.module.scss":
+/*!**************************************!*\
+  !*** ./src/styles/stats.module.scss ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "tmp": () => (/* binding */ tmp),
+/* harmony export */   "link": () => (/* binding */ link),
+/* harmony export */   "lastMeetings": () => (/* binding */ lastMeetings),
+/* harmony export */   "meeting": () => (/* binding */ meeting)
+/* harmony export */ });
+// Exports
+var tmp = "stats-module--tmp--L0iyK";
+var link = "stats-module--link--+hJCf";
+var lastMeetings = "stats-module--lastMeetings--gYu6p";
+var meeting = "stats-module--meeting--aucWi";
+
+
+/***/ }),
+
+/***/ "./node_modules/faye-websocket/lib/faye/eventsource.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/faye-websocket/lib/faye/eventsource.js ***!
+  \*************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var Stream      = (__webpack_require__(8311).Stream),
-    util        = __webpack_require__(6464),
-    driver      = __webpack_require__(1649),
-    Headers     = __webpack_require__(2290),
-    API         = __webpack_require__(4070),
-    EventTarget = __webpack_require__(9570),
-    Event       = __webpack_require__(3848);
+var Stream      = (__webpack_require__(/*! stream */ "stream").Stream),
+    util        = __webpack_require__(/*! util */ "util"),
+    driver      = __webpack_require__(/*! websocket-driver */ "./node_modules/websocket-driver/lib/websocket/driver.js"),
+    Headers     = __webpack_require__(/*! websocket-driver/lib/websocket/driver/headers */ "./node_modules/websocket-driver/lib/websocket/driver/headers.js"),
+    API         = __webpack_require__(/*! ./websocket/api */ "./node_modules/faye-websocket/lib/faye/websocket/api.js"),
+    EventTarget = __webpack_require__(/*! ./websocket/api/event_target */ "./node_modules/faye-websocket/lib/faye/websocket/api/event_target.js"),
+    Event       = __webpack_require__(/*! ./websocket/api/event */ "./node_modules/faye-websocket/lib/faye/websocket/api/event.js");
 
 var EventSource = function(request, response, options) {
   this.writable = true;
@@ -143,7 +464,10 @@ module.exports = EventSource;
 
 /***/ }),
 
-/***/ 471:
+/***/ "./node_modules/faye-websocket/lib/faye/websocket.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/faye-websocket/lib/faye/websocket.js ***!
+  \***********************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -155,9 +479,9 @@ module.exports = EventSource;
 
 
 
-var util   = __webpack_require__(6464),
-    driver = __webpack_require__(1649),
-    API    = __webpack_require__(4070);
+var util   = __webpack_require__(/*! util */ "util"),
+    driver = __webpack_require__(/*! websocket-driver */ "./node_modules/websocket-driver/lib/websocket/driver.js"),
+    API    = __webpack_require__(/*! ./websocket/api */ "./node_modules/faye-websocket/lib/faye/websocket/api.js");
 
 var WebSocket = function(request, socket, body, protocols, options) {
   options = options || {};
@@ -190,25 +514,28 @@ WebSocket.validateOptions = function(options, validKeys) {
 };
 
 WebSocket.WebSocket   = WebSocket;
-WebSocket.Client      = __webpack_require__(6683);
-WebSocket.EventSource = __webpack_require__(6130);
+WebSocket.Client      = __webpack_require__(/*! ./websocket/client */ "./node_modules/faye-websocket/lib/faye/websocket/client.js");
+WebSocket.EventSource = __webpack_require__(/*! ./eventsource */ "./node_modules/faye-websocket/lib/faye/eventsource.js");
 
 module.exports        = WebSocket;
 
 
 /***/ }),
 
-/***/ 4070:
+/***/ "./node_modules/faye-websocket/lib/faye/websocket/api.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/faye-websocket/lib/faye/websocket/api.js ***!
+  \***************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var Stream      = (__webpack_require__(8311).Stream),
-    util        = __webpack_require__(6464),
-    driver      = __webpack_require__(1649),
-    EventTarget = __webpack_require__(9570),
-    Event       = __webpack_require__(3848);
+var Stream      = (__webpack_require__(/*! stream */ "stream").Stream),
+    util        = __webpack_require__(/*! util */ "util"),
+    driver      = __webpack_require__(/*! websocket-driver */ "./node_modules/websocket-driver/lib/websocket/driver.js"),
+    EventTarget = __webpack_require__(/*! ./api/event_target */ "./node_modules/faye-websocket/lib/faye/websocket/api/event_target.js"),
+    Event       = __webpack_require__(/*! ./api/event */ "./node_modules/faye-websocket/lib/faye/websocket/api/event.js");
 
 var API = function(options) {
   options = options || {};
@@ -405,7 +732,10 @@ module.exports = API;
 
 /***/ }),
 
-/***/ 3848:
+/***/ "./node_modules/faye-websocket/lib/faye/websocket/api/event.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/faye-websocket/lib/faye/websocket/api/event.js ***!
+  \*********************************************************************/
 /***/ ((module) => {
 
 "use strict";
@@ -435,13 +765,16 @@ module.exports = Event;
 
 /***/ }),
 
-/***/ 9570:
+/***/ "./node_modules/faye-websocket/lib/faye/websocket/api/event_target.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/faye-websocket/lib/faye/websocket/api/event_target.js ***!
+  \****************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var Event = __webpack_require__(3848);
+var Event = __webpack_require__(/*! ./event */ "./node_modules/faye-websocket/lib/faye/websocket/api/event.js");
 
 var EventTarget = {
   onopen:     null,
@@ -473,19 +806,22 @@ module.exports = EventTarget;
 
 /***/ }),
 
-/***/ 6683:
+/***/ "./node_modules/faye-websocket/lib/faye/websocket/client.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/faye-websocket/lib/faye/websocket/client.js ***!
+  \******************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var util   = __webpack_require__(6464),
-    net    = __webpack_require__(2886),
-    tls    = __webpack_require__(7328),
-    url    = __webpack_require__(4269),
-    driver = __webpack_require__(1649),
-    API    = __webpack_require__(4070),
-    Event  = __webpack_require__(3848);
+var util   = __webpack_require__(/*! util */ "util"),
+    net    = __webpack_require__(/*! net */ "net"),
+    tls    = __webpack_require__(/*! tls */ "tls"),
+    url    = __webpack_require__(/*! url */ "url"),
+    driver = __webpack_require__(/*! websocket-driver */ "./node_modules/websocket-driver/lib/websocket/driver.js"),
+    API    = __webpack_require__(/*! ./api */ "./node_modules/faye-websocket/lib/faye/websocket/api.js"),
+    Event  = __webpack_require__(/*! ./api/event */ "./node_modules/faye-websocket/lib/faye/websocket/api/event.js");
 
 var DEFAULT_PORTS    = { 'http:': 80, 'https:': 443, 'ws:':80, 'wss:': 443 },
     SECURE_PROTOCOLS = ['https:', 'wss:'];
@@ -571,1791 +907,4188 @@ module.exports = Client;
 
 /***/ }),
 
-/***/ 4913:
+/***/ "./src/atoms/firebase.jsx":
+/*!********************************!*\
+  !*** ./src/atoms/firebase.jsx ***!
+  \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ loadingBooks)
-});
-
-// EXTERNAL MODULE: external "/home/mike/Developing/sbrikkisbooks_official_website/node_modules/react/index.js"
-var index_js_ = __webpack_require__(9336);
-var index_js_default = /*#__PURE__*/__webpack_require__.n(index_js_);
-;// CONCATENATED MODULE: ./src/assets/book2.png
-/* harmony default export */ const book2 = (__webpack_require__.p + "static/book2-3c2c34239ce57b1aa475a0cfb69169d8.png");
-;// CONCATENATED MODULE: ./src/atoms/loadingBooks/loadingBooks.module.scss
-// Exports
-var bookWrapper = "loadingBooks-module--bookWrapper--96AHb";
-var book = "loadingBooks-module--book--fxtig";
-var book3 = "loadingBooks-module--book3--WlUVd";
-var loadingBooks_module_book2 = "loadingBooks-module--book2--xoSNs";
-var book1 = "loadingBooks-module--book1--yP-3O";
-var aBook1 = "loadingBooks-module--aBook1--xxbkr";
-var aBook2 = "loadingBooks-module--aBook2--iCu6O";
-var aBook3 = "loadingBooks-module--aBook3--asIou";
-
-;// CONCATENATED MODULE: ./src/atoms/loadingBooks/loadingBooks.jsx
-function LoadingBooks({children}){return/*#__PURE__*/index_js_default().createElement((index_js_default()).Fragment,null,/*#__PURE__*/index_js_default().createElement("div",{className:bookWrapper},/*#__PURE__*/index_js_default().createElement("img",{src:book2,className:book1,alt:"Sbrikki 's Books loading..."}),/*#__PURE__*/index_js_default().createElement("img",{src:book2,className:loadingBooks_module_book2,alt:"Sbrikki 's Books loading..."}),/*#__PURE__*/index_js_default().createElement("img",{src:book2,className:book3,alt:"Sbrikki 's Books loading..."})),children);}/* harmony default export */ const loadingBooks = (LoadingBooks);
-
-/***/ }),
-
-/***/ 245:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ separator_separator)
-});
-
-// EXTERNAL MODULE: external "/home/mike/Developing/sbrikkisbooks_official_website/node_modules/react/index.js"
-var index_js_ = __webpack_require__(9336);
-var index_js_default = /*#__PURE__*/__webpack_require__.n(index_js_);
-;// CONCATENATED MODULE: ./src/atoms/separator/separator.module.scss
-// Exports
-var separator = "separator-module--separator--elrPK";
-
-;// CONCATENATED MODULE: ./src/atoms/separator/separator.jsx
-const Separator=()=>{return/*#__PURE__*/index_js_default().createElement("div",{className:separator});};/* harmony default export */ const separator_separator = (Separator);
-
-/***/ }),
-
-/***/ 4421:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ layout_layout)
-});
-
-// EXTERNAL MODULE: external "/home/mike/Developing/sbrikkisbooks_official_website/node_modules/react/index.js"
-var index_js_ = __webpack_require__(9336);
-var index_js_default = /*#__PURE__*/__webpack_require__.n(index_js_);
-;// CONCATENATED MODULE: ./src/components/layout/layout.module.scss
-// Exports
-var layout = "layout-module--layout--4I4G6";
-
-;// CONCATENATED MODULE: ./src/components/navBar/navBar.module.scss
-// Exports
-var navBar = "navBar-module--navBar--TdHdv";
-var logo = "navBar-module--logo--WgOHQ";
-var navigationDesktop = "navBar-module--navigationDesktop--foGDZ";
-var navigationMobile = "navBar-module--navigationMobile--DS1-I";
-var hamburger = "navBar-module--hamburger---A7xu";
-var navBarDesktop = "navBar-module--navBarDesktop--LUTvt";
-
-;// CONCATENATED MODULE: ./src/assets/logo.svg
-/* harmony default export */ const assets_logo = (__webpack_require__.p + "static/logo-72546d3427ebf8019513c64f3d2bff1f.svg");
-;// CONCATENATED MODULE: ./src/atoms/logo/logo.module.scss
-// Exports
-var logo_module_logo = "logo-module--logo--EQ6xL";
-var pop = "logo-module--pop--uvp39";
-
-;// CONCATENATED MODULE: ./src/atoms/logo/logo.jsx
-const Logo=props=>{return/*#__PURE__*/index_js_default().createElement("a",{href:"/"},/*#__PURE__*/index_js_default().createElement("img",{src:assets_logo,alt:"Sbrikki's Books Logo",className:logo_module_logo}));};/* harmony default export */ const logo_logo = (Logo);
-;// CONCATENATED MODULE: ./src/atoms/navItem/navItem.module.scss
-// Exports
-var item = "navItem-module--item--HpDHa";
-var hov = "navItem-module--hov--o6pox";
-
-// EXTERNAL MODULE: ./.cache/gatsby-browser-entry.js + 4 modules
-var gatsby_browser_entry = __webpack_require__(2031);
-;// CONCATENATED MODULE: ./src/atoms/navItem/navItem.jsx
-const NavItem=props=>{return/*#__PURE__*/index_js_default().createElement((index_js_default()).Fragment,null,props.isHref?/*#__PURE__*/index_js_default().createElement("a",{href:props.path,className:item,onClick:props.onClick},props.text):/*#__PURE__*/index_js_default().createElement(gatsby_browser_entry.Link,{className:item,to:props.path,onClick:props.onClick},props.text));};/* harmony default export */ const navItem = (NavItem);
-;// CONCATENATED MODULE: ./src/components/navigation/navigation.module.scss
-// Exports
-var navDesktop = "navigation-module--navDesktop--V4wOn";
-var slideIn = "navigation-module--slideIn--CHVah";
-var navMobile = "navigation-module--navMobile--7U-MJ";
-var rotateMenu = "navigation-module--rotateMenu--A7sIT";
-
-;// CONCATENATED MODULE: ./src/components/navigation/navigation.jsx
-const Navigation=props=>{return/*#__PURE__*/index_js_default().createElement((index_js_default()).Fragment,null,/*#__PURE__*/index_js_default().createElement("div",{className:navDesktop},/*#__PURE__*/index_js_default().createElement(navItem,{text:"Home",path:"/"}),/*#__PURE__*/index_js_default().createElement(navItem,{text:"Spotify",path:"/spotify"}),/*#__PURE__*/index_js_default().createElement(navItem,{text:"Stats",path:"/stats"}),/*#__PURE__*/index_js_default().createElement(navItem,{text:"King",path:"/king"}),/*#__PURE__*/index_js_default().createElement(navItem,{text:"Contact us",path:"#contactUs",isHref:true})),/*#__PURE__*/index_js_default().createElement("div",{className:navMobile},/*#__PURE__*/index_js_default().createElement(navItem,{text:"Home",path:"/",onClick:props.onClick}),/*#__PURE__*/index_js_default().createElement(navItem,{text:"Spotify",path:"/spotify",onClick:props.onClick}),/*#__PURE__*/index_js_default().createElement(navItem,{text:"Stats",path:"/stats",onClick:props.onClick}),/*#__PURE__*/index_js_default().createElement(navItem,{text:"King",path:"/king",onClick:props.onClick}),/*#__PURE__*/index_js_default().createElement(navItem,{text:"Contact us",path:"#contactUs",onClick:props.onClick,isHref:true})));};/* harmony default export */ const navigation = (Navigation);
-;// CONCATENATED MODULE: ./src/atoms/hamburger/hamburger.module.scss
-// Exports
-var line = "hamburger-module--line--jtWV5";
-var hamLine3 = "hamburger-module--hamLine3--JPMju";
-var crossLine3 = "hamburger-module--crossLine3--AYcoW";
-var hamLine2 = "hamburger-module--hamLine2--zIAoH";
-var crossLine2 = "hamburger-module--crossLine2--6T+aQ";
-var hamLine1 = "hamburger-module--hamLine1--jCuN0";
-var crossLine1 = "hamburger-module--crossLine1--kEFxb";
-var hamburger_module_hamburger = "hamburger-module--hamburger--XhWSf";
-var hamburger_module_pop = "hamburger-module--pop--ycd0f";
-var animateCrossLine1 = "hamburger-module--animateCrossLine1--5k+kW";
-var animateCrossLine2 = "hamburger-module--animateCrossLine2--h2y0S";
-var animateCrossLine3 = "hamburger-module--animateCrossLine3--j5knc";
-var animateHamLine1 = "hamburger-module--animateHamLine1--fmdaI";
-var animateHamLine2 = "hamburger-module--animateHamLine2--WdrVq";
-var animateHamLine3 = "hamburger-module--animateHamLine3--G4z0y";
-
-;// CONCATENATED MODULE: ./src/atoms/hamburger/hamburger.jsx
-function Hamburger(props){return/*#__PURE__*/index_js_default().createElement("div",{className:hamburger_module_hamburger,onClick:props.onClick,onKeyDown:props.onClick,role:"button",tabIndex:0},/*#__PURE__*/index_js_default().createElement("div",{className:props.navBarOpen?crossLine1:hamLine1}),/*#__PURE__*/index_js_default().createElement("div",{className:props.navBarOpen?crossLine2:hamLine2}),/*#__PURE__*/index_js_default().createElement("div",{className:props.navBarOpen?crossLine3:hamLine3}));}/* harmony default export */ const hamburger_hamburger = (Hamburger);
-;// CONCATENATED MODULE: ./src/components/navBar/navBar.jsx
-const NavBar=props=>{const{0:navBarOpen,1:setNavBarOpen}=(0,index_js_.useState)(false);(0,index_js_.useEffect)(()=>{let prevScrollpos=window.pageYOffset;window.onscroll=function(){let currentScrollPos=window.pageYOffset;if(document.getElementById("navBar")){if(currentScrollPos===0){document.getElementById("navBar").style.top="0";}else if(prevScrollpos>currentScrollPos){document.getElementById("navBar").style.top="0";}else if(!navBarOpen){document.getElementById("navBar").style.top="-80px";}}prevScrollpos=currentScrollPos;};});const closeNavBar=()=>{setNavBarOpen(false);document.body.style.overflowY="scroll";document.body.style.height="auto";document.getElementsByTagName("html")[0].style.overflowY="scroll";document.getElementsByTagName("html")[0].style.height="auto";};const openNavBar=()=>{setNavBarOpen(true);document.body.style.overflow="hidden";document.body.style.height="100%";document.getElementsByTagName("html")[0].style.overflow="hidden";document.getElementsByTagName("html")[0].style.height="100%";};return/*#__PURE__*/index_js_default().createElement("div",{className:navBar,id:"navBar"},/*#__PURE__*/index_js_default().createElement("div",{className:logo},/*#__PURE__*/index_js_default().createElement(logo_logo,null)),props.isBlocking?null:/*#__PURE__*/index_js_default().createElement("div",{className:navigationDesktop},/*#__PURE__*/index_js_default().createElement(navigation,null)),navBarOpen&&!props.isBlocking?/*#__PURE__*/index_js_default().createElement("div",{className:navigationMobile},/*#__PURE__*/index_js_default().createElement(navigation,{onClick:closeNavBar})):null,props.isBlocking?null:/*#__PURE__*/index_js_default().createElement("div",{className:hamburger},/*#__PURE__*/index_js_default().createElement(hamburger_hamburger,{onClick:navBarOpen?closeNavBar:openNavBar,navBarOpen:navBarOpen})));};/* harmony default export */ const navBar_navBar = (NavBar);
-;// CONCATENATED MODULE: ./src/atoms/mailTo/mailTo.module.scss
-// Exports
-var mailto = "mailTo-module--mailto--rzFFj";
-var mailtoDisabled = "mailTo-module--mailtoDisabled--77y+n";
-var suggestion = "mailTo-module--suggestion--OMfQ2";
-
-;// CONCATENATED MODULE: ./src/atoms/mailTo/mailTo.jsx
-const MailTo=({email,subject='',body='',children,enabled})=>{let params=subject||body?'?':'';if(subject)params+=`subject=${encodeURIComponent(subject)}`;if(body)params+=`${subject?'&':''}body=${encodeURIComponent(body)}`;return/*#__PURE__*/index_js_default().createElement((index_js_default()).Fragment,null,/*#__PURE__*/index_js_default().createElement("a",{href:`mailto:${email}${params}`,className:enabled?mailto:mailtoDisabled},children),enabled?null:/*#__PURE__*/index_js_default().createElement("p",{className:suggestion},"Fill in the fields above first"));};/* harmony default export */ const mailTo = (MailTo);
-;// CONCATENATED MODULE: ./src/components/contactUs/contactUs.module.scss
-// Exports
-var contactUs = "contactUs-module--contactUs--9475g";
-var contactHero = "contactUs-module--contactHero--BLjmv";
-var hamWrapper = "contactUs-module--hamWrapper---ph+j";
-var nsInput = "contactUs-module--nsInput--TgDYx";
-
-;// CONCATENATED MODULE: ./src/components/contactUs/contactUs.jsx
-function ContactUs(props){const{0:name,1:setName}=(0,index_js_.useState)();const{0:surname,1:setSurname}=(0,index_js_.useState)();const changeName=()=>{setName(document.getElementById("nameIn").value);};const changeSurname=()=>{setSurname(document.getElementById("surnameIn").value);};const checkNameSurname=()=>{if(name===undefined||surname===undefined)return false;if(name===''||surname==='')return false;return true;};return/*#__PURE__*/index_js_default().createElement("div",{className:contactUs},/*#__PURE__*/index_js_default().createElement("div",{className:contactHero},/*#__PURE__*/index_js_default().createElement("div",{className:hamWrapper},/*#__PURE__*/index_js_default().createElement(hamburger_hamburger,{navBarOpen:props.formOpened,onClick:props.closeForm})),/*#__PURE__*/index_js_default().createElement("p",null,"Insert name and surname and contact us!"),/*#__PURE__*/index_js_default().createElement("input",{type:"text",id:"nameIn",onChange:changeName,className:nsInput,placeholder:"Name"}),/*#__PURE__*/index_js_default().createElement("input",{type:"text",id:"surnameIn",onChange:changeSurname,className:nsInput,placeholder:"Surname"}),console.log(name+" "+surname),/*#__PURE__*/index_js_default().createElement(mailTo,{email:"sbrikkisbooks@gmail.com",subject:"I want to join!",body:"Hi, I'm "+name+" "+surname+". I want to join to your Book Club!",enabled:checkNameSurname()?true:false},"Send us a mail!")));}/* harmony default export */ const contactUs_contactUs = (ContactUs);
-;// CONCATENATED MODULE: ./src/components/footer/footer.module.scss
-// Exports
-var footer = "footer-module--footer--lU7l1";
-var formButton = "footer-module--formButton--HXgpd";
-
-;// CONCATENATED MODULE: ./src/components/footer/footer.jsx
-function Footer(props){const{0:formOpened,1:setFormOpened}=(0,index_js_.useState)(false);const openForm=()=>{setFormOpened(true);props.setNotScrolling();};const closeForm=()=>{setFormOpened(false);props.setScrolling();};return/*#__PURE__*/index_js_default().createElement("div",{className:footer,id:"contactUs"},/*#__PURE__*/index_js_default().createElement("p",null,"Join us!"),/*#__PURE__*/index_js_default().createElement("button",{onClick:openForm,className:formButton},"CONTACT US!"),formOpened?/*#__PURE__*/index_js_default().createElement(contactUs_contactUs,{closeForm:closeForm,formOpened:formOpened}):null);}/* harmony default export */ const footer_footer = (Footer);
-;// CONCATENATED MODULE: ./src/components/layout/layout.jsx
-const Layout=({children,isBlocking})=>{return/*#__PURE__*/index_js_default().createElement((index_js_default()).Fragment,null,/*#__PURE__*/index_js_default().createElement(navBar_navBar,{isBlocking:isBlocking}),/*#__PURE__*/index_js_default().createElement("div",{className:layout},children),/*#__PURE__*/index_js_default().createElement(footer_footer,null));};/* harmony default export */ const layout_layout = (Layout);
-
-/***/ }),
-
-/***/ 7018:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9336);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5697);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4593);
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3631);
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(2031);
-const Seo=({title,description,image,article})=>{const{pathname}=(0,_reach_router__WEBPACK_IMPORTED_MODULE_3__.useLocation)();const{site}=(0,gatsby__WEBPACK_IMPORTED_MODULE_4__.useStaticQuery)(query);const{defaultTitle,titleTemplate,defaultDescription,siteUrl,defaultImage,twitterUsername}=site.siteMetadata;const seo={title:title||defaultTitle,description:description||defaultDescription,image:`${siteUrl}${image||defaultImage}`,url:`${siteUrl}${pathname}`};return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("html",{lang:"en"},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_helmet__WEBPACK_IMPORTED_MODULE_2__.Helmet,{title:seo.title,titleTemplate:titleTemplate},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{name:"description",content:seo.description}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{name:"image",content:seo.image}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{name:"keywords",content:"sbrikki, books, sbrikki's books, book club, sbrikkisbooks"}),seo.url&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{property:"og:url",content:seo.url}),(article?true:null)&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{property:"og:type",content:"article"}),seo.title&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{property:"og:title",content:seo.title}),seo.description&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{property:"og:description",content:seo.description}),seo.image&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{property:"og:image",content:seo.image}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{name:"twitter:card",content:"summary_large_image"}),twitterUsername&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{name:"twitter:creator",content:twitterUsername}),seo.title&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{name:"twitter:title",content:seo.title}),seo.description&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{name:"twitter:description",content:seo.description}),seo.image&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{name:"twitter:image",content:seo.image})));};Seo.propTypes={title:(prop_types__WEBPACK_IMPORTED_MODULE_1___default().string),description:(prop_types__WEBPACK_IMPORTED_MODULE_1___default().string),image:(prop_types__WEBPACK_IMPORTED_MODULE_1___default().string),article:(prop_types__WEBPACK_IMPORTED_MODULE_1___default().bool)};Seo.defaultProps={title:"Sbrikki's Books - A Book Club for everyone",description:"Sbrikki's Books is an apolitical book club for everyone. The main aim is the growth of every member from a cultural point of view. We also drink.",image:null,article:false};const query="2094259327";/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Seo);
-
-/***/ }),
-
-/***/ 3479:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var firebase_app__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! firebase/app */ "./node_modules/firebase/app/dist/index.mjs");
+/* harmony import */ var firebase_database__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! firebase/database */ "./node_modules/firebase/database/dist/index.mjs");
+// Import the functions you need from the SDKs you need
 
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ stats)
+ // TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+const firebaseConfig = {
+  apiKey: ({}).API_KEY,
+  authDomain: ({}).AUTH_DOMAIN,
+  projectId: ({}).PROJECT_ID,
+  storageBucket: ({}).STORAGE_BUCKET,
+  messagingSenderId: ({}).MESSAGING_SENDER_ID,
+  appId: ({}).APP_ID,
+  measurementId: ({}).MEASUREMENT_ID,
+  databaseURL: ({}).DATABASE_URL
+}; // Initialize Firebase
+
+const app = (0,firebase_app__WEBPACK_IMPORTED_MODULE_0__.initializeApp)(firebaseConfig); // Get a reference to the database service
+
+const database = (0,firebase_database__WEBPACK_IMPORTED_MODULE_1__.getDatabase)(app, "https://sbrikkis-books-website-default-rtdb.firebaseio.com/");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (database);
+
+/***/ }),
+
+/***/ "./src/atoms/hamburger/hamburger.jsx":
+/*!*******************************************!*\
+  !*** ./src/atoms/hamburger/hamburger.jsx ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _hamburger_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./hamburger.module.scss */ "./src/atoms/hamburger/hamburger.module.scss");
+
+
+
+function Hamburger(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: _hamburger_module_scss__WEBPACK_IMPORTED_MODULE_1__.hamburger,
+    onClick: props.onClick,
+    onKeyDown: props.onClick,
+    role: "button",
+    tabIndex: 0
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: props.navBarOpen ? _hamburger_module_scss__WEBPACK_IMPORTED_MODULE_1__.crossLine1 : _hamburger_module_scss__WEBPACK_IMPORTED_MODULE_1__.hamLine1
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: props.navBarOpen ? _hamburger_module_scss__WEBPACK_IMPORTED_MODULE_1__.crossLine2 : _hamburger_module_scss__WEBPACK_IMPORTED_MODULE_1__.hamLine2
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: props.navBarOpen ? _hamburger_module_scss__WEBPACK_IMPORTED_MODULE_1__.crossLine3 : _hamburger_module_scss__WEBPACK_IMPORTED_MODULE_1__.hamLine3
+  }));
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Hamburger);
+
+/***/ }),
+
+/***/ "./src/atoms/loadingBooks/loadingBooks.jsx":
+/*!*************************************************!*\
+  !*** ./src/atoms/loadingBooks/loadingBooks.jsx ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _assets_book2_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/book2.png */ "./src/assets/book2.png");
+/* harmony import */ var _loadingBooks_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./loadingBooks.module.scss */ "./src/atoms/loadingBooks/loadingBooks.module.scss");
+
+
+
+
+function LoadingBooks({
+  children
+}) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: _loadingBooks_module_scss__WEBPACK_IMPORTED_MODULE_2__.bookWrapper
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _assets_book2_png__WEBPACK_IMPORTED_MODULE_1__["default"],
+    className: _loadingBooks_module_scss__WEBPACK_IMPORTED_MODULE_2__.book1,
+    alt: "Sbrikki 's Books loading..."
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _assets_book2_png__WEBPACK_IMPORTED_MODULE_1__["default"],
+    className: _loadingBooks_module_scss__WEBPACK_IMPORTED_MODULE_2__.book2,
+    alt: "Sbrikki 's Books loading..."
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _assets_book2_png__WEBPACK_IMPORTED_MODULE_1__["default"],
+    className: _loadingBooks_module_scss__WEBPACK_IMPORTED_MODULE_2__.book3,
+    alt: "Sbrikki 's Books loading..."
+  })), children);
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (LoadingBooks);
+
+/***/ }),
+
+/***/ "./src/atoms/logo/logo.jsx":
+/*!*********************************!*\
+  !*** ./src/atoms/logo/logo.jsx ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _assets_logo_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/logo.svg */ "./src/assets/logo.svg");
+/* harmony import */ var _logo_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./logo.module.scss */ "./src/atoms/logo/logo.module.scss");
+
+
+
+
+const Logo = props => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "/"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _assets_logo_svg__WEBPACK_IMPORTED_MODULE_1__["default"],
+    alt: "Sbrikki's Books Logo",
+    className: _logo_module_scss__WEBPACK_IMPORTED_MODULE_2__.logo
+  }));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Logo);
+
+/***/ }),
+
+/***/ "./src/atoms/mailTo/mailTo.jsx":
+/*!*************************************!*\
+  !*** ./src/atoms/mailTo/mailTo.jsx ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _mailTo_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mailTo.module.scss */ "./src/atoms/mailTo/mailTo.module.scss");
+
+
+
+const MailTo = ({
+  email,
+  subject = '',
+  body = '',
+  children,
+  enabled
+}) => {
+  let params = subject || body ? '?' : '';
+  if (subject) params += `subject=${encodeURIComponent(subject)}`;
+  if (body) params += `${subject ? '&' : ''}body=${encodeURIComponent(body)}`;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: `mailto:${email}${params}`,
+    className: enabled ? _mailTo_module_scss__WEBPACK_IMPORTED_MODULE_1__.mailto : _mailTo_module_scss__WEBPACK_IMPORTED_MODULE_1__.mailtoDisabled
+  }, children), enabled ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: _mailTo_module_scss__WEBPACK_IMPORTED_MODULE_1__.suggestion
+  }, "Fill in the fields above first"));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MailTo);
+
+/***/ }),
+
+/***/ "./src/atoms/meetingQuality/meetingQuality.jsx":
+/*!*****************************************************!*\
+  !*** ./src/atoms/meetingQuality/meetingQuality.jsx ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _meetingQuality_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./meetingQuality.module.scss */ "./src/atoms/meetingQuality/meetingQuality.module.scss");
+
+
+const titles = ["Chill mood", "Alcohol", "Pfizer", "Reading", "Meeting organization", "Length of the meeting", "Meeting quality"];
+
+const MeetingQuality = ({
+  elem
+}) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, elem.map((value, k) => {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: _meetingQuality_module_scss__WEBPACK_IMPORTED_MODULE_1__.graphs,
+      key: k
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, titles[k]), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("progress", {
+      id: titles[k],
+      value: value * 1 / 5 * 100,
+      max: "100"
+    }, " ", value * 1 / 5 * 100 + "%", " ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, parseFloat(value * 1 / 5 * 100).toFixed(2) + "%"));
+  }));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MeetingQuality);
+
+/***/ }),
+
+/***/ "./src/atoms/navItem/navItem.jsx":
+/*!***************************************!*\
+  !*** ./src/atoms/navItem/navItem.jsx ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _navItem_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./navItem.module.scss */ "./src/atoms/navItem/navItem.module.scss");
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+
+
+
+
+const NavItem = props => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, props.isHref ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: props.path,
+    className: _navItem_module_scss__WEBPACK_IMPORTED_MODULE_1__.item,
+    onClick: props.onClick
+  }, props.text) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.Link, {
+    className: _navItem_module_scss__WEBPACK_IMPORTED_MODULE_1__.item,
+    to: props.path,
+    onClick: props.onClick
+  }, props.text));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NavItem);
+
+/***/ }),
+
+/***/ "./src/atoms/separator/separator.jsx":
+/*!*******************************************!*\
+  !*** ./src/atoms/separator/separator.jsx ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _separator_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./separator.module.scss */ "./src/atoms/separator/separator.module.scss");
+
+
+
+const Separator = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: _separator_module_scss__WEBPACK_IMPORTED_MODULE_1__.separator
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Separator);
+
+/***/ }),
+
+/***/ "./src/components/contactUs/contactUs.jsx":
+/*!************************************************!*\
+  !*** ./src/components/contactUs/contactUs.jsx ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _atoms_hamburger_hamburger__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../atoms/hamburger/hamburger */ "./src/atoms/hamburger/hamburger.jsx");
+/* harmony import */ var _atoms_mailTo_mailTo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../atoms/mailTo/mailTo */ "./src/atoms/mailTo/mailTo.jsx");
+/* harmony import */ var _contactUs_module_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./contactUs.module.scss */ "./src/components/contactUs/contactUs.module.scss");
+
+
+
+
+
+function ContactUs(props) {
+  const {
+    0: name,
+    1: setName
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)();
+  const {
+    0: surname,
+    1: setSurname
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)();
+
+  const changeName = () => {
+    setName(document.getElementById("nameIn").value);
+  };
+
+  const changeSurname = () => {
+    setSurname(document.getElementById("surnameIn").value);
+  };
+
+  const checkNameSurname = () => {
+    if (name === undefined || surname === undefined) return false;
+    if (name === '' || surname === '') return false;
+    return true;
+  };
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: _contactUs_module_scss__WEBPACK_IMPORTED_MODULE_3__.contactUs
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: _contactUs_module_scss__WEBPACK_IMPORTED_MODULE_3__.contactHero
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: _contactUs_module_scss__WEBPACK_IMPORTED_MODULE_3__.hamWrapper
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_atoms_hamburger_hamburger__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    navBarOpen: props.formOpened,
+    onClick: props.closeForm
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Insert name and surname and contact us!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "text",
+    id: "nameIn",
+    onChange: changeName,
+    className: _contactUs_module_scss__WEBPACK_IMPORTED_MODULE_3__.nsInput,
+    placeholder: "Name"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "text",
+    id: "surnameIn",
+    onChange: changeSurname,
+    className: _contactUs_module_scss__WEBPACK_IMPORTED_MODULE_3__.nsInput,
+    placeholder: "Surname"
+  }), console.log(name + " " + surname), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_atoms_mailTo_mailTo__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    email: "sbrikkisbooks@gmail.com",
+    subject: "I want to join!",
+    body: "Hi, I'm " + name + " " + surname + ". I want to join to your Book Club!",
+    enabled: checkNameSurname() ? true : false
+  }, "Send us a mail!")));
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ContactUs);
+
+/***/ }),
+
+/***/ "./src/components/footer/footer.jsx":
+/*!******************************************!*\
+  !*** ./src/components/footer/footer.jsx ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _contactUs_contactUs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../contactUs/contactUs */ "./src/components/contactUs/contactUs.jsx");
+/* harmony import */ var _footer_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer.module.scss */ "./src/components/footer/footer.module.scss");
+
+
+
+
+function Footer(props) {
+  const {
+    0: formOpened,
+    1: setFormOpened
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
+
+  const openForm = () => {
+    setFormOpened(true);
+    props.setNotScrolling();
+  };
+
+  const closeForm = () => {
+    setFormOpened(false);
+    props.setScrolling();
+  };
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: _footer_module_scss__WEBPACK_IMPORTED_MODULE_2__.footer,
+    id: "contactUs"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Join us!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    onClick: openForm,
+    className: _footer_module_scss__WEBPACK_IMPORTED_MODULE_2__.formButton
+  }, "CONTACT US!"), formOpened ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_contactUs_contactUs__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    closeForm: closeForm,
+    formOpened: formOpened
+  }) : null);
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
+
+/***/ }),
+
+/***/ "./src/components/layout/layout.jsx":
+/*!******************************************!*\
+  !*** ./src/components/layout/layout.jsx ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _layout_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./layout.module.scss */ "./src/components/layout/layout.module.scss");
+/* harmony import */ var _navBar_navBar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../navBar/navBar */ "./src/components/navBar/navBar.jsx");
+/* harmony import */ var _footer_footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../footer/footer */ "./src/components/footer/footer.jsx");
+
+
+
+
+
+const Layout = ({
+  children,
+  isBlocking
+}) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_navBar_navBar__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    isBlocking: isBlocking
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: _layout_module_scss__WEBPACK_IMPORTED_MODULE_1__.layout
+  }, children), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_footer_footer__WEBPACK_IMPORTED_MODULE_3__["default"], null));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);
+
+/***/ }),
+
+/***/ "./src/components/navBar/navBar.jsx":
+/*!******************************************!*\
+  !*** ./src/components/navBar/navBar.jsx ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _navBar_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./navBar.module.scss */ "./src/components/navBar/navBar.module.scss");
+/* harmony import */ var _atoms_logo_logo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../atoms/logo/logo */ "./src/atoms/logo/logo.jsx");
+/* harmony import */ var _navigation_navigation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../navigation/navigation */ "./src/components/navigation/navigation.jsx");
+/* harmony import */ var _atoms_hamburger_hamburger__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../atoms/hamburger/hamburger */ "./src/atoms/hamburger/hamburger.jsx");
+
+
+
+
+
+
+const NavBar = props => {
+  const {
+    0: navBarOpen,
+    1: setNavBarOpen
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    let prevScrollpos = window.pageYOffset;
+
+    window.onscroll = function () {
+      let currentScrollPos = window.pageYOffset;
+
+      if (document.getElementById("navBar")) {
+        if (currentScrollPos === 0) {
+          document.getElementById("navBar").style.top = "0";
+        } else if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navBar").style.top = "0";
+        } else if (!navBarOpen) {
+          document.getElementById("navBar").style.top = "-80px";
+        }
+      }
+
+      prevScrollpos = currentScrollPos;
+    };
+  });
+
+  const closeNavBar = () => {
+    setNavBarOpen(false);
+    document.body.style.overflowY = "scroll";
+    document.body.style.height = "auto";
+    document.getElementsByTagName("html")[0].style.overflowY = "scroll";
+    document.getElementsByTagName("html")[0].style.height = "auto";
+  };
+
+  const openNavBar = () => {
+    setNavBarOpen(true);
+    document.body.style.overflow = "hidden";
+    document.body.style.height = "100%";
+    document.getElementsByTagName("html")[0].style.overflow = "hidden";
+    document.getElementsByTagName("html")[0].style.height = "100%";
+  };
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: _navBar_module_scss__WEBPACK_IMPORTED_MODULE_1__.navBar,
+    id: "navBar"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: _navBar_module_scss__WEBPACK_IMPORTED_MODULE_1__.logo
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_atoms_logo_logo__WEBPACK_IMPORTED_MODULE_2__["default"], null)), props.isBlocking ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: _navBar_module_scss__WEBPACK_IMPORTED_MODULE_1__.navigationDesktop
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_navigation_navigation__WEBPACK_IMPORTED_MODULE_3__["default"], null)), navBarOpen && !props.isBlocking ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: _navBar_module_scss__WEBPACK_IMPORTED_MODULE_1__.navigationMobile
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_navigation_navigation__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    onClick: closeNavBar
+  })) : null, props.isBlocking ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: _navBar_module_scss__WEBPACK_IMPORTED_MODULE_1__.hamburger
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_atoms_hamburger_hamburger__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    onClick: navBarOpen ? closeNavBar : openNavBar,
+    navBarOpen: navBarOpen
+  })));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NavBar);
+
+/***/ }),
+
+/***/ "./src/components/navigation/navigation.jsx":
+/*!**************************************************!*\
+  !*** ./src/components/navigation/navigation.jsx ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _atoms_navItem_navItem__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../atoms/navItem/navItem */ "./src/atoms/navItem/navItem.jsx");
+/* harmony import */ var _navigation_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./navigation.module.scss */ "./src/components/navigation/navigation.module.scss");
+
+
+
+
+const Navigation = props => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: _navigation_module_scss__WEBPACK_IMPORTED_MODULE_2__.navDesktop
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_atoms_navItem_navItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    text: "Home",
+    path: "/"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_atoms_navItem_navItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    text: "Spotify",
+    path: "/spotify"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_atoms_navItem_navItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    text: "Stats",
+    path: "/stats"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_atoms_navItem_navItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    text: "King",
+    path: "/king"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_atoms_navItem_navItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    text: "Contact us",
+    path: "#contactUs",
+    isHref: true
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: _navigation_module_scss__WEBPACK_IMPORTED_MODULE_2__.navMobile
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_atoms_navItem_navItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    text: "Home",
+    path: "/",
+    onClick: props.onClick
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_atoms_navItem_navItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    text: "Spotify",
+    path: "/spotify",
+    onClick: props.onClick
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_atoms_navItem_navItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    text: "Stats",
+    path: "/stats",
+    onClick: props.onClick
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_atoms_navItem_navItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    text: "King",
+    path: "/king",
+    onClick: props.onClick
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_atoms_navItem_navItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    text: "Contact us",
+    path: "#contactUs",
+    onClick: props.onClick,
+    isHref: true
+  })));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Navigation);
+
+/***/ }),
+
+/***/ "./src/components/qualities/qualities.jsx":
+/*!************************************************!*\
+  !*** ./src/components/qualities/qualities.jsx ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _atoms_meetingQuality_meetingQuality__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../atoms/meetingQuality/meetingQuality */ "./src/atoms/meetingQuality/meetingQuality.jsx");
+/* harmony import */ var _qualities_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./qualities.module.scss */ "./src/components/qualities/qualities.module.scss");
+
+
+
+
+const Qualities = ({
+  quality
+}) => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, quality.map((elem, i) => {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: _qualities_module_scss__WEBPACK_IMPORTED_MODULE_2__.wrap,
+      key: i,
+      id: "meeting" + i * 1 + 1,
+      hidden: true
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Meeting ", i * 1 + 1), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_atoms_meetingQuality_meetingQuality__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      elem: elem
+    })));
+  }));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Qualities);
+
+/***/ }),
+
+/***/ "./src/components/seo/seo.jsx":
+/*!************************************!*\
+  !*** ./src/components/seo/seo.jsx ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _public_page_data_sq_d_2094259327_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../public/page-data/sq/d/2094259327.json */ "./public/page-data/sq/d/2094259327.json");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-helmet */ "./node_modules/react-helmet/es/Helmet.js");
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @reach/router */ "./node_modules/@gatsbyjs/reach-router/es/index.js");
+
+
+
+
+
+
+const Seo = ({
+  title,
+  description,
+  image,
+  article
+}) => {
+  const {
+    pathname
+  } = (0,_reach_router__WEBPACK_IMPORTED_MODULE_4__.useLocation)();
+  const {
+    site
+  } = _public_page_data_sq_d_2094259327_json__WEBPACK_IMPORTED_MODULE_0__.data;
+  const {
+    defaultTitle,
+    titleTemplate,
+    defaultDescription,
+    siteUrl,
+    defaultImage,
+    twitterUsername
+  } = site.siteMetadata;
+  const seo = {
+    title: title || defaultTitle,
+    description: description || defaultDescription,
+    image: `${siteUrl}${image || defaultImage}`,
+    url: `${siteUrl}${pathname}`
+  };
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("html", {
+    lang: "en"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_helmet__WEBPACK_IMPORTED_MODULE_3__.Helmet, {
+    title: seo.title,
+    titleTemplate: titleTemplate
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("meta", {
+    name: "description",
+    content: seo.description
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("meta", {
+    name: "image",
+    content: seo.image
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("meta", {
+    name: "keywords",
+    content: "sbrikki, books, sbrikki's books, book club, sbrikkisbooks"
+  }), seo.url && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("meta", {
+    property: "og:url",
+    content: seo.url
+  }), (article ? true : null) && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("meta", {
+    property: "og:type",
+    content: "article"
+  }), seo.title && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("meta", {
+    property: "og:title",
+    content: seo.title
+  }), seo.description && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("meta", {
+    property: "og:description",
+    content: seo.description
+  }), seo.image && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("meta", {
+    property: "og:image",
+    content: seo.image
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("meta", {
+    name: "twitter:card",
+    content: "summary_large_image"
+  }), twitterUsername && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("meta", {
+    name: "twitter:creator",
+    content: twitterUsername
+  }), seo.title && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("meta", {
+    name: "twitter:title",
+    content: seo.title
+  }), seo.description && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("meta", {
+    name: "twitter:description",
+    content: seo.description
+  }), seo.image && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("meta", {
+    name: "twitter:image",
+    content: seo.image
+  })));
+};
+
+Seo.propTypes = {
+  title: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string),
+  description: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string),
+  image: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string),
+  article: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().bool)
+};
+Seo.defaultProps = {
+  title: "Sbrikki's Books - A Book Club for everyone",
+  description: "Sbrikki's Books is an apolitical book club for everyone. The main aim is the growth of every member from a cultural point of view. We also drink.",
+  image: null,
+  article: false
+};
+const query = "2094259327";
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Seo);
+
+/***/ }),
+
+/***/ "./src/pages/stats.jsx":
+/*!*****************************!*\
+  !*** ./src/pages/stats.jsx ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_stats_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/stats.module.scss */ "./src/styles/stats.module.scss");
+/* harmony import */ var _atoms_separator_separator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../atoms/separator/separator */ "./src/atoms/separator/separator.jsx");
+/* harmony import */ var _atoms_loadingBooks_loadingBooks__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../atoms/loadingBooks/loadingBooks */ "./src/atoms/loadingBooks/loadingBooks.jsx");
+/* harmony import */ var _atoms_firebase__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../atoms/firebase */ "./src/atoms/firebase.jsx");
+/* harmony import */ var firebase_database__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! firebase/database */ "./node_modules/firebase/database/dist/index.mjs");
+/* harmony import */ var _components_qualities_qualities__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/qualities/qualities */ "./src/components/qualities/qualities.jsx");
+/* harmony import */ var _components_layout_layout__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/layout/layout */ "./src/components/layout/layout.jsx");
+/* harmony import */ var _components_seo_seo__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/seo/seo */ "./src/components/seo/seo.jsx");
+
+
+
+
+
+
+
+
+
+
+const Stats = () => {
+  const {
+    0: data,
+    1: setData
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]);
+  const {
+    0: quality,
+    1: setQuality
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]);
+  const {
+    0: fetched,
+    1: setFetched
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
+  const {
+    0: loaded,
+    1: setLoaded
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
+  const {
+    0: error1,
+    1: setError1
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(Error());
+  const {
+    0: error2,
+    1: setError2
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(Error());
+  const {
+    0: error3,
+    1: setError3
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
+
+  const fetchData = async () => {
+    let tmpArray = [[]];
+    const dbRef = (0,firebase_database__WEBPACK_IMPORTED_MODULE_5__.ref)(_atoms_firebase__WEBPACK_IMPORTED_MODULE_4__["default"]);
+    (0,firebase_database__WEBPACK_IMPORTED_MODULE_5__.get)((0,firebase_database__WEBPACK_IMPORTED_MODULE_5__.child)(dbRef, `meeting/`)).then(snapshot => {
+      setFetched(true);
+      setLoaded(true);
+
+      if (snapshot.exists()) {
+        tmpArray = JSON.stringify(snapshot.toJSON()).replace("{", "").replace("}", "").replaceAll('"', "").split(/(?<=[,])/);
+
+        for (let i = 0; i < tmpArray.length; i++) {
+          tmpArray[i] = tmpArray[i].replace(",", "").split(/(?<=[:])/);
+          tmpArray[i][0] = tmpArray[i][0].replace(":", "");
+        }
+
+        setData(tmpArray);
+      } else {
+        setError3(true);
+      }
+    }).catch(err => {
+      setFetched(false);
+      setLoaded(true);
+      setError1(err);
+    });
+    (0,firebase_database__WEBPACK_IMPORTED_MODULE_5__.get)((0,firebase_database__WEBPACK_IMPORTED_MODULE_5__.child)(dbRef, `meetingQuality/`)).then(snapshot => {
+      setFetched(true);
+      setLoaded(true);
+
+      if (snapshot.exists()) {
+        tmpArray = JSON.stringify(snapshot.toJSON()).replace("{", "").replace("}", "").split(/(?<=["])/);
+
+        for (let i = 0; i < tmpArray.length; i++) {
+          tmpArray[i] = tmpArray[i].replace('"', "");
+          if (tmpArray[i] === ":" || tmpArray[i] === "," || tmpArray[i].match(/^\d+$/)) tmpArray[i] = "";
+        }
+
+        for (let i = 0; i < tmpArray.length; i++) {
+          if (tmpArray[i] === "") {
+            for (let j = i + 1; j < tmpArray.length; j++) tmpArray[j - 1] = tmpArray[j];
+
+            tmpArray.length -= 1;
+            i--;
+          }
+        }
+
+        for (let i = 0; i < tmpArray.length; i++) tmpArray[i] = tmpArray[i].split("_");
+
+        setQuality(tmpArray);
+      } else {
+        setError3(true);
+      }
+    }).catch(err => {
+      setFetched(false);
+      setLoaded(true);
+      setError2(err);
+    });
+  };
+
+  const setVisibility = id => {
+    if (document.getElementById(id)) document.getElementById(id).hidden = !document.getElementById(id).hidden;
+  };
+
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    fetchData();
+  }, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_layout_layout__WEBPACK_IMPORTED_MODULE_7__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_seo_seo__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    title: "Stats",
+    description: "Look at our stats"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: _styles_stats_module_scss__WEBPACK_IMPORTED_MODULE_1__.tmp
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Sbrikki's Books SEO score"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "SEO"), " is a very important thing ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "That's why I'm studying ways to ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "improve"), " it ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "See our ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "score"), " by clicking on the link below"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    className: _styles_stats_module_scss__WEBPACK_IMPORTED_MODULE_1__.link,
+    href: "https://freetools.seobility.net/en/seocheck/sbrikkisbooks.ga"
+  }, "SEOBILITY"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://freetools.seobility.net/en/seocheck/sbrikkisbooks.ga"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: "https://freetools.seobility.net/widget/widget.png?url=sbrikkisbooks.ga",
+    alt: "Seobility Score f\xFCr sbrikkisbooks.ga"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_atoms_separator_separator__WEBPACK_IMPORTED_MODULE_2__["default"], null), loaded ? fetched ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: _styles_stats_module_scss__WEBPACK_IMPORTED_MODULE_1__.lastMeetings
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Here there are last meetings info"), data.map((elem, i) => {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      onClick: setVisibility("meeting" + i),
+      onKeyDown: setVisibility("meeting" + i),
+      role: "button",
+      key: i,
+      tabIndex: i
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+      className: _styles_stats_module_scss__WEBPACK_IMPORTED_MODULE_1__.meeting
+    }, "Meeting " + elem[0] + ", Date: " + elem[1]));
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_qualities_qualities__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    quality: quality
+  })) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, error1.message + /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null) + error2.message + /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null) + error3 ? "No data avaiable" : null) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_atoms_loadingBooks_loadingBooks__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_atoms_separator_separator__WEBPACK_IMPORTED_MODULE_2__["default"], null)));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Stats);
+
+/***/ }),
+
+/***/ "./node_modules/http-parser-js/http-parser.js":
+/*!****************************************************!*\
+  !*** ./node_modules/http-parser-js/http-parser.js ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+/*jshint node:true */
+
+var assert = __webpack_require__(/*! assert */ "assert");
+
+exports.HTTPParser = HTTPParser;
+function HTTPParser(type) {
+  assert.ok(type === HTTPParser.REQUEST || type === HTTPParser.RESPONSE || type === undefined);
+  if (type === undefined) {
+    // Node v12+
+  } else {
+    this.initialize(type);
+  }
+}
+HTTPParser.prototype.initialize = function (type, async_resource) {
+  assert.ok(type === HTTPParser.REQUEST || type === HTTPParser.RESPONSE);
+  this.type = type;
+  this.state = type + '_LINE';
+  this.info = {
+    headers: [],
+    upgrade: false
+  };
+  this.trailers = [];
+  this.line = '';
+  this.isChunked = false;
+  this.connection = '';
+  this.headerSize = 0; // for preventing too big headers
+  this.body_bytes = null;
+  this.isUserCall = false;
+  this.hadError = false;
+};
+
+HTTPParser.encoding = 'ascii';
+HTTPParser.maxHeaderSize = 80 * 1024; // maxHeaderSize (in bytes) is configurable, but 80kb by default;
+HTTPParser.REQUEST = 'REQUEST';
+HTTPParser.RESPONSE = 'RESPONSE';
+
+// Note: *not* starting with kOnHeaders=0 line the Node parser, because any
+//   newly added constants (kOnTimeout in Node v12.19.0) will overwrite 0!
+var kOnHeaders = HTTPParser.kOnHeaders = 1;
+var kOnHeadersComplete = HTTPParser.kOnHeadersComplete = 2;
+var kOnBody = HTTPParser.kOnBody = 3;
+var kOnMessageComplete = HTTPParser.kOnMessageComplete = 4;
+
+// Some handler stubs, needed for compatibility
+HTTPParser.prototype[kOnHeaders] =
+HTTPParser.prototype[kOnHeadersComplete] =
+HTTPParser.prototype[kOnBody] =
+HTTPParser.prototype[kOnMessageComplete] = function () {};
+
+var compatMode0_12 = true;
+Object.defineProperty(HTTPParser, 'kOnExecute', {
+    get: function () {
+      // hack for backward compatibility
+      compatMode0_12 = false;
+      return 99;
+    }
+  });
+
+var methods = exports.methods = HTTPParser.methods = [
+  'DELETE',
+  'GET',
+  'HEAD',
+  'POST',
+  'PUT',
+  'CONNECT',
+  'OPTIONS',
+  'TRACE',
+  'COPY',
+  'LOCK',
+  'MKCOL',
+  'MOVE',
+  'PROPFIND',
+  'PROPPATCH',
+  'SEARCH',
+  'UNLOCK',
+  'BIND',
+  'REBIND',
+  'UNBIND',
+  'ACL',
+  'REPORT',
+  'MKACTIVITY',
+  'CHECKOUT',
+  'MERGE',
+  'M-SEARCH',
+  'NOTIFY',
+  'SUBSCRIBE',
+  'UNSUBSCRIBE',
+  'PATCH',
+  'PURGE',
+  'MKCALENDAR',
+  'LINK',
+  'UNLINK'
+];
+var method_connect = methods.indexOf('CONNECT');
+HTTPParser.prototype.reinitialize = HTTPParser;
+HTTPParser.prototype.close =
+HTTPParser.prototype.pause =
+HTTPParser.prototype.resume =
+HTTPParser.prototype.free = function () {};
+HTTPParser.prototype._compatMode0_11 = false;
+HTTPParser.prototype.getAsyncId = function() { return 0; };
+
+var headerState = {
+  REQUEST_LINE: true,
+  RESPONSE_LINE: true,
+  HEADER: true
+};
+HTTPParser.prototype.execute = function (chunk, start, length) {
+  if (!(this instanceof HTTPParser)) {
+    throw new TypeError('not a HTTPParser');
+  }
+
+  // backward compat to node < 0.11.4
+  // Note: the start and length params were removed in newer version
+  start = start || 0;
+  length = typeof length === 'number' ? length : chunk.length;
+
+  this.chunk = chunk;
+  this.offset = start;
+  var end = this.end = start + length;
+  try {
+    while (this.offset < end) {
+      if (this[this.state]()) {
+        break;
+      }
+    }
+  } catch (err) {
+    if (this.isUserCall) {
+      throw err;
+    }
+    this.hadError = true;
+    return err;
+  }
+  this.chunk = null;
+  length = this.offset - start;
+  if (headerState[this.state]) {
+    this.headerSize += length;
+    if (this.headerSize > HTTPParser.maxHeaderSize) {
+      return new Error('max header size exceeded');
+    }
+  }
+  return length;
+};
+
+var stateFinishAllowed = {
+  REQUEST_LINE: true,
+  RESPONSE_LINE: true,
+  BODY_RAW: true
+};
+HTTPParser.prototype.finish = function () {
+  if (this.hadError) {
+    return;
+  }
+  if (!stateFinishAllowed[this.state]) {
+    return new Error('invalid state for EOF');
+  }
+  if (this.state === 'BODY_RAW') {
+    this.userCall()(this[kOnMessageComplete]());
+  }
+};
+
+// These three methods are used for an internal speed optimization, and it also
+// works if theses are noops. Basically consume() asks us to read the bytes
+// ourselves, but if we don't do it we get them through execute().
+HTTPParser.prototype.consume =
+HTTPParser.prototype.unconsume =
+HTTPParser.prototype.getCurrentBuffer = function () {};
+
+//For correct error handling - see HTTPParser#execute
+//Usage: this.userCall()(userFunction('arg'));
+HTTPParser.prototype.userCall = function () {
+  this.isUserCall = true;
+  var self = this;
+  return function (ret) {
+    self.isUserCall = false;
+    return ret;
+  };
+};
+
+HTTPParser.prototype.nextRequest = function () {
+  this.userCall()(this[kOnMessageComplete]());
+  this.reinitialize(this.type);
+};
+
+HTTPParser.prototype.consumeLine = function () {
+  var end = this.end,
+      chunk = this.chunk;
+  for (var i = this.offset; i < end; i++) {
+    if (chunk[i] === 0x0a) { // \n
+      var line = this.line + chunk.toString(HTTPParser.encoding, this.offset, i);
+      if (line.charAt(line.length - 1) === '\r') {
+        line = line.substr(0, line.length - 1);
+      }
+      this.line = '';
+      this.offset = i + 1;
+      return line;
+    }
+  }
+  //line split over multiple chunks
+  this.line += chunk.toString(HTTPParser.encoding, this.offset, this.end);
+  this.offset = this.end;
+};
+
+var headerExp = /^([^: \t]+):[ \t]*((?:.*[^ \t])|)/;
+var headerContinueExp = /^[ \t]+(.*[^ \t])/;
+HTTPParser.prototype.parseHeader = function (line, headers) {
+  if (line.indexOf('\r') !== -1) {
+    throw parseErrorCode('HPE_LF_EXPECTED');
+  }
+
+  var match = headerExp.exec(line);
+  var k = match && match[1];
+  if (k) { // skip empty string (malformed header)
+    headers.push(k);
+    headers.push(match[2]);
+  } else {
+    var matchContinue = headerContinueExp.exec(line);
+    if (matchContinue && headers.length) {
+      if (headers[headers.length - 1]) {
+        headers[headers.length - 1] += ' ';
+      }
+      headers[headers.length - 1] += matchContinue[1];
+    }
+  }
+};
+
+var requestExp = /^([A-Z-]+) ([^ ]+) HTTP\/(\d)\.(\d)$/;
+HTTPParser.prototype.REQUEST_LINE = function () {
+  var line = this.consumeLine();
+  if (!line) {
+    return;
+  }
+  var match = requestExp.exec(line);
+  if (match === null) {
+    throw parseErrorCode('HPE_INVALID_CONSTANT');
+  }
+  this.info.method = this._compatMode0_11 ? match[1] : methods.indexOf(match[1]);
+  if (this.info.method === -1) {
+    throw new Error('invalid request method');
+  }
+  this.info.url = match[2];
+  this.info.versionMajor = +match[3];
+  this.info.versionMinor = +match[4];
+  this.body_bytes = 0;
+  this.state = 'HEADER';
+};
+
+var responseExp = /^HTTP\/(\d)\.(\d) (\d{3}) ?(.*)$/;
+HTTPParser.prototype.RESPONSE_LINE = function () {
+  var line = this.consumeLine();
+  if (!line) {
+    return;
+  }
+  var match = responseExp.exec(line);
+  if (match === null) {
+    throw parseErrorCode('HPE_INVALID_CONSTANT');
+  }
+  this.info.versionMajor = +match[1];
+  this.info.versionMinor = +match[2];
+  var statusCode = this.info.statusCode = +match[3];
+  this.info.statusMessage = match[4];
+  // Implied zero length.
+  if ((statusCode / 100 | 0) === 1 || statusCode === 204 || statusCode === 304) {
+    this.body_bytes = 0;
+  }
+  this.state = 'HEADER';
+};
+
+HTTPParser.prototype.shouldKeepAlive = function () {
+  if (this.info.versionMajor > 0 && this.info.versionMinor > 0) {
+    if (this.connection.indexOf('close') !== -1) {
+      return false;
+    }
+  } else if (this.connection.indexOf('keep-alive') === -1) {
+    return false;
+  }
+  if (this.body_bytes !== null || this.isChunked) { // || skipBody
+    return true;
+  }
+  return false;
+};
+
+HTTPParser.prototype.HEADER = function () {
+  var line = this.consumeLine();
+  if (line === undefined) {
+    return;
+  }
+  var info = this.info;
+  if (line) {
+    this.parseHeader(line, info.headers);
+  } else {
+    var headers = info.headers;
+    var hasContentLength = false;
+    var currentContentLengthValue;
+    var hasUpgradeHeader = false;
+    for (var i = 0; i < headers.length; i += 2) {
+      switch (headers[i].toLowerCase()) {
+        case 'transfer-encoding':
+          this.isChunked = headers[i + 1].toLowerCase() === 'chunked';
+          break;
+        case 'content-length':
+          currentContentLengthValue = +headers[i + 1];
+          if (hasContentLength) {
+            // Fix duplicate Content-Length header with same values.
+            // Throw error only if values are different.
+            // Known issues:
+            // https://github.com/request/request/issues/2091#issuecomment-328715113
+            // https://github.com/nodejs/node/issues/6517#issuecomment-216263771
+            if (currentContentLengthValue !== this.body_bytes) {
+              throw parseErrorCode('HPE_UNEXPECTED_CONTENT_LENGTH');
+            }
+          } else {
+            hasContentLength = true;
+            this.body_bytes = currentContentLengthValue;
+          }
+          break;
+        case 'connection':
+          this.connection += headers[i + 1].toLowerCase();
+          break;
+        case 'upgrade':
+          hasUpgradeHeader = true;
+          break;
+      }
+    }
+
+    // if both isChunked and hasContentLength, isChunked wins
+    // This is required so the body is parsed using the chunked method, and matches
+    // Chrome's behavior.  We could, maybe, ignore them both (would get chunked
+    // encoding into the body), and/or disable shouldKeepAlive to be more
+    // resilient.
+    if (this.isChunked && hasContentLength) {
+      hasContentLength = false;
+      this.body_bytes = null;
+    }
+
+    // Logic from https://github.com/nodejs/http-parser/blob/921d5585515a153fa00e411cf144280c59b41f90/http_parser.c#L1727-L1737
+    // "For responses, "Upgrade: foo" and "Connection: upgrade" are
+    //   mandatory only when it is a 101 Switching Protocols response,
+    //   otherwise it is purely informational, to announce support.
+    if (hasUpgradeHeader && this.connection.indexOf('upgrade') != -1) {
+      info.upgrade = this.type === HTTPParser.REQUEST || info.statusCode === 101;
+    } else {
+      info.upgrade = info.method === method_connect;
+    }
+
+    if (this.isChunked && info.upgrade) {
+      this.isChunked = false;
+    }
+
+    info.shouldKeepAlive = this.shouldKeepAlive();
+    //problem which also exists in original node: we should know skipBody before calling onHeadersComplete
+    var skipBody;
+    if (compatMode0_12) {
+      skipBody = this.userCall()(this[kOnHeadersComplete](info));
+    } else {
+      skipBody = this.userCall()(this[kOnHeadersComplete](info.versionMajor,
+          info.versionMinor, info.headers, info.method, info.url, info.statusCode,
+          info.statusMessage, info.upgrade, info.shouldKeepAlive));
+    }
+    if (skipBody === 2) {
+      this.nextRequest();
+      return true;
+    } else if (this.isChunked && !skipBody) {
+      this.state = 'BODY_CHUNKHEAD';
+    } else if (skipBody || this.body_bytes === 0) {
+      this.nextRequest();
+      // For older versions of node (v6.x and older?), that return skipBody=1 or skipBody=true,
+      //   need this "return true;" if it's an upgrade request.
+      return info.upgrade;
+    } else if (this.body_bytes === null) {
+      this.state = 'BODY_RAW';
+    } else {
+      this.state = 'BODY_SIZED';
+    }
+  }
+};
+
+HTTPParser.prototype.BODY_CHUNKHEAD = function () {
+  var line = this.consumeLine();
+  if (line === undefined) {
+    return;
+  }
+  this.body_bytes = parseInt(line, 16);
+  if (!this.body_bytes) {
+    this.state = 'BODY_CHUNKTRAILERS';
+  } else {
+    this.state = 'BODY_CHUNK';
+  }
+};
+
+HTTPParser.prototype.BODY_CHUNK = function () {
+  var length = Math.min(this.end - this.offset, this.body_bytes);
+  this.userCall()(this[kOnBody](this.chunk, this.offset, length));
+  this.offset += length;
+  this.body_bytes -= length;
+  if (!this.body_bytes) {
+    this.state = 'BODY_CHUNKEMPTYLINE';
+  }
+};
+
+HTTPParser.prototype.BODY_CHUNKEMPTYLINE = function () {
+  var line = this.consumeLine();
+  if (line === undefined) {
+    return;
+  }
+  assert.equal(line, '');
+  this.state = 'BODY_CHUNKHEAD';
+};
+
+HTTPParser.prototype.BODY_CHUNKTRAILERS = function () {
+  var line = this.consumeLine();
+  if (line === undefined) {
+    return;
+  }
+  if (line) {
+    this.parseHeader(line, this.trailers);
+  } else {
+    if (this.trailers.length) {
+      this.userCall()(this[kOnHeaders](this.trailers, ''));
+    }
+    this.nextRequest();
+  }
+};
+
+HTTPParser.prototype.BODY_RAW = function () {
+  var length = this.end - this.offset;
+  this.userCall()(this[kOnBody](this.chunk, this.offset, length));
+  this.offset = this.end;
+};
+
+HTTPParser.prototype.BODY_SIZED = function () {
+  var length = Math.min(this.end - this.offset, this.body_bytes);
+  this.userCall()(this[kOnBody](this.chunk, this.offset, length));
+  this.offset += length;
+  this.body_bytes -= length;
+  if (!this.body_bytes) {
+    this.nextRequest();
+  }
+};
+
+// backward compat to node < 0.11.6
+['Headers', 'HeadersComplete', 'Body', 'MessageComplete'].forEach(function (name) {
+  var k = HTTPParser['kOn' + name];
+  Object.defineProperty(HTTPParser.prototype, 'on' + name, {
+    get: function () {
+      return this[k];
+    },
+    set: function (to) {
+      // hack for backward compatibility
+      this._compatMode0_11 = true;
+      method_connect = 'CONNECT';
+      return (this[k] = to);
+    }
+  });
 });
 
-// EXTERNAL MODULE: external "/home/mike/Developing/sbrikkisbooks_official_website/node_modules/react/index.js"
-var index_js_ = __webpack_require__(9336);
-var index_js_default = /*#__PURE__*/__webpack_require__.n(index_js_);
-;// CONCATENATED MODULE: ./src/styles/stats.module.scss
-// Exports
-var tmp = "stats-module--tmp--L0iyK";
-var stats_module_link = "stats-module--link--+hJCf";
-var lastMeetings = "stats-module--lastMeetings--gYu6p";
-var meeting = "stats-module--meeting--aucWi";
-
-// EXTERNAL MODULE: ./src/atoms/separator/separator.jsx + 1 modules
-var separator = __webpack_require__(245);
-// EXTERNAL MODULE: ./src/atoms/loadingBooks/loadingBooks.jsx + 2 modules
-var loadingBooks = __webpack_require__(4913);
-;// CONCATENATED MODULE: ./node_modules/@firebase/util/dist/node-esm/index.node.esm.js
-/**
- * @license
- * Copyright 2017 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-/**
- * @fileoverview Firebase constants.  Some of these (@defines) can be overridden at compile-time.
- */
-const CONSTANTS = {
-    /**
-     * @define {boolean} Whether this is the client Node.js SDK.
-     */
-    NODE_CLIENT: false,
-    /**
-     * @define {boolean} Whether this is the Admin Node.js SDK.
-     */
-    NODE_ADMIN: false,
-    /**
-     * Firebase SDK Version
-     */
-    SDK_VERSION: '${JSCORE_VERSION}'
-};
-
-/**
- * @license
- * Copyright 2017 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-/**
- * Throws an error if the provided assertion is falsy
- */
-const index_node_esm_assert = function (assertion, message) {
-    if (!assertion) {
-        throw assertionError(message);
-    }
-};
-/**
- * Returns an Error object suitable for throwing.
- */
-const assertionError = function (message) {
-    return new Error('Firebase Database (' +
-        CONSTANTS.SDK_VERSION +
-        ') INTERNAL ASSERT FAILED: ' +
-        message);
-};
-
-/**
- * @license
- * Copyright 2017 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-const stringToByteArray$1 = function (str) {
-    // TODO(user): Use native implementations if/when available
-    const out = [];
-    let p = 0;
-    for (let i = 0; i < str.length; i++) {
-        let c = str.charCodeAt(i);
-        if (c < 128) {
-            out[p++] = c;
-        }
-        else if (c < 2048) {
-            out[p++] = (c >> 6) | 192;
-            out[p++] = (c & 63) | 128;
-        }
-        else if ((c & 0xfc00) === 0xd800 &&
-            i + 1 < str.length &&
-            (str.charCodeAt(i + 1) & 0xfc00) === 0xdc00) {
-            // Surrogate Pair
-            c = 0x10000 + ((c & 0x03ff) << 10) + (str.charCodeAt(++i) & 0x03ff);
-            out[p++] = (c >> 18) | 240;
-            out[p++] = ((c >> 12) & 63) | 128;
-            out[p++] = ((c >> 6) & 63) | 128;
-            out[p++] = (c & 63) | 128;
-        }
-        else {
-            out[p++] = (c >> 12) | 224;
-            out[p++] = ((c >> 6) & 63) | 128;
-            out[p++] = (c & 63) | 128;
-        }
-    }
-    return out;
-};
-/**
- * Turns an array of numbers into the string given by the concatenation of the
- * characters to which the numbers correspond.
- * @param bytes Array of numbers representing characters.
- * @return Stringification of the array.
- */
-const byteArrayToString = function (bytes) {
-    // TODO(user): Use native implementations if/when available
-    const out = [];
-    let pos = 0, c = 0;
-    while (pos < bytes.length) {
-        const c1 = bytes[pos++];
-        if (c1 < 128) {
-            out[c++] = String.fromCharCode(c1);
-        }
-        else if (c1 > 191 && c1 < 224) {
-            const c2 = bytes[pos++];
-            out[c++] = String.fromCharCode(((c1 & 31) << 6) | (c2 & 63));
-        }
-        else if (c1 > 239 && c1 < 365) {
-            // Surrogate Pair
-            const c2 = bytes[pos++];
-            const c3 = bytes[pos++];
-            const c4 = bytes[pos++];
-            const u = (((c1 & 7) << 18) | ((c2 & 63) << 12) | ((c3 & 63) << 6) | (c4 & 63)) -
-                0x10000;
-            out[c++] = String.fromCharCode(0xd800 + (u >> 10));
-            out[c++] = String.fromCharCode(0xdc00 + (u & 1023));
-        }
-        else {
-            const c2 = bytes[pos++];
-            const c3 = bytes[pos++];
-            out[c++] = String.fromCharCode(((c1 & 15) << 12) | ((c2 & 63) << 6) | (c3 & 63));
-        }
-    }
-    return out.join('');
-};
-// We define it as an object literal instead of a class because a class compiled down to es5 can't
-// be treeshaked. https://github.com/rollup/rollup/issues/1691
-// Static lookup maps, lazily populated by init_()
-const base64 = {
-    /**
-     * Maps bytes to characters.
-     */
-    byteToCharMap_: null,
-    /**
-     * Maps characters to bytes.
-     */
-    charToByteMap_: null,
-    /**
-     * Maps bytes to websafe characters.
-     * @private
-     */
-    byteToCharMapWebSafe_: null,
-    /**
-     * Maps websafe characters to bytes.
-     * @private
-     */
-    charToByteMapWebSafe_: null,
-    /**
-     * Our default alphabet, shared between
-     * ENCODED_VALS and ENCODED_VALS_WEBSAFE
-     */
-    ENCODED_VALS_BASE: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' + 'abcdefghijklmnopqrstuvwxyz' + '0123456789',
-    /**
-     * Our default alphabet. Value 64 (=) is special; it means "nothing."
-     */
-    get ENCODED_VALS() {
-        return this.ENCODED_VALS_BASE + '+/=';
-    },
-    /**
-     * Our websafe alphabet.
-     */
-    get ENCODED_VALS_WEBSAFE() {
-        return this.ENCODED_VALS_BASE + '-_.';
-    },
-    /**
-     * Whether this browser supports the atob and btoa functions. This extension
-     * started at Mozilla but is now implemented by many browsers. We use the
-     * ASSUME_* variables to avoid pulling in the full useragent detection library
-     * but still allowing the standard per-browser compilations.
-     *
-     */
-    HAS_NATIVE_SUPPORT: typeof atob === 'function',
-    /**
-     * Base64-encode an array of bytes.
-     *
-     * @param input An array of bytes (numbers with
-     *     value in [0, 255]) to encode.
-     * @param webSafe Boolean indicating we should use the
-     *     alternative alphabet.
-     * @return The base64 encoded string.
-     */
-    encodeByteArray(input, webSafe) {
-        if (!Array.isArray(input)) {
-            throw Error('encodeByteArray takes an array as a parameter');
-        }
-        this.init_();
-        const byteToCharMap = webSafe
-            ? this.byteToCharMapWebSafe_
-            : this.byteToCharMap_;
-        const output = [];
-        for (let i = 0; i < input.length; i += 3) {
-            const byte1 = input[i];
-            const haveByte2 = i + 1 < input.length;
-            const byte2 = haveByte2 ? input[i + 1] : 0;
-            const haveByte3 = i + 2 < input.length;
-            const byte3 = haveByte3 ? input[i + 2] : 0;
-            const outByte1 = byte1 >> 2;
-            const outByte2 = ((byte1 & 0x03) << 4) | (byte2 >> 4);
-            let outByte3 = ((byte2 & 0x0f) << 2) | (byte3 >> 6);
-            let outByte4 = byte3 & 0x3f;
-            if (!haveByte3) {
-                outByte4 = 64;
-                if (!haveByte2) {
-                    outByte3 = 64;
-                }
-            }
-            output.push(byteToCharMap[outByte1], byteToCharMap[outByte2], byteToCharMap[outByte3], byteToCharMap[outByte4]);
-        }
-        return output.join('');
-    },
-    /**
-     * Base64-encode a string.
-     *
-     * @param input A string to encode.
-     * @param webSafe If true, we should use the
-     *     alternative alphabet.
-     * @return The base64 encoded string.
-     */
-    encodeString(input, webSafe) {
-        // Shortcut for Mozilla browsers that implement
-        // a native base64 encoder in the form of "btoa/atob"
-        if (this.HAS_NATIVE_SUPPORT && !webSafe) {
-            return btoa(input);
-        }
-        return this.encodeByteArray(stringToByteArray$1(input), webSafe);
-    },
-    /**
-     * Base64-decode a string.
-     *
-     * @param input to decode.
-     * @param webSafe True if we should use the
-     *     alternative alphabet.
-     * @return string representing the decoded value.
-     */
-    decodeString(input, webSafe) {
-        // Shortcut for Mozilla browsers that implement
-        // a native base64 encoder in the form of "btoa/atob"
-        if (this.HAS_NATIVE_SUPPORT && !webSafe) {
-            return atob(input);
-        }
-        return byteArrayToString(this.decodeStringToByteArray(input, webSafe));
-    },
-    /**
-     * Base64-decode a string.
-     *
-     * In base-64 decoding, groups of four characters are converted into three
-     * bytes.  If the encoder did not apply padding, the input length may not
-     * be a multiple of 4.
-     *
-     * In this case, the last group will have fewer than 4 characters, and
-     * padding will be inferred.  If the group has one or two characters, it decodes
-     * to one byte.  If the group has three characters, it decodes to two bytes.
-     *
-     * @param input Input to decode.
-     * @param webSafe True if we should use the web-safe alphabet.
-     * @return bytes representing the decoded value.
-     */
-    decodeStringToByteArray(input, webSafe) {
-        this.init_();
-        const charToByteMap = webSafe
-            ? this.charToByteMapWebSafe_
-            : this.charToByteMap_;
-        const output = [];
-        for (let i = 0; i < input.length;) {
-            const byte1 = charToByteMap[input.charAt(i++)];
-            const haveByte2 = i < input.length;
-            const byte2 = haveByte2 ? charToByteMap[input.charAt(i)] : 0;
-            ++i;
-            const haveByte3 = i < input.length;
-            const byte3 = haveByte3 ? charToByteMap[input.charAt(i)] : 64;
-            ++i;
-            const haveByte4 = i < input.length;
-            const byte4 = haveByte4 ? charToByteMap[input.charAt(i)] : 64;
-            ++i;
-            if (byte1 == null || byte2 == null || byte3 == null || byte4 == null) {
-                throw Error();
-            }
-            const outByte1 = (byte1 << 2) | (byte2 >> 4);
-            output.push(outByte1);
-            if (byte3 !== 64) {
-                const outByte2 = ((byte2 << 4) & 0xf0) | (byte3 >> 2);
-                output.push(outByte2);
-                if (byte4 !== 64) {
-                    const outByte3 = ((byte3 << 6) & 0xc0) | byte4;
-                    output.push(outByte3);
-                }
-            }
-        }
-        return output;
-    },
-    /**
-     * Lazy static initialization function. Called before
-     * accessing any of the static map variables.
-     * @private
-     */
-    init_() {
-        if (!this.byteToCharMap_) {
-            this.byteToCharMap_ = {};
-            this.charToByteMap_ = {};
-            this.byteToCharMapWebSafe_ = {};
-            this.charToByteMapWebSafe_ = {};
-            // We want quick mappings back and forth, so we precompute two maps.
-            for (let i = 0; i < this.ENCODED_VALS.length; i++) {
-                this.byteToCharMap_[i] = this.ENCODED_VALS.charAt(i);
-                this.charToByteMap_[this.byteToCharMap_[i]] = i;
-                this.byteToCharMapWebSafe_[i] = this.ENCODED_VALS_WEBSAFE.charAt(i);
-                this.charToByteMapWebSafe_[this.byteToCharMapWebSafe_[i]] = i;
-                // Be forgiving when decoding and correctly decode both encodings.
-                if (i >= this.ENCODED_VALS_BASE.length) {
-                    this.charToByteMap_[this.ENCODED_VALS_WEBSAFE.charAt(i)] = i;
-                    this.charToByteMapWebSafe_[this.ENCODED_VALS.charAt(i)] = i;
-                }
-            }
-        }
-    }
-};
-/**
- * URL-safe base64 encoding
- */
-const base64Encode = function (str) {
-    const utf8Bytes = stringToByteArray$1(str);
-    return base64.encodeByteArray(utf8Bytes, true);
-};
-/**
- * URL-safe base64 encoding (without "." padding in the end).
- * e.g. Used in JSON Web Token (JWT) parts.
- */
-const base64urlEncodeWithoutPadding = function (str) {
-    // Use base64url encoding and remove padding in the end (dot characters).
-    return base64Encode(str).replace(/\./g, '');
-};
-/**
- * URL-safe base64 decoding
- *
- * NOTE: DO NOT use the global atob() function - it does NOT support the
- * base64Url variant encoding.
- *
- * @param str To be decoded
- * @return Decoded result, if possible
- */
-const base64Decode = function (str) {
-    try {
-        return base64.decodeString(str, true);
-    }
-    catch (e) {
-        console.error('base64Decode failed: ', e);
-    }
-    return null;
-};
-
-/**
- * @license
- * Copyright 2017 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-/**
- * Do a deep-copy of basic JavaScript Objects or Arrays.
- */
-function deepCopy(value) {
-    return deepExtend(undefined, value);
-}
-/**
- * Copy properties from source to target (recursively allows extension
- * of Objects and Arrays).  Scalar values in the target are over-written.
- * If target is undefined, an object of the appropriate type will be created
- * (and returned).
- *
- * We recursively copy all child properties of plain Objects in the source- so
- * that namespace- like dictionaries are merged.
- *
- * Note that the target can be a function, in which case the properties in
- * the source Object are copied onto it as static properties of the Function.
- *
- * Note: we don't merge __proto__ to prevent prototype pollution
- */
-function deepExtend(target, source) {
-    if (!(source instanceof Object)) {
-        return source;
-    }
-    switch (source.constructor) {
-        case Date:
-            // Treat Dates like scalars; if the target date object had any child
-            // properties - they will be lost!
-            const dateValue = source;
-            return new Date(dateValue.getTime());
-        case Object:
-            if (target === undefined) {
-                target = {};
-            }
-            break;
-        case Array:
-            // Always copy the array source and overwrite the target.
-            target = [];
-            break;
-        default:
-            // Not a plain Object - treat it as a scalar.
-            return source;
-    }
-    for (const prop in source) {
-        // use isValidKey to guard against prototype pollution. See https://snyk.io/vuln/SNYK-JS-LODASH-450202
-        if (!source.hasOwnProperty(prop) || !isValidKey(prop)) {
-            continue;
-        }
-        target[prop] = deepExtend(target[prop], source[prop]);
-    }
-    return target;
-}
-function isValidKey(key) {
-    return key !== '__proto__';
+function parseErrorCode(code) {
+  var err = new Error('Parse Error');
+  err.code = code;
+  return err;
 }
 
-/**
- * @license
- * Copyright 2017 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-class index_node_esm_Deferred {
-    constructor() {
-        this.reject = () => { };
-        this.resolve = () => { };
-        this.promise = new Promise((resolve, reject) => {
-            this.resolve = resolve;
-            this.reject = reject;
-        });
-    }
-    /**
-     * Our API internals are not promiseified and cannot because our callback APIs have subtle expectations around
-     * invoking promises inline, which Promises are forbidden to do. This method accepts an optional node-style callback
-     * and returns a node-style callback which will resolve or reject the Deferred's promise.
-     */
-    wrapCallback(callback) {
-        return (error, value) => {
-            if (error) {
-                this.reject(error);
-            }
-            else {
-                this.resolve(value);
-            }
-            if (typeof callback === 'function') {
-                // Attaching noop handler just in case developer wasn't expecting
-                // promises
-                this.promise.catch(() => { });
-                // Some of our callbacks don't expect a value and our own tests
-                // assert that the parameter length is 1
-                if (callback.length === 1) {
-                    callback(error);
-                }
-                else {
-                    callback(error, value);
-                }
-            }
-        };
-    }
+
+/***/ }),
+
+/***/ "./node_modules/safe-buffer/index.js":
+/*!*******************************************!*\
+  !*** ./node_modules/safe-buffer/index.js ***!
+  \*******************************************/
+/***/ ((module, exports, __webpack_require__) => {
+
+/*! safe-buffer. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
+/* eslint-disable node/no-deprecated-api */
+var buffer = __webpack_require__(/*! buffer */ "buffer")
+var Buffer = buffer.Buffer
+
+// alternative to using Object.keys for old browsers
+function copyProps (src, dst) {
+  for (var key in src) {
+    dst[key] = src[key]
+  }
+}
+if (Buffer.from && Buffer.alloc && Buffer.allocUnsafe && Buffer.allocUnsafeSlow) {
+  module.exports = buffer
+} else {
+  // Copy properties from require('buffer')
+  copyProps(buffer, exports)
+  exports.Buffer = SafeBuffer
 }
 
-/**
- * @license
- * Copyright 2021 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-function index_node_esm_createMockUserToken(token, projectId) {
-    if (token.uid) {
-        throw new Error('The "uid" field is no longer supported by mockUserToken. Please use "sub" instead for Firebase Auth User ID.');
-    }
-    // Unsecured JWTs use "none" as the algorithm.
-    const header = {
-        alg: 'none',
-        type: 'JWT'
-    };
-    const project = projectId || 'demo-project';
-    const iat = token.iat || 0;
-    const sub = token.sub || token.user_id;
-    if (!sub) {
-        throw new Error("mockUserToken must contain 'sub' or 'user_id' field!");
-    }
-    const payload = Object.assign({ 
-        // Set all required fields to decent defaults
-        iss: `https://securetoken.google.com/${project}`, aud: project, iat, exp: iat + 3600, auth_time: iat, sub, user_id: sub, firebase: {
-            sign_in_provider: 'custom',
-            identities: {}
-        } }, token);
-    // Unsecured JWTs use the empty string as a signature.
-    const signature = '';
-    return [
-        base64urlEncodeWithoutPadding(JSON.stringify(header)),
-        base64urlEncodeWithoutPadding(JSON.stringify(payload)),
-        signature
-    ].join('.');
+function SafeBuffer (arg, encodingOrOffset, length) {
+  return Buffer(arg, encodingOrOffset, length)
 }
 
-/**
- * @license
- * Copyright 2017 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-/**
- * Returns navigator.userAgent string or '' if it's not defined.
- * @return user agent string
- */
-function getUA() {
-    if (typeof navigator !== 'undefined' &&
-        typeof navigator['userAgent'] === 'string') {
-        return navigator['userAgent'];
+SafeBuffer.prototype = Object.create(Buffer.prototype)
+
+// Copy static methods from Buffer
+copyProps(Buffer, SafeBuffer)
+
+SafeBuffer.from = function (arg, encodingOrOffset, length) {
+  if (typeof arg === 'number') {
+    throw new TypeError('Argument must not be a number')
+  }
+  return Buffer(arg, encodingOrOffset, length)
+}
+
+SafeBuffer.alloc = function (size, fill, encoding) {
+  if (typeof size !== 'number') {
+    throw new TypeError('Argument must be a number')
+  }
+  var buf = Buffer(size)
+  if (fill !== undefined) {
+    if (typeof encoding === 'string') {
+      buf.fill(fill, encoding)
+    } else {
+      buf.fill(fill)
     }
-    else {
-        return '';
-    }
+  } else {
+    buf.fill(0)
+  }
+  return buf
 }
-/**
- * Detect Cordova / PhoneGap / Ionic frameworks on a mobile device.
- *
- * Deliberately does not rely on checking `file://` URLs (as this fails PhoneGap
- * in the Ripple emulator) nor Cordova `onDeviceReady`, which would normally
- * wait for a callback.
- */
-function isMobileCordova() {
-    return (typeof window !== 'undefined' &&
-        // @ts-ignore Setting up an broadly applicable index signature for Window
-        // just to deal with this case would probably be a bad idea.
-        !!(window['cordova'] || window['phonegap'] || window['PhoneGap']) &&
-        /ios|iphone|ipod|ipad|android|blackberry|iemobile/i.test(getUA()));
+
+SafeBuffer.allocUnsafe = function (size) {
+  if (typeof size !== 'number') {
+    throw new TypeError('Argument must be a number')
+  }
+  return Buffer(size)
 }
-/**
- * Detect Node.js.
- *
- * @return true if Node.js environment is detected.
- */
-// Node detection logic from: https://github.com/iliakan/detect-node/
-function isNode() {
-    try {
-        return (Object.prototype.toString.call(global.process) === '[object process]');
-    }
-    catch (e) {
-        return false;
-    }
+
+SafeBuffer.allocUnsafeSlow = function (size) {
+  if (typeof size !== 'number') {
+    throw new TypeError('Argument must be a number')
+  }
+  return buffer.SlowBuffer(size)
 }
-/**
- * Detect Browser Environment
- */
-function isBrowser() {
-    return typeof self === 'object' && self.self === self;
-}
-function isBrowserExtension() {
-    const runtime = typeof chrome === 'object'
-        ? chrome.runtime
-        : typeof browser === 'object'
-            ? browser.runtime
-            : undefined;
-    return typeof runtime === 'object' && runtime.id !== undefined;
-}
-/**
- * Detect React Native.
- *
- * @return true if ReactNative environment is detected.
- */
-function isReactNative() {
-    return (typeof navigator === 'object' && navigator['product'] === 'ReactNative');
-}
-/** Detects Electron apps. */
-function isElectron() {
-    return getUA().indexOf('Electron/') >= 0;
-}
-/** Detects Internet Explorer. */
-function isIE() {
-    const ua = getUA();
-    return ua.indexOf('MSIE ') >= 0 || ua.indexOf('Trident/') >= 0;
-}
-/** Detects Universal Windows Platform apps. */
-function isUWP() {
-    return getUA().indexOf('MSAppHost/') >= 0;
-}
-/**
- * Detect whether the current SDK build is the Node version.
- *
- * @return true if it's the Node SDK build.
- */
-function isNodeSdk() {
-    return CONSTANTS.NODE_CLIENT === true || CONSTANTS.NODE_ADMIN === true;
-}
-/** Returns true if we are running in Safari. */
-function isSafari() {
-    return (!isNode() &&
-        navigator.userAgent.includes('Safari') &&
-        !navigator.userAgent.includes('Chrome'));
-}
-/**
- * This method checks if indexedDB is supported by current browser/service worker context
- * @return true if indexedDB is supported by current browser/service worker context
- */
-function isIndexedDBAvailable() {
-    return typeof indexedDB === 'object';
-}
-/**
- * This method validates browser/sw context for indexedDB by opening a dummy indexedDB database and reject
- * if errors occur during the database open operation.
- *
- * @throws exception if current browser/sw context can't run idb.open (ex: Safari iframe, Firefox
- * private browsing)
- */
-function validateIndexedDBOpenable() {
-    return new Promise((resolve, reject) => {
-        try {
-            let preExist = true;
-            const DB_CHECK_NAME = 'validate-browser-context-for-indexeddb-analytics-module';
-            const request = self.indexedDB.open(DB_CHECK_NAME);
-            request.onsuccess = () => {
-                request.result.close();
-                // delete database only when it doesn't pre-exist
-                if (!preExist) {
-                    self.indexedDB.deleteDatabase(DB_CHECK_NAME);
-                }
-                resolve(true);
-            };
-            request.onupgradeneeded = () => {
-                preExist = false;
-            };
-            request.onerror = () => {
-                var _a;
-                reject(((_a = request.error) === null || _a === void 0 ? void 0 : _a.message) || '');
-            };
-        }
-        catch (error) {
-            reject(error);
-        }
+
+
+/***/ }),
+
+/***/ "./src/assets/book2.png":
+/*!******************************!*\
+  !*** ./src/assets/book2.png ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/book2-3c2c34239ce57b1aa475a0cfb69169d8.png");
+
+/***/ }),
+
+/***/ "./src/assets/logo.svg":
+/*!*****************************!*\
+  !*** ./src/assets/logo.svg ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/logo-72546d3427ebf8019513c64f3d2bff1f.svg");
+
+/***/ }),
+
+/***/ "./node_modules/websocket-driver/lib/websocket/driver.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/websocket-driver/lib/websocket/driver.js ***!
+  \***************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+// Protocol references:
+//
+// * http://tools.ietf.org/html/draft-hixie-thewebsocketprotocol-75
+// * http://tools.ietf.org/html/draft-hixie-thewebsocketprotocol-76
+// * http://tools.ietf.org/html/draft-ietf-hybi-thewebsocketprotocol-17
+
+var Base   = __webpack_require__(/*! ./driver/base */ "./node_modules/websocket-driver/lib/websocket/driver/base.js"),
+    Client = __webpack_require__(/*! ./driver/client */ "./node_modules/websocket-driver/lib/websocket/driver/client.js"),
+    Server = __webpack_require__(/*! ./driver/server */ "./node_modules/websocket-driver/lib/websocket/driver/server.js");
+
+var Driver = {
+  client: function(url, options) {
+    options = options || {};
+    if (options.masking === undefined) options.masking = true;
+    return new Client(url, options);
+  },
+
+  server: function(options) {
+    options = options || {};
+    if (options.requireMasking === undefined) options.requireMasking = true;
+    return new Server(options);
+  },
+
+  http: function() {
+    return Server.http.apply(Server, arguments);
+  },
+
+  isSecureRequest: function(request) {
+    return Server.isSecureRequest(request);
+  },
+
+  isWebSocket: function(request) {
+    return Base.isWebSocket(request);
+  },
+
+  validateOptions: function(options, validKeys) {
+    Base.validateOptions(options, validKeys);
+  }
+};
+
+module.exports = Driver;
+
+
+/***/ }),
+
+/***/ "./node_modules/websocket-driver/lib/websocket/driver/base.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/websocket-driver/lib/websocket/driver/base.js ***!
+  \********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var Buffer  = (__webpack_require__(/*! safe-buffer */ "./node_modules/safe-buffer/index.js").Buffer),
+    Emitter = (__webpack_require__(/*! events */ "events").EventEmitter),
+    util    = __webpack_require__(/*! util */ "util"),
+    streams = __webpack_require__(/*! ../streams */ "./node_modules/websocket-driver/lib/websocket/streams.js"),
+    Headers = __webpack_require__(/*! ./headers */ "./node_modules/websocket-driver/lib/websocket/driver/headers.js"),
+    Reader  = __webpack_require__(/*! ./stream_reader */ "./node_modules/websocket-driver/lib/websocket/driver/stream_reader.js");
+
+var Base = function(request, url, options) {
+  Emitter.call(this);
+  Base.validateOptions(options || {}, ['maxLength', 'masking', 'requireMasking', 'protocols']);
+
+  this._request   = request;
+  this._reader    = new Reader();
+  this._options   = options || {};
+  this._maxLength = this._options.maxLength || this.MAX_LENGTH;
+  this._headers   = new Headers();
+  this.__queue    = [];
+  this.readyState = 0;
+  this.url        = url;
+
+  this.io = new streams.IO(this);
+  this.messages = new streams.Messages(this);
+  this._bindEventListeners();
+};
+util.inherits(Base, Emitter);
+
+Base.isWebSocket = function(request) {
+  var connection = request.headers.connection || '',
+      upgrade    = request.headers.upgrade || '';
+
+  return request.method === 'GET' &&
+         connection.toLowerCase().split(/ *, */).indexOf('upgrade') >= 0 &&
+         upgrade.toLowerCase() === 'websocket';
+};
+
+Base.validateOptions = function(options, validKeys) {
+  for (var key in options) {
+    if (validKeys.indexOf(key) < 0)
+      throw new Error('Unrecognized option: ' + key);
+  }
+};
+
+var instance = {
+  // This is 64MB, small enough for an average VPS to handle without
+  // crashing from process out of memory
+  MAX_LENGTH: 0x3ffffff,
+
+  STATES: ['connecting', 'open', 'closing', 'closed'],
+
+  _bindEventListeners: function() {
+    var self = this;
+
+    // Protocol errors are informational and do not have to be handled
+    this.messages.on('error', function() {});
+
+    this.on('message', function(event) {
+      var messages = self.messages;
+      if (messages.readable) messages.emit('data', event.data);
     });
-}
-/**
- *
- * This method checks whether cookie is enabled within current browser
- * @return true if cookie is enabled within current browser
- */
-function areCookiesEnabled() {
-    if (typeof navigator === 'undefined' || !navigator.cookieEnabled) {
-        return false;
-    }
-    return true;
-}
-/**
- * Polyfill for `globalThis` object.
- * @returns the `globalThis` object for the given environment.
- */
-function getGlobal() {
-    if (typeof self !== 'undefined') {
-        return self;
-    }
-    if (typeof window !== 'undefined') {
-        return window;
-    }
-    if (typeof global !== 'undefined') {
-        return global;
-    }
-    throw new Error('Unable to locate global object.');
-}
 
-/**
- * @license
- * Copyright 2017 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-/**
- * @fileoverview Standardized Firebase Error.
- *
- * Usage:
- *
- *   // Typescript string literals for type-safe codes
- *   type Err =
- *     'unknown' |
- *     'object-not-found'
- *     ;
- *
- *   // Closure enum for type-safe error codes
- *   // at-enum {string}
- *   var Err = {
- *     UNKNOWN: 'unknown',
- *     OBJECT_NOT_FOUND: 'object-not-found',
- *   }
- *
- *   let errors: Map<Err, string> = {
- *     'generic-error': "Unknown error",
- *     'file-not-found': "Could not find file: {$file}",
- *   };
- *
- *   // Type-safe function - must pass a valid error code as param.
- *   let error = new ErrorFactory<Err>('service', 'Service', errors);
- *
- *   ...
- *   throw error.create(Err.GENERIC);
- *   ...
- *   throw error.create(Err.FILE_NOT_FOUND, {'file': fileName});
- *   ...
- *   // Service: Could not file file: foo.txt (service/file-not-found).
- *
- *   catch (e) {
- *     assert(e.message === "Could not find file: foo.txt.");
- *     if (e.code === 'service/file-not-found') {
- *       console.log("Could not read file: " + e['file']);
- *     }
- *   }
- */
-const ERROR_NAME = 'FirebaseError';
-// Based on code from:
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error#Custom_Error_Types
-class FirebaseError extends Error {
-    constructor(code, message, customData) {
-        super(message);
-        this.code = code;
-        this.customData = customData;
-        this.name = ERROR_NAME;
-        // Fix For ES5
-        // https://github.com/Microsoft/TypeScript-wiki/blob/master/Breaking-Changes.md#extending-built-ins-like-error-array-and-map-may-no-longer-work
-        Object.setPrototypeOf(this, FirebaseError.prototype);
-        // Maintains proper stack trace for where our error was thrown.
-        // Only available on V8.
-        if (Error.captureStackTrace) {
-            Error.captureStackTrace(this, ErrorFactory.prototype.create);
-        }
-    }
-}
-class ErrorFactory {
-    constructor(service, serviceName, errors) {
-        this.service = service;
-        this.serviceName = serviceName;
-        this.errors = errors;
-    }
-    create(code, ...data) {
-        const customData = data[0] || {};
-        const fullCode = `${this.service}/${code}`;
-        const template = this.errors[code];
-        const message = template ? replaceTemplate(template, customData) : 'Error';
-        // Service Name: Error message (service/code).
-        const fullMessage = `${this.serviceName}: ${message} (${fullCode}).`;
-        const error = new FirebaseError(fullCode, fullMessage, customData);
-        return error;
-    }
-}
-function replaceTemplate(template, data) {
-    return template.replace(PATTERN, (_, key) => {
-        const value = data[key];
-        return value != null ? String(value) : `<${key}?>`;
+    this.on('error', function(error) {
+      var messages = self.messages;
+      if (messages.readable) messages.emit('error', error);
     });
-}
-const PATTERN = /\{\$([^}]+)}/g;
 
-/**
- * @license
- * Copyright 2017 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-/**
- * Evaluates a JSON string into a javascript object.
- *
- * @param {string} str A string containing JSON.
- * @return {*} The javascript object representing the specified JSON.
- */
-function jsonEval(str) {
-    return JSON.parse(str);
-}
-/**
- * Returns JSON representing a javascript object.
- * @param {*} data Javascript object to be stringified.
- * @return {string} The JSON contents of the object.
- */
-function index_node_esm_stringify(data) {
-    return JSON.stringify(data);
-}
-
-/**
- * @license
- * Copyright 2017 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-/**
- * Decodes a Firebase auth. token into constituent parts.
- *
- * Notes:
- * - May return with invalid / incomplete claims if there's no native base64 decoding support.
- * - Doesn't check if the token is actually valid.
- */
-const decode = function (token) {
-    let header = {}, claims = {}, data = {}, signature = '';
-    try {
-        const parts = token.split('.');
-        header = jsonEval(base64Decode(parts[0]) || '');
-        claims = jsonEval(base64Decode(parts[1]) || '');
-        signature = parts[2];
-        data = claims['d'] || {};
-        delete claims['d'];
-    }
-    catch (e) { }
-    return {
-        header,
-        claims,
-        data,
-        signature
-    };
-};
-/**
- * Decodes a Firebase auth. token and checks the validity of its time-based claims. Will return true if the
- * token is within the time window authorized by the 'nbf' (not-before) and 'iat' (issued-at) claims.
- *
- * Notes:
- * - May return a false negative if there's no native base64 decoding support.
- * - Doesn't check if the token is actually valid.
- */
-const isValidTimestamp = function (token) {
-    const claims = decode(token).claims;
-    const now = Math.floor(new Date().getTime() / 1000);
-    let validSince = 0, validUntil = 0;
-    if (typeof claims === 'object') {
-        if (claims.hasOwnProperty('nbf')) {
-            validSince = claims['nbf'];
-        }
-        else if (claims.hasOwnProperty('iat')) {
-            validSince = claims['iat'];
-        }
-        if (claims.hasOwnProperty('exp')) {
-            validUntil = claims['exp'];
-        }
-        else {
-            // token will expire after 24h by default
-            validUntil = validSince + 86400;
-        }
-    }
-    return (!!now &&
-        !!validSince &&
-        !!validUntil &&
-        now >= validSince &&
-        now <= validUntil);
-};
-/**
- * Decodes a Firebase auth. token and returns its issued at time if valid, null otherwise.
- *
- * Notes:
- * - May return null if there's no native base64 decoding support.
- * - Doesn't check if the token is actually valid.
- */
-const issuedAtTime = function (token) {
-    const claims = decode(token).claims;
-    if (typeof claims === 'object' && claims.hasOwnProperty('iat')) {
-        return claims['iat'];
-    }
-    return null;
-};
-/**
- * Decodes a Firebase auth. token and checks the validity of its format. Expects a valid issued-at time.
- *
- * Notes:
- * - May return a false negative if there's no native base64 decoding support.
- * - Doesn't check if the token is actually valid.
- */
-const isValidFormat = function (token) {
-    const decoded = decode(token), claims = decoded.claims;
-    return !!claims && typeof claims === 'object' && claims.hasOwnProperty('iat');
-};
-/**
- * Attempts to peer into an auth token and determine if it's an admin auth token by looking at the claims portion.
- *
- * Notes:
- * - May return a false negative if there's no native base64 decoding support.
- * - Doesn't check if the token is actually valid.
- */
-const isAdmin = function (token) {
-    const claims = decode(token).claims;
-    return typeof claims === 'object' && claims['admin'] === true;
-};
-
-/**
- * @license
- * Copyright 2017 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-function index_node_esm_contains(obj, key) {
-    return Object.prototype.hasOwnProperty.call(obj, key);
-}
-function index_node_esm_safeGet(obj, key) {
-    if (Object.prototype.hasOwnProperty.call(obj, key)) {
-        return obj[key];
-    }
-    else {
-        return undefined;
-    }
-}
-function index_node_esm_isEmpty(obj) {
-    for (const key in obj) {
-        if (Object.prototype.hasOwnProperty.call(obj, key)) {
-            return false;
-        }
-    }
-    return true;
-}
-function map(obj, fn, contextObj) {
-    const res = {};
-    for (const key in obj) {
-        if (Object.prototype.hasOwnProperty.call(obj, key)) {
-            res[key] = fn.call(contextObj, obj[key], key, obj);
-        }
-    }
-    return res;
-}
-/**
- * Deep equal two objects. Support Arrays and Objects.
- */
-function deepEqual(a, b) {
-    if (a === b) {
-        return true;
-    }
-    const aKeys = Object.keys(a);
-    const bKeys = Object.keys(b);
-    for (const k of aKeys) {
-        if (!bKeys.includes(k)) {
-            return false;
-        }
-        const aProp = a[k];
-        const bProp = b[k];
-        if (isObject(aProp) && isObject(bProp)) {
-            if (!deepEqual(aProp, bProp)) {
-                return false;
-            }
-        }
-        else if (aProp !== bProp) {
-            return false;
-        }
-    }
-    for (const k of bKeys) {
-        if (!aKeys.includes(k)) {
-            return false;
-        }
-    }
-    return true;
-}
-function isObject(thing) {
-    return thing !== null && typeof thing === 'object';
-}
-
-/**
- * @license
- * Copyright 2017 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-/**
- * Returns a querystring-formatted string (e.g. &arg=val&arg2=val2) from a
- * params object (e.g. {arg: 'val', arg2: 'val2'})
- * Note: You must prepend it with ? when adding it to a URL.
- */
-function querystring(querystringParams) {
-    const params = [];
-    for (const [key, value] of Object.entries(querystringParams)) {
-        if (Array.isArray(value)) {
-            value.forEach(arrayVal => {
-                params.push(encodeURIComponent(key) + '=' + encodeURIComponent(arrayVal));
-            });
-        }
-        else {
-            params.push(encodeURIComponent(key) + '=' + encodeURIComponent(value));
-        }
-    }
-    return params.length ? '&' + params.join('&') : '';
-}
-/**
- * Decodes a querystring (e.g. ?arg=val&arg2=val2) into a params object
- * (e.g. {arg: 'val', arg2: 'val2'})
- */
-function querystringDecode(querystring) {
-    const obj = {};
-    const tokens = querystring.replace(/^\?/, '').split('&');
-    tokens.forEach(token => {
-        if (token) {
-            const [key, value] = token.split('=');
-            obj[decodeURIComponent(key)] = decodeURIComponent(value);
-        }
+    this.on('close', function() {
+      var messages = self.messages;
+      if (!messages.readable) return;
+      messages.readable = messages.writable = false;
+      messages.emit('end');
     });
-    return obj;
-}
-/**
- * Extract the query string part of a URL, including the leading question mark (if present).
- */
-function extractQuerystring(url) {
-    const queryStart = url.indexOf('?');
-    if (!queryStart) {
-        return '';
-    }
-    const fragmentStart = url.indexOf('#', queryStart);
-    return url.substring(queryStart, fragmentStart > 0 ? fragmentStart : undefined);
-}
+  },
 
-/**
- * @license
- * Copyright 2017 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-/**
- * @fileoverview SHA-1 cryptographic hash.
- * Variable names follow the notation in FIPS PUB 180-3:
- * http://csrc.nist.gov/publications/fips/fips180-3/fips180-3_final.pdf.
- *
- * Usage:
- *   var sha1 = new sha1();
- *   sha1.update(bytes);
- *   var hash = sha1.digest();
- *
- * Performance:
- *   Chrome 23:   ~400 Mbit/s
- *   Firefox 16:  ~250 Mbit/s
- *
- */
-/**
- * SHA-1 cryptographic hash constructor.
- *
- * The properties declared here are discussed in the above algorithm document.
- * @constructor
- * @final
- * @struct
- */
-class Sha1 {
-    constructor() {
-        /**
-         * Holds the previous values of accumulated variables a-e in the compress_
-         * function.
-         * @private
-         */
-        this.chain_ = [];
-        /**
-         * A buffer holding the partially computed hash result.
-         * @private
-         */
-        this.buf_ = [];
-        /**
-         * An array of 80 bytes, each a part of the message to be hashed.  Referred to
-         * as the message schedule in the docs.
-         * @private
-         */
-        this.W_ = [];
-        /**
-         * Contains data needed to pad messages less than 64 bytes.
-         * @private
-         */
-        this.pad_ = [];
-        /**
-         * @private {number}
-         */
-        this.inbuf_ = 0;
-        /**
-         * @private {number}
-         */
-        this.total_ = 0;
-        this.blockSize = 512 / 8;
-        this.pad_[0] = 128;
-        for (let i = 1; i < this.blockSize; ++i) {
-            this.pad_[i] = 0;
-        }
-        this.reset();
-    }
-    reset() {
-        this.chain_[0] = 0x67452301;
-        this.chain_[1] = 0xefcdab89;
-        this.chain_[2] = 0x98badcfe;
-        this.chain_[3] = 0x10325476;
-        this.chain_[4] = 0xc3d2e1f0;
-        this.inbuf_ = 0;
-        this.total_ = 0;
-    }
-    /**
-     * Internal compress helper function.
-     * @param buf Block to compress.
-     * @param offset Offset of the block in the buffer.
-     * @private
-     */
-    compress_(buf, offset) {
-        if (!offset) {
-            offset = 0;
-        }
-        const W = this.W_;
-        // get 16 big endian words
-        if (typeof buf === 'string') {
-            for (let i = 0; i < 16; i++) {
-                // TODO(user): [bug 8140122] Recent versions of Safari for Mac OS and iOS
-                // have a bug that turns the post-increment ++ operator into pre-increment
-                // during JIT compilation.  We have code that depends heavily on SHA-1 for
-                // correctness and which is affected by this bug, so I've removed all uses
-                // of post-increment ++ in which the result value is used.  We can revert
-                // this change once the Safari bug
-                // (https://bugs.webkit.org/show_bug.cgi?id=109036) has been fixed and
-                // most clients have been updated.
-                W[i] =
-                    (buf.charCodeAt(offset) << 24) |
-                        (buf.charCodeAt(offset + 1) << 16) |
-                        (buf.charCodeAt(offset + 2) << 8) |
-                        buf.charCodeAt(offset + 3);
-                offset += 4;
-            }
-        }
-        else {
-            for (let i = 0; i < 16; i++) {
-                W[i] =
-                    (buf[offset] << 24) |
-                        (buf[offset + 1] << 16) |
-                        (buf[offset + 2] << 8) |
-                        buf[offset + 3];
-                offset += 4;
-            }
-        }
-        // expand to 80 words
-        for (let i = 16; i < 80; i++) {
-            const t = W[i - 3] ^ W[i - 8] ^ W[i - 14] ^ W[i - 16];
-            W[i] = ((t << 1) | (t >>> 31)) & 0xffffffff;
-        }
-        let a = this.chain_[0];
-        let b = this.chain_[1];
-        let c = this.chain_[2];
-        let d = this.chain_[3];
-        let e = this.chain_[4];
-        let f, k;
-        // TODO(user): Try to unroll this loop to speed up the computation.
-        for (let i = 0; i < 80; i++) {
-            if (i < 40) {
-                if (i < 20) {
-                    f = d ^ (b & (c ^ d));
-                    k = 0x5a827999;
-                }
-                else {
-                    f = b ^ c ^ d;
-                    k = 0x6ed9eba1;
-                }
-            }
-            else {
-                if (i < 60) {
-                    f = (b & c) | (d & (b | c));
-                    k = 0x8f1bbcdc;
-                }
-                else {
-                    f = b ^ c ^ d;
-                    k = 0xca62c1d6;
-                }
-            }
-            const t = (((a << 5) | (a >>> 27)) + f + e + k + W[i]) & 0xffffffff;
-            e = d;
-            d = c;
-            c = ((b << 30) | (b >>> 2)) & 0xffffffff;
-            b = a;
-            a = t;
-        }
-        this.chain_[0] = (this.chain_[0] + a) & 0xffffffff;
-        this.chain_[1] = (this.chain_[1] + b) & 0xffffffff;
-        this.chain_[2] = (this.chain_[2] + c) & 0xffffffff;
-        this.chain_[3] = (this.chain_[3] + d) & 0xffffffff;
-        this.chain_[4] = (this.chain_[4] + e) & 0xffffffff;
-    }
-    update(bytes, length) {
-        // TODO(johnlenz): tighten the function signature and remove this check
-        if (bytes == null) {
-            return;
-        }
-        if (length === undefined) {
-            length = bytes.length;
-        }
-        const lengthMinusBlock = length - this.blockSize;
-        let n = 0;
-        // Using local instead of member variables gives ~5% speedup on Firefox 16.
-        const buf = this.buf_;
-        let inbuf = this.inbuf_;
-        // The outer while loop should execute at most twice.
-        while (n < length) {
-            // When we have no data in the block to top up, we can directly process the
-            // input buffer (assuming it contains sufficient data). This gives ~25%
-            // speedup on Chrome 23 and ~15% speedup on Firefox 16, but requires that
-            // the data is provided in large chunks (or in multiples of 64 bytes).
-            if (inbuf === 0) {
-                while (n <= lengthMinusBlock) {
-                    this.compress_(bytes, n);
-                    n += this.blockSize;
-                }
-            }
-            if (typeof bytes === 'string') {
-                while (n < length) {
-                    buf[inbuf] = bytes.charCodeAt(n);
-                    ++inbuf;
-                    ++n;
-                    if (inbuf === this.blockSize) {
-                        this.compress_(buf);
-                        inbuf = 0;
-                        // Jump to the outer loop so we use the full-block optimization.
-                        break;
-                    }
-                }
-            }
-            else {
-                while (n < length) {
-                    buf[inbuf] = bytes[n];
-                    ++inbuf;
-                    ++n;
-                    if (inbuf === this.blockSize) {
-                        this.compress_(buf);
-                        inbuf = 0;
-                        // Jump to the outer loop so we use the full-block optimization.
-                        break;
-                    }
-                }
-            }
-        }
-        this.inbuf_ = inbuf;
-        this.total_ += length;
-    }
-    /** @override */
-    digest() {
-        const digest = [];
-        let totalBits = this.total_ * 8;
-        // Add pad 0x80 0x00*.
-        if (this.inbuf_ < 56) {
-            this.update(this.pad_, 56 - this.inbuf_);
-        }
-        else {
-            this.update(this.pad_, this.blockSize - (this.inbuf_ - 56));
-        }
-        // Add # bits.
-        for (let i = this.blockSize - 1; i >= 56; i--) {
-            this.buf_[i] = totalBits & 255;
-            totalBits /= 256; // Don't use bit-shifting here!
-        }
-        this.compress_(this.buf_);
-        let n = 0;
-        for (let i = 0; i < 5; i++) {
-            for (let j = 24; j >= 0; j -= 8) {
-                digest[n] = (this.chain_[i] >> j) & 255;
-                ++n;
-            }
-        }
-        return digest;
-    }
-}
+  getState: function() {
+    return this.STATES[this.readyState] || null;
+  },
 
-/**
- * Helper to make a Subscribe function (just like Promise helps make a
- * Thenable).
- *
- * @param executor Function which can make calls to a single Observer
- *     as a proxy.
- * @param onNoObservers Callback when count of Observers goes to zero.
- */
-function createSubscribe(executor, onNoObservers) {
-    const proxy = new ObserverProxy(executor, onNoObservers);
-    return proxy.subscribe.bind(proxy);
-}
-/**
- * Implement fan-out for any number of Observers attached via a subscribe
- * function.
- */
-class ObserverProxy {
-    /**
-     * @param executor Function which can make calls to a single Observer
-     *     as a proxy.
-     * @param onNoObservers Callback when count of Observers goes to zero.
-     */
-    constructor(executor, onNoObservers) {
-        this.observers = [];
-        this.unsubscribes = [];
-        this.observerCount = 0;
-        // Micro-task scheduling by calling task.then().
-        this.task = Promise.resolve();
-        this.finalized = false;
-        this.onNoObservers = onNoObservers;
-        // Call the executor asynchronously so subscribers that are called
-        // synchronously after the creation of the subscribe function
-        // can still receive the very first value generated in the executor.
-        this.task
-            .then(() => {
-            executor(this);
-        })
-            .catch(e => {
-            this.error(e);
-        });
-    }
-    next(value) {
-        this.forEachObserver((observer) => {
-            observer.next(value);
-        });
-    }
-    error(error) {
-        this.forEachObserver((observer) => {
-            observer.error(error);
-        });
-        this.close(error);
-    }
-    complete() {
-        this.forEachObserver((observer) => {
-            observer.complete();
-        });
-        this.close();
-    }
-    /**
-     * Subscribe function that can be used to add an Observer to the fan-out list.
-     *
-     * - We require that no event is sent to a subscriber sychronously to their
-     *   call to subscribe().
-     */
-    subscribe(nextOrObserver, error, complete) {
-        let observer;
-        if (nextOrObserver === undefined &&
-            error === undefined &&
-            complete === undefined) {
-            throw new Error('Missing Observer.');
-        }
-        // Assemble an Observer object when passed as callback functions.
-        if (implementsAnyMethods(nextOrObserver, [
-            'next',
-            'error',
-            'complete'
-        ])) {
-            observer = nextOrObserver;
-        }
-        else {
-            observer = {
-                next: nextOrObserver,
-                error,
-                complete
-            };
-        }
-        if (observer.next === undefined) {
-            observer.next = noop;
-        }
-        if (observer.error === undefined) {
-            observer.error = noop;
-        }
-        if (observer.complete === undefined) {
-            observer.complete = noop;
-        }
-        const unsub = this.unsubscribeOne.bind(this, this.observers.length);
-        // Attempt to subscribe to a terminated Observable - we
-        // just respond to the Observer with the final error or complete
-        // event.
-        if (this.finalized) {
-            // eslint-disable-next-line @typescript-eslint/no-floating-promises
-            this.task.then(() => {
-                try {
-                    if (this.finalError) {
-                        observer.error(this.finalError);
-                    }
-                    else {
-                        observer.complete();
-                    }
-                }
-                catch (e) {
-                    // nothing
-                }
-                return;
-            });
-        }
-        this.observers.push(observer);
-        return unsub;
-    }
-    // Unsubscribe is synchronous - we guarantee that no events are sent to
-    // any unsubscribed Observer.
-    unsubscribeOne(i) {
-        if (this.observers === undefined || this.observers[i] === undefined) {
-            return;
-        }
-        delete this.observers[i];
-        this.observerCount -= 1;
-        if (this.observerCount === 0 && this.onNoObservers !== undefined) {
-            this.onNoObservers(this);
-        }
-    }
-    forEachObserver(fn) {
-        if (this.finalized) {
-            // Already closed by previous event....just eat the additional values.
-            return;
-        }
-        // Since sendOne calls asynchronously - there is no chance that
-        // this.observers will become undefined.
-        for (let i = 0; i < this.observers.length; i++) {
-            this.sendOne(i, fn);
-        }
-    }
-    // Call the Observer via one of it's callback function. We are careful to
-    // confirm that the observe has not been unsubscribed since this asynchronous
-    // function had been queued.
-    sendOne(i, fn) {
-        // Execute the callback asynchronously
-        // eslint-disable-next-line @typescript-eslint/no-floating-promises
-        this.task.then(() => {
-            if (this.observers !== undefined && this.observers[i] !== undefined) {
-                try {
-                    fn(this.observers[i]);
-                }
-                catch (e) {
-                    // Ignore exceptions raised in Observers or missing methods of an
-                    // Observer.
-                    // Log error to console. b/31404806
-                    if (typeof console !== 'undefined' && console.error) {
-                        console.error(e);
-                    }
-                }
-            }
-        });
-    }
-    close(err) {
-        if (this.finalized) {
-            return;
-        }
-        this.finalized = true;
-        if (err !== undefined) {
-            this.finalError = err;
-        }
-        // Proxy is no longer needed - garbage collect references
-        // eslint-disable-next-line @typescript-eslint/no-floating-promises
-        this.task.then(() => {
-            this.observers = undefined;
-            this.onNoObservers = undefined;
-        });
-    }
-}
-/** Turn synchronous function into one called asynchronously. */
-// eslint-disable-next-line @typescript-eslint/ban-types
-function index_node_esm_async(fn, onError) {
-    return (...args) => {
-        Promise.resolve(true)
-            .then(() => {
-            fn(...args);
-        })
-            .catch((error) => {
-            if (onError) {
-                onError(error);
-            }
-        });
-    };
-}
-/**
- * Return true if the object passed in implements any of the named methods.
- */
-function implementsAnyMethods(obj, methods) {
-    if (typeof obj !== 'object' || obj === null) {
-        return false;
-    }
-    for (const method of methods) {
-        if (method in obj && typeof obj[method] === 'function') {
-            return true;
-        }
-    }
+  addExtension: function(extension) {
     return false;
+  },
+
+  setHeader: function(name, value) {
+    if (this.readyState > 0) return false;
+    this._headers.set(name, value);
+    return true;
+  },
+
+  start: function() {
+    if (this.readyState !== 0) return false;
+
+    if (!Base.isWebSocket(this._request))
+      return this._failHandshake(new Error('Not a WebSocket request'));
+
+    var response;
+
+    try {
+      response = this._handshakeResponse();
+    } catch (error) {
+      return this._failHandshake(error);
+    }
+
+    this._write(response);
+    if (this._stage !== -1) this._open();
+    return true;
+  },
+
+  _failHandshake: function(error) {
+    var headers = new Headers();
+    headers.set('Content-Type', 'text/plain');
+    headers.set('Content-Length', Buffer.byteLength(error.message, 'utf8'));
+
+    headers = ['HTTP/1.1 400 Bad Request', headers.toString(), error.message];
+    this._write(Buffer.from(headers.join('\r\n'), 'utf8'));
+    this._fail('protocol_error', error.message);
+
+    return false;
+  },
+
+  text: function(message) {
+    return this.frame(message);
+  },
+
+  binary: function(message) {
+    return false;
+  },
+
+  ping: function() {
+    return false;
+  },
+
+  pong: function() {
+      return false;
+  },
+
+  close: function(reason, code) {
+    if (this.readyState !== 1) return false;
+    this.readyState = 3;
+    this.emit('close', new Base.CloseEvent(null, null));
+    return true;
+  },
+
+  _open: function() {
+    this.readyState = 1;
+    this.__queue.forEach(function(args) { this.frame.apply(this, args) }, this);
+    this.__queue = [];
+    this.emit('open', new Base.OpenEvent());
+  },
+
+  _queue: function(message) {
+    this.__queue.push(message);
+    return true;
+  },
+
+  _write: function(chunk) {
+    var io = this.io;
+    if (io.readable) io.emit('data', chunk);
+  },
+
+  _fail: function(type, message) {
+    this.readyState = 2;
+    this.emit('error', new Error(message));
+    this.close();
+  }
+};
+
+for (var key in instance)
+  Base.prototype[key] = instance[key];
+
+
+Base.ConnectEvent = function() {};
+
+Base.OpenEvent = function() {};
+
+Base.CloseEvent = function(code, reason) {
+  this.code   = code;
+  this.reason = reason;
+};
+
+Base.MessageEvent = function(data) {
+  this.data = data;
+};
+
+Base.PingEvent = function(data) {
+  this.data = data;
+};
+
+Base.PongEvent = function(data) {
+  this.data = data;
+};
+
+module.exports = Base;
+
+
+/***/ }),
+
+/***/ "./node_modules/websocket-driver/lib/websocket/driver/client.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/websocket-driver/lib/websocket/driver/client.js ***!
+  \**********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var Buffer     = (__webpack_require__(/*! safe-buffer */ "./node_modules/safe-buffer/index.js").Buffer),
+    crypto     = __webpack_require__(/*! crypto */ "crypto"),
+    url        = __webpack_require__(/*! url */ "url"),
+    util       = __webpack_require__(/*! util */ "util"),
+    HttpParser = __webpack_require__(/*! ../http_parser */ "./node_modules/websocket-driver/lib/websocket/http_parser.js"),
+    Base       = __webpack_require__(/*! ./base */ "./node_modules/websocket-driver/lib/websocket/driver/base.js"),
+    Hybi       = __webpack_require__(/*! ./hybi */ "./node_modules/websocket-driver/lib/websocket/driver/hybi.js"),
+    Proxy      = __webpack_require__(/*! ./proxy */ "./node_modules/websocket-driver/lib/websocket/driver/proxy.js");
+
+var Client = function(_url, options) {
+  this.version = 'hybi-' + Hybi.VERSION;
+  Hybi.call(this, null, _url, options);
+
+  this.readyState = -1;
+  this._key       = Client.generateKey();
+  this._accept    = Hybi.generateAccept(this._key);
+  this._http      = new HttpParser('response');
+
+  var uri  = url.parse(this.url),
+      auth = uri.auth && Buffer.from(uri.auth, 'utf8').toString('base64');
+
+  if (this.VALID_PROTOCOLS.indexOf(uri.protocol) < 0)
+    throw new Error(this.url + ' is not a valid WebSocket URL');
+
+  this._pathname = (uri.pathname || '/') + (uri.search || '');
+
+  this._headers.set('Host', uri.host);
+  this._headers.set('Upgrade', 'websocket');
+  this._headers.set('Connection', 'Upgrade');
+  this._headers.set('Sec-WebSocket-Key', this._key);
+  this._headers.set('Sec-WebSocket-Version', Hybi.VERSION);
+
+  if (this._protocols.length > 0)
+    this._headers.set('Sec-WebSocket-Protocol', this._protocols.join(', '));
+
+  if (auth)
+    this._headers.set('Authorization', 'Basic ' + auth);
+};
+util.inherits(Client, Hybi);
+
+Client.generateKey = function() {
+  return crypto.randomBytes(16).toString('base64');
+};
+
+var instance = {
+  VALID_PROTOCOLS: ['ws:', 'wss:'],
+
+  proxy: function(origin, options) {
+    return new Proxy(this, origin, options);
+  },
+
+  start: function() {
+    if (this.readyState !== -1) return false;
+    this._write(this._handshakeRequest());
+    this.readyState = 0;
+    return true;
+  },
+
+  parse: function(chunk) {
+    if (this.readyState === 3) return;
+    if (this.readyState > 0) return Hybi.prototype.parse.call(this, chunk);
+
+    this._http.parse(chunk);
+    if (!this._http.isComplete()) return;
+
+    this._validateHandshake();
+    if (this.readyState === 3) return;
+
+    this._open();
+    this.parse(this._http.body);
+  },
+
+  _handshakeRequest: function() {
+    var extensions = this._extensions.generateOffer();
+    if (extensions)
+      this._headers.set('Sec-WebSocket-Extensions', extensions);
+
+    var start   = 'GET ' + this._pathname + ' HTTP/1.1',
+        headers = [start, this._headers.toString(), ''];
+
+    return Buffer.from(headers.join('\r\n'), 'utf8');
+  },
+
+  _failHandshake: function(message) {
+    message = 'Error during WebSocket handshake: ' + message;
+    this.readyState = 3;
+    this.emit('error', new Error(message));
+    this.emit('close', new Base.CloseEvent(this.ERRORS.protocol_error, message));
+  },
+
+  _validateHandshake: function() {
+    this.statusCode = this._http.statusCode;
+    this.headers    = this._http.headers;
+
+    if (this._http.error)
+      return this._failHandshake(this._http.error.message);
+
+    if (this._http.statusCode !== 101)
+      return this._failHandshake('Unexpected response code: ' + this._http.statusCode);
+
+    var headers    = this._http.headers,
+        upgrade    = headers['upgrade'] || '',
+        connection = headers['connection'] || '',
+        accept     = headers['sec-websocket-accept'] || '',
+        protocol   = headers['sec-websocket-protocol'] || '';
+
+    if (upgrade === '')
+      return this._failHandshake("'Upgrade' header is missing");
+    if (upgrade.toLowerCase() !== 'websocket')
+      return this._failHandshake("'Upgrade' header value is not 'WebSocket'");
+
+    if (connection === '')
+      return this._failHandshake("'Connection' header is missing");
+    if (connection.toLowerCase() !== 'upgrade')
+      return this._failHandshake("'Connection' header value is not 'Upgrade'");
+
+    if (accept !== this._accept)
+      return this._failHandshake('Sec-WebSocket-Accept mismatch');
+
+    this.protocol = null;
+
+    if (protocol !== '') {
+      if (this._protocols.indexOf(protocol) < 0)
+        return this._failHandshake('Sec-WebSocket-Protocol mismatch');
+      else
+        this.protocol = protocol;
+    }
+
+    try {
+      this._extensions.activate(this.headers['sec-websocket-extensions']);
+    } catch (e) {
+      return this._failHandshake(e.message);
+    }
+  }
+};
+
+for (var key in instance)
+  Client.prototype[key] = instance[key];
+
+module.exports = Client;
+
+
+/***/ }),
+
+/***/ "./node_modules/websocket-driver/lib/websocket/driver/draft75.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/websocket-driver/lib/websocket/driver/draft75.js ***!
+  \***********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var Buffer = (__webpack_require__(/*! safe-buffer */ "./node_modules/safe-buffer/index.js").Buffer),
+    Base   = __webpack_require__(/*! ./base */ "./node_modules/websocket-driver/lib/websocket/driver/base.js"),
+    util   = __webpack_require__(/*! util */ "util");
+
+var Draft75 = function(request, url, options) {
+  Base.apply(this, arguments);
+  this._stage  = 0;
+  this.version = 'hixie-75';
+
+  this._headers.set('Upgrade', 'WebSocket');
+  this._headers.set('Connection', 'Upgrade');
+  this._headers.set('WebSocket-Origin', this._request.headers.origin);
+  this._headers.set('WebSocket-Location', this.url);
+};
+util.inherits(Draft75, Base);
+
+var instance = {
+  close: function() {
+    if (this.readyState === 3) return false;
+    this.readyState = 3;
+    this.emit('close', new Base.CloseEvent(null, null));
+    return true;
+  },
+
+  parse: function(chunk) {
+    if (this.readyState > 1) return;
+
+    this._reader.put(chunk);
+
+    this._reader.eachByte(function(octet) {
+      var message;
+
+      switch (this._stage) {
+        case -1:
+          this._body.push(octet);
+          this._sendHandshakeBody();
+          break;
+
+        case 0:
+          this._parseLeadingByte(octet);
+          break;
+
+        case 1:
+          this._length = (octet & 0x7F) + 128 * this._length;
+
+          if (this._closing && this._length === 0) {
+            return this.close();
+          }
+          else if ((octet & 0x80) !== 0x80) {
+            if (this._length === 0) {
+              this._stage = 0;
+            }
+            else {
+              this._skipped = 0;
+              this._stage   = 2;
+            }
+          }
+          break;
+
+        case 2:
+          if (octet === 0xFF) {
+            this._stage = 0;
+            message = Buffer.from(this._buffer).toString('utf8', 0, this._buffer.length);
+            this.emit('message', new Base.MessageEvent(message));
+          }
+          else {
+            if (this._length) {
+              this._skipped += 1;
+              if (this._skipped === this._length)
+                this._stage = 0;
+            } else {
+              this._buffer.push(octet);
+              if (this._buffer.length > this._maxLength) return this.close();
+            }
+          }
+          break;
+      }
+    }, this);
+  },
+
+  frame: function(buffer) {
+    if (this.readyState === 0) return this._queue([buffer]);
+    if (this.readyState > 1) return false;
+
+    if (typeof buffer !== 'string') buffer = buffer.toString();
+
+    var length = Buffer.byteLength(buffer),
+        frame  = Buffer.allocUnsafe(length + 2);
+
+    frame[0] = 0x00;
+    frame.write(buffer, 1);
+    frame[frame.length - 1] = 0xFF;
+
+    this._write(frame);
+    return true;
+  },
+
+  _handshakeResponse: function() {
+    var start   = 'HTTP/1.1 101 Web Socket Protocol Handshake',
+        headers = [start, this._headers.toString(), ''];
+
+    return Buffer.from(headers.join('\r\n'), 'utf8');
+  },
+
+  _parseLeadingByte: function(octet) {
+    if ((octet & 0x80) === 0x80) {
+      this._length = 0;
+      this._stage  = 1;
+    } else {
+      delete this._length;
+      delete this._skipped;
+      this._buffer = [];
+      this._stage  = 2;
+    }
+  }
+};
+
+for (var key in instance)
+  Draft75.prototype[key] = instance[key];
+
+module.exports = Draft75;
+
+
+/***/ }),
+
+/***/ "./node_modules/websocket-driver/lib/websocket/driver/draft76.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/websocket-driver/lib/websocket/driver/draft76.js ***!
+  \***********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var Buffer  = (__webpack_require__(/*! safe-buffer */ "./node_modules/safe-buffer/index.js").Buffer),
+    Base    = __webpack_require__(/*! ./base */ "./node_modules/websocket-driver/lib/websocket/driver/base.js"),
+    Draft75 = __webpack_require__(/*! ./draft75 */ "./node_modules/websocket-driver/lib/websocket/driver/draft75.js"),
+    crypto  = __webpack_require__(/*! crypto */ "crypto"),
+    util    = __webpack_require__(/*! util */ "util");
+
+
+var numberFromKey = function(key) {
+  return parseInt((key.match(/[0-9]/g) || []).join(''), 10);
+};
+
+var spacesInKey = function(key) {
+  return (key.match(/ /g) || []).length;
+};
+
+
+var Draft76 = function(request, url, options) {
+  Draft75.apply(this, arguments);
+  this._stage  = -1;
+  this._body   = [];
+  this.version = 'hixie-76';
+
+  this._headers.clear();
+
+  this._headers.set('Upgrade', 'WebSocket');
+  this._headers.set('Connection', 'Upgrade');
+  this._headers.set('Sec-WebSocket-Origin', this._request.headers.origin);
+  this._headers.set('Sec-WebSocket-Location', this.url);
+};
+util.inherits(Draft76, Draft75);
+
+var instance = {
+  BODY_SIZE: 8,
+
+  start: function() {
+    if (!Draft75.prototype.start.call(this)) return false;
+    this._started = true;
+    this._sendHandshakeBody();
+    return true;
+  },
+
+  close: function() {
+    if (this.readyState === 3) return false;
+    if (this.readyState === 1) this._write(Buffer.from([0xFF, 0x00]));
+    this.readyState = 3;
+    this.emit('close', new Base.CloseEvent(null, null));
+    return true;
+  },
+
+  _handshakeResponse: function() {
+    var headers = this._request.headers,
+        key1    = headers['sec-websocket-key1'],
+        key2    = headers['sec-websocket-key2'];
+
+    if (!key1) throw new Error('Missing required header: Sec-WebSocket-Key1');
+    if (!key2) throw new Error('Missing required header: Sec-WebSocket-Key2');
+
+    var number1 = numberFromKey(key1),
+        spaces1 = spacesInKey(key1),
+
+        number2 = numberFromKey(key2),
+        spaces2 = spacesInKey(key2);
+
+    if (number1 % spaces1 !== 0 || number2 % spaces2 !== 0)
+      throw new Error('Client sent invalid Sec-WebSocket-Key headers');
+
+    this._keyValues = [number1 / spaces1, number2 / spaces2];
+
+    var start   = 'HTTP/1.1 101 WebSocket Protocol Handshake',
+        headers = [start, this._headers.toString(), ''];
+
+    return Buffer.from(headers.join('\r\n'), 'binary');
+  },
+
+  _handshakeSignature: function() {
+    if (this._body.length < this.BODY_SIZE) return null;
+
+    var md5    = crypto.createHash('md5'),
+        buffer = Buffer.allocUnsafe(8 + this.BODY_SIZE);
+
+    buffer.writeUInt32BE(this._keyValues[0], 0);
+    buffer.writeUInt32BE(this._keyValues[1], 4);
+    Buffer.from(this._body).copy(buffer, 8, 0, this.BODY_SIZE);
+
+    md5.update(buffer);
+    return Buffer.from(md5.digest('binary'), 'binary');
+  },
+
+  _sendHandshakeBody: function() {
+    if (!this._started) return;
+    var signature = this._handshakeSignature();
+    if (!signature) return;
+
+    this._write(signature);
+    this._stage = 0;
+    this._open();
+
+    if (this._body.length > this.BODY_SIZE)
+      this.parse(this._body.slice(this.BODY_SIZE));
+  },
+
+  _parseLeadingByte: function(octet) {
+    if (octet !== 0xFF)
+      return Draft75.prototype._parseLeadingByte.call(this, octet);
+
+    this._closing = true;
+    this._length  = 0;
+    this._stage   = 1;
+  }
+};
+
+for (var key in instance)
+  Draft76.prototype[key] = instance[key];
+
+module.exports = Draft76;
+
+
+/***/ }),
+
+/***/ "./node_modules/websocket-driver/lib/websocket/driver/headers.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/websocket-driver/lib/websocket/driver/headers.js ***!
+  \***********************************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+var Headers = function() {
+  this.clear();
+};
+
+Headers.prototype.ALLOWED_DUPLICATES = ['set-cookie', 'set-cookie2', 'warning', 'www-authenticate'];
+
+Headers.prototype.clear = function() {
+  this._sent  = {};
+  this._lines = [];
+};
+
+Headers.prototype.set = function(name, value) {
+  if (value === undefined) return;
+
+  name = this._strip(name);
+  value = this._strip(value);
+
+  var key = name.toLowerCase();
+  if (!this._sent.hasOwnProperty(key) || this.ALLOWED_DUPLICATES.indexOf(key) >= 0) {
+    this._sent[key] = true;
+    this._lines.push(name + ': ' + value + '\r\n');
+  }
+};
+
+Headers.prototype.toString = function() {
+  return this._lines.join('');
+};
+
+Headers.prototype._strip = function(string) {
+  return string.toString().replace(/^ */, '').replace(/ *$/, '');
+};
+
+module.exports = Headers;
+
+
+/***/ }),
+
+/***/ "./node_modules/websocket-driver/lib/websocket/driver/hybi.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/websocket-driver/lib/websocket/driver/hybi.js ***!
+  \********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var Buffer     = (__webpack_require__(/*! safe-buffer */ "./node_modules/safe-buffer/index.js").Buffer),
+    crypto     = __webpack_require__(/*! crypto */ "crypto"),
+    util       = __webpack_require__(/*! util */ "util"),
+    Extensions = __webpack_require__(/*! websocket-extensions */ "./node_modules/websocket-extensions/lib/websocket_extensions.js"),
+    Base       = __webpack_require__(/*! ./base */ "./node_modules/websocket-driver/lib/websocket/driver/base.js"),
+    Frame      = __webpack_require__(/*! ./hybi/frame */ "./node_modules/websocket-driver/lib/websocket/driver/hybi/frame.js"),
+    Message    = __webpack_require__(/*! ./hybi/message */ "./node_modules/websocket-driver/lib/websocket/driver/hybi/message.js");
+
+var Hybi = function(request, url, options) {
+  Base.apply(this, arguments);
+
+  this._extensions     = new Extensions();
+  this._stage          = 0;
+  this._masking        = this._options.masking;
+  this._protocols      = this._options.protocols || [];
+  this._requireMasking = this._options.requireMasking;
+  this._pingCallbacks  = {};
+
+  if (typeof this._protocols === 'string')
+    this._protocols = this._protocols.split(/ *, */);
+
+  if (!this._request) return;
+
+  var protos    = this._request.headers['sec-websocket-protocol'],
+      supported = this._protocols;
+
+  if (protos !== undefined) {
+    if (typeof protos === 'string') protos = protos.split(/ *, */);
+    this.protocol = protos.filter(function(p) { return supported.indexOf(p) >= 0 })[0];
+  }
+
+  this.version = 'hybi-' + Hybi.VERSION;
+};
+util.inherits(Hybi, Base);
+
+Hybi.VERSION = '13';
+
+Hybi.mask = function(payload, mask, offset) {
+  if (!mask || mask.length === 0) return payload;
+  offset = offset || 0;
+
+  for (var i = 0, n = payload.length - offset; i < n; i++) {
+    payload[offset + i] = payload[offset + i] ^ mask[i % 4];
+  }
+  return payload;
+};
+
+Hybi.generateAccept = function(key) {
+  var sha1 = crypto.createHash('sha1');
+  sha1.update(key + Hybi.GUID);
+  return sha1.digest('base64');
+};
+
+Hybi.GUID = '258EAFA5-E914-47DA-95CA-C5AB0DC85B11';
+
+var instance = {
+  FIN:    0x80,
+  MASK:   0x80,
+  RSV1:   0x40,
+  RSV2:   0x20,
+  RSV3:   0x10,
+  OPCODE: 0x0F,
+  LENGTH: 0x7F,
+
+  OPCODES: {
+    continuation: 0,
+    text:         1,
+    binary:       2,
+    close:        8,
+    ping:         9,
+    pong:         10
+  },
+
+  OPCODE_CODES:    [0, 1, 2, 8, 9, 10],
+  MESSAGE_OPCODES: [0, 1, 2],
+  OPENING_OPCODES: [1, 2],
+
+  ERRORS: {
+    normal_closure:       1000,
+    going_away:           1001,
+    protocol_error:       1002,
+    unacceptable:         1003,
+    encoding_error:       1007,
+    policy_violation:     1008,
+    too_large:            1009,
+    extension_error:      1010,
+    unexpected_condition: 1011
+  },
+
+  ERROR_CODES:        [1000, 1001, 1002, 1003, 1007, 1008, 1009, 1010, 1011],
+  DEFAULT_ERROR_CODE: 1000,
+  MIN_RESERVED_ERROR: 3000,
+  MAX_RESERVED_ERROR: 4999,
+
+  // http://www.w3.org/International/questions/qa-forms-utf-8.en.php
+  UTF8_MATCH: /^([\x00-\x7F]|[\xC2-\xDF][\x80-\xBF]|\xE0[\xA0-\xBF][\x80-\xBF]|[\xE1-\xEC\xEE\xEF][\x80-\xBF]{2}|\xED[\x80-\x9F][\x80-\xBF]|\xF0[\x90-\xBF][\x80-\xBF]{2}|[\xF1-\xF3][\x80-\xBF]{3}|\xF4[\x80-\x8F][\x80-\xBF]{2})*$/,
+
+  addExtension: function(extension) {
+    this._extensions.add(extension);
+    return true;
+  },
+
+  parse: function(chunk) {
+    this._reader.put(chunk);
+    var buffer = true;
+    while (buffer) {
+      switch (this._stage) {
+        case 0:
+          buffer = this._reader.read(1);
+          if (buffer) this._parseOpcode(buffer[0]);
+          break;
+
+        case 1:
+          buffer = this._reader.read(1);
+          if (buffer) this._parseLength(buffer[0]);
+          break;
+
+        case 2:
+          buffer = this._reader.read(this._frame.lengthBytes);
+          if (buffer) this._parseExtendedLength(buffer);
+          break;
+
+        case 3:
+          buffer = this._reader.read(4);
+          if (buffer) {
+            this._stage = 4;
+            this._frame.maskingKey = buffer;
+          }
+          break;
+
+        case 4:
+          buffer = this._reader.read(this._frame.length);
+          if (buffer) {
+            this._stage = 0;
+            this._emitFrame(buffer);
+          }
+          break;
+
+        default:
+          buffer = null;
+      }
+    }
+  },
+
+  text: function(message) {
+    if (this.readyState > 1) return false;
+    return this.frame(message, 'text');
+  },
+
+  binary: function(message) {
+    if (this.readyState > 1) return false;
+    return this.frame(message, 'binary');
+  },
+
+  ping: function(message, callback) {
+    if (this.readyState > 1) return false;
+    message = message || '';
+    if (callback) this._pingCallbacks[message] = callback;
+    return this.frame(message, 'ping');
+  },
+
+  pong: function(message) {
+      if (this.readyState > 1) return false;
+      message = message ||'';
+      return this.frame(message, 'pong');
+  },
+
+  close: function(reason, code) {
+    reason = reason || '';
+    code   = code   || this.ERRORS.normal_closure;
+
+    if (this.readyState <= 0) {
+      this.readyState = 3;
+      this.emit('close', new Base.CloseEvent(code, reason));
+      return true;
+    } else if (this.readyState === 1) {
+      this.readyState = 2;
+      this._extensions.close(function() { this.frame(reason, 'close', code) }, this);
+      return true;
+    } else {
+      return false;
+    }
+  },
+
+  frame: function(buffer, type, code) {
+    if (this.readyState <= 0) return this._queue([buffer, type, code]);
+    if (this.readyState > 2) return false;
+
+    if (buffer instanceof Array)    buffer = Buffer.from(buffer);
+    if (typeof buffer === 'number') buffer = buffer.toString();
+
+    var message = new Message(),
+        isText  = (typeof buffer === 'string'),
+        payload, copy;
+
+    message.rsv1   = message.rsv2 = message.rsv3 = false;
+    message.opcode = this.OPCODES[type || (isText ? 'text' : 'binary')];
+
+    payload = isText ? Buffer.from(buffer, 'utf8') : buffer;
+
+    if (code) {
+      copy = payload;
+      payload = Buffer.allocUnsafe(2 + copy.length);
+      payload.writeUInt16BE(code, 0);
+      copy.copy(payload, 2);
+    }
+    message.data = payload;
+
+    var onMessageReady = function(message) {
+      var frame = new Frame();
+
+      frame.final   = true;
+      frame.rsv1    = message.rsv1;
+      frame.rsv2    = message.rsv2;
+      frame.rsv3    = message.rsv3;
+      frame.opcode  = message.opcode;
+      frame.masked  = !!this._masking;
+      frame.length  = message.data.length;
+      frame.payload = message.data;
+
+      if (frame.masked) frame.maskingKey = crypto.randomBytes(4);
+
+      this._sendFrame(frame);
+    };
+
+    if (this.MESSAGE_OPCODES.indexOf(message.opcode) >= 0)
+      this._extensions.processOutgoingMessage(message, function(error, message) {
+        if (error) return this._fail('extension_error', error.message);
+        onMessageReady.call(this, message);
+      }, this);
+    else
+      onMessageReady.call(this, message);
+
+    return true;
+  },
+
+  _sendFrame: function(frame) {
+    var length = frame.length,
+        header = (length <= 125) ? 2 : (length <= 65535 ? 4 : 10),
+        offset = header + (frame.masked ? 4 : 0),
+        buffer = Buffer.allocUnsafe(offset + length),
+        masked = frame.masked ? this.MASK : 0;
+
+    buffer[0] = (frame.final ? this.FIN : 0) |
+                (frame.rsv1 ? this.RSV1 : 0) |
+                (frame.rsv2 ? this.RSV2 : 0) |
+                (frame.rsv3 ? this.RSV3 : 0) |
+                frame.opcode;
+
+    if (length <= 125) {
+      buffer[1] = masked | length;
+    } else if (length <= 65535) {
+      buffer[1] = masked | 126;
+      buffer.writeUInt16BE(length, 2);
+    } else {
+      buffer[1] = masked | 127;
+      buffer.writeUInt32BE(Math.floor(length / 0x100000000), 2);
+      buffer.writeUInt32BE(length % 0x100000000, 6);
+    }
+
+    frame.payload.copy(buffer, offset);
+
+    if (frame.masked) {
+      frame.maskingKey.copy(buffer, header);
+      Hybi.mask(buffer, frame.maskingKey, offset);
+    }
+
+    this._write(buffer);
+  },
+
+  _handshakeResponse: function() {
+    var secKey  = this._request.headers['sec-websocket-key'],
+        version = this._request.headers['sec-websocket-version'];
+
+    if (version !== Hybi.VERSION)
+      throw new Error('Unsupported WebSocket version: ' + version);
+
+    if (typeof secKey !== 'string')
+      throw new Error('Missing handshake request header: Sec-WebSocket-Key');
+
+    this._headers.set('Upgrade', 'websocket');
+    this._headers.set('Connection', 'Upgrade');
+    this._headers.set('Sec-WebSocket-Accept', Hybi.generateAccept(secKey));
+
+    if (this.protocol) this._headers.set('Sec-WebSocket-Protocol', this.protocol);
+
+    var extensions = this._extensions.generateResponse(this._request.headers['sec-websocket-extensions']);
+    if (extensions) this._headers.set('Sec-WebSocket-Extensions', extensions);
+
+    var start   = 'HTTP/1.1 101 Switching Protocols',
+        headers = [start, this._headers.toString(), ''];
+
+    return Buffer.from(headers.join('\r\n'), 'utf8');
+  },
+
+  _shutdown: function(code, reason, error) {
+    delete this._frame;
+    delete this._message;
+    this._stage = 5;
+
+    var sendCloseFrame = (this.readyState === 1);
+    this.readyState = 2;
+
+    this._extensions.close(function() {
+      if (sendCloseFrame) this.frame(reason, 'close', code);
+      this.readyState = 3;
+      if (error) this.emit('error', new Error(reason));
+      this.emit('close', new Base.CloseEvent(code, reason));
+    }, this);
+  },
+
+  _fail: function(type, message) {
+    if (this.readyState > 1) return;
+    this._shutdown(this.ERRORS[type], message, true);
+  },
+
+  _parseOpcode: function(octet) {
+    var rsvs = [this.RSV1, this.RSV2, this.RSV3].map(function(rsv) {
+      return (octet & rsv) === rsv;
+    });
+
+    var frame = this._frame = new Frame();
+
+    frame.final  = (octet & this.FIN) === this.FIN;
+    frame.rsv1   = rsvs[0];
+    frame.rsv2   = rsvs[1];
+    frame.rsv3   = rsvs[2];
+    frame.opcode = (octet & this.OPCODE);
+
+    this._stage = 1;
+
+    if (!this._extensions.validFrameRsv(frame))
+      return this._fail('protocol_error',
+          'One or more reserved bits are on: reserved1 = ' + (frame.rsv1 ? 1 : 0) +
+          ', reserved2 = ' + (frame.rsv2 ? 1 : 0) +
+          ', reserved3 = ' + (frame.rsv3 ? 1 : 0));
+
+    if (this.OPCODE_CODES.indexOf(frame.opcode) < 0)
+      return this._fail('protocol_error', 'Unrecognized frame opcode: ' + frame.opcode);
+
+    if (this.MESSAGE_OPCODES.indexOf(frame.opcode) < 0 && !frame.final)
+      return this._fail('protocol_error', 'Received fragmented control frame: opcode = ' + frame.opcode);
+
+    if (this._message && this.OPENING_OPCODES.indexOf(frame.opcode) >= 0)
+      return this._fail('protocol_error', 'Received new data frame but previous continuous frame is unfinished');
+  },
+
+  _parseLength: function(octet) {
+    var frame = this._frame;
+    frame.masked = (octet & this.MASK) === this.MASK;
+    frame.length = (octet & this.LENGTH);
+
+    if (frame.length >= 0 && frame.length <= 125) {
+      this._stage = frame.masked ? 3 : 4;
+      if (!this._checkFrameLength()) return;
+    } else {
+      this._stage = 2;
+      frame.lengthBytes = (frame.length === 126 ? 2 : 8);
+    }
+
+    if (this._requireMasking && !frame.masked)
+      return this._fail('unacceptable', 'Received unmasked frame but masking is required');
+  },
+
+  _parseExtendedLength: function(buffer) {
+    var frame = this._frame;
+    frame.length = this._readUInt(buffer);
+
+    this._stage = frame.masked ? 3 : 4;
+
+    if (this.MESSAGE_OPCODES.indexOf(frame.opcode) < 0 && frame.length > 125)
+      return this._fail('protocol_error', 'Received control frame having too long payload: ' + frame.length);
+
+    if (!this._checkFrameLength()) return;
+  },
+
+  _checkFrameLength: function() {
+    var length = this._message ? this._message.length : 0;
+
+    if (length + this._frame.length > this._maxLength) {
+      this._fail('too_large', 'WebSocket frame length too large');
+      return false;
+    } else {
+      return true;
+    }
+  },
+
+  _emitFrame: function(buffer) {
+    var frame   = this._frame,
+        payload = frame.payload = Hybi.mask(buffer, frame.maskingKey),
+        opcode  = frame.opcode,
+        message,
+        code, reason,
+        callbacks, callback;
+
+    delete this._frame;
+
+    if (opcode === this.OPCODES.continuation) {
+      if (!this._message) return this._fail('protocol_error', 'Received unexpected continuation frame');
+      this._message.pushFrame(frame);
+    }
+
+    if (opcode === this.OPCODES.text || opcode === this.OPCODES.binary) {
+      this._message = new Message();
+      this._message.pushFrame(frame);
+    }
+
+    if (frame.final && this.MESSAGE_OPCODES.indexOf(opcode) >= 0)
+      return this._emitMessage(this._message);
+
+    if (opcode === this.OPCODES.close) {
+      code   = (payload.length >= 2) ? payload.readUInt16BE(0) : null;
+      reason = (payload.length > 2) ? this._encode(payload.slice(2)) : null;
+
+      if (!(payload.length === 0) &&
+          !(code !== null && code >= this.MIN_RESERVED_ERROR && code <= this.MAX_RESERVED_ERROR) &&
+          this.ERROR_CODES.indexOf(code) < 0)
+        code = this.ERRORS.protocol_error;
+
+      if (payload.length > 125 || (payload.length > 2 && !reason))
+        code = this.ERRORS.protocol_error;
+
+      this._shutdown(code || this.DEFAULT_ERROR_CODE, reason || '');
+    }
+
+    if (opcode === this.OPCODES.ping) {
+      this.frame(payload, 'pong');
+      this.emit('ping', new Base.PingEvent(payload.toString()))
+    }
+
+    if (opcode === this.OPCODES.pong) {
+      callbacks = this._pingCallbacks;
+      message   = this._encode(payload);
+      callback  = callbacks[message];
+
+      delete callbacks[message];
+      if (callback) callback()
+
+      this.emit('pong', new Base.PongEvent(payload.toString()))
+    }
+  },
+
+  _emitMessage: function(message) {
+    var message = this._message;
+    message.read();
+
+    delete this._message;
+
+    this._extensions.processIncomingMessage(message, function(error, message) {
+      if (error) return this._fail('extension_error', error.message);
+
+      var payload = message.data;
+      if (message.opcode === this.OPCODES.text) payload = this._encode(payload);
+
+      if (payload === null)
+        return this._fail('encoding_error', 'Could not decode a text frame as UTF-8');
+      else
+        this.emit('message', new Base.MessageEvent(payload));
+    }, this);
+  },
+
+  _encode: function(buffer) {
+    try {
+      var string = buffer.toString('binary', 0, buffer.length);
+      if (!this.UTF8_MATCH.test(string)) return null;
+    } catch (e) {}
+    return buffer.toString('utf8', 0, buffer.length);
+  },
+
+  _readUInt: function(buffer) {
+    if (buffer.length === 2) return buffer.readUInt16BE(0);
+
+    return buffer.readUInt32BE(0) * 0x100000000 +
+           buffer.readUInt32BE(4);
+  }
+};
+
+for (var key in instance)
+  Hybi.prototype[key] = instance[key];
+
+module.exports = Hybi;
+
+
+/***/ }),
+
+/***/ "./node_modules/websocket-driver/lib/websocket/driver/hybi/frame.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/websocket-driver/lib/websocket/driver/hybi/frame.js ***!
+  \**************************************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+var Frame = function() {};
+
+var instance = {
+  final:        false,
+  rsv1:         false,
+  rsv2:         false,
+  rsv3:         false,
+  opcode:       null,
+  masked:       false,
+  maskingKey:   null,
+  lengthBytes:  1,
+  length:       0,
+  payload:      null
+};
+
+for (var key in instance)
+  Frame.prototype[key] = instance[key];
+
+module.exports = Frame;
+
+
+/***/ }),
+
+/***/ "./node_modules/websocket-driver/lib/websocket/driver/hybi/message.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/websocket-driver/lib/websocket/driver/hybi/message.js ***!
+  \****************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var Buffer = (__webpack_require__(/*! safe-buffer */ "./node_modules/safe-buffer/index.js").Buffer);
+
+var Message = function() {
+  this.rsv1    = false;
+  this.rsv2    = false;
+  this.rsv3    = false;
+  this.opcode  = null;
+  this.length  = 0;
+  this._chunks = [];
+};
+
+var instance = {
+  read: function() {
+    return this.data = this.data || Buffer.concat(this._chunks, this.length);
+  },
+
+  pushFrame: function(frame) {
+    this.rsv1 = this.rsv1 || frame.rsv1;
+    this.rsv2 = this.rsv2 || frame.rsv2;
+    this.rsv3 = this.rsv3 || frame.rsv3;
+
+    if (this.opcode === null) this.opcode = frame.opcode;
+
+    this._chunks.push(frame.payload);
+    this.length += frame.length;
+  }
+};
+
+for (var key in instance)
+  Message.prototype[key] = instance[key];
+
+module.exports = Message;
+
+
+/***/ }),
+
+/***/ "./node_modules/websocket-driver/lib/websocket/driver/proxy.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/websocket-driver/lib/websocket/driver/proxy.js ***!
+  \*********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var Buffer     = (__webpack_require__(/*! safe-buffer */ "./node_modules/safe-buffer/index.js").Buffer),
+    Stream     = (__webpack_require__(/*! stream */ "stream").Stream),
+    url        = __webpack_require__(/*! url */ "url"),
+    util       = __webpack_require__(/*! util */ "util"),
+    Base       = __webpack_require__(/*! ./base */ "./node_modules/websocket-driver/lib/websocket/driver/base.js"),
+    Headers    = __webpack_require__(/*! ./headers */ "./node_modules/websocket-driver/lib/websocket/driver/headers.js"),
+    HttpParser = __webpack_require__(/*! ../http_parser */ "./node_modules/websocket-driver/lib/websocket/http_parser.js");
+
+var PORTS = { 'ws:': 80, 'wss:': 443 };
+
+var Proxy = function(client, origin, options) {
+  this._client  = client;
+  this._http    = new HttpParser('response');
+  this._origin  = (typeof client.url === 'object') ? client.url : url.parse(client.url);
+  this._url     = (typeof origin === 'object') ? origin : url.parse(origin);
+  this._options = options || {};
+  this._state   = 0;
+
+  this.readable = this.writable = true;
+  this._paused  = false;
+
+  this._headers = new Headers();
+  this._headers.set('Host', this._origin.host);
+  this._headers.set('Connection', 'keep-alive');
+  this._headers.set('Proxy-Connection', 'keep-alive');
+
+  var auth = this._url.auth && Buffer.from(this._url.auth, 'utf8').toString('base64');
+  if (auth) this._headers.set('Proxy-Authorization', 'Basic ' + auth);
+};
+util.inherits(Proxy, Stream);
+
+var instance = {
+  setHeader: function(name, value) {
+    if (this._state !== 0) return false;
+    this._headers.set(name, value);
+    return true;
+  },
+
+  start: function() {
+    if (this._state !== 0) return false;
+    this._state = 1;
+
+    var origin = this._origin,
+        port   = origin.port || PORTS[origin.protocol],
+        start  = 'CONNECT ' + origin.hostname + ':' + port + ' HTTP/1.1';
+
+    var headers = [start, this._headers.toString(), ''];
+
+    this.emit('data', Buffer.from(headers.join('\r\n'), 'utf8'));
+    return true;
+  },
+
+  pause: function() {
+    this._paused = true;
+  },
+
+  resume: function() {
+    this._paused = false;
+    this.emit('drain');
+  },
+
+  write: function(chunk) {
+    if (!this.writable) return false;
+
+    this._http.parse(chunk);
+    if (!this._http.isComplete()) return !this._paused;
+
+    this.statusCode = this._http.statusCode;
+    this.headers    = this._http.headers;
+
+    if (this.statusCode === 200) {
+      this.emit('connect', new Base.ConnectEvent());
+    } else {
+      var message = "Can't establish a connection to the server at " + this._origin.href;
+      this.emit('error', new Error(message));
+    }
+    this.end();
+    return !this._paused;
+  },
+
+  end: function(chunk) {
+    if (!this.writable) return;
+    if (chunk !== undefined) this.write(chunk);
+    this.readable = this.writable = false;
+    this.emit('close');
+    this.emit('end');
+  },
+
+  destroy: function() {
+    this.end();
+  }
+};
+
+for (var key in instance)
+  Proxy.prototype[key] = instance[key];
+
+module.exports = Proxy;
+
+
+/***/ }),
+
+/***/ "./node_modules/websocket-driver/lib/websocket/driver/server.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/websocket-driver/lib/websocket/driver/server.js ***!
+  \**********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var util       = __webpack_require__(/*! util */ "util"),
+    HttpParser = __webpack_require__(/*! ../http_parser */ "./node_modules/websocket-driver/lib/websocket/http_parser.js"),
+    Base       = __webpack_require__(/*! ./base */ "./node_modules/websocket-driver/lib/websocket/driver/base.js"),
+    Draft75    = __webpack_require__(/*! ./draft75 */ "./node_modules/websocket-driver/lib/websocket/driver/draft75.js"),
+    Draft76    = __webpack_require__(/*! ./draft76 */ "./node_modules/websocket-driver/lib/websocket/driver/draft76.js"),
+    Hybi       = __webpack_require__(/*! ./hybi */ "./node_modules/websocket-driver/lib/websocket/driver/hybi.js");
+
+var Server = function(options) {
+  Base.call(this, null, null, options);
+  this._http = new HttpParser('request');
+};
+util.inherits(Server, Base);
+
+var instance = {
+  EVENTS: ['open', 'message', 'error', 'close', 'ping', 'pong'],
+
+  _bindEventListeners: function() {
+    this.messages.on('error', function() {});
+    this.on('error', function() {});
+  },
+
+  parse: function(chunk) {
+    if (this._delegate) return this._delegate.parse(chunk);
+
+    this._http.parse(chunk);
+    if (!this._http.isComplete()) return;
+
+    this.method  = this._http.method;
+    this.url     = this._http.url;
+    this.headers = this._http.headers;
+    this.body    = this._http.body;
+
+    var self = this;
+    this._delegate = Server.http(this, this._options);
+    this._delegate.messages = this.messages;
+    this._delegate.io = this.io;
+    this._open();
+
+    this.EVENTS.forEach(function(event) {
+      this._delegate.on(event, function(e) { self.emit(event, e) });
+    }, this);
+
+    this.protocol = this._delegate.protocol;
+    this.version  = this._delegate.version;
+
+    this.parse(this._http.body);
+    this.emit('connect', new Base.ConnectEvent());
+  },
+
+  _open: function() {
+    this.__queue.forEach(function(msg) {
+      this._delegate[msg[0]].apply(this._delegate, msg[1]);
+    }, this);
+    this.__queue = [];
+  }
+};
+
+['addExtension', 'setHeader', 'start', 'frame', 'text', 'binary', 'ping', 'close'].forEach(function(method) {
+  instance[method] = function() {
+    if (this._delegate) {
+      return this._delegate[method].apply(this._delegate, arguments);
+    } else {
+      this.__queue.push([method, arguments]);
+      return true;
+    }
+  };
+});
+
+for (var key in instance)
+  Server.prototype[key] = instance[key];
+
+Server.isSecureRequest = function(request) {
+  if (request.connection && request.connection.authorized !== undefined) return true;
+  if (request.socket && request.socket.secure) return true;
+
+  var headers = request.headers;
+  if (!headers) return false;
+  if (headers['https'] === 'on') return true;
+  if (headers['x-forwarded-ssl'] === 'on') return true;
+  if (headers['x-forwarded-scheme'] === 'https') return true;
+  if (headers['x-forwarded-proto'] === 'https') return true;
+
+  return false;
+};
+
+Server.determineUrl = function(request) {
+  var scheme = this.isSecureRequest(request) ? 'wss:' : 'ws:';
+  return scheme + '//' + request.headers.host + request.url;
+};
+
+Server.http = function(request, options) {
+  options = options || {};
+  if (options.requireMasking === undefined) options.requireMasking = true;
+
+  var headers = request.headers,
+      version = headers['sec-websocket-version'],
+      key     = headers['sec-websocket-key'],
+      key1    = headers['sec-websocket-key1'],
+      key2    = headers['sec-websocket-key2'],
+      url     = this.determineUrl(request);
+
+  if (version || key)
+    return new Hybi(request, url, options);
+  else if (key1 || key2)
+    return new Draft76(request, url, options);
+  else
+    return new Draft75(request, url, options);
+};
+
+module.exports = Server;
+
+
+/***/ }),
+
+/***/ "./node_modules/websocket-driver/lib/websocket/driver/stream_reader.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/websocket-driver/lib/websocket/driver/stream_reader.js ***!
+  \*****************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var Buffer = (__webpack_require__(/*! safe-buffer */ "./node_modules/safe-buffer/index.js").Buffer);
+
+var StreamReader = function() {
+  this._queue     = [];
+  this._queueSize = 0;
+  this._offset    = 0;
+};
+
+StreamReader.prototype.put = function(buffer) {
+  if (!buffer || buffer.length === 0) return;
+  if (!Buffer.isBuffer(buffer)) buffer = Buffer.from(buffer);
+  this._queue.push(buffer);
+  this._queueSize += buffer.length;
+};
+
+StreamReader.prototype.read = function(length) {
+  if (length > this._queueSize) return null;
+  if (length === 0) return Buffer.alloc(0);
+
+  this._queueSize -= length;
+
+  var queue  = this._queue,
+      remain = length,
+      first  = queue[0],
+      buffers, buffer;
+
+  if (first.length >= length) {
+    if (first.length === length) {
+      return queue.shift();
+    } else {
+      buffer = first.slice(0, length);
+      queue[0] = first.slice(length);
+      return buffer;
+    }
+  }
+
+  for (var i = 0, n = queue.length; i < n; i++) {
+    if (remain < queue[i].length) break;
+    remain -= queue[i].length;
+  }
+  buffers = queue.splice(0, i);
+
+  if (remain > 0 && queue.length > 0) {
+    buffers.push(queue[0].slice(0, remain));
+    queue[0] = queue[0].slice(remain);
+  }
+  return Buffer.concat(buffers, length);
+};
+
+StreamReader.prototype.eachByte = function(callback, context) {
+  var buffer, n, index;
+
+  while (this._queue.length > 0) {
+    buffer = this._queue[0];
+    n = buffer.length;
+
+    while (this._offset < n) {
+      index = this._offset;
+      this._offset += 1;
+      callback.call(context, buffer[index]);
+    }
+    this._offset = 0;
+    this._queue.shift();
+  }
+};
+
+module.exports = StreamReader;
+
+
+/***/ }),
+
+/***/ "./node_modules/websocket-driver/lib/websocket/http_parser.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/websocket-driver/lib/websocket/http_parser.js ***!
+  \********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var NodeHTTPParser = (__webpack_require__(/*! http-parser-js */ "./node_modules/http-parser-js/http-parser.js").HTTPParser),
+    Buffer         = (__webpack_require__(/*! safe-buffer */ "./node_modules/safe-buffer/index.js").Buffer);
+
+var TYPES = {
+  request:  NodeHTTPParser.REQUEST  || 'request',
+  response: NodeHTTPParser.RESPONSE || 'response'
+};
+
+var HttpParser = function(type) {
+  this._type     = type;
+  this._parser   = new NodeHTTPParser(TYPES[type]);
+  this._complete = false;
+  this.headers   = {};
+
+  var current = null,
+      self    = this;
+
+  this._parser.onHeaderField = function(b, start, length) {
+    current = b.toString('utf8', start, start + length).toLowerCase();
+  };
+
+  this._parser.onHeaderValue = function(b, start, length) {
+    var value = b.toString('utf8', start, start + length);
+
+    if (self.headers.hasOwnProperty(current))
+      self.headers[current] += ', ' + value;
+    else
+      self.headers[current] = value;
+  };
+
+  this._parser.onHeadersComplete = this._parser[NodeHTTPParser.kOnHeadersComplete] =
+  function(majorVersion, minorVersion, headers, method, pathname, statusCode) {
+    var info = arguments[0];
+
+    if (typeof info === 'object') {
+      method     = info.method;
+      pathname   = info.url;
+      statusCode = info.statusCode;
+      headers    = info.headers;
+    }
+
+    self.method     = (typeof method === 'number') ? HttpParser.METHODS[method] : method;
+    self.statusCode = statusCode;
+    self.url        = pathname;
+
+    if (!headers) return;
+
+    for (var i = 0, n = headers.length, key, value; i < n; i += 2) {
+      key   = headers[i].toLowerCase();
+      value = headers[i+1];
+      if (self.headers.hasOwnProperty(key))
+        self.headers[key] += ', ' + value;
+      else
+        self.headers[key] = value;
+    }
+
+    self._complete = true;
+  };
+};
+
+HttpParser.METHODS = {
+  0:  'DELETE',
+  1:  'GET',
+  2:  'HEAD',
+  3:  'POST',
+  4:  'PUT',
+  5:  'CONNECT',
+  6:  'OPTIONS',
+  7:  'TRACE',
+  8:  'COPY',
+  9:  'LOCK',
+  10: 'MKCOL',
+  11: 'MOVE',
+  12: 'PROPFIND',
+  13: 'PROPPATCH',
+  14: 'SEARCH',
+  15: 'UNLOCK',
+  16: 'BIND',
+  17: 'REBIND',
+  18: 'UNBIND',
+  19: 'ACL',
+  20: 'REPORT',
+  21: 'MKACTIVITY',
+  22: 'CHECKOUT',
+  23: 'MERGE',
+  24: 'M-SEARCH',
+  25: 'NOTIFY',
+  26: 'SUBSCRIBE',
+  27: 'UNSUBSCRIBE',
+  28: 'PATCH',
+  29: 'PURGE',
+  30: 'MKCALENDAR',
+  31: 'LINK',
+  32: 'UNLINK'
+};
+
+var VERSION = process.version
+  ? process.version.match(/[0-9]+/g).map(function(n) { return parseInt(n, 10) })
+  : [];
+
+if (VERSION[0] === 0 && VERSION[1] === 12) {
+  HttpParser.METHODS[16] = 'REPORT';
+  HttpParser.METHODS[17] = 'MKACTIVITY';
+  HttpParser.METHODS[18] = 'CHECKOUT';
+  HttpParser.METHODS[19] = 'MERGE';
+  HttpParser.METHODS[20] = 'M-SEARCH';
+  HttpParser.METHODS[21] = 'NOTIFY';
+  HttpParser.METHODS[22] = 'SUBSCRIBE';
+  HttpParser.METHODS[23] = 'UNSUBSCRIBE';
+  HttpParser.METHODS[24] = 'PATCH';
+  HttpParser.METHODS[25] = 'PURGE';
 }
-function noop() {
-    // do nothing
-}
+
+HttpParser.prototype.isComplete = function() {
+  return this._complete;
+};
+
+HttpParser.prototype.parse = function(chunk) {
+  var consumed = this._parser.execute(chunk, 0, chunk.length);
+
+  if (typeof consumed !== 'number') {
+    this.error     = consumed;
+    this._complete = true;
+    return;
+  }
+
+  if (this._complete)
+    this.body = (consumed < chunk.length)
+              ? chunk.slice(consumed)
+              : Buffer.alloc(0);
+};
+
+module.exports = HttpParser;
+
+
+/***/ }),
+
+/***/ "./node_modules/websocket-driver/lib/websocket/streams.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/websocket-driver/lib/websocket/streams.js ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+
+/**
+
+Streams in a WebSocket connection
+---------------------------------
+
+We model a WebSocket as two duplex streams: one stream is for the wire protocol
+over an I/O socket, and the other is for incoming/outgoing messages.
+
+
+                        +----------+      +---------+      +----------+
+    [1] write(chunk) -->| ~~~~~~~~ +----->| parse() +----->| ~~~~~~~~ +--> emit('data') [2]
+                        |          |      +----+----+      |          |
+                        |          |           |           |          |
+                        |    IO    |           | [5]       | Messages |
+                        |          |           V           |          |
+                        |          |      +---------+      |          |
+    [4] emit('data') <--+ ~~~~~~~~ |<-----+ frame() |<-----+ ~~~~~~~~ |<-- write(chunk) [3]
+                        +----------+      +---------+      +----------+
+
+
+Message transfer in each direction is simple: IO receives a byte stream [1] and
+sends this stream for parsing. The parser will periodically emit a complete
+message text on the Messages stream [2]. Similarly, when messages are written
+to the Messages stream [3], they are framed using the WebSocket wire format and
+emitted via IO [4].
+
+There is a feedback loop via [5] since some input from [1] will be things like
+ping, pong and close frames. In these cases the protocol responds by emitting
+responses directly back to [4] rather than emitting messages via [2].
+
+For the purposes of flow control, we consider the sources of each Readable
+stream to be as follows:
+
+* [2] receives input from [1]
+* [4] receives input from [1] and [3]
+
+The classes below express the relationships described above without prescribing
+anything about how parse() and frame() work, other than assuming they emit
+'data' events to the IO and Messages streams. They will work with any protocol
+driver having these two methods.
+**/
+
+
+var Stream = (__webpack_require__(/*! stream */ "stream").Stream),
+    util   = __webpack_require__(/*! util */ "util");
+
+
+var IO = function(driver) {
+  this.readable = this.writable = true;
+  this._paused  = false;
+  this._driver  = driver;
+};
+util.inherits(IO, Stream);
+
+// The IO pause() and resume() methods will be called when the socket we are
+// piping to gets backed up and drains. Since IO output [4] comes from IO input
+// [1] and Messages input [3], we need to tell both of those to return false
+// from write() when this stream is paused.
+
+IO.prototype.pause = function() {
+  this._paused = true;
+  this._driver.messages._paused = true;
+};
+
+IO.prototype.resume = function() {
+  this._paused = false;
+  this.emit('drain');
+
+  var messages = this._driver.messages;
+  messages._paused = false;
+  messages.emit('drain');
+};
+
+// When we receive input from a socket, send it to the parser and tell the
+// source whether to back off.
+IO.prototype.write = function(chunk) {
+  if (!this.writable) return false;
+  this._driver.parse(chunk);
+  return !this._paused;
+};
+
+// The IO end() method will be called when the socket piping into it emits
+// 'close' or 'end', i.e. the socket is closed. In this situation the Messages
+// stream will not emit any more data so we emit 'end'.
+IO.prototype.end = function(chunk) {
+  if (!this.writable) return;
+  if (chunk !== undefined) this.write(chunk);
+  this.writable = false;
+
+  var messages = this._driver.messages;
+  if (messages.readable) {
+    messages.readable = messages.writable = false;
+    messages.emit('end');
+  }
+};
+
+IO.prototype.destroy = function() {
+  this.end();
+};
+
+
+var Messages = function(driver) {
+  this.readable = this.writable = true;
+  this._paused  = false;
+  this._driver  = driver;
+};
+util.inherits(Messages, Stream);
+
+// The Messages pause() and resume() methods will be called when the app that's
+// processing the messages gets backed up and drains. If we're emitting
+// messages too fast we should tell the source to slow down. Message output [2]
+// comes from IO input [1].
+
+Messages.prototype.pause = function() {
+  this._driver.io._paused = true;
+};
+
+Messages.prototype.resume = function() {
+  this._driver.io._paused = false;
+  this._driver.io.emit('drain');
+};
+
+// When we receive messages from the user, send them to the formatter and tell
+// the source whether to back off.
+Messages.prototype.write = function(message) {
+  if (!this.writable) return false;
+  if (typeof message === 'string') this._driver.text(message);
+  else this._driver.binary(message);
+  return !this._paused;
+};
+
+// The Messages end() method will be called when a stream piping into it emits
+// 'end'. Many streams may be piped into the WebSocket and one of them ending
+// does not mean the whole socket is done, so just process the input and move
+// on leaving the socket open.
+Messages.prototype.end = function(message) {
+  if (message !== undefined) this.write(message);
+};
+
+Messages.prototype.destroy = function() {};
+
+
+exports.IO = IO;
+exports.Messages = Messages;
+
+
+/***/ }),
+
+/***/ "./node_modules/websocket-extensions/lib/parser.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/websocket-extensions/lib/parser.js ***!
+  \*********************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+var TOKEN    = /([!#\$%&'\*\+\-\.\^_`\|~0-9A-Za-z]+)/,
+    NOTOKEN  = /([^!#\$%&'\*\+\-\.\^_`\|~0-9A-Za-z])/g,
+    QUOTED   = /"((?:\\[\x00-\x7f]|[^\x00-\x08\x0a-\x1f\x7f"\\])*)"/,
+    PARAM    = new RegExp(TOKEN.source + '(?:=(?:' + TOKEN.source + '|' + QUOTED.source + '))?'),
+    EXT      = new RegExp(TOKEN.source + '(?: *; *' + PARAM.source + ')*', 'g'),
+    EXT_LIST = new RegExp('^' + EXT.source + '(?: *, *' + EXT.source + ')*$'),
+    NUMBER   = /^-?(0|[1-9][0-9]*)(\.[0-9]+)?$/;
+
+var hasOwnProperty = Object.prototype.hasOwnProperty;
+
+var Parser = {
+  parseHeader: function(header) {
+    var offers = new Offers();
+    if (header === '' || header === undefined) return offers;
+
+    if (!EXT_LIST.test(header))
+      throw new SyntaxError('Invalid Sec-WebSocket-Extensions header: ' + header);
+
+    var values = header.match(EXT);
+
+    values.forEach(function(value) {
+      var params = value.match(new RegExp(PARAM.source, 'g')),
+          name   = params.shift(),
+          offer  = {};
+
+      params.forEach(function(param) {
+        var args = param.match(PARAM), key = args[1], data;
+
+        if (args[2] !== undefined) {
+          data = args[2];
+        } else if (args[3] !== undefined) {
+          data = args[3].replace(/\\/g, '');
+        } else {
+          data = true;
+        }
+        if (NUMBER.test(data)) data = parseFloat(data);
+
+        if (hasOwnProperty.call(offer, key)) {
+          offer[key] = [].concat(offer[key]);
+          offer[key].push(data);
+        } else {
+          offer[key] = data;
+        }
+      }, this);
+      offers.push(name, offer);
+    }, this);
+
+    return offers;
+  },
+
+  serializeParams: function(name, params) {
+    var values = [];
+
+    var print = function(key, value) {
+      if (value instanceof Array) {
+        value.forEach(function(v) { print(key, v) });
+      } else if (value === true) {
+        values.push(key);
+      } else if (typeof value === 'number') {
+        values.push(key + '=' + value);
+      } else if (NOTOKEN.test(value)) {
+        values.push(key + '="' + value.replace(/"/g, '\\"') + '"');
+      } else {
+        values.push(key + '=' + value);
+      }
+    };
+
+    for (var key in params) print(key, params[key]);
+
+    return [name].concat(values).join('; ');
+  }
+};
+
+var Offers = function() {
+  this._byName  = {};
+  this._inOrder = [];
+};
+
+Offers.prototype.push = function(name, params) {
+  if (!hasOwnProperty.call(this._byName, name))
+    this._byName[name] = [];
+
+  this._byName[name].push(params);
+  this._inOrder.push({ name: name, params: params });
+};
+
+Offers.prototype.eachOffer = function(callback, context) {
+  var list = this._inOrder;
+  for (var i = 0, n = list.length; i < n; i++)
+    callback.call(context, list[i].name, list[i].params);
+};
+
+Offers.prototype.byName = function(name) {
+  return this._byName[name] || [];
+};
+
+Offers.prototype.toArray = function() {
+  return this._inOrder.slice();
+};
+
+module.exports = Parser;
+
+
+/***/ }),
+
+/***/ "./node_modules/websocket-extensions/lib/pipeline/cell.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/websocket-extensions/lib/pipeline/cell.js ***!
+  \****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var Functor = __webpack_require__(/*! ./functor */ "./node_modules/websocket-extensions/lib/pipeline/functor.js"),
+    Pledge  = __webpack_require__(/*! ./pledge */ "./node_modules/websocket-extensions/lib/pipeline/pledge.js");
+
+var Cell = function(tuple) {
+  this._ext     = tuple[0];
+  this._session = tuple[1];
+
+  this._functors = {
+    incoming: new Functor(this._session, 'processIncomingMessage'),
+    outgoing: new Functor(this._session, 'processOutgoingMessage')
+  };
+};
+
+Cell.prototype.pending = function(direction) {
+  var functor = this._functors[direction];
+  if (!functor._stopped) functor.pending += 1;
+};
+
+Cell.prototype.incoming = function(error, message, callback, context) {
+  this._exec('incoming', error, message, callback, context);
+};
+
+Cell.prototype.outgoing = function(error, message, callback, context) {
+  this._exec('outgoing', error, message, callback, context);
+};
+
+Cell.prototype.close = function() {
+  this._closed = this._closed || new Pledge();
+  this._doClose();
+  return this._closed;
+};
+
+Cell.prototype._exec = function(direction, error, message, callback, context) {
+  this._functors[direction].call(error, message, function(err, msg) {
+    if (err) err.message = this._ext.name + ': ' + err.message;
+    callback.call(context, err, msg);
+    this._doClose();
+  }, this);
+};
+
+Cell.prototype._doClose = function() {
+  var fin  = this._functors.incoming,
+      fout = this._functors.outgoing;
+
+  if (!this._closed || fin.pending + fout.pending !== 0) return;
+  if (this._session) this._session.close();
+  this._session = null;
+  this._closed.done();
+};
+
+module.exports = Cell;
+
+
+/***/ }),
+
+/***/ "./node_modules/websocket-extensions/lib/pipeline/functor.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/websocket-extensions/lib/pipeline/functor.js ***!
+  \*******************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var RingBuffer = __webpack_require__(/*! ./ring_buffer */ "./node_modules/websocket-extensions/lib/pipeline/ring_buffer.js");
+
+var Functor = function(session, method) {
+  this._session = session;
+  this._method  = method;
+  this._queue   = new RingBuffer(Functor.QUEUE_SIZE);
+  this._stopped = false;
+  this.pending  = 0;
+};
+
+Functor.QUEUE_SIZE = 8;
+
+Functor.prototype.call = function(error, message, callback, context) {
+  if (this._stopped) return;
+
+  var record = { error: error, message: message, callback: callback, context: context, done: false },
+      called = false,
+      self   = this;
+
+  this._queue.push(record);
+
+  if (record.error) {
+    record.done = true;
+    this._stop();
+    return this._flushQueue();
+  }
+
+  var handler = function(err, msg) {
+    if (!(called ^ (called = true))) return;
+
+    if (err) {
+      self._stop();
+      record.error   = err;
+      record.message = null;
+    } else {
+      record.message = msg;
+    }
+
+    record.done = true;
+    self._flushQueue();
+  };
+
+  try {
+    this._session[this._method](message, handler);
+  } catch (err) {
+    handler(err);
+  }
+};
+
+Functor.prototype._stop = function() {
+  this.pending  = this._queue.length;
+  this._stopped = true;
+};
+
+Functor.prototype._flushQueue = function() {
+  var queue = this._queue, record;
+
+  while (queue.length > 0 && queue.peek().done) {
+    record = queue.shift();
+    if (record.error) {
+      this.pending = 0;
+      queue.clear();
+    } else {
+      this.pending -= 1;
+    }
+    record.callback.call(record.context, record.error, record.message);
+  }
+};
+
+module.exports = Functor;
+
+
+/***/ }),
+
+/***/ "./node_modules/websocket-extensions/lib/pipeline/index.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/websocket-extensions/lib/pipeline/index.js ***!
+  \*****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var Cell   = __webpack_require__(/*! ./cell */ "./node_modules/websocket-extensions/lib/pipeline/cell.js"),
+    Pledge = __webpack_require__(/*! ./pledge */ "./node_modules/websocket-extensions/lib/pipeline/pledge.js");
+
+var Pipeline = function(sessions) {
+  this._cells   = sessions.map(function(session) { return new Cell(session) });
+  this._stopped = { incoming: false, outgoing: false };
+};
+
+Pipeline.prototype.processIncomingMessage = function(message, callback, context) {
+  if (this._stopped.incoming) return;
+  this._loop('incoming', this._cells.length - 1, -1, -1, message, callback, context);
+};
+
+Pipeline.prototype.processOutgoingMessage = function(message, callback, context) {
+  if (this._stopped.outgoing) return;
+  this._loop('outgoing', 0, this._cells.length, 1, message, callback, context);
+};
+
+Pipeline.prototype.close = function(callback, context) {
+  this._stopped = { incoming: true, outgoing: true };
+
+  var closed = this._cells.map(function(a) { return a.close() });
+  if (callback)
+    Pledge.all(closed).then(function() { callback.call(context) });
+};
+
+Pipeline.prototype._loop = function(direction, start, end, step, message, callback, context) {
+  var cells = this._cells,
+      n     = cells.length,
+      self  = this;
+
+  while (n--) cells[n].pending(direction);
+
+  var pipe = function(index, error, msg) {
+    if (index === end) return callback.call(context, error, msg);
+
+    cells[index][direction](error, msg, function(err, m) {
+      if (err) self._stopped[direction] = true;
+      pipe(index + step, err, m);
+    });
+  };
+  pipe(start, null, message);
+};
+
+module.exports = Pipeline;
+
+
+/***/ }),
+
+/***/ "./node_modules/websocket-extensions/lib/pipeline/pledge.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/websocket-extensions/lib/pipeline/pledge.js ***!
+  \******************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var RingBuffer = __webpack_require__(/*! ./ring_buffer */ "./node_modules/websocket-extensions/lib/pipeline/ring_buffer.js");
+
+var Pledge = function() {
+  this._complete  = false;
+  this._callbacks = new RingBuffer(Pledge.QUEUE_SIZE);
+};
+
+Pledge.QUEUE_SIZE = 4;
+
+Pledge.all = function(list) {
+  var pledge  = new Pledge(),
+      pending = list.length,
+      n       = pending;
+
+  if (pending === 0) pledge.done();
+
+  while (n--) list[n].then(function() {
+    pending -= 1;
+    if (pending === 0) pledge.done();
+  });
+  return pledge;
+};
+
+Pledge.prototype.then = function(callback) {
+  if (this._complete) callback();
+  else this._callbacks.push(callback);
+};
+
+Pledge.prototype.done = function() {
+  this._complete = true;
+  var callbacks = this._callbacks, callback;
+  while (callback = callbacks.shift()) callback();
+};
+
+module.exports = Pledge;
+
+
+/***/ }),
+
+/***/ "./node_modules/websocket-extensions/lib/pipeline/ring_buffer.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/websocket-extensions/lib/pipeline/ring_buffer.js ***!
+  \***********************************************************************/
+/***/ ((module) => {
+
+"use strict";
+
+
+var RingBuffer = function(bufferSize) {
+  this._bufferSize = bufferSize;
+  this.clear();
+};
+
+RingBuffer.prototype.clear = function() {
+  this._buffer     = new Array(this._bufferSize);
+  this._ringOffset = 0;
+  this._ringSize   = this._bufferSize;
+  this._head       = 0;
+  this._tail       = 0;
+  this.length      = 0;
+};
+
+RingBuffer.prototype.push = function(value) {
+  var expandBuffer = false,
+      expandRing   = false;
+
+  if (this._ringSize < this._bufferSize) {
+    expandBuffer = (this._tail === 0);
+  } else if (this._ringOffset === this._ringSize) {
+    expandBuffer = true;
+    expandRing   = (this._tail === 0);
+  }
+
+  if (expandBuffer) {
+    this._tail       = this._bufferSize;
+    this._buffer     = this._buffer.concat(new Array(this._bufferSize));
+    this._bufferSize = this._buffer.length;
+
+    if (expandRing)
+      this._ringSize = this._bufferSize;
+  }
+
+  this._buffer[this._tail] = value;
+  this.length += 1;
+  if (this._tail < this._ringSize) this._ringOffset += 1;
+  this._tail = (this._tail + 1) % this._bufferSize;
+};
+
+RingBuffer.prototype.peek = function() {
+  if (this.length === 0) return void 0;
+  return this._buffer[this._head];
+};
+
+RingBuffer.prototype.shift = function() {
+  if (this.length === 0) return void 0;
+
+  var value = this._buffer[this._head];
+  this._buffer[this._head] = void 0;
+  this.length -= 1;
+  this._ringOffset -= 1;
+
+  if (this._ringOffset === 0 && this.length > 0) {
+    this._head       = this._ringSize;
+    this._ringOffset = this.length;
+    this._ringSize   = this._bufferSize;
+  } else {
+    this._head = (this._head + 1) % this._ringSize;
+  }
+  return value;
+};
+
+module.exports = RingBuffer;
+
+
+/***/ }),
+
+/***/ "./node_modules/websocket-extensions/lib/websocket_extensions.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/websocket-extensions/lib/websocket_extensions.js ***!
+  \***********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var Parser   = __webpack_require__(/*! ./parser */ "./node_modules/websocket-extensions/lib/parser.js"),
+    Pipeline = __webpack_require__(/*! ./pipeline */ "./node_modules/websocket-extensions/lib/pipeline/index.js");
+
+var Extensions = function() {
+  this._rsv1 = this._rsv2 = this._rsv3 = null;
+
+  this._byName   = {};
+  this._inOrder  = [];
+  this._sessions = [];
+  this._index    = {};
+};
+
+Extensions.MESSAGE_OPCODES = [1, 2];
+
+var instance = {
+  add: function(ext) {
+    if (typeof ext.name !== 'string') throw new TypeError('extension.name must be a string');
+    if (ext.type !== 'permessage') throw new TypeError('extension.type must be "permessage"');
+
+    if (typeof ext.rsv1 !== 'boolean') throw new TypeError('extension.rsv1 must be true or false');
+    if (typeof ext.rsv2 !== 'boolean') throw new TypeError('extension.rsv2 must be true or false');
+    if (typeof ext.rsv3 !== 'boolean') throw new TypeError('extension.rsv3 must be true or false');
+
+    if (this._byName.hasOwnProperty(ext.name))
+      throw new TypeError('An extension with name "' + ext.name + '" is already registered');
+
+    this._byName[ext.name] = ext;
+    this._inOrder.push(ext);
+  },
+
+  generateOffer: function() {
+    var sessions = [],
+        offer    = [],
+        index    = {};
+
+    this._inOrder.forEach(function(ext) {
+      var session = ext.createClientSession();
+      if (!session) return;
+
+      var record = [ext, session];
+      sessions.push(record);
+      index[ext.name] = record;
+
+      var offers = session.generateOffer();
+      offers = offers ? [].concat(offers) : [];
+
+      offers.forEach(function(off) {
+        offer.push(Parser.serializeParams(ext.name, off));
+      }, this);
+    }, this);
+
+    this._sessions = sessions;
+    this._index    = index;
+
+    return offer.length > 0 ? offer.join(', ') : null;
+  },
+
+  activate: function(header) {
+    var responses = Parser.parseHeader(header),
+        sessions  = [];
+
+    responses.eachOffer(function(name, params) {
+      var record = this._index[name];
+
+      if (!record)
+        throw new Error('Server sent an extension response for unknown extension "' + name + '"');
+
+      var ext      = record[0],
+          session  = record[1],
+          reserved = this._reserved(ext);
+
+      if (reserved)
+        throw new Error('Server sent two extension responses that use the RSV' +
+                        reserved[0] + ' bit: "' +
+                        reserved[1] + '" and "' + ext.name + '"');
+
+      if (session.activate(params) !== true)
+        throw new Error('Server sent unacceptable extension parameters: ' +
+                        Parser.serializeParams(name, params));
+
+      this._reserve(ext);
+      sessions.push(record);
+    }, this);
+
+    this._sessions = sessions;
+    this._pipeline = new Pipeline(sessions);
+  },
+
+  generateResponse: function(header) {
+    var sessions = [],
+        response = [],
+        offers   = Parser.parseHeader(header);
+
+    this._inOrder.forEach(function(ext) {
+      var offer = offers.byName(ext.name);
+      if (offer.length === 0 || this._reserved(ext)) return;
+
+      var session = ext.createServerSession(offer);
+      if (!session) return;
+
+      this._reserve(ext);
+      sessions.push([ext, session]);
+      response.push(Parser.serializeParams(ext.name, session.generateResponse()));
+    }, this);
+
+    this._sessions = sessions;
+    this._pipeline = new Pipeline(sessions);
+
+    return response.length > 0 ? response.join(', ') : null;
+  },
+
+  validFrameRsv: function(frame) {
+    var allowed = { rsv1: false, rsv2: false, rsv3: false },
+        ext;
+
+    if (Extensions.MESSAGE_OPCODES.indexOf(frame.opcode) >= 0) {
+      for (var i = 0, n = this._sessions.length; i < n; i++) {
+        ext = this._sessions[i][0];
+        allowed.rsv1 = allowed.rsv1 || ext.rsv1;
+        allowed.rsv2 = allowed.rsv2 || ext.rsv2;
+        allowed.rsv3 = allowed.rsv3 || ext.rsv3;
+      }
+    }
+
+    return (allowed.rsv1 || !frame.rsv1) &&
+           (allowed.rsv2 || !frame.rsv2) &&
+           (allowed.rsv3 || !frame.rsv3);
+  },
+
+  processIncomingMessage: function(message, callback, context) {
+    this._pipeline.processIncomingMessage(message, callback, context);
+  },
+
+  processOutgoingMessage: function(message, callback, context) {
+    this._pipeline.processOutgoingMessage(message, callback, context);
+  },
+
+  close: function(callback, context) {
+    if (!this._pipeline) return callback.call(context);
+    this._pipeline.close(callback, context);
+  },
+
+  _reserve: function(ext) {
+    this._rsv1 = this._rsv1 || (ext.rsv1 && ext.name);
+    this._rsv2 = this._rsv2 || (ext.rsv2 && ext.name);
+    this._rsv3 = this._rsv3 || (ext.rsv3 && ext.name);
+  },
+
+  _reserved: function(ext) {
+    if (this._rsv1 && ext.rsv1) return [1, this._rsv1];
+    if (this._rsv2 && ext.rsv2) return [2, this._rsv2];
+    if (this._rsv3 && ext.rsv3) return [3, this._rsv3];
+    return false;
+  }
+};
+
+for (var key in instance)
+  Extensions.prototype[key] = instance[key];
+
+module.exports = Extensions;
+
+
+/***/ }),
+
+/***/ "./node_modules/@firebase/app/dist/esm/index.esm2017.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/@firebase/app/dist/esm/index.esm2017.js ***!
+  \**************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "FirebaseError": () => (/* reexport safe */ _firebase_util__WEBPACK_IMPORTED_MODULE_2__.FirebaseError),
+/* harmony export */   "SDK_VERSION": () => (/* binding */ SDK_VERSION),
+/* harmony export */   "_DEFAULT_ENTRY_NAME": () => (/* binding */ DEFAULT_ENTRY_NAME),
+/* harmony export */   "_addComponent": () => (/* binding */ _addComponent),
+/* harmony export */   "_addOrOverwriteComponent": () => (/* binding */ _addOrOverwriteComponent),
+/* harmony export */   "_apps": () => (/* binding */ _apps),
+/* harmony export */   "_clearComponents": () => (/* binding */ _clearComponents),
+/* harmony export */   "_components": () => (/* binding */ _components),
+/* harmony export */   "_getProvider": () => (/* binding */ _getProvider),
+/* harmony export */   "_registerComponent": () => (/* binding */ _registerComponent),
+/* harmony export */   "_removeServiceInstance": () => (/* binding */ _removeServiceInstance),
+/* harmony export */   "deleteApp": () => (/* binding */ deleteApp),
+/* harmony export */   "getApp": () => (/* binding */ getApp),
+/* harmony export */   "getApps": () => (/* binding */ getApps),
+/* harmony export */   "initializeApp": () => (/* binding */ initializeApp),
+/* harmony export */   "onLog": () => (/* binding */ onLog),
+/* harmony export */   "registerVersion": () => (/* binding */ registerVersion),
+/* harmony export */   "setLogLevel": () => (/* binding */ setLogLevel)
+/* harmony export */ });
+/* harmony import */ var _firebase_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @firebase/component */ "./node_modules/@firebase/component/dist/esm/index.esm2017.js");
+/* harmony import */ var _firebase_logger__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @firebase/logger */ "./node_modules/@firebase/logger/dist/esm/index.esm2017.js");
+/* harmony import */ var _firebase_util__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @firebase/util */ "./node_modules/@firebase/util/dist/node-esm/index.node.esm.js");
+
+
+
+
 
 /**
  * @license
- * Copyright 2017 Google LLC
+ * Copyright 2019 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+class PlatformLoggerServiceImpl {
+    constructor(container) {
+        this.container = container;
+    }
+    // In initial implementation, this will be called by installations on
+    // auth token refresh, and installations will send this string.
+    getPlatformInfoString() {
+        const providers = this.container.getProviders();
+        // Loop through providers and get library/version pairs from any that are
+        // version components.
+        return providers
+            .map(provider => {
+            if (isVersionServiceProvider(provider)) {
+                const service = provider.getImmediate();
+                return `${service.library}/${service.version}`;
+            }
+            else {
+                return null;
+            }
+        })
+            .filter(logString => logString)
+            .join(' ');
+    }
+}
+/**
+ *
+ * @param provider check if this provider provides a VersionService
+ *
+ * NOTE: Using Provider<'app-version'> is a hack to indicate that the provider
+ * provides VersionService. The provider is not necessarily a 'app-version'
+ * provider.
+ */
+function isVersionServiceProvider(provider) {
+    const component = provider.getComponent();
+    return (component === null || component === void 0 ? void 0 : component.type) === "VERSION" /* VERSION */;
+}
+
+const name$o = "@firebase/app";
+const version$1 = "0.7.11";
+
+/**
+ * @license
+ * Copyright 2019 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+const logger = new _firebase_logger__WEBPACK_IMPORTED_MODULE_1__.Logger('@firebase/app');
+
+const name$n = "@firebase/app-compat";
+
+const name$m = "@firebase/analytics-compat";
+
+const name$l = "@firebase/analytics";
+
+const name$k = "@firebase/app-check-compat";
+
+const name$j = "@firebase/app-check";
+
+const name$i = "@firebase/auth";
+
+const name$h = "@firebase/auth-compat";
+
+const name$g = "@firebase/database";
+
+const name$f = "@firebase/database-compat";
+
+const name$e = "@firebase/functions";
+
+const name$d = "@firebase/functions-compat";
+
+const name$c = "@firebase/installations";
+
+const name$b = "@firebase/installations-compat";
+
+const name$a = "@firebase/messaging";
+
+const name$9 = "@firebase/messaging-compat";
+
+const name$8 = "@firebase/performance";
+
+const name$7 = "@firebase/performance-compat";
+
+const name$6 = "@firebase/remote-config";
+
+const name$5 = "@firebase/remote-config-compat";
+
+const name$4 = "@firebase/storage";
+
+const name$3 = "@firebase/storage-compat";
+
+const name$2 = "@firebase/firestore";
+
+const name$1 = "@firebase/firestore-compat";
+
+const name = "firebase";
+const version = "9.6.1";
+
+/**
+ * @license
+ * Copyright 2019 Google LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -2370,165 +5103,38 @@ function noop() {
  * limitations under the License.
  */
 /**
- * Check to make sure the appropriate number of arguments are provided for a public function.
- * Throws an error if it fails.
+ * The default app name
  *
- * @param fnName The function name
- * @param minCount The minimum number of arguments to allow for the function call
- * @param maxCount The maximum number of argument to allow for the function call
- * @param argCount The actual number of arguments provided.
+ * @internal
  */
-const validateArgCount = function (fnName, minCount, maxCount, argCount) {
-    let argError;
-    if (argCount < minCount) {
-        argError = 'at least ' + minCount;
-    }
-    else if (argCount > maxCount) {
-        argError = maxCount === 0 ? 'none' : 'no more than ' + maxCount;
-    }
-    if (argError) {
-        const error = fnName +
-            ' failed: Was called with ' +
-            argCount +
-            (argCount === 1 ? ' argument.' : ' arguments.') +
-            ' Expects ' +
-            argError +
-            '.';
-        throw new Error(error);
-    }
-};
-/**
- * Generates a string to prefix an error message about failed argument validation
- *
- * @param fnName The function name
- * @param argName The name of the argument
- * @return The prefix to add to the error thrown for validation.
- */
-function index_node_esm_errorPrefix(fnName, argName) {
-    return `${fnName} failed: ${argName} argument `;
-}
-/**
- * @param fnName
- * @param argumentNumber
- * @param namespace
- * @param optional
- */
-function validateNamespace(fnName, namespace, optional) {
-    if (optional && !namespace) {
-        return;
-    }
-    if (typeof namespace !== 'string') {
-        //TODO: I should do more validation here. We only allow certain chars in namespaces.
-        throw new Error(index_node_esm_errorPrefix(fnName, 'namespace') + 'must be a valid firebase namespace.');
-    }
-}
-function validateCallback(fnName, argumentName, 
-// eslint-disable-next-line @typescript-eslint/ban-types
-callback, optional) {
-    if (optional && !callback) {
-        return;
-    }
-    if (typeof callback !== 'function') {
-        throw new Error(index_node_esm_errorPrefix(fnName, argumentName) + 'must be a valid function.');
-    }
-}
-function validateContextObject(fnName, argumentName, context, optional) {
-    if (optional && !context) {
-        return;
-    }
-    if (typeof context !== 'object' || context === null) {
-        throw new Error(index_node_esm_errorPrefix(fnName, argumentName) + 'must be a valid context object.');
-    }
-}
-
-/**
- * @license
- * Copyright 2017 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-// Code originally came from goog.crypt.stringToUtf8ByteArray, but for some reason they
-// automatically replaced '\r\n' with '\n', and they didn't handle surrogate pairs,
-// so it's been modified.
-// Note that not all Unicode characters appear as single characters in JavaScript strings.
-// fromCharCode returns the UTF-16 encoding of a character - so some Unicode characters
-// use 2 characters in Javascript.  All 4-byte UTF-8 characters begin with a first
-// character in the range 0xD800 - 0xDBFF (the first character of a so-called surrogate
-// pair).
-// See http://www.ecma-international.org/ecma-262/5.1/#sec-15.1.3
-/**
- * @param {string} str
- * @return {Array}
- */
-const stringToByteArray = function (str) {
-    const out = [];
-    let p = 0;
-    for (let i = 0; i < str.length; i++) {
-        let c = str.charCodeAt(i);
-        // Is this the lead surrogate in a surrogate pair?
-        if (c >= 0xd800 && c <= 0xdbff) {
-            const high = c - 0xd800; // the high 10 bits.
-            i++;
-            index_node_esm_assert(i < str.length, 'Surrogate pair missing trail surrogate.');
-            const low = str.charCodeAt(i) - 0xdc00; // the low 10 bits.
-            c = 0x10000 + (high << 10) + low;
-        }
-        if (c < 128) {
-            out[p++] = c;
-        }
-        else if (c < 2048) {
-            out[p++] = (c >> 6) | 192;
-            out[p++] = (c & 63) | 128;
-        }
-        else if (c < 65536) {
-            out[p++] = (c >> 12) | 224;
-            out[p++] = ((c >> 6) & 63) | 128;
-            out[p++] = (c & 63) | 128;
-        }
-        else {
-            out[p++] = (c >> 18) | 240;
-            out[p++] = ((c >> 12) & 63) | 128;
-            out[p++] = ((c >> 6) & 63) | 128;
-            out[p++] = (c & 63) | 128;
-        }
-    }
-    return out;
-};
-/**
- * Calculate length without actually converting; useful for doing cheaper validation.
- * @param {string} str
- * @return {number}
- */
-const stringLength = function (str) {
-    let p = 0;
-    for (let i = 0; i < str.length; i++) {
-        const c = str.charCodeAt(i);
-        if (c < 128) {
-            p++;
-        }
-        else if (c < 2048) {
-            p += 2;
-        }
-        else if (c >= 0xd800 && c <= 0xdbff) {
-            // Lead surrogate of a surrogate pair.  The pair together will take 4 bytes to represent.
-            p += 4;
-            i++; // skip trail surrogate.
-        }
-        else {
-            p += 3;
-        }
-    }
-    return p;
+const DEFAULT_ENTRY_NAME = '[DEFAULT]';
+const PLATFORM_LOG_STRING = {
+    [name$o]: 'fire-core',
+    [name$n]: 'fire-core-compat',
+    [name$l]: 'fire-analytics',
+    [name$m]: 'fire-analytics-compat',
+    [name$j]: 'fire-app-check',
+    [name$k]: 'fire-app-check-compat',
+    [name$i]: 'fire-auth',
+    [name$h]: 'fire-auth-compat',
+    [name$g]: 'fire-rtdb',
+    [name$f]: 'fire-rtdb-compat',
+    [name$e]: 'fire-fn',
+    [name$d]: 'fire-fn-compat',
+    [name$c]: 'fire-iid',
+    [name$b]: 'fire-iid-compat',
+    [name$a]: 'fire-fcm',
+    [name$9]: 'fire-fcm-compat',
+    [name$8]: 'fire-perf',
+    [name$7]: 'fire-perf-compat',
+    [name$6]: 'fire-rc',
+    [name$5]: 'fire-rc-compat',
+    [name$4]: 'fire-gcs',
+    [name$3]: 'fire-gcs-compat',
+    [name$2]: 'fire-fst',
+    [name$1]: 'fire-fst-compat',
+    'fire-js': 'fire-js',
+    [name]: 'fire-js-all'
 };
 
 /**
@@ -2548,57 +5154,186 @@ const stringLength = function (str) {
  * limitations under the License.
  */
 /**
- * The amount of milliseconds to exponentially increase.
+ * @internal
  */
-const DEFAULT_INTERVAL_MILLIS = 1000;
+const _apps = new Map();
 /**
- * The factor to backoff by.
- * Should be a number greater than 1.
- */
-const DEFAULT_BACKOFF_FACTOR = 2;
-/**
- * The maximum milliseconds to increase to.
+ * Registered components.
  *
- * <p>Visible for testing
+ * @internal
  */
-const MAX_VALUE_MILLIS = (/* unused pure expression or super */ null && (4 * 60 * 60 * 1000)); // Four hours, like iOS and Android.
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const _components = new Map();
 /**
- * The percentage of backoff time to randomize by.
- * See
- * http://go/safe-client-behavior#step-1-determine-the-appropriate-retry-interval-to-handle-spike-traffic
- * for context.
+ * @param component - the component being added to this app's container
  *
- * <p>Visible for testing
+ * @internal
  */
-const RANDOM_FACTOR = 0.5;
+function _addComponent(app, component) {
+    try {
+        app.container.addComponent(component);
+    }
+    catch (e) {
+        logger.debug(`Component ${component.name} failed to register with FirebaseApp ${app.name}`, e);
+    }
+}
 /**
- * Based on the backoff method from
- * https://github.com/google/closure-library/blob/master/closure/goog/math/exponentialbackoff.js.
- * Extracted here so we don't need to pass metadata and a stateful ExponentialBackoff object around.
+ *
+ * @internal
  */
-function calculateBackoffMillis(backoffCount, intervalMillis = DEFAULT_INTERVAL_MILLIS, backoffFactor = DEFAULT_BACKOFF_FACTOR) {
-    // Calculates an exponentially increasing value.
-    // Deviation: calculates value from count and a constant interval, so we only need to save value
-    // and count to restore state.
-    const currBaseValue = intervalMillis * Math.pow(backoffFactor, backoffCount);
-    // A random "fuzz" to avoid waves of retries.
-    // Deviation: randomFactor is required.
-    const randomWait = Math.round(
-    // A fraction of the backoff value to add/subtract.
-    // Deviation: changes multiplication order to improve readability.
-    RANDOM_FACTOR *
-        currBaseValue *
-        // A random float (rounded to int by Math.round above) in the range [-1, 1]. Determines
-        // if we add or subtract.
-        (Math.random() - 0.5) *
-        2);
-    // Limits backoff to max to avoid effectively permanent backoff.
-    return Math.min(MAX_VALUE_MILLIS, currBaseValue + randomWait);
+function _addOrOverwriteComponent(app, component) {
+    app.container.addOrOverwriteComponent(component);
+}
+/**
+ *
+ * @param component - the component to register
+ * @returns whether or not the component is registered successfully
+ *
+ * @internal
+ */
+function _registerComponent(component) {
+    const componentName = component.name;
+    if (_components.has(componentName)) {
+        logger.debug(`There were multiple attempts to register component ${componentName}.`);
+        return false;
+    }
+    _components.set(componentName, component);
+    // add the component to existing app instances
+    for (const app of _apps.values()) {
+        _addComponent(app, component);
+    }
+    return true;
+}
+/**
+ *
+ * @param app - FirebaseApp instance
+ * @param name - service name
+ *
+ * @returns the provider for the service with the matching name
+ *
+ * @internal
+ */
+function _getProvider(app, name) {
+    return app.container.getProvider(name);
+}
+/**
+ *
+ * @param app - FirebaseApp instance
+ * @param name - service name
+ * @param instanceIdentifier - service instance identifier in case the service supports multiple instances
+ *
+ * @internal
+ */
+function _removeServiceInstance(app, name, instanceIdentifier = DEFAULT_ENTRY_NAME) {
+    _getProvider(app, name).clearInstance(instanceIdentifier);
+}
+/**
+ * Test only
+ *
+ * @internal
+ */
+function _clearComponents() {
+    _components.clear();
 }
 
 /**
  * @license
- * Copyright 2020 Google LLC
+ * Copyright 2019 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+const ERRORS = {
+    ["no-app" /* NO_APP */]: "No Firebase App '{$appName}' has been created - " +
+        'call Firebase App.initializeApp()',
+    ["bad-app-name" /* BAD_APP_NAME */]: "Illegal App name: '{$appName}",
+    ["duplicate-app" /* DUPLICATE_APP */]: "Firebase App named '{$appName}' already exists with different options or config",
+    ["app-deleted" /* APP_DELETED */]: "Firebase App named '{$appName}' already deleted",
+    ["invalid-app-argument" /* INVALID_APP_ARGUMENT */]: 'firebase.{$appName}() takes either no argument or a ' +
+        'Firebase App instance.',
+    ["invalid-log-argument" /* INVALID_LOG_ARGUMENT */]: 'First argument to `onLog` must be null or a function.'
+};
+const ERROR_FACTORY = new _firebase_util__WEBPACK_IMPORTED_MODULE_2__.ErrorFactory('app', 'Firebase', ERRORS);
+
+/**
+ * @license
+ * Copyright 2019 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+class FirebaseAppImpl {
+    constructor(options, config, container) {
+        this._isDeleted = false;
+        this._options = Object.assign({}, options);
+        this._config = Object.assign({}, config);
+        this._name = config.name;
+        this._automaticDataCollectionEnabled =
+            config.automaticDataCollectionEnabled;
+        this._container = container;
+        this.container.addComponent(new _firebase_component__WEBPACK_IMPORTED_MODULE_0__.Component('app', () => this, "PUBLIC" /* PUBLIC */));
+    }
+    get automaticDataCollectionEnabled() {
+        this.checkDestroyed();
+        return this._automaticDataCollectionEnabled;
+    }
+    set automaticDataCollectionEnabled(val) {
+        this.checkDestroyed();
+        this._automaticDataCollectionEnabled = val;
+    }
+    get name() {
+        this.checkDestroyed();
+        return this._name;
+    }
+    get options() {
+        this.checkDestroyed();
+        return this._options;
+    }
+    get config() {
+        this.checkDestroyed();
+        return this._config;
+    }
+    get container() {
+        return this._container;
+    }
+    get isDeleted() {
+        return this._isDeleted;
+    }
+    set isDeleted(val) {
+        this._isDeleted = val;
+    }
+    /**
+     * This function will throw an Error if the App has already been deleted -
+     * use before performing API actions on the App.
+     */
+    checkDestroyed() {
+        if (this.isDeleted) {
+            throw ERROR_FACTORY.create("app-deleted" /* APP_DELETED */, { appName: this._name });
+        }
+    }
+}
+
+/**
+ * @license
+ * Copyright 2019 Google LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -2613,36 +5348,177 @@ function calculateBackoffMillis(backoffCount, intervalMillis = DEFAULT_INTERVAL_
  * limitations under the License.
  */
 /**
- * Provide English ordinal letters after a number
+ * The current SDK version.
+ *
+ * @public
  */
-function ordinal(i) {
-    if (!Number.isFinite(i)) {
-        return `${i}`;
+const SDK_VERSION = version;
+function initializeApp(options, rawConfig = {}) {
+    if (typeof rawConfig !== 'object') {
+        const name = rawConfig;
+        rawConfig = { name };
     }
-    return i + indicator(i);
+    const config = Object.assign({ name: DEFAULT_ENTRY_NAME, automaticDataCollectionEnabled: false }, rawConfig);
+    const name = config.name;
+    if (typeof name !== 'string' || !name) {
+        throw ERROR_FACTORY.create("bad-app-name" /* BAD_APP_NAME */, {
+            appName: String(name)
+        });
+    }
+    const existingApp = _apps.get(name);
+    if (existingApp) {
+        // return the existing app if options and config deep equal the ones in the existing app.
+        if ((0,_firebase_util__WEBPACK_IMPORTED_MODULE_2__.deepEqual)(options, existingApp.options) &&
+            (0,_firebase_util__WEBPACK_IMPORTED_MODULE_2__.deepEqual)(config, existingApp.config)) {
+            return existingApp;
+        }
+        else {
+            throw ERROR_FACTORY.create("duplicate-app" /* DUPLICATE_APP */, { appName: name });
+        }
+    }
+    const container = new _firebase_component__WEBPACK_IMPORTED_MODULE_0__.ComponentContainer(name);
+    for (const component of _components.values()) {
+        container.addComponent(component);
+    }
+    const newApp = new FirebaseAppImpl(options, config, container);
+    _apps.set(name, newApp);
+    return newApp;
 }
-function indicator(i) {
-    i = Math.abs(i);
-    const cent = i % 100;
-    if (cent >= 10 && cent <= 20) {
-        return 'th';
+/**
+ * Retrieves a {@link @firebase/app#FirebaseApp} instance.
+ *
+ * When called with no arguments, the default app is returned. When an app name
+ * is provided, the app corresponding to that name is returned.
+ *
+ * An exception is thrown if the app being retrieved has not yet been
+ * initialized.
+ *
+ * @example
+ * ```javascript
+ * // Return the default app
+ * const app = getApp();
+ * ```
+ *
+ * @example
+ * ```javascript
+ * // Return a named app
+ * const otherApp = getApp("otherApp");
+ * ```
+ *
+ * @param name - Optional name of the app to return. If no name is
+ *   provided, the default is `"[DEFAULT]"`.
+ *
+ * @returns The app corresponding to the provided app name.
+ *   If no app name is provided, the default app is returned.
+ *
+ * @public
+ */
+function getApp(name = DEFAULT_ENTRY_NAME) {
+    const app = _apps.get(name);
+    if (!app) {
+        throw ERROR_FACTORY.create("no-app" /* NO_APP */, { appName: name });
     }
-    const dec = i % 10;
-    if (dec === 1) {
-        return 'st';
+    return app;
+}
+/**
+ * A (read-only) array of all initialized apps.
+ * @public
+ */
+function getApps() {
+    return Array.from(_apps.values());
+}
+/**
+ * Renders this app unusable and frees the resources of all associated
+ * services.
+ *
+ * @example
+ * ```javascript
+ * deleteApp(app)
+ *   .then(function() {
+ *     console.log("App deleted successfully");
+ *   })
+ *   .catch(function(error) {
+ *     console.log("Error deleting app:", error);
+ *   });
+ * ```
+ *
+ * @public
+ */
+async function deleteApp(app) {
+    const name = app.name;
+    if (_apps.has(name)) {
+        _apps.delete(name);
+        await Promise.all(app.container
+            .getProviders()
+            .map(provider => provider.delete()));
+        app.isDeleted = true;
     }
-    if (dec === 2) {
-        return 'nd';
+}
+/**
+ * Registers a library's name and version for platform logging purposes.
+ * @param library - Name of 1p or 3p library (e.g. firestore, angularfire)
+ * @param version - Current version of that library.
+ * @param variant - Bundle variant, e.g., node, rn, etc.
+ *
+ * @public
+ */
+function registerVersion(libraryKeyOrName, version, variant) {
+    var _a;
+    // TODO: We can use this check to whitelist strings when/if we set up
+    // a good whitelist system.
+    let library = (_a = PLATFORM_LOG_STRING[libraryKeyOrName]) !== null && _a !== void 0 ? _a : libraryKeyOrName;
+    if (variant) {
+        library += `-${variant}`;
     }
-    if (dec === 3) {
-        return 'rd';
+    const libraryMismatch = library.match(/\s|\//);
+    const versionMismatch = version.match(/\s|\//);
+    if (libraryMismatch || versionMismatch) {
+        const warning = [
+            `Unable to register library "${library}" with version "${version}":`
+        ];
+        if (libraryMismatch) {
+            warning.push(`library name "${library}" contains illegal characters (whitespace or "/")`);
+        }
+        if (libraryMismatch && versionMismatch) {
+            warning.push('and');
+        }
+        if (versionMismatch) {
+            warning.push(`version name "${version}" contains illegal characters (whitespace or "/")`);
+        }
+        logger.warn(warning.join(' '));
+        return;
     }
-    return 'th';
+    _registerComponent(new _firebase_component__WEBPACK_IMPORTED_MODULE_0__.Component(`${library}-version`, () => ({ library, version }), "VERSION" /* VERSION */));
+}
+/**
+ * Sets log handler for all Firebase SDKs.
+ * @param logCallback - An optional custom log handler that executes user code whenever
+ * the Firebase SDK makes a logging call.
+ *
+ * @public
+ */
+function onLog(logCallback, options) {
+    if (logCallback !== null && typeof logCallback !== 'function') {
+        throw ERROR_FACTORY.create("invalid-log-argument" /* INVALID_LOG_ARGUMENT */);
+    }
+    (0,_firebase_logger__WEBPACK_IMPORTED_MODULE_1__.setUserLogHandler)(logCallback, options);
+}
+/**
+ * Sets log level for all Firebase SDKs.
+ *
+ * All of the log types above the current log level are captured (i.e. if
+ * you set the log level to `info`, errors are logged, but `debug` and
+ * `verbose` logs are not).
+ *
+ * @public
+ */
+function setLogLevel(logLevel) {
+    (0,_firebase_logger__WEBPACK_IMPORTED_MODULE_1__.setLogLevel)(logLevel);
 }
 
 /**
  * @license
- * Copyright 2021 Google LLC
+ * Copyright 2019 Google LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -2656,38 +5532,44 @@ function indicator(i) {
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-function index_node_esm_getModularInstance(service) {
-    if (service && service._delegate) {
-        return service._delegate;
-    }
-    else {
-        return service;
-    }
+function registerCoreComponents(variant) {
+    _registerComponent(new _firebase_component__WEBPACK_IMPORTED_MODULE_0__.Component('platform-logger', container => new PlatformLoggerServiceImpl(container), "PRIVATE" /* PRIVATE */));
+    // Register `app` package.
+    registerVersion(name$o, version$1, variant);
+    // BUILD_TARGET will be replaced by values like esm5, esm2017, cjs5, etc during the compilation
+    registerVersion(name$o, version$1, 'esm2017');
+    // Register platform SDK identifier (no version).
+    registerVersion('fire-js', '');
 }
 
 /**
- * @license
- * Copyright 2017 Google LLC
+ * Firebase App
  *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * @remarks This package coordinates the communication between the different Firebase components
+ * @packageDocumentation
  */
-// Overriding the constant (we should be the only ones doing this)
-CONSTANTS.NODE_CLIENT = true;
+registerCoreComponents('');
 
 
-//# sourceMappingURL=index.node.esm.js.map
+//# sourceMappingURL=index.esm2017.js.map
 
-;// CONCATENATED MODULE: ./node_modules/@firebase/component/dist/esm/index.esm2017.js
+
+/***/ }),
+
+/***/ "./node_modules/@firebase/component/dist/esm/index.esm2017.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@firebase/component/dist/esm/index.esm2017.js ***!
+  \********************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Component": () => (/* binding */ Component),
+/* harmony export */   "ComponentContainer": () => (/* binding */ ComponentContainer),
+/* harmony export */   "Provider": () => (/* binding */ Provider)
+/* harmony export */ });
+/* harmony import */ var _firebase_util__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @firebase/util */ "./node_modules/@firebase/util/dist/node-esm/index.node.esm.js");
 
 
 /**
@@ -2786,7 +5668,7 @@ class Provider {
         // if multipleInstances is not supported, use the default name
         const normalizedIdentifier = this.normalizeInstanceIdentifier(identifier);
         if (!this.instancesDeferred.has(normalizedIdentifier)) {
-            const deferred = new index_node_esm_Deferred();
+            const deferred = new _firebase_util__WEBPACK_IMPORTED_MODULE_0__.Deferred();
             this.instancesDeferred.set(normalizedIdentifier, deferred);
             if (this.isInitialized(normalizedIdentifier) ||
                 this.shouldAutoInitialize()) {
@@ -3098,852 +5980,75 @@ class ComponentContainer {
 
 //# sourceMappingURL=index.esm2017.js.map
 
-;// CONCATENATED MODULE: ./node_modules/@firebase/logger/dist/esm/index.esm2017.js
-/**
- * @license
- * Copyright 2017 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-/**
- * A container for all of the Logger instances
- */
-const instances = [];
-/**
- * The JS SDK supports 5 log levels and also allows a user the ability to
- * silence the logs altogether.
- *
- * The order is a follows:
- * DEBUG < VERBOSE < INFO < WARN < ERROR
- *
- * All of the log types above the current log level will be captured (i.e. if
- * you set the log level to `INFO`, errors will still be logged, but `DEBUG` and
- * `VERBOSE` logs will not)
- */
-var LogLevel;
-(function (LogLevel) {
-    LogLevel[LogLevel["DEBUG"] = 0] = "DEBUG";
-    LogLevel[LogLevel["VERBOSE"] = 1] = "VERBOSE";
-    LogLevel[LogLevel["INFO"] = 2] = "INFO";
-    LogLevel[LogLevel["WARN"] = 3] = "WARN";
-    LogLevel[LogLevel["ERROR"] = 4] = "ERROR";
-    LogLevel[LogLevel["SILENT"] = 5] = "SILENT";
-})(LogLevel || (LogLevel = {}));
-const levelStringToEnum = {
-    'debug': LogLevel.DEBUG,
-    'verbose': LogLevel.VERBOSE,
-    'info': LogLevel.INFO,
-    'warn': LogLevel.WARN,
-    'error': LogLevel.ERROR,
-    'silent': LogLevel.SILENT
-};
-/**
- * The default log level
- */
-const defaultLogLevel = LogLevel.INFO;
-/**
- * By default, `console.debug` is not displayed in the developer console (in
- * chrome). To avoid forcing users to have to opt-in to these logs twice
- * (i.e. once for firebase, and once in the console), we are sending `DEBUG`
- * logs to the `console.log` function.
- */
-const ConsoleMethod = {
-    [LogLevel.DEBUG]: 'log',
-    [LogLevel.VERBOSE]: 'log',
-    [LogLevel.INFO]: 'info',
-    [LogLevel.WARN]: 'warn',
-    [LogLevel.ERROR]: 'error'
-};
-/**
- * The default log handler will forward DEBUG, VERBOSE, INFO, WARN, and ERROR
- * messages on to their corresponding console counterparts (if the log method
- * is supported by the current log level)
- */
-const defaultLogHandler = (instance, logType, ...args) => {
-    if (logType < instance.logLevel) {
-        return;
-    }
-    const now = new Date().toISOString();
-    const method = ConsoleMethod[logType];
-    if (method) {
-        console[method](`[${now}]  ${instance.name}:`, ...args);
-    }
-    else {
-        throw new Error(`Attempted to log a message with an invalid logType (value: ${logType})`);
-    }
-};
-class Logger {
-    /**
-     * Gives you an instance of a Logger to capture messages according to
-     * Firebase's logging scheme.
-     *
-     * @param name The name that the logs will be associated with
-     */
-    constructor(name) {
-        this.name = name;
-        /**
-         * The log level of the given Logger instance.
-         */
-        this._logLevel = defaultLogLevel;
-        /**
-         * The main (internal) log handler for the Logger instance.
-         * Can be set to a new function in internal package code but not by user.
-         */
-        this._logHandler = defaultLogHandler;
-        /**
-         * The optional, additional, user-defined log handler for the Logger instance.
-         */
-        this._userLogHandler = null;
-        /**
-         * Capture the current instance for later use
-         */
-        instances.push(this);
-    }
-    get logLevel() {
-        return this._logLevel;
-    }
-    set logLevel(val) {
-        if (!(val in LogLevel)) {
-            throw new TypeError(`Invalid value "${val}" assigned to \`logLevel\``);
-        }
-        this._logLevel = val;
-    }
-    // Workaround for setter/getter having to be the same type.
-    setLogLevel(val) {
-        this._logLevel = typeof val === 'string' ? levelStringToEnum[val] : val;
-    }
-    get logHandler() {
-        return this._logHandler;
-    }
-    set logHandler(val) {
-        if (typeof val !== 'function') {
-            throw new TypeError('Value assigned to `logHandler` must be a function');
-        }
-        this._logHandler = val;
-    }
-    get userLogHandler() {
-        return this._userLogHandler;
-    }
-    set userLogHandler(val) {
-        this._userLogHandler = val;
-    }
-    /**
-     * The functions below are all based on the `console` interface
-     */
-    debug(...args) {
-        this._userLogHandler && this._userLogHandler(this, LogLevel.DEBUG, ...args);
-        this._logHandler(this, LogLevel.DEBUG, ...args);
-    }
-    log(...args) {
-        this._userLogHandler &&
-            this._userLogHandler(this, LogLevel.VERBOSE, ...args);
-        this._logHandler(this, LogLevel.VERBOSE, ...args);
-    }
-    info(...args) {
-        this._userLogHandler && this._userLogHandler(this, LogLevel.INFO, ...args);
-        this._logHandler(this, LogLevel.INFO, ...args);
-    }
-    warn(...args) {
-        this._userLogHandler && this._userLogHandler(this, LogLevel.WARN, ...args);
-        this._logHandler(this, LogLevel.WARN, ...args);
-    }
-    error(...args) {
-        this._userLogHandler && this._userLogHandler(this, LogLevel.ERROR, ...args);
-        this._logHandler(this, LogLevel.ERROR, ...args);
-    }
-}
-function setLogLevel(level) {
-    instances.forEach(inst => {
-        inst.setLogLevel(level);
-    });
-}
-function index_esm2017_setUserLogHandler(logCallback, options) {
-    for (const instance of instances) {
-        let customLogLevel = null;
-        if (options && options.level) {
-            customLogLevel = levelStringToEnum[options.level];
-        }
-        if (logCallback === null) {
-            instance.userLogHandler = null;
-        }
-        else {
-            instance.userLogHandler = (instance, level, ...args) => {
-                const message = args
-                    .map(arg => {
-                    if (arg == null) {
-                        return null;
-                    }
-                    else if (typeof arg === 'string') {
-                        return arg;
-                    }
-                    else if (typeof arg === 'number' || typeof arg === 'boolean') {
-                        return arg.toString();
-                    }
-                    else if (arg instanceof Error) {
-                        return arg.message;
-                    }
-                    else {
-                        try {
-                            return JSON.stringify(arg);
-                        }
-                        catch (ignored) {
-                            return null;
-                        }
-                    }
-                })
-                    .filter(arg => arg)
-                    .join(' ');
-                if (level >= (customLogLevel !== null && customLogLevel !== void 0 ? customLogLevel : instance.logLevel)) {
-                    logCallback({
-                        level: LogLevel[level].toLowerCase(),
-                        message,
-                        args,
-                        type: instance.name
-                    });
-                }
-            };
-        }
-    }
-}
 
+/***/ }),
 
-//# sourceMappingURL=index.esm2017.js.map
+/***/ "./node_modules/@firebase/database/dist/node-esm/index.node.esm.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/@firebase/database/dist/node-esm/index.node.esm.js ***!
+  \*************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
-;// CONCATENATED MODULE: ./node_modules/@firebase/app/dist/esm/index.esm2017.js
-
-
-
-
-
-/**
- * @license
- * Copyright 2019 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-class PlatformLoggerServiceImpl {
-    constructor(container) {
-        this.container = container;
-    }
-    // In initial implementation, this will be called by installations on
-    // auth token refresh, and installations will send this string.
-    getPlatformInfoString() {
-        const providers = this.container.getProviders();
-        // Loop through providers and get library/version pairs from any that are
-        // version components.
-        return providers
-            .map(provider => {
-            if (isVersionServiceProvider(provider)) {
-                const service = provider.getImmediate();
-                return `${service.library}/${service.version}`;
-            }
-            else {
-                return null;
-            }
-        })
-            .filter(logString => logString)
-            .join(' ');
-    }
-}
-/**
- *
- * @param provider check if this provider provides a VersionService
- *
- * NOTE: Using Provider<'app-version'> is a hack to indicate that the provider
- * provides VersionService. The provider is not necessarily a 'app-version'
- * provider.
- */
-function isVersionServiceProvider(provider) {
-    const component = provider.getComponent();
-    return (component === null || component === void 0 ? void 0 : component.type) === "VERSION" /* VERSION */;
-}
-
-const name$o = "@firebase/app";
-const version$1 = "0.7.11";
-
-/**
- * @license
- * Copyright 2019 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-const logger = new Logger('@firebase/app');
-
-const name$n = "@firebase/app-compat";
-
-const name$m = "@firebase/analytics-compat";
-
-const name$l = "@firebase/analytics";
-
-const name$k = "@firebase/app-check-compat";
-
-const name$j = "@firebase/app-check";
-
-const name$i = "@firebase/auth";
-
-const name$h = "@firebase/auth-compat";
-
-const name$g = "@firebase/database";
-
-const name$f = "@firebase/database-compat";
-
-const name$e = "@firebase/functions";
-
-const name$d = "@firebase/functions-compat";
-
-const name$c = "@firebase/installations";
-
-const name$b = "@firebase/installations-compat";
-
-const name$a = "@firebase/messaging";
-
-const name$9 = "@firebase/messaging-compat";
-
-const name$8 = "@firebase/performance";
-
-const name$7 = "@firebase/performance-compat";
-
-const name$6 = "@firebase/remote-config";
-
-const name$5 = "@firebase/remote-config-compat";
-
-const name$4 = "@firebase/storage";
-
-const name$3 = "@firebase/storage-compat";
-
-const name$2 = "@firebase/firestore";
-
-const name$1 = "@firebase/firestore-compat";
-
-const index_esm2017_name = "firebase";
-const version = "9.6.1";
-
-/**
- * @license
- * Copyright 2019 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-/**
- * The default app name
- *
- * @internal
- */
-const index_esm2017_DEFAULT_ENTRY_NAME = '[DEFAULT]';
-const PLATFORM_LOG_STRING = {
-    [name$o]: 'fire-core',
-    [name$n]: 'fire-core-compat',
-    [name$l]: 'fire-analytics',
-    [name$m]: 'fire-analytics-compat',
-    [name$j]: 'fire-app-check',
-    [name$k]: 'fire-app-check-compat',
-    [name$i]: 'fire-auth',
-    [name$h]: 'fire-auth-compat',
-    [name$g]: 'fire-rtdb',
-    [name$f]: 'fire-rtdb-compat',
-    [name$e]: 'fire-fn',
-    [name$d]: 'fire-fn-compat',
-    [name$c]: 'fire-iid',
-    [name$b]: 'fire-iid-compat',
-    [name$a]: 'fire-fcm',
-    [name$9]: 'fire-fcm-compat',
-    [name$8]: 'fire-perf',
-    [name$7]: 'fire-perf-compat',
-    [name$6]: 'fire-rc',
-    [name$5]: 'fire-rc-compat',
-    [name$4]: 'fire-gcs',
-    [name$3]: 'fire-gcs-compat',
-    [name$2]: 'fire-fst',
-    [name$1]: 'fire-fst-compat',
-    'fire-js': 'fire-js',
-    [index_esm2017_name]: 'fire-js-all'
-};
-
-/**
- * @license
- * Copyright 2019 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-/**
- * @internal
- */
-const _apps = new Map();
-/**
- * Registered components.
- *
- * @internal
- */
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const _components = new Map();
-/**
- * @param component - the component being added to this app's container
- *
- * @internal
- */
-function _addComponent(app, component) {
-    try {
-        app.container.addComponent(component);
-    }
-    catch (e) {
-        logger.debug(`Component ${component.name} failed to register with FirebaseApp ${app.name}`, e);
-    }
-}
-/**
- *
- * @internal
- */
-function _addOrOverwriteComponent(app, component) {
-    app.container.addOrOverwriteComponent(component);
-}
-/**
- *
- * @param component - the component to register
- * @returns whether or not the component is registered successfully
- *
- * @internal
- */
-function _registerComponent(component) {
-    const componentName = component.name;
-    if (_components.has(componentName)) {
-        logger.debug(`There were multiple attempts to register component ${componentName}.`);
-        return false;
-    }
-    _components.set(componentName, component);
-    // add the component to existing app instances
-    for (const app of _apps.values()) {
-        _addComponent(app, component);
-    }
-    return true;
-}
-/**
- *
- * @param app - FirebaseApp instance
- * @param name - service name
- *
- * @returns the provider for the service with the matching name
- *
- * @internal
- */
-function _getProvider(app, name) {
-    return app.container.getProvider(name);
-}
-/**
- *
- * @param app - FirebaseApp instance
- * @param name - service name
- * @param instanceIdentifier - service instance identifier in case the service supports multiple instances
- *
- * @internal
- */
-function _removeServiceInstance(app, name, instanceIdentifier = index_esm2017_DEFAULT_ENTRY_NAME) {
-    _getProvider(app, name).clearInstance(instanceIdentifier);
-}
-/**
- * Test only
- *
- * @internal
- */
-function _clearComponents() {
-    _components.clear();
-}
-
-/**
- * @license
- * Copyright 2019 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-const ERRORS = {
-    ["no-app" /* NO_APP */]: "No Firebase App '{$appName}' has been created - " +
-        'call Firebase App.initializeApp()',
-    ["bad-app-name" /* BAD_APP_NAME */]: "Illegal App name: '{$appName}",
-    ["duplicate-app" /* DUPLICATE_APP */]: "Firebase App named '{$appName}' already exists with different options or config",
-    ["app-deleted" /* APP_DELETED */]: "Firebase App named '{$appName}' already deleted",
-    ["invalid-app-argument" /* INVALID_APP_ARGUMENT */]: 'firebase.{$appName}() takes either no argument or a ' +
-        'Firebase App instance.',
-    ["invalid-log-argument" /* INVALID_LOG_ARGUMENT */]: 'First argument to `onLog` must be null or a function.'
-};
-const ERROR_FACTORY = new ErrorFactory('app', 'Firebase', ERRORS);
-
-/**
- * @license
- * Copyright 2019 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-class FirebaseAppImpl {
-    constructor(options, config, container) {
-        this._isDeleted = false;
-        this._options = Object.assign({}, options);
-        this._config = Object.assign({}, config);
-        this._name = config.name;
-        this._automaticDataCollectionEnabled =
-            config.automaticDataCollectionEnabled;
-        this._container = container;
-        this.container.addComponent(new Component('app', () => this, "PUBLIC" /* PUBLIC */));
-    }
-    get automaticDataCollectionEnabled() {
-        this.checkDestroyed();
-        return this._automaticDataCollectionEnabled;
-    }
-    set automaticDataCollectionEnabled(val) {
-        this.checkDestroyed();
-        this._automaticDataCollectionEnabled = val;
-    }
-    get name() {
-        this.checkDestroyed();
-        return this._name;
-    }
-    get options() {
-        this.checkDestroyed();
-        return this._options;
-    }
-    get config() {
-        this.checkDestroyed();
-        return this._config;
-    }
-    get container() {
-        return this._container;
-    }
-    get isDeleted() {
-        return this._isDeleted;
-    }
-    set isDeleted(val) {
-        this._isDeleted = val;
-    }
-    /**
-     * This function will throw an Error if the App has already been deleted -
-     * use before performing API actions on the App.
-     */
-    checkDestroyed() {
-        if (this.isDeleted) {
-            throw ERROR_FACTORY.create("app-deleted" /* APP_DELETED */, { appName: this._name });
-        }
-    }
-}
-
-/**
- * @license
- * Copyright 2019 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-/**
- * The current SDK version.
- *
- * @public
- */
-const SDK_VERSION = version;
-function initializeApp(options, rawConfig = {}) {
-    if (typeof rawConfig !== 'object') {
-        const name = rawConfig;
-        rawConfig = { name };
-    }
-    const config = Object.assign({ name: index_esm2017_DEFAULT_ENTRY_NAME, automaticDataCollectionEnabled: false }, rawConfig);
-    const name = config.name;
-    if (typeof name !== 'string' || !name) {
-        throw ERROR_FACTORY.create("bad-app-name" /* BAD_APP_NAME */, {
-            appName: String(name)
-        });
-    }
-    const existingApp = _apps.get(name);
-    if (existingApp) {
-        // return the existing app if options and config deep equal the ones in the existing app.
-        if (deepEqual(options, existingApp.options) &&
-            deepEqual(config, existingApp.config)) {
-            return existingApp;
-        }
-        else {
-            throw ERROR_FACTORY.create("duplicate-app" /* DUPLICATE_APP */, { appName: name });
-        }
-    }
-    const container = new ComponentContainer(name);
-    for (const component of _components.values()) {
-        container.addComponent(component);
-    }
-    const newApp = new FirebaseAppImpl(options, config, container);
-    _apps.set(name, newApp);
-    return newApp;
-}
-/**
- * Retrieves a {@link @firebase/app#FirebaseApp} instance.
- *
- * When called with no arguments, the default app is returned. When an app name
- * is provided, the app corresponding to that name is returned.
- *
- * An exception is thrown if the app being retrieved has not yet been
- * initialized.
- *
- * @example
- * ```javascript
- * // Return the default app
- * const app = getApp();
- * ```
- *
- * @example
- * ```javascript
- * // Return a named app
- * const otherApp = getApp("otherApp");
- * ```
- *
- * @param name - Optional name of the app to return. If no name is
- *   provided, the default is `"[DEFAULT]"`.
- *
- * @returns The app corresponding to the provided app name.
- *   If no app name is provided, the default app is returned.
- *
- * @public
- */
-function getApp(name = index_esm2017_DEFAULT_ENTRY_NAME) {
-    const app = _apps.get(name);
-    if (!app) {
-        throw ERROR_FACTORY.create("no-app" /* NO_APP */, { appName: name });
-    }
-    return app;
-}
-/**
- * A (read-only) array of all initialized apps.
- * @public
- */
-function getApps() {
-    return Array.from(_apps.values());
-}
-/**
- * Renders this app unusable and frees the resources of all associated
- * services.
- *
- * @example
- * ```javascript
- * deleteApp(app)
- *   .then(function() {
- *     console.log("App deleted successfully");
- *   })
- *   .catch(function(error) {
- *     console.log("Error deleting app:", error);
- *   });
- * ```
- *
- * @public
- */
-async function deleteApp(app) {
-    const name = app.name;
-    if (_apps.has(name)) {
-        _apps.delete(name);
-        await Promise.all(app.container
-            .getProviders()
-            .map(provider => provider.delete()));
-        app.isDeleted = true;
-    }
-}
-/**
- * Registers a library's name and version for platform logging purposes.
- * @param library - Name of 1p or 3p library (e.g. firestore, angularfire)
- * @param version - Current version of that library.
- * @param variant - Bundle variant, e.g., node, rn, etc.
- *
- * @public
- */
-function registerVersion(libraryKeyOrName, version, variant) {
-    var _a;
-    // TODO: We can use this check to whitelist strings when/if we set up
-    // a good whitelist system.
-    let library = (_a = PLATFORM_LOG_STRING[libraryKeyOrName]) !== null && _a !== void 0 ? _a : libraryKeyOrName;
-    if (variant) {
-        library += `-${variant}`;
-    }
-    const libraryMismatch = library.match(/\s|\//);
-    const versionMismatch = version.match(/\s|\//);
-    if (libraryMismatch || versionMismatch) {
-        const warning = [
-            `Unable to register library "${library}" with version "${version}":`
-        ];
-        if (libraryMismatch) {
-            warning.push(`library name "${library}" contains illegal characters (whitespace or "/")`);
-        }
-        if (libraryMismatch && versionMismatch) {
-            warning.push('and');
-        }
-        if (versionMismatch) {
-            warning.push(`version name "${version}" contains illegal characters (whitespace or "/")`);
-        }
-        logger.warn(warning.join(' '));
-        return;
-    }
-    _registerComponent(new Component(`${library}-version`, () => ({ library, version }), "VERSION" /* VERSION */));
-}
-/**
- * Sets log handler for all Firebase SDKs.
- * @param logCallback - An optional custom log handler that executes user code whenever
- * the Firebase SDK makes a logging call.
- *
- * @public
- */
-function onLog(logCallback, options) {
-    if (logCallback !== null && typeof logCallback !== 'function') {
-        throw ERROR_FACTORY.create("invalid-log-argument" /* INVALID_LOG_ARGUMENT */);
-    }
-    setUserLogHandler(logCallback, options);
-}
-/**
- * Sets log level for all Firebase SDKs.
- *
- * All of the log types above the current log level are captured (i.e. if
- * you set the log level to `info`, errors are logged, but `debug` and
- * `verbose` logs are not).
- *
- * @public
- */
-function index_esm2017_setLogLevel(logLevel) {
-    setLogLevel$1(logLevel);
-}
-
-/**
- * @license
- * Copyright 2019 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-function registerCoreComponents(variant) {
-    _registerComponent(new Component('platform-logger', container => new PlatformLoggerServiceImpl(container), "PRIVATE" /* PRIVATE */));
-    // Register `app` package.
-    registerVersion(name$o, version$1, variant);
-    // BUILD_TARGET will be replaced by values like esm5, esm2017, cjs5, etc during the compilation
-    registerVersion(name$o, version$1, 'esm2017');
-    // Register platform SDK identifier (no version).
-    registerVersion('fire-js', '');
-}
-
-/**
- * Firebase App
- *
- * @remarks This package coordinates the communication between the different Firebase components
- * @packageDocumentation
- */
-registerCoreComponents('');
-
-
-//# sourceMappingURL=index.esm2017.js.map
-
-;// CONCATENATED MODULE: ./node_modules/firebase/app/dist/index.mjs
-
-
-
-var dist_name = "firebase";
-var dist_version = "9.6.1";
-
-/**
- * @license
- * Copyright 2020 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-registerVersion(dist_name, dist_version, 'app');
-//# sourceMappingURL=index.mjs.map
-
-// EXTERNAL MODULE: ./node_modules/faye-websocket/lib/faye/websocket.js
-var websocket = __webpack_require__(471);
-;// CONCATENATED MODULE: ./node_modules/@firebase/database/dist/node-esm/index.node.esm.js
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "DataSnapshot": () => (/* binding */ DataSnapshot),
+/* harmony export */   "Database": () => (/* binding */ Database),
+/* harmony export */   "OnDisconnect": () => (/* binding */ OnDisconnect),
+/* harmony export */   "QueryConstraint": () => (/* binding */ QueryConstraint),
+/* harmony export */   "TransactionResult": () => (/* binding */ TransactionResult),
+/* harmony export */   "_QueryImpl": () => (/* binding */ QueryImpl),
+/* harmony export */   "_QueryParams": () => (/* binding */ QueryParams),
+/* harmony export */   "_ReferenceImpl": () => (/* binding */ ReferenceImpl),
+/* harmony export */   "_TEST_ACCESS_forceRestClient": () => (/* binding */ forceRestClient),
+/* harmony export */   "_TEST_ACCESS_hijackHash": () => (/* binding */ hijackHash),
+/* harmony export */   "_repoManagerDatabaseFromApp": () => (/* binding */ repoManagerDatabaseFromApp),
+/* harmony export */   "_setSDKVersion": () => (/* binding */ setSDKVersion),
+/* harmony export */   "_validatePathString": () => (/* binding */ validatePathString),
+/* harmony export */   "_validateWritablePath": () => (/* binding */ validateWritablePath),
+/* harmony export */   "child": () => (/* binding */ child),
+/* harmony export */   "connectDatabaseEmulator": () => (/* binding */ connectDatabaseEmulator),
+/* harmony export */   "enableLogging": () => (/* binding */ enableLogging),
+/* harmony export */   "endAt": () => (/* binding */ endAt),
+/* harmony export */   "endBefore": () => (/* binding */ endBefore),
+/* harmony export */   "equalTo": () => (/* binding */ equalTo),
+/* harmony export */   "get": () => (/* binding */ get),
+/* harmony export */   "getDatabase": () => (/* binding */ getDatabase),
+/* harmony export */   "goOffline": () => (/* binding */ goOffline),
+/* harmony export */   "goOnline": () => (/* binding */ goOnline),
+/* harmony export */   "increment": () => (/* binding */ increment),
+/* harmony export */   "limitToFirst": () => (/* binding */ limitToFirst),
+/* harmony export */   "limitToLast": () => (/* binding */ limitToLast),
+/* harmony export */   "off": () => (/* binding */ off),
+/* harmony export */   "onChildAdded": () => (/* binding */ onChildAdded),
+/* harmony export */   "onChildChanged": () => (/* binding */ onChildChanged),
+/* harmony export */   "onChildMoved": () => (/* binding */ onChildMoved),
+/* harmony export */   "onChildRemoved": () => (/* binding */ onChildRemoved),
+/* harmony export */   "onDisconnect": () => (/* binding */ onDisconnect),
+/* harmony export */   "onValue": () => (/* binding */ onValue),
+/* harmony export */   "orderByChild": () => (/* binding */ orderByChild),
+/* harmony export */   "orderByKey": () => (/* binding */ orderByKey),
+/* harmony export */   "orderByPriority": () => (/* binding */ orderByPriority),
+/* harmony export */   "orderByValue": () => (/* binding */ orderByValue),
+/* harmony export */   "push": () => (/* binding */ push),
+/* harmony export */   "query": () => (/* binding */ query),
+/* harmony export */   "ref": () => (/* binding */ ref),
+/* harmony export */   "refFromURL": () => (/* binding */ refFromURL),
+/* harmony export */   "remove": () => (/* binding */ remove),
+/* harmony export */   "runTransaction": () => (/* binding */ runTransaction),
+/* harmony export */   "serverTimestamp": () => (/* binding */ serverTimestamp),
+/* harmony export */   "set": () => (/* binding */ set),
+/* harmony export */   "setPriority": () => (/* binding */ setPriority),
+/* harmony export */   "setWithPriority": () => (/* binding */ setWithPriority),
+/* harmony export */   "startAfter": () => (/* binding */ startAfter),
+/* harmony export */   "startAt": () => (/* binding */ startAt),
+/* harmony export */   "update": () => (/* binding */ update)
+/* harmony export */ });
+/* harmony import */ var faye_websocket__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! faye-websocket */ "./node_modules/faye-websocket/lib/faye/websocket.js");
+/* harmony import */ var _firebase_util__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @firebase/util */ "./node_modules/@firebase/util/dist/node-esm/index.node.esm.js");
+/* harmony import */ var _firebase_logger__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @firebase/logger */ "./node_modules/@firebase/logger/dist/esm/index.esm2017.js");
+/* harmony import */ var _firebase_app__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @firebase/app */ "./node_modules/@firebase/app/dist/esm/index.esm2017.js");
+/* harmony import */ var _firebase_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @firebase/component */ "./node_modules/@firebase/component/dist/esm/index.esm2017.js");
 
 
 
@@ -4023,7 +6128,7 @@ class DOMStorageWrapper {
             this.domStorage_.removeItem(this.prefixedName_(key));
         }
         else {
-            this.domStorage_.setItem(this.prefixedName_(key), index_node_esm_stringify(value));
+            this.domStorage_.setItem(this.prefixedName_(key), (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.stringify)(value));
         }
     }
     /**
@@ -4035,7 +6140,7 @@ class DOMStorageWrapper {
             return null;
         }
         else {
-            return jsonEval(storedVal);
+            return (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.jsonEval)(storedVal);
         }
     }
     remove(key) {
@@ -4083,7 +6188,7 @@ class MemoryStorage {
         }
     }
     get(key) {
-        if (index_node_esm_contains(this.cache_, key)) {
+        if ((0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.contains)(this.cache_, key)) {
             return this.cache_[key];
         }
         return null;
@@ -4157,7 +6262,7 @@ const SessionStorage = createStoragefor('sessionStorage');
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-const logClient = new Logger('@firebase/database');
+const logClient = new _firebase_logger__WEBPACK_IMPORTED_MODULE_2__.Logger('@firebase/database');
 /**
  * Returns a locally-unique ID (generated by just incrementing up from 0 each time its called).
  */
@@ -4173,11 +6278,11 @@ const LUIDGenerator = (function () {
  * @returns {!string} The resulting hash
  */
 const sha1 = function (str) {
-    const utf8Bytes = stringToByteArray(str);
-    const sha1 = new Sha1();
+    const utf8Bytes = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.stringToByteArray)(str);
+    const sha1 = new _firebase_util__WEBPACK_IMPORTED_MODULE_1__.Sha1();
     sha1.update(utf8Bytes);
     const sha1Bytes = sha1.digest();
-    return base64.encodeByteArray(sha1Bytes);
+    return _firebase_util__WEBPACK_IMPORTED_MODULE_1__.base64.encodeByteArray(sha1Bytes);
 };
 const buildLogMessage_ = function (...varArgs) {
     let message = '';
@@ -4191,7 +6296,7 @@ const buildLogMessage_ = function (...varArgs) {
             message += buildLogMessage_.apply(null, arg);
         }
         else if (typeof arg === 'object') {
-            message += index_node_esm_stringify(arg);
+            message += (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.stringify)(arg);
         }
         else {
             message += arg;
@@ -4203,7 +6308,7 @@ const buildLogMessage_ = function (...varArgs) {
 /**
  * Use this for all debug messages in Firebase.
  */
-let index_node_esm_logger = null;
+let logger = null;
 /**
  * Flag to check for log availability on first log message
  */
@@ -4214,32 +6319,32 @@ let firstLog_ = true;
  * @param persistent - Whether or not to persist logging settings across refreshes
  */
 const enableLogging$1 = function (logger_, persistent) {
-    index_node_esm_assert(!persistent || logger_ === true || logger_ === false, "Can't turn on custom loggers persistently.");
+    (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(!persistent || logger_ === true || logger_ === false, "Can't turn on custom loggers persistently.");
     if (logger_ === true) {
-        logClient.logLevel = LogLevel.VERBOSE;
-        index_node_esm_logger = logClient.log.bind(logClient);
+        logClient.logLevel = _firebase_logger__WEBPACK_IMPORTED_MODULE_2__.LogLevel.VERBOSE;
+        logger = logClient.log.bind(logClient);
         if (persistent) {
             SessionStorage.set('logging_enabled', true);
         }
     }
     else if (typeof logger_ === 'function') {
-        index_node_esm_logger = logger_;
+        logger = logger_;
     }
     else {
-        index_node_esm_logger = null;
+        logger = null;
         SessionStorage.remove('logging_enabled');
     }
 };
 const log = function (...varArgs) {
     if (firstLog_ === true) {
         firstLog_ = false;
-        if (index_node_esm_logger === null && SessionStorage.get('logging_enabled') === true) {
+        if (logger === null && SessionStorage.get('logging_enabled') === true) {
             enableLogging$1(true);
         }
     }
-    if (index_node_esm_logger) {
+    if (logger) {
         const message = buildLogMessage_.apply(null, varArgs);
-        index_node_esm_logger(message);
+        logger(message);
     }
 };
 const logWrapper = function (prefix) {
@@ -4284,7 +6389,7 @@ const isInvalidJSONNumber = function (data) {
             data === Number.NEGATIVE_INFINITY));
 };
 const executeWhenDOMReady = function (fn) {
-    if (isNodeSdk() || document.readyState === 'complete') {
+    if ((0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.isNodeSdk)() || document.readyState === 'complete') {
         fn();
     }
     else {
@@ -4382,12 +6487,12 @@ const requireKey = function (key, obj) {
         return obj[key];
     }
     else {
-        throw new Error('Missing required key (' + key + ') in object: ' + index_node_esm_stringify(obj));
+        throw new Error('Missing required key (' + key + ') in object: ' + (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.stringify)(obj));
     }
 };
 const ObjectToUniqueKey = function (obj) {
     if (typeof obj !== 'object' || obj === null) {
-        return index_node_esm_stringify(obj);
+        return (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.stringify)(obj);
     }
     const keys = [];
     // eslint-disable-next-line guard-for-in
@@ -4401,7 +6506,7 @@ const ObjectToUniqueKey = function (obj) {
         if (i !== 0) {
             key += ',';
         }
-        key += index_node_esm_stringify(keys[i]);
+        key += (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.stringify)(keys[i]);
         key += ':';
         key += ObjectToUniqueKey(obj[keys[i]]);
     }
@@ -4451,7 +6556,7 @@ function each(obj, fn) {
  *
  */
 const doubleToIEEE754String = function (v) {
-    index_node_esm_assert(!isInvalidJSONNumber(v), 'Invalid JSON number'); // MJL
+    (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(!isInvalidJSONNumber(v), 'Invalid JSON number'); // MJL
     const ebits = 11, fbits = 52;
     const bias = (1 << (ebits - 1)) - 1;
     let s, e, f, ln, i;
@@ -4716,8 +6821,8 @@ function repoInfoNeedsQueryParam(repoInfo) {
  * @returns The URL for this repo
  */
 function repoInfoConnectionURL(repoInfo, type, params) {
-    index_node_esm_assert(typeof type === 'string', 'typeof type must == string');
-    index_node_esm_assert(typeof params === 'object', 'typeof params must == object');
+    (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(typeof type === 'string', 'typeof type must == string');
+    (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(typeof params === 'object', 'typeof params must == object');
     let connURL;
     if (type === WEBSOCKET) {
         connURL =
@@ -4766,13 +6871,13 @@ class StatsCollection {
         this.counters_ = {};
     }
     incrementCounter(name, amount = 1) {
-        if (!index_node_esm_contains(this.counters_, name)) {
+        if (!(0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.contains)(this.counters_, name)) {
             this.counters_[name] = 0;
         }
         this.counters_[name] += amount;
     }
     get() {
-        return deepCopy(this.counters_);
+        return (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.deepCopy)(this.counters_);
     }
 }
 
@@ -4826,13 +6931,13 @@ function statsManagerGetOrCreateReporter(repoInfo, creatorFunction) {
  * limitations under the License.
  */
 /** The semver (www.semver.org) version of the SDK. */
-let index_node_esm_SDK_VERSION = '';
+let SDK_VERSION = '';
 /**
  * SDK_VERSION should be set before any database instance is created
  * @internal
  */
 function setSDKVersion(version) {
-    index_node_esm_SDK_VERSION = version;
+    SDK_VERSION = version;
 }
 
 /**
@@ -4903,7 +7008,7 @@ class WebSocketConnection {
     static connectionURL_(repoInfo, transportSessionId, lastSessionId, appCheckToken) {
         const urlParams = {};
         urlParams[VERSION_PARAM] = PROTOCOL_VERSION;
-        if (!isNodeSdk() &&
+        if (!(0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.isNodeSdk)() &&
             typeof location !== 'undefined' &&
             location.hostname &&
             FORGE_DOMAIN_RE.test(location.hostname)) {
@@ -4932,12 +7037,12 @@ class WebSocketConnection {
         // Assume failure until proven otherwise.
         PersistentStorage.set('previous_websocket_failure', true);
         try {
-            if (isNodeSdk()) {
+            if ((0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.isNodeSdk)()) {
                 const device = this.nodeAdmin ? 'AdminNode' : 'Node';
                 // UA Format: Firebase/<wire_protocol>/<sdk_version>/<platform>/<device>
                 const options = {
                     headers: {
-                        'User-Agent': `Firebase/${PROTOCOL_VERSION}/${index_node_esm_SDK_VERSION}/${process.platform}/${device}`,
+                        'User-Agent': `Firebase/${PROTOCOL_VERSION}/${SDK_VERSION}/${process.platform}/${device}`,
                         'X-Firebase-GMPID': this.applicationId || ''
                     }
                 };
@@ -5042,7 +7147,7 @@ class WebSocketConnection {
         if (this.frames.length === this.totalFrames) {
             const fullMess = this.frames.join('');
             this.frames = null;
-            const jsonMess = jsonEval(fullMess);
+            const jsonMess = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.jsonEval)(fullMess);
             //handle the message
             this.onMessage(jsonMess);
         }
@@ -5059,7 +7164,7 @@ class WebSocketConnection {
      * @returns Any remaining data to be process, or null if there is none
      */
     extractFrameCount_(data) {
-        index_node_esm_assert(this.frames === null, 'We already have a frame buffer');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(this.frames === null, 'We already have a frame buffer');
         // TODO: The server is only supposed to send up to 9999 frames (i.e. length <= 4), but that isn't being enforced
         // currently.  So allowing larger frame counts (length <= 6).  See https://app.asana.com/0/search/8688598998380/8237608042508
         if (data.length <= 6) {
@@ -5102,7 +7207,7 @@ class WebSocketConnection {
      */
     send(data) {
         this.resetKeepAlive();
-        const dataStr = index_node_esm_stringify(data);
+        const dataStr = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.stringify)(data);
         this.bytesSent += dataStr.length;
         this.stats_.incrementCounter('bytes_sent', dataStr.length);
         //We can only fit a certain amount in each websocket frame, so we need to split this request
@@ -5191,8 +7296,8 @@ WebSocketConnection.responsesRequiredToBeHealthy = 2;
  */
 WebSocketConnection.healthyTimeout = 30000;
 
-const index_node_esm_name = "@firebase/database";
-const index_node_esm_version = "0.12.4";
+const name = "@firebase/database";
+const version = "0.12.4";
 
 /**
  * @license
@@ -5641,7 +7746,7 @@ class BrowserPollConnection {
     }
     // Static method, use string literal so it can be accessed in a generic way
     static isAvailable() {
-        if (isNodeSdk()) {
+        if ((0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.isNodeSdk)()) {
             return false;
         }
         else if (BrowserPollConnection.forceAllow_) {
@@ -5709,11 +7814,11 @@ class BrowserPollConnection {
      * @param data - The JSON data to transmit.
      */
     send(data) {
-        const dataStr = index_node_esm_stringify(data);
+        const dataStr = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.stringify)(data);
         this.bytesSent += dataStr.length;
         this.stats_.incrementCounter('bytes_sent', dataStr.length);
         //first, lets get the base64-encoded data
-        const base64data = base64Encode(dataStr);
+        const base64data = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.base64Encode)(dataStr);
         //We can only fit a certain amount in each URL, so we need to split this request
         //up into multiple pieces if it doesn't fit in one request.
         const dataSegs = splitStringBySize(base64data, MAX_PAYLOAD_SIZE);
@@ -5730,7 +7835,7 @@ class BrowserPollConnection {
      * trigger XHR requests in some browsers (everything but Opera basically).
      */
     addDisconnectPingFrame(id, pw) {
-        if (isNodeSdk()) {
+        if ((0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.isNodeSdk)()) {
             return;
         }
         this.myDisconnFrame = document.createElement('iframe');
@@ -5747,7 +7852,7 @@ class BrowserPollConnection {
      */
     incrementIncomingBytes_(args) {
         // TODO: This is an annoying perf hit just to track the number of incoming bytes.  Maybe it should be opt-in.
-        const bytesReceived = index_node_esm_stringify(args).length;
+        const bytesReceived = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.stringify)(args).length;
         this.bytesReceived += bytesReceived;
         this.stats_.incrementCounter('bytes_received', bytesReceived);
     }
@@ -5779,7 +7884,7 @@ class FirebaseIFrameScriptHolder {
         // This gets set to false when we're "closing down" the connection (e.g. we're switching transports but there's still
         // incoming data from the server that we're waiting for).
         this.sendNewPolls = true;
-        if (!isNodeSdk()) {
+        if (!(0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.isNodeSdk)()) {
             //Each script holder registers a couple of uniquely named callbacks with the window. These are called from the
             //iframes where we put the long-polling script tags. We have two callbacks:
             //   1) Command Callback - Triggered for control issues, like starting a connection.
@@ -6010,7 +8115,7 @@ class FirebaseIFrameScriptHolder {
      * @param loadCB - A callback to be triggered once the script has loaded.
      */
     addTag(url, loadCB) {
-        if (isNodeSdk()) {
+        if ((0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.isNodeSdk)()) {
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
             this.doNodeLongPoll(url, loadCB);
         }
@@ -6663,7 +8768,7 @@ class EventEmitter {
     constructor(allowedEvents_) {
         this.allowedEvents_ = allowedEvents_;
         this.listeners_ = {};
-        index_node_esm_assert(Array.isArray(allowedEvents_) && allowedEvents_.length > 0, 'Requires a non-empty array');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(Array.isArray(allowedEvents_) && allowedEvents_.length > 0, 'Requires a non-empty array');
     }
     /**
      * To be called by derived classes to trigger events.
@@ -6698,7 +8803,7 @@ class EventEmitter {
         }
     }
     validateEventType_(eventType) {
-        index_node_esm_assert(this.allowedEvents_.find(et => {
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(this.allowedEvents_.find(et => {
             return et === eventType;
         }), 'Unknown event: ' + eventType);
     }
@@ -6737,7 +8842,7 @@ class OnlineMonitor extends EventEmitter {
         // for Cordova.
         if (typeof window !== 'undefined' &&
             typeof window.addEventListener !== 'undefined' &&
-            !isMobileCordova()) {
+            !(0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.isMobileCordova)()) {
             window.addEventListener('online', () => {
                 if (!this.online_) {
                     this.online_ = true;
@@ -6756,7 +8861,7 @@ class OnlineMonitor extends EventEmitter {
         return new OnlineMonitor();
     }
     getInitialEvent(eventType) {
-        index_node_esm_assert(eventType === 'online', 'Unknown event type: ' + eventType);
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(eventType === 'online', 'Unknown event type: ' + eventType);
         return [this.online_];
     }
     currentlyOnline() {
@@ -6993,7 +9098,7 @@ class ValidationPath {
         /** Initialize to number of '/' chars needed in path. */
         this.byteLength_ = Math.max(1, this.parts_.length);
         for (let i = 0; i < this.parts_.length; i++) {
-            this.byteLength_ += stringLength(this.parts_[i]);
+            this.byteLength_ += (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.stringLength)(this.parts_[i]);
         }
         validationPathCheckValid(this);
     }
@@ -7004,12 +9109,12 @@ function validationPathPush(validationPath, child) {
         validationPath.byteLength_ += 1;
     }
     validationPath.parts_.push(child);
-    validationPath.byteLength_ += stringLength(child);
+    validationPath.byteLength_ += (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.stringLength)(child);
     validationPathCheckValid(validationPath);
 }
 function validationPathPop(validationPath) {
     const last = validationPath.parts_.pop();
-    validationPath.byteLength_ -= stringLength(last);
+    validationPath.byteLength_ -= (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.stringLength)(last);
     // Un-count the previous '/'
     if (validationPath.parts_.length > 0) {
         validationPath.byteLength_ -= 1;
@@ -7102,7 +9207,7 @@ class VisibilityMonitor extends EventEmitter {
         return new VisibilityMonitor();
     }
     getInitialEvent(eventType) {
-        index_node_esm_assert(eventType === 'visible', 'Unknown event type: ' + eventType);
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(eventType === 'visible', 'Unknown event type: ' + eventType);
         return [this.visible_];
     }
 }
@@ -7183,7 +9288,7 @@ class PersistentConnection extends ServerActions {
         this.firstConnection_ = true;
         this.lastConnectionAttemptTime_ = null;
         this.lastConnectionEstablishedTime_ = null;
-        if (authOverride_ && !isNodeSdk()) {
+        if (authOverride_ && !(0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.isNodeSdk)()) {
             throw new Error('Auth override specified in options, but not supported on non Node.js platforms');
         }
         VisibilityMonitor.getInstance().on('visible', this.onVisible_, this);
@@ -7194,8 +9299,8 @@ class PersistentConnection extends ServerActions {
     sendRequest(action, body, onResponse) {
         const curReqNum = ++this.requestNumber_;
         const msg = { r: curReqNum, a: action, b: body };
-        this.log_(index_node_esm_stringify(msg));
-        index_node_esm_assert(this.connected_, "sendRequest call when we're not connected not allowed.");
+        this.log_((0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.stringify)(msg));
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(this.connected_, "sendRequest call when we're not connected not allowed.");
         this.realtime_.sendRequest(msg);
         if (onResponse) {
             this.requestCBHash_[curReqNum] = onResponse;
@@ -7203,7 +9308,7 @@ class PersistentConnection extends ServerActions {
     }
     get(query) {
         this.initConnection_();
-        const deferred = new index_node_esm_Deferred();
+        const deferred = new _firebase_util__WEBPACK_IMPORTED_MODULE_1__.Deferred();
         const request = {
             p: query._path.toString(),
             q: query._queryObject
@@ -7255,8 +9360,8 @@ class PersistentConnection extends ServerActions {
         if (!this.listens.has(pathString)) {
             this.listens.set(pathString, new Map());
         }
-        index_node_esm_assert(query._queryParams.isDefault() || !query._queryParams.loadsAllData(), 'listen() called for non-default but complete query');
-        index_node_esm_assert(!this.listens.get(pathString).has(queryId), 'listen() called twice for same path/queryId.');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(query._queryParams.isDefault() || !query._queryParams.loadsAllData(), 'listen() called for non-default but complete query');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(!this.listens.get(pathString).has(queryId), 'listen() called twice for same path/queryId.');
         const listenSpec = {
             onComplete,
             hashFn: currentHashFn,
@@ -7314,9 +9419,9 @@ class PersistentConnection extends ServerActions {
         });
     }
     static warnOnListenWarnings_(payload, query) {
-        if (payload && typeof payload === 'object' && index_node_esm_contains(payload, 'w')) {
+        if (payload && typeof payload === 'object' && (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.contains)(payload, 'w')) {
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
-            const warnings = index_node_esm_safeGet(payload, 'w');
+            const warnings = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.safeGet)(payload, 'w');
             if (Array.isArray(warnings) && ~warnings.indexOf('no_index')) {
                 const indexSpec = '".indexOn": "' + query._queryParams.getIndex().toString() + '"';
                 const indexPath = query._path.toString();
@@ -7345,7 +9450,7 @@ class PersistentConnection extends ServerActions {
         // NOTE: This isn't intended to be bulletproof (a malicious developer can always just modify the client).
         // Additionally, we don't bother resetting the max delay back to the default if auth fails / expires.
         const isFirebaseSecret = credential && credential.length === 40;
-        if (isFirebaseSecret || isAdmin(credential)) {
+        if (isFirebaseSecret || (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.isAdmin)(credential)) {
             this.log_('Admin auth credential detected.  Reducing max reconnect time.');
             this.maxReconnectDelay_ = RECONNECT_MAX_DELAY_FOR_ADMINS;
         }
@@ -7372,7 +9477,7 @@ class PersistentConnection extends ServerActions {
     tryAuth() {
         if (this.connected_ && this.authToken_) {
             const token = this.authToken_;
-            const authMethod = isValidFormat(token) ? 'auth' : 'gauth';
+            const authMethod = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.isValidFormat)(token) ? 'auth' : 'gauth';
             const requestData = { cred: token };
             if (this.authOverride_ === null) {
                 requestData['noauth'] = true;
@@ -7421,7 +9526,7 @@ class PersistentConnection extends ServerActions {
         const pathString = query._path.toString();
         const queryId = query._queryIdentifier;
         this.log_('Unlisten called for ' + pathString + ' ' + queryId);
-        index_node_esm_assert(query._queryParams.isDefault() || !query._queryParams.loadsAllData(), 'unlisten() called for non-default but complete query');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(query._queryParams.isDefault() || !query._queryParams.loadsAllData(), 'unlisten() called for non-default but complete query');
         const listen = this.removeListen_(pathString, queryId);
         if (listen && this.connected_) {
             this.sendUnlisten_(pathString, queryId, query._queryObject, tag);
@@ -7556,7 +9661,7 @@ class PersistentConnection extends ServerActions {
     onDataMessage_(message) {
         if ('r' in message) {
             // this is a response
-            this.log_('from server: ' + index_node_esm_stringify(message));
+            this.log_('from server: ' + (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.stringify)(message));
             const reqNum = message['r'];
             const onResponse = this.requestCBHash_[reqNum];
             if (onResponse) {
@@ -7596,7 +9701,7 @@ class PersistentConnection extends ServerActions {
         }
         else {
             error('Unrecognized action received from server: ' +
-                index_node_esm_stringify(action) +
+                (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.stringify)(action) +
                 '\nAre you using the latest client?');
         }
     }
@@ -7614,7 +9719,7 @@ class PersistentConnection extends ServerActions {
         this.onConnectStatus_(true);
     }
     scheduleConnect_(timeout) {
-        index_node_esm_assert(!this.realtime_, "Scheduling a connect when we're already connected/ing?");
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(!this.realtime_, "Scheduling a connect when we're already connected/ing?");
         if (this.establishConnectionTimer_) {
             clearTimeout(this.establishConnectionTimer_);
         }
@@ -7713,7 +9818,7 @@ class PersistentConnection extends ServerActions {
                 }
             };
             const sendRequestFn = function (msg) {
-                index_node_esm_assert(connection, "sendRequest call when we're not connected not allowed.");
+                (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(connection, "sendRequest call when we're not connected not allowed.");
                 connection.sendRequest(msg);
             };
             this.realtime_ = {
@@ -7776,7 +9881,7 @@ class PersistentConnection extends ServerActions {
     resume(reason) {
         log('Resuming connection for reason: ' + reason);
         delete this.interruptReasons_[reason];
-        if (index_node_esm_isEmpty(this.interruptReasons_)) {
+        if ((0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.isEmpty)(this.interruptReasons_)) {
             this.reconnectDelay_ = RECONNECT_MIN_DELAY;
             if (!this.realtime_) {
                 this.scheduleConnect_(0);
@@ -7911,7 +10016,7 @@ class PersistentConnection extends ServerActions {
     sendConnectStats_() {
         const stats = {};
         let clientName = 'js';
-        if (isNodeSdk()) {
+        if ((0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.isNodeSdk)()) {
             if (this.repoInfo_.nodeAdmin) {
                 clientName = 'admin_node';
             }
@@ -7919,18 +10024,18 @@ class PersistentConnection extends ServerActions {
                 clientName = 'node';
             }
         }
-        stats['sdk.' + clientName + '.' + index_node_esm_SDK_VERSION.replace(/\./g, '-')] = 1;
-        if (isMobileCordova()) {
+        stats['sdk.' + clientName + '.' + SDK_VERSION.replace(/\./g, '-')] = 1;
+        if ((0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.isMobileCordova)()) {
             stats['framework.cordova'] = 1;
         }
-        else if (isReactNative()) {
+        else if ((0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.isReactNative)()) {
             stats['framework.reactnative'] = 1;
         }
         this.reportStats(stats);
     }
     shouldReconnect_() {
         const online = OnlineMonitor.getInstance().currentlyOnline();
-        return index_node_esm_isEmpty(this.interruptReasons_) && online;
+        return (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.isEmpty)(this.interruptReasons_) && online;
     }
 }
 PersistentConnection.nextPersistentConnectionId_ = 0;
@@ -8041,7 +10146,7 @@ class KeyIndex extends Index {
     isDefinedOn(node) {
         // We could probably return true here (since every node has a key), but it's never called
         // so just leaving unimplemented for now.
-        throw assertionError('KeyIndex.isDefinedOn not expected to be called.');
+        throw (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assertionError)('KeyIndex.isDefinedOn not expected to be called.');
     }
     indexedValueChanged(oldNode, newNode) {
         return false; // The key for a node never changes.
@@ -8056,7 +10161,7 @@ class KeyIndex extends Index {
         return new NamedNode(MAX_NAME, __EMPTY_NODE);
     }
     makePost(indexValue, name) {
-        index_node_esm_assert(typeof indexValue === 'string', 'KeyIndex indexValue must always be a string.');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(typeof indexValue === 'string', 'KeyIndex indexValue must always be a string.');
         // We just use empty node, but it'll never be compared, since our comparator only looks at name.
         return new NamedNode(indexValue, __EMPTY_NODE);
     }
@@ -8741,15 +10846,15 @@ const priorityHashText = function (priority) {
 const validatePriorityNode = function (priorityNode) {
     if (priorityNode.isLeafNode()) {
         const val = priorityNode.val();
-        index_node_esm_assert(typeof val === 'string' ||
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(typeof val === 'string' ||
             typeof val === 'number' ||
-            (typeof val === 'object' && index_node_esm_contains(val, '.sv')), 'Priority must be a string or number.');
+            (typeof val === 'object' && (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.contains)(val, '.sv')), 'Priority must be a string or number.');
     }
     else {
-        index_node_esm_assert(priorityNode === MAX_NODE$2 || priorityNode.isEmpty(), 'priority of unexpected type.');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(priorityNode === MAX_NODE$2 || priorityNode.isEmpty(), 'priority of unexpected type.');
     }
     // Don't call getPriority() on MAX_NODE to avoid hitting assertion.
-    index_node_esm_assert(priorityNode === MAX_NODE$2 || priorityNode.getPriority().isEmpty(), "Priority nodes can't have a priority of their own.");
+    (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(priorityNode === MAX_NODE$2 || priorityNode.getPriority().isEmpty(), "Priority nodes can't have a priority of their own.");
 };
 
 /**
@@ -8784,7 +10889,7 @@ class LeafNode {
         this.value_ = value_;
         this.priorityNode_ = priorityNode_;
         this.lazyHash_ = null;
-        index_node_esm_assert(this.value_ !== undefined && this.value_ !== null, "LeafNode shouldn't be created with null/undefined value.");
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(this.value_ !== undefined && this.value_ !== null, "LeafNode shouldn't be created with null/undefined value.");
         validatePriorityNode(this.priorityNode_);
     }
     static set __childrenNodeConstructor(val) {
@@ -8856,7 +10961,7 @@ class LeafNode {
             return this;
         }
         else {
-            index_node_esm_assert(front !== '.priority' || pathGetLength(path) === 1, '.priority must be the last token in a path');
+            (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(front !== '.priority' || pathGetLength(path) === 1, '.priority must be the last token in a path');
             return this.updateImmediateChild(front, LeafNode.__childrenNodeConstructor.EMPTY_NODE.updateChild(pathPopFront(path), newChildNode));
         }
     }
@@ -8920,7 +11025,7 @@ class LeafNode {
             return -1;
         }
         else {
-            index_node_esm_assert(other.isLeafNode(), 'Unknown node type');
+            (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(other.isLeafNode(), 'Unknown node type');
             return this.compareToLeafNode_(other);
         }
     }
@@ -8932,8 +11037,8 @@ class LeafNode {
         const thisLeafType = typeof this.value_;
         const otherIndex = LeafNode.VALUE_TYPE_ORDER.indexOf(otherLeafType);
         const thisIndex = LeafNode.VALUE_TYPE_ORDER.indexOf(thisLeafType);
-        index_node_esm_assert(otherIndex >= 0, 'Unknown leaf type: ' + otherLeafType);
-        index_node_esm_assert(thisIndex >= 0, 'Unknown leaf type: ' + thisLeafType);
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(otherIndex >= 0, 'Unknown leaf type: ' + otherLeafType);
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(thisIndex >= 0, 'Unknown leaf type: ' + thisLeafType);
         if (otherIndex === thisIndex) {
             // Same type, compare values
             if (thisLeafType === 'object') {
@@ -9188,14 +11293,14 @@ class IndexMap {
      * The default IndexMap for nodes without a priority
      */
     static get Default() {
-        index_node_esm_assert(fallbackObject && PRIORITY_INDEX, 'ChildrenNode.ts has not been loaded');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(fallbackObject && PRIORITY_INDEX, 'ChildrenNode.ts has not been loaded');
         _defaultIndexMap =
             _defaultIndexMap ||
                 new IndexMap({ '.priority': fallbackObject }, { '.priority': PRIORITY_INDEX });
         return _defaultIndexMap;
     }
     get(indexKey) {
-        const sortedMap = index_node_esm_safeGet(this.indexes_, indexKey);
+        const sortedMap = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.safeGet)(this.indexes_, indexKey);
         if (!sortedMap) {
             throw new Error('No index defined for ' + indexKey);
         }
@@ -9209,10 +11314,10 @@ class IndexMap {
         }
     }
     hasIndex(indexDefinition) {
-        return index_node_esm_contains(this.indexSet_, indexDefinition.toString());
+        return (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.contains)(this.indexSet_, indexDefinition.toString());
     }
     addIndex(indexDefinition, existingChildren) {
-        index_node_esm_assert(indexDefinition !== KEY_INDEX, "KeyIndex always exists and isn't meant to be added to the IndexMap.");
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(indexDefinition !== KEY_INDEX, "KeyIndex always exists and isn't meant to be added to the IndexMap.");
         const childList = [];
         let sawIndexedValue = false;
         const iter = existingChildren.getIterator(NamedNode.Wrap);
@@ -9241,9 +11346,9 @@ class IndexMap {
      * Ensure that this node is properly tracked in any indexes that we're maintaining
      */
     addToIndexes(namedNode, existingChildren) {
-        const newIndexes = map(this.indexes_, (indexedChildren, indexName) => {
-            const index = index_node_esm_safeGet(this.indexSet_, indexName);
-            index_node_esm_assert(index, 'Missing index implementation for ' + indexName);
+        const newIndexes = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.map)(this.indexes_, (indexedChildren, indexName) => {
+            const index = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.safeGet)(this.indexSet_, indexName);
+            (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(index, 'Missing index implementation for ' + indexName);
             if (indexedChildren === fallbackObject) {
                 // Check to see if we need to index everything
                 if (index.isDefinedOn(namedNode.node)) {
@@ -9280,7 +11385,7 @@ class IndexMap {
      * Create a new IndexMap instance with the given value removed
      */
     removeFromIndexes(namedNode, existingChildren) {
-        const newIndexes = map(this.indexes_, (indexedChildren) => {
+        const newIndexes = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.map)(this.indexes_, (indexedChildren) => {
             if (indexedChildren === fallbackObject) {
                 // This is the fallback. Just return it, nothing to do in this case
                 return indexedChildren;
@@ -9342,7 +11447,7 @@ class ChildrenNode {
             validatePriorityNode(this.priorityNode_);
         }
         if (this.children_.isEmpty()) {
-            index_node_esm_assert(!this.priorityNode_ || this.priorityNode_.isEmpty(), 'An empty node cannot have a priority');
+            (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(!this.priorityNode_ || this.priorityNode_.isEmpty(), 'An empty node cannot have a priority');
         }
     }
     static get EMPTY_NODE() {
@@ -9392,7 +11497,7 @@ class ChildrenNode {
     }
     /** @inheritDoc */
     updateImmediateChild(childName, newChildNode) {
-        index_node_esm_assert(newChildNode, 'We should always be passing snapshot nodes');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(newChildNode, 'We should always be passing snapshot nodes');
         if (childName === '.priority') {
             return this.updatePriority(newChildNode);
         }
@@ -9420,7 +11525,7 @@ class ChildrenNode {
             return newChildNode;
         }
         else {
-            index_node_esm_assert(pathGetFront(path) !== '.priority' || pathGetLength(path) === 1, '.priority must be the last token in a path');
+            (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(pathGetFront(path) !== '.priority' || pathGetLength(path) === 1, '.priority must be the last token in a path');
             const newImmediateChild = this.getImmediateChild(front).updateChild(pathPopFront(path), newChildNode);
             return this.updateImmediateChild(front, newImmediateChild);
         }
@@ -9743,7 +11848,7 @@ function nodeFromJSON(json, priority = null) {
     if (typeof json === 'object' && '.priority' in json) {
         priority = json['.priority'];
     }
-    index_node_esm_assert(priority === null ||
+    (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(priority === null ||
         typeof priority === 'string' ||
         typeof priority === 'number' ||
         (typeof priority === 'object' && '.sv' in priority), 'Invalid priority type found: ' + typeof priority);
@@ -9785,7 +11890,7 @@ function nodeFromJSON(json, priority = null) {
     else {
         let node = ChildrenNode.EMPTY_NODE;
         each(json, (key, childData) => {
-            if (index_node_esm_contains(json, key)) {
+            if ((0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.contains)(json, key)) {
                 if (key.substring(0, 1) !== '.') {
                     // ignore metadata nodes.
                     const childNode = nodeFromJSON(childData);
@@ -9820,7 +11925,7 @@ class PathIndex extends Index {
     constructor(indexPath_) {
         super();
         this.indexPath_ = indexPath_;
-        index_node_esm_assert(!pathIsEmpty(indexPath_) && pathGetFront(indexPath_) !== '.priority', "Can't create PathIndex with empty path or .priority key");
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(!pathIsEmpty(indexPath_) && pathGetFront(indexPath_) !== '.priority', "Can't create PathIndex with empty path or .priority key");
     }
     extractChild(snap) {
         return snap.getChild(this.indexPath_);
@@ -9961,7 +12066,7 @@ const nextPushId = (function () {
             // the upper bits.
             now = Math.floor(now / 64);
         }
-        index_node_esm_assert(now === 0, 'Cannot push at time == 0');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(now === 0, 'Cannot push at time == 0');
         let id = timeStampChars.join('');
         if (!duplicateTime) {
             for (i = 0; i < 12; i++) {
@@ -9979,7 +12084,7 @@ const nextPushId = (function () {
         for (i = 0; i < 12; i++) {
             id += PUSH_CHARS.charAt(lastRandChars[i]);
         }
-        index_node_esm_assert(id.length === 20, 'nextPushId: Length should be 20.');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(id.length === 20, 'nextPushId: Length should be 20.');
         return id;
     };
 })();
@@ -10114,7 +12219,7 @@ class IndexedFilter {
         this.index_ = index_;
     }
     updateChild(snap, key, newChild, affectedPath, source, optChangeAccumulator) {
-        index_node_esm_assert(snap.isIndexed(this.index_), 'A node must be indexed if only a child is updated');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(snap.isIndexed(this.index_), 'A node must be indexed if only a child is updated');
         const oldChild = snap.getImmediateChild(key);
         // Check if anything actually changed.
         if (oldChild.getChild(affectedPath).equals(newChild.getChild(affectedPath))) {
@@ -10134,7 +12239,7 @@ class IndexedFilter {
                     optChangeAccumulator.trackChildChange(changeChildRemoved(key, oldChild));
                 }
                 else {
-                    index_node_esm_assert(snap.isLeafNode(), 'A child remove without an old child only makes sense on a leaf node');
+                    (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(snap.isLeafNode(), 'A child remove without an old child only makes sense on a leaf node');
                 }
             }
             else if (oldChild.isEmpty()) {
@@ -10439,7 +12544,7 @@ class LimitedFilter {
             cmp = this.index_.getCompare();
         }
         const oldEventCache = snap;
-        index_node_esm_assert(oldEventCache.numChildren() === this.limit_, '');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(oldEventCache.numChildren() === this.limit_, '');
         const newChildNamedNode = new NamedNode(childKey, childSnap);
         const windowBoundary = this.reverse_
             ? oldEventCache.getFirstChild(this.index_)
@@ -10572,7 +12677,7 @@ class QueryParams {
      * Only valid to call if hasStart() returns true
      */
     getIndexStartValue() {
-        index_node_esm_assert(this.startSet_, 'Only valid if start has been set');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(this.startSet_, 'Only valid if start has been set');
         return this.indexStartValue_;
     }
     /**
@@ -10580,7 +12685,7 @@ class QueryParams {
      * Returns the starting key name for the range defined by these query parameters
      */
     getIndexStartName() {
-        index_node_esm_assert(this.startSet_, 'Only valid if start has been set');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(this.startSet_, 'Only valid if start has been set');
         if (this.startNameSet_) {
             return this.indexStartName_;
         }
@@ -10595,7 +12700,7 @@ class QueryParams {
      * Only valid to call if hasEnd() returns true.
      */
     getIndexEndValue() {
-        index_node_esm_assert(this.endSet_, 'Only valid if end has been set');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(this.endSet_, 'Only valid if end has been set');
         return this.indexEndValue_;
     }
     /**
@@ -10603,7 +12708,7 @@ class QueryParams {
      * Returns the end key name for the range defined by these query parameters
      */
     getIndexEndName() {
-        index_node_esm_assert(this.endSet_, 'Only valid if end has been set');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(this.endSet_, 'Only valid if end has been set');
         if (this.endNameSet_) {
             return this.indexEndName_;
         }
@@ -10624,7 +12729,7 @@ class QueryParams {
      * Only valid to call if hasLimit() returns true
      */
     getLimit() {
-        index_node_esm_assert(this.limitSet_, 'Only valid if limit has been set');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(this.limitSet_, 'Only valid if limit has been set');
         return this.limit_;
     }
     getIndex() {
@@ -10780,22 +12885,22 @@ function queryParamsToRestQueryStringParameters(queryParams) {
         orderBy = "$key" /* KEY_INDEX */;
     }
     else {
-        index_node_esm_assert(queryParams.index_ instanceof PathIndex, 'Unrecognized index type!');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(queryParams.index_ instanceof PathIndex, 'Unrecognized index type!');
         orderBy = queryParams.index_.toString();
     }
-    qs["orderBy" /* ORDER_BY */] = index_node_esm_stringify(orderBy);
+    qs["orderBy" /* ORDER_BY */] = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.stringify)(orderBy);
     if (queryParams.startSet_) {
-        qs["startAt" /* START_AT */] = index_node_esm_stringify(queryParams.indexStartValue_);
+        qs["startAt" /* START_AT */] = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.stringify)(queryParams.indexStartValue_);
         if (queryParams.startNameSet_) {
             qs["startAt" /* START_AT */] +=
-                ',' + index_node_esm_stringify(queryParams.indexStartName_);
+                ',' + (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.stringify)(queryParams.indexStartName_);
         }
     }
     if (queryParams.endSet_) {
-        qs["endAt" /* END_AT */] = index_node_esm_stringify(queryParams.indexEndValue_);
+        qs["endAt" /* END_AT */] = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.stringify)(queryParams.indexEndValue_);
         if (queryParams.endNameSet_) {
             qs["endAt" /* END_AT */] +=
-                ',' + index_node_esm_stringify(queryParams.indexEndName_);
+                ',' + (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.stringify)(queryParams.indexEndName_);
         }
     }
     if (queryParams.limitSet_) {
@@ -10892,7 +12997,7 @@ class ReadonlyRestClient extends ServerActions {
             return 'tag$' + tag;
         }
         else {
-            index_node_esm_assert(query._queryParams.isDefault(), "should have a tag if it's not a default query.");
+            (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(query._queryParams.isDefault(), "should have a tag if it's not a default query.");
             return query._path.toString();
         }
     }
@@ -10914,7 +13019,7 @@ class ReadonlyRestClient extends ServerActions {
             if (error === null) {
                 this.onDataUpdate_(pathString, data, /*isMerge=*/ false, tag);
             }
-            if (index_node_esm_safeGet(this.listens_, listenId) === thisListen) {
+            if ((0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.safeGet)(this.listens_, listenId) === thisListen) {
                 let status;
                 if (!error) {
                     status = 'ok';
@@ -10937,7 +13042,7 @@ class ReadonlyRestClient extends ServerActions {
     get(query) {
         const queryStringParameters = queryParamsToRestQueryStringParameters(query._queryParams);
         const pathString = query._path.toString();
-        const deferred = new index_node_esm_Deferred();
+        const deferred = new _firebase_util__WEBPACK_IMPORTED_MODULE_1__.Deferred();
         this.restRequest_(pathString + '.json', queryStringParameters, (error, result) => {
             let data = result;
             if (error === 404) {
@@ -10982,7 +13087,7 @@ class ReadonlyRestClient extends ServerActions {
                 '?' +
                 'ns=' +
                 this.repoInfo_.namespace +
-                querystring(queryStringParameters);
+                (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.querystring)(queryStringParameters);
             this.log_('Sending REST request for ' + url);
             const xhr = new XMLHttpRequest();
             xhr.onreadystatechange = () => {
@@ -10991,7 +13096,7 @@ class ReadonlyRestClient extends ServerActions {
                     let res = null;
                     if (xhr.status >= 200 && xhr.status < 300) {
                         try {
-                            res = jsonEval(xhr.responseText);
+                            res = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.jsonEval)(xhr.responseText);
                         }
                         catch (e) {
                             warn('Failed to parse JSON response for ' +
@@ -11247,7 +13352,7 @@ class StatsReporter {
         const reportedStats = {};
         let haveStatsToReport = false;
         each(stats, (stat, value) => {
-            if (value > 0 && index_node_esm_contains(this.statsToReport_, stat)) {
+            if (value > 0 && (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.contains)(this.statsToReport_, stat)) {
                 reportedStats[stat] = value;
                 haveStatsToReport = true;
             }
@@ -11346,11 +13451,11 @@ class AckUserWrite {
     }
     operationForChild(childName) {
         if (!pathIsEmpty(this.path)) {
-            index_node_esm_assert(pathGetFront(this.path) === childName, 'operationForChild called for unrelated child.');
+            (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(pathGetFront(this.path) === childName, 'operationForChild called for unrelated child.');
             return new AckUserWrite(pathPopFront(this.path), this.affectedTree, this.revert);
         }
         else if (this.affectedTree.value != null) {
-            index_node_esm_assert(this.affectedTree.children.isEmpty(), 'affectedTree should not have overlapping affected paths.');
+            (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(this.affectedTree.children.isEmpty(), 'affectedTree should not have overlapping affected paths.');
             // All child locations are affected as well; just return same operation.
             return this;
         }
@@ -11472,7 +13577,7 @@ class Merge {
             }
         }
         else {
-            index_node_esm_assert(pathGetFront(this.path) === childName, "Can't get a merge for a child not on the path of the operation");
+            (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(pathGetFront(this.path) === childName, "Can't get a merge for a child not on the path of the operation");
             return new Merge(this.source, pathPopFront(this.path), this.children);
         }
     }
@@ -11621,7 +13726,7 @@ function eventGeneratorMaterializeSingleChange(eventGenerator, change, eventCach
 }
 function eventGeneratorCompareChanges(eventGenerator, a, b) {
     if (a.childName == null || b.childName == null) {
-        throw assertionError('Should only compare child_ events.');
+        throw (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assertionError)('Should only compare child_ events.');
     }
     const aWrapped = new NamedNode(a.childName, a.snapshotNode);
     const bWrapped = new NamedNode(b.childName, b.snapshotNode);
@@ -12141,7 +14246,7 @@ function applySubtreeWrite(relativePath, writeTree, node) {
             if (childKey === '.priority') {
                 // Apply priorities at the end so we don't update priorities for either empty nodes or forget
                 // to apply priorities to empty nodes that are later filled
-                index_node_esm_assert(childTree.value !== null, 'Priority writes must always be leaf nodes');
+                (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(childTree.value !== null, 'Priority writes must always be leaf nodes');
                 priorityWrite = childTree.value;
             }
             else {
@@ -12185,7 +14290,7 @@ function writeTreeChildWrites(writeTree, path) {
  * @param visible - This is set to false by some transactions. It should be excluded from event caches
  */
 function writeTreeAddOverwrite(writeTree, path, snap, writeId, visible) {
-    index_node_esm_assert(writeId > writeTree.lastWriteId, 'Stacking an older write on top of newer ones');
+    (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(writeId > writeTree.lastWriteId, 'Stacking an older write on top of newer ones');
     if (visible === undefined) {
         visible = true;
     }
@@ -12204,7 +14309,7 @@ function writeTreeAddOverwrite(writeTree, path, snap, writeId, visible) {
  * Record a new merge from user code.
  */
 function writeTreeAddMerge(writeTree, path, changedChildren, writeId) {
-    assert(writeId > writeTree.lastWriteId, 'Stacking an older merge on top of newer ones');
+    (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(writeId > writeTree.lastWriteId, 'Stacking an older merge on top of newer ones');
     writeTree.allWrites.push({
         path,
         children: changedChildren,
@@ -12238,7 +14343,7 @@ function writeTreeRemoveWrite(writeTree, writeId) {
     const idx = writeTree.allWrites.findIndex(s => {
         return s.writeId === writeId;
     });
-    index_node_esm_assert(idx >= 0, 'removeWrite called with nonexistent writeId.');
+    (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(idx >= 0, 'removeWrite called with nonexistent writeId.');
     const writeToRemove = writeTree.allWrites[idx];
     writeTree.allWrites.splice(idx, 1);
     let removedWriteWasVisible = writeToRemove.visible;
@@ -12350,7 +14455,7 @@ function writeTreeLayerTree_(writes, filter, treeRoot) {
                         compoundWrite = compoundWriteAddWrites(compoundWrite, newEmptyPath(), write.children);
                     }
                     else {
-                        const child = index_node_esm_safeGet(write.children, pathGetFront(relativePath));
+                        const child = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.safeGet)(write.children, pathGetFront(relativePath));
                         if (child) {
                             // There exists a child in this node that matches the root path
                             const deepNode = child.getChild(pathPopFront(relativePath));
@@ -12361,7 +14466,7 @@ function writeTreeLayerTree_(writes, filter, treeRoot) {
                 else ;
             }
             else {
-                throw assertionError('WriteRecord should have .snap or .children');
+                throw (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assertionError)('WriteRecord should have .snap or .children');
             }
         }
     }
@@ -12478,7 +14583,7 @@ function writeTreeCalcCompleteEventChildren(writeTree, treePath, completeServerC
  * Either existingEventSnap or existingServerSnap must exist
  */
 function writeTreeCalcEventCacheAfterServerOverwrite(writeTree, treePath, childPath, existingEventSnap, existingServerSnap) {
-    index_node_esm_assert(existingEventSnap || existingServerSnap, 'Either existingEventSnap or existingServerSnap must exist');
+    (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(existingEventSnap || existingServerSnap, 'Either existingEventSnap or existingServerSnap must exist');
     const path = pathChild(treePath, childPath);
     if (compoundWriteHasCompleteWrite(writeTree.visibleWrites, path)) {
         // At this point we can probably guarantee that we're in case 2, meaning no events
@@ -12673,10 +14778,10 @@ class ChildChangeAccumulator {
     trackChildChange(change) {
         const type = change.type;
         const childKey = change.childName;
-        index_node_esm_assert(type === "child_added" /* CHILD_ADDED */ ||
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(type === "child_added" /* CHILD_ADDED */ ||
             type === "child_changed" /* CHILD_CHANGED */ ||
             type === "child_removed" /* CHILD_REMOVED */, 'Only child changes supported for tracking');
-        index_node_esm_assert(childKey !== '.priority', 'Only non-priority child changes can be tracked.');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(childKey !== '.priority', 'Only non-priority child changes can be tracked.');
         const oldChange = this.changeMap.get(childKey);
         if (oldChange) {
             const oldType = oldChange.type;
@@ -12701,7 +14806,7 @@ class ChildChangeAccumulator {
                 this.changeMap.set(childKey, changeChildChanged(childKey, change.snapshotNode, oldChange.oldSnap));
             }
             else {
-                throw assertionError('Illegal combination of changes: ' +
+                throw (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assertionError)('Illegal combination of changes: ' +
                     change +
                     ' occurred after ' +
                     oldChange);
@@ -12804,8 +14909,8 @@ function newViewProcessor(filter) {
     return { filter };
 }
 function viewProcessorAssertIndexed(viewProcessor, viewCache) {
-    index_node_esm_assert(viewCache.eventCache.getNode().isIndexed(viewProcessor.filter.getIndex()), 'Event snap not indexed');
-    index_node_esm_assert(viewCache.serverCache.getNode().isIndexed(viewProcessor.filter.getIndex()), 'Server snap not indexed');
+    (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(viewCache.eventCache.getNode().isIndexed(viewProcessor.filter.getIndex()), 'Event snap not indexed');
+    (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(viewCache.serverCache.getNode().isIndexed(viewProcessor.filter.getIndex()), 'Server snap not indexed');
 }
 function viewProcessorApplyOperation(viewProcessor, oldViewCache, operation, writesCache, completeCache) {
     const accumulator = new ChildChangeAccumulator();
@@ -12816,7 +14921,7 @@ function viewProcessorApplyOperation(viewProcessor, oldViewCache, operation, wri
             newViewCache = viewProcessorApplyUserOverwrite(viewProcessor, oldViewCache, overwrite.path, overwrite.snap, writesCache, completeCache, accumulator);
         }
         else {
-            index_node_esm_assert(overwrite.source.fromServer, 'Unknown source.');
+            (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(overwrite.source.fromServer, 'Unknown source.');
             // We filter the node if it's a tagged update or the node has been previously filtered  and the
             // update is not at the root in which case it is ok (and necessary) to mark the node unfiltered
             // again
@@ -12832,7 +14937,7 @@ function viewProcessorApplyOperation(viewProcessor, oldViewCache, operation, wri
             newViewCache = viewProcessorApplyUserMerge(viewProcessor, oldViewCache, merge.path, merge.children, writesCache, completeCache, accumulator);
         }
         else {
-            index_node_esm_assert(merge.source.fromServer, 'Unknown source.');
+            (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(merge.source.fromServer, 'Unknown source.');
             // We filter the node if it's a tagged update or the node has been previously filtered
             filterServerNode =
                 merge.source.tagged || oldViewCache.serverCache.isFiltered();
@@ -12852,7 +14957,7 @@ function viewProcessorApplyOperation(viewProcessor, oldViewCache, operation, wri
         newViewCache = viewProcessorListenComplete(viewProcessor, oldViewCache, operation.path, writesCache, accumulator);
     }
     else {
-        throw assertionError('Unknown operation type: ' + operation.type);
+        throw (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assertionError)('Unknown operation type: ' + operation.type);
     }
     const changes = accumulator.getChanges();
     viewProcessorMaybeAddValueEvent(oldViewCache, newViewCache, changes);
@@ -12881,7 +14986,7 @@ function viewProcessorGenerateEventCacheAfterServerEvent(viewProcessor, viewCach
         let newEventCache, serverNode;
         if (pathIsEmpty(changePath)) {
             // TODO: figure out how this plays with "sliding ack windows"
-            index_node_esm_assert(viewCache.serverCache.isFullyInitialized(), 'If change path is empty, we must have complete server data');
+            (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(viewCache.serverCache.isFullyInitialized(), 'If change path is empty, we must have complete server data');
             if (viewCache.serverCache.isFiltered()) {
                 // We need to special case this, because we need to only apply writes to complete children, or
                 // we might end up raising events for incomplete children. If the server data is filtered deep
@@ -12901,7 +15006,7 @@ function viewProcessorGenerateEventCacheAfterServerEvent(viewProcessor, viewCach
         else {
             const childKey = pathGetFront(changePath);
             if (childKey === '.priority') {
-                index_node_esm_assert(pathGetLength(changePath) === 1, "Can't have a priority with additional path components");
+                (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(pathGetLength(changePath) === 1, "Can't have a priority with additional path components");
                 const oldEventNode = oldEventSnap.getNode();
                 serverNode = viewCache.serverCache.getNode();
                 // we might have overwrites for this priority
@@ -13171,7 +15276,7 @@ function viewProcessorRevertUserWrite(viewProcessor, viewCache, path, writesCach
             }
             else {
                 const serverChildren = viewCache.serverCache.getNode();
-                index_node_esm_assert(serverChildren instanceof ChildrenNode, 'serverChildren would be complete if leaf node');
+                (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(serverChildren instanceof ChildrenNode, 'serverChildren would be complete if leaf node');
                 newNode = writeTreeRefCalcCompleteEventChildren(writesCache, serverChildren);
             }
             newNode = newNode;
@@ -13290,7 +15395,7 @@ function viewAddEventRegistration(view, eventRegistration) {
 function viewRemoveEventRegistration(view, eventRegistration, cancelError) {
     const cancelEvents = [];
     if (cancelError) {
-        assert(eventRegistration == null, 'A cancel should cancel all event registrations.');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(eventRegistration == null, 'A cancel should cancel all event registrations.');
         const path = view.query._path;
         view.eventRegistrations_.forEach(registration => {
             const maybeEvent = registration.createCancelEvent(cancelError, path);
@@ -13325,13 +15430,13 @@ function viewRemoveEventRegistration(view, eventRegistration, cancelError) {
 function viewApplyOperation(view, operation, writesCache, completeServerCache) {
     if (operation.type === OperationType.MERGE &&
         operation.source.queryId !== null) {
-        index_node_esm_assert(viewCacheGetCompleteServerSnap(view.viewCache_), 'We should always have a full cache before handling merges');
-        index_node_esm_assert(viewCacheGetCompleteEventSnap(view.viewCache_), 'Missing event cache, even though we have a server cache');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(viewCacheGetCompleteServerSnap(view.viewCache_), 'We should always have a full cache before handling merges');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(viewCacheGetCompleteEventSnap(view.viewCache_), 'Missing event cache, even though we have a server cache');
     }
     const oldViewCache = view.viewCache_;
     const result = viewProcessorApplyOperation(view.processor_, oldViewCache, operation, writesCache, completeServerCache);
     viewProcessorAssertIndexed(view.processor_, result.viewCache);
-    index_node_esm_assert(result.viewCache.serverCache.isFullyInitialized() ||
+    (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(result.viewCache.serverCache.isFullyInitialized() ||
         !oldViewCache.serverCache.isFullyInitialized(), 'Once a server snap is complete, it should never go back');
     view.viewCache_ = result.viewCache;
     return viewGenerateEventsForChanges_(view, result.changes, result.viewCache.eventCache.getNode(), null);
@@ -13396,11 +15501,11 @@ class SyncPoint {
     }
 }
 function syncPointSetReferenceConstructor(val) {
-    index_node_esm_assert(!referenceConstructor$1, '__referenceConstructor has already been defined');
+    (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(!referenceConstructor$1, '__referenceConstructor has already been defined');
     referenceConstructor$1 = val;
 }
 function syncPointGetReferenceConstructor() {
-    assert(referenceConstructor$1, 'Reference.ts has not been loaded');
+    (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(referenceConstructor$1, 'Reference.ts has not been loaded');
     return referenceConstructor$1;
 }
 function syncPointIsEmpty(syncPoint) {
@@ -13410,7 +15515,7 @@ function syncPointApplyOperation(syncPoint, operation, writesCache, optCompleteS
     const queryId = operation.source.queryId;
     if (queryId !== null) {
         const view = syncPoint.views.get(queryId);
-        index_node_esm_assert(view != null, 'SyncTree gave us an op for an invalid query.');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(view != null, 'SyncTree gave us an op for an invalid query.');
         return viewApplyOperation(view, operation, writesCache, optCompleteServerCache);
     }
     else {
@@ -13583,11 +15688,11 @@ function syncPointGetCompleteView(syncPoint) {
  */
 let referenceConstructor;
 function syncTreeSetReferenceConstructor(val) {
-    index_node_esm_assert(!referenceConstructor, '__referenceConstructor has already been defined');
+    (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(!referenceConstructor, '__referenceConstructor has already been defined');
     referenceConstructor = val;
 }
 function syncTreeGetReferenceConstructor() {
-    assert(referenceConstructor, 'Reference.ts has not been loaded');
+    (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(referenceConstructor, 'Reference.ts has not been loaded');
     return referenceConstructor;
 }
 /**
@@ -13893,7 +15998,7 @@ function syncTreeAddEventRegistration(syncTree, query, eventRegistration) {
     if (!viewAlreadyExists && !query._queryParams.loadsAllData()) {
         // We need to track a tag for this query
         const queryKey = syncTreeMakeQueryKey_(query);
-        assert(!syncTree.queryToTagMap.has(queryKey), 'View does not exist, but we have a tag');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(!syncTree.queryToTagMap.has(queryKey), 'View does not exist, but we have a tag');
         const tag = syncTreeGetNextQueryTag_();
         syncTree.queryToTagMap.set(queryKey, tag);
         syncTree.tagToQueryMap.set(tag, queryKey);
@@ -14079,7 +16184,7 @@ function syncTreeQueryKeyForTag_(syncTree, tag) {
  */
 function syncTreeParseQueryKey_(queryKey) {
     const splitIndex = queryKey.indexOf('$');
-    index_node_esm_assert(splitIndex !== -1 && splitIndex < queryKey.length - 1, 'Bad queryKey.');
+    (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(splitIndex !== -1 && splitIndex < queryKey.length - 1, 'Bad queryKey.');
     return {
         queryId: queryKey.substr(splitIndex + 1),
         path: new Path(queryKey.substr(0, splitIndex))
@@ -14090,7 +16195,7 @@ function syncTreeParseQueryKey_(queryKey) {
  */
 function syncTreeApplyTaggedOperation_(syncTree, queryPath, operation) {
     const syncPoint = syncTree.syncPointTree_.get(queryPath);
-    index_node_esm_assert(syncPoint, "Missing sync point for query tag that we're tracking");
+    (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(syncPoint, "Missing sync point for query tag that we're tracking");
     const writesCache = writeTreeChildWrites(syncTree.pendingWriteTree_, queryPath);
     return syncPointApplyOperation(syncPoint, operation, writesCache, null);
 }
@@ -14165,7 +16270,7 @@ function syncTreeSetupListener_(syncTree, query, view) {
     // The root of this subtree has our query. We're here because we definitely need to send a listen for that, but we
     // may need to shadow other listens as well.
     if (tag) {
-        assert(!syncPointHasCompleteView(subtree.value), "If we're adding a query, it shouldn't be shadowed");
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(!syncPointHasCompleteView(subtree.value), "If we're adding a query, it shouldn't be shadowed");
     }
     else {
         // Shadow everything at or below this location, this is a default listener.
@@ -14252,7 +16357,7 @@ const resolveDeferredLeafValue = function (value, existingVal, serverValues) {
     if (!value || typeof value !== 'object') {
         return value;
     }
-    index_node_esm_assert('.sv' in value, 'Unexpected leaf node or priority contents');
+    (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)('.sv' in value, 'Unexpected leaf node or priority contents');
     if (typeof value['.sv'] === 'string') {
         return resolveScalarDeferredValue(value['.sv'], existingVal, serverValues);
     }
@@ -14260,7 +16365,7 @@ const resolveDeferredLeafValue = function (value, existingVal, serverValues) {
         return resolveComplexDeferredValue(value['.sv'], existingVal);
     }
     else {
-        index_node_esm_assert(false, 'Unexpected server value: ' + JSON.stringify(value, null, 2));
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(false, 'Unexpected server value: ' + JSON.stringify(value, null, 2));
     }
 };
 const resolveScalarDeferredValue = function (op, existing, serverValues) {
@@ -14268,19 +16373,19 @@ const resolveScalarDeferredValue = function (op, existing, serverValues) {
         case 'timestamp':
             return serverValues['timestamp'];
         default:
-            index_node_esm_assert(false, 'Unexpected server value: ' + op);
+            (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(false, 'Unexpected server value: ' + op);
     }
 };
 const resolveComplexDeferredValue = function (op, existing, unused) {
     if (!op.hasOwnProperty('increment')) {
-        index_node_esm_assert(false, 'Unexpected server value: ' + JSON.stringify(op, null, 2));
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(false, 'Unexpected server value: ' + JSON.stringify(op, null, 2));
     }
     const delta = op['increment'];
     if (typeof delta !== 'number') {
-        index_node_esm_assert(false, 'Unexpected increment value: ' + delta);
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(false, 'Unexpected increment value: ' + delta);
     }
     const existingNode = existing.node();
-    index_node_esm_assert(existingNode !== null && typeof existingNode !== 'undefined', 'Expected ChildrenNode.EMPTY_NODE for nulls');
+    (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(existingNode !== null && typeof existingNode !== 'undefined', 'Expected ChildrenNode.EMPTY_NODE for nulls');
     // Incrementing a non-number sets the value to the incremented amount
     if (!existingNode.isLeafNode()) {
         return delta;
@@ -14386,7 +16491,7 @@ function treeSubTree(tree, pathObj) {
     let path = pathObj instanceof Path ? pathObj : new Path(pathObj);
     let child = tree, next = pathGetFront(path);
     while (next !== null) {
-        const childNode = index_node_esm_safeGet(child.node.children, next) || {
+        const childNode = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.safeGet)(child.node.children, next) || {
             children: {},
             childCount: 0
         };
@@ -14497,7 +16602,7 @@ function treeUpdateParents(tree) {
  */
 function treeUpdateChild(tree, childName, child) {
     const childEmpty = treeIsEmpty(child);
-    const childExists = index_node_esm_contains(tree.node.children, childName);
+    const childExists = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.contains)(tree.node.children, childName);
     if (childEmpty && childExists) {
         delete tree.node.children[childName];
         tree.node.childCount--;
@@ -14539,7 +16644,7 @@ const INVALID_PATH_REGEX_ = /[\[\].#$\u0000-\u001F\u007F]/;
  * Maximum number of characters to allow in leaf value
  */
 const MAX_LEAF_SIZE_ = 10 * 1024 * 1024;
-const index_node_esm_isValidKey = function (key) {
+const isValidKey = function (key) {
     return (typeof key === 'string' && key.length !== 0 && !INVALID_KEY_REGEX_.test(key));
 };
 const isValidPathString = function (pathString) {
@@ -14561,7 +16666,7 @@ const isValidPriority = function (priority) {
         (priority &&
             typeof priority === 'object' &&
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
-            contains(priority, '.sv')));
+            (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.contains)(priority, '.sv')));
 };
 /**
  * Pre-validate a datum passed as an argument to Firebase function.
@@ -14570,7 +16675,7 @@ const validateFirebaseDataArg = function (fnName, value, path, optional) {
     if (optional && value === undefined) {
         return;
     }
-    validateFirebaseData(errorPrefix(fnName, 'value'), value, path);
+    validateFirebaseData((0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.errorPrefix)(fnName, 'value'), value, path);
 };
 /**
  * Validate a data object client-side before sending to server.
@@ -14597,7 +16702,7 @@ const validateFirebaseData = function (errorPrefix, data, path_) {
     // Check max leaf size, but try to avoid the utf8 conversion if we can.
     if (typeof data === 'string' &&
         data.length > MAX_LEAF_SIZE_ / 3 &&
-        stringLength(data) > MAX_LEAF_SIZE_) {
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.stringLength)(data) > MAX_LEAF_SIZE_) {
         throw new Error(errorPrefix +
             'contains a string greater than ' +
             MAX_LEAF_SIZE_ +
@@ -14618,7 +16723,7 @@ const validateFirebaseData = function (errorPrefix, data, path_) {
             }
             else if (key !== '.priority' && key !== '.sv') {
                 hasActualChild = true;
-                if (!index_node_esm_isValidKey(key)) {
+                if (!isValidKey(key)) {
                     throw new Error(errorPrefix +
                         ' contains an invalid key (' +
                         key +
@@ -14650,7 +16755,7 @@ const validateFirebaseMergePaths = function (errorPrefix, mergePaths) {
         const keys = pathSlice(curPath);
         for (let j = 0; j < keys.length; j++) {
             if (keys[j] === '.priority' && j === keys.length - 1) ;
-            else if (!index_node_esm_isValidKey(keys[j])) {
+            else if (!isValidKey(keys[j])) {
                 throw new Error(errorPrefix +
                     'contains an invalid key (' +
                     keys[j] +
@@ -14686,7 +16791,7 @@ const validateFirebaseMergeDataArg = function (fnName, data, path, optional) {
     if (optional && data === undefined) {
         return;
     }
-    const errorPrefix$1 = errorPrefix(fnName, 'values');
+    const errorPrefix$1 = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.errorPrefix)(fnName, 'values');
     if (!(data && typeof data === 'object') || Array.isArray(data)) {
         throw new Error(errorPrefix$1 + ' must be an object containing the children to replace.');
     }
@@ -14712,7 +16817,7 @@ const validatePriority = function (fnName, priority, optional) {
         return;
     }
     if (isInvalidJSONNumber(priority)) {
-        throw new Error(errorPrefix(fnName, 'priority') +
+        throw new Error((0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.errorPrefix)(fnName, 'priority') +
             'is ' +
             priority.toString() +
             ', but must be a valid Firebase priority (a string, finite number, ' +
@@ -14720,7 +16825,7 @@ const validatePriority = function (fnName, priority, optional) {
     }
     // Special case to allow importing data with a .sv.
     if (!isValidPriority(priority)) {
-        throw new Error(errorPrefix(fnName, 'priority') +
+        throw new Error((0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.errorPrefix)(fnName, 'priority') +
             'must be a valid Firebase priority ' +
             '(a string, finite number, server value, or null).');
     }
@@ -14729,8 +16834,8 @@ const validateKey = function (fnName, argumentName, key, optional) {
     if (optional && key === undefined) {
         return;
     }
-    if (!index_node_esm_isValidKey(key)) {
-        throw new Error(errorPrefix(fnName, argumentName) +
+    if (!isValidKey(key)) {
+        throw new Error((0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.errorPrefix)(fnName, argumentName) +
             'was an invalid key = "' +
             key +
             '".  Firebase keys must be non-empty strings and ' +
@@ -14745,7 +16850,7 @@ const validatePathString = function (fnName, argumentName, pathString, optional)
         return;
     }
     if (!isValidPathString(pathString)) {
-        throw new Error(index_node_esm_errorPrefix(fnName, argumentName) +
+        throw new Error((0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.errorPrefix)(fnName, argumentName) +
             'was an invalid path = "' +
             pathString +
             '". Paths must be non-empty strings and ' +
@@ -14772,10 +16877,10 @@ const validateUrl = function (fnName, parsedUrl) {
     const pathString = parsedUrl.path.toString();
     if (!(typeof parsedUrl.repoInfo.host === 'string') ||
         parsedUrl.repoInfo.host.length === 0 ||
-        (!index_node_esm_isValidKey(parsedUrl.repoInfo.namespace) &&
+        (!isValidKey(parsedUrl.repoInfo.namespace) &&
             parsedUrl.repoInfo.host.split(':')[0] !== 'localhost') ||
         (pathString.length !== 0 && !isValidRootPathString(pathString))) {
-        throw new Error(index_node_esm_errorPrefix(fnName, 'url') +
+        throw new Error((0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.errorPrefix)(fnName, 'url') +
             'must be a valid firebase URL and ' +
             'the path can\'t contain ".", "#", "$", "[", or "]".');
     }
@@ -14898,7 +17003,7 @@ function eventListRaise(eventList) {
         if (eventData !== null) {
             eventList.events[i] = null;
             const eventFn = eventData.getEventRunner();
-            if (index_node_esm_logger) {
+            if (logger) {
                 log('event: ' + eventData.toString());
             }
             exceptionGuard(eventFn);
@@ -14975,7 +17080,7 @@ function repoStart(repo, appId, authOverride) {
                 throw new Error('Only objects are supported for option databaseAuthVariableOverride');
             }
             try {
-                index_node_esm_stringify(authOverride);
+                (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.stringify)(authOverride);
             }
             catch (e) {
                 throw new Error('Invalid authOverride provided: ' + e);
@@ -15061,7 +17166,7 @@ function repoOnDataUpdate(repo, pathString, data, isMerge, tag) {
     let events = [];
     if (tag) {
         if (isMerge) {
-            const taggedChildren = map(data, (raw) => nodeFromJSON(raw));
+            const taggedChildren = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.map)(data, (raw) => nodeFromJSON(raw));
             events = syncTreeApplyTaggedQueryMerge(repo.serverSyncTree_, path, taggedChildren, tag);
         }
         else {
@@ -15070,7 +17175,7 @@ function repoOnDataUpdate(repo, pathString, data, isMerge, tag) {
         }
     }
     else if (isMerge) {
-        const changedChildren = map(data, (raw) => nodeFromJSON(raw));
+        const changedChildren = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.map)(data, (raw) => nodeFromJSON(raw));
         events = syncTreeApplyServerMerge(repo.serverSyncTree_, path, changedChildren);
     }
     else {
@@ -15133,7 +17238,7 @@ function repoGetValue(repo, query) {
         eventQueueRaiseEventsAtPath(repo.eventQueue_, query._path, events);
         return Promise.resolve(node);
     }, err => {
-        repoLog(repo, 'get for query ' + index_node_esm_stringify(query) + ' failed: ' + err);
+        repoLog(repo, 'get for query ' + (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.stringify)(query) + ' failed: ' + err);
         return Promise.reject(new Error(err));
     });
 }
@@ -15249,7 +17354,7 @@ function repoOnDisconnectSetWithPriority(repo, path, value, priority, onComplete
     });
 }
 function repoOnDisconnectUpdate(repo, path, childrenToMerge, onComplete) {
-    if (isEmpty(childrenToMerge)) {
+    if ((0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.isEmpty)(childrenToMerge)) {
         log("onDisconnect().update() called with empty data.  Don't do anything.");
         repoCallOnCompleteCallback(repo, onComplete, 'ok', undefined);
         return;
@@ -15387,10 +17492,10 @@ function repoStartTransaction(repo, path, transactionUpdate, onComplete, unwatch
         let priorityForNode;
         if (typeof newVal === 'object' &&
             newVal !== null &&
-            contains(newVal, '.priority')) {
+            (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.contains)(newVal, '.priority')) {
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
-            priorityForNode = safeGet(newVal, '.priority');
-            assert(isValidPriority(priorityForNode), 'Invalid priority returned by transaction. ' +
+            priorityForNode = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.safeGet)(newVal, '.priority');
+            (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(isValidPriority(priorityForNode), 'Invalid priority returned by transaction. ' +
                 'Priority must be a valid string, finite number, server value, or null.');
         }
         else {
@@ -15432,7 +17537,7 @@ function repoSendReadyTransactions(repo, node = repo.transactionQueueTree_) {
     }
     if (treeGetValue(node)) {
         const queue = repoBuildTransactionQueue(repo, node);
-        index_node_esm_assert(queue.length > 0, 'Sending zero length transaction queue');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(queue.length > 0, 'Sending zero length transaction queue');
         const allRun = queue.every((transaction) => transaction.status === 0 /* RUN */);
         // If they're all run (and not sent), we can send them.  Else, we must wait.
         if (allRun) {
@@ -15462,7 +17567,7 @@ function repoSendTransactionQueue(repo, path, queue) {
     const latestHash = latestState.hash();
     for (let i = 0; i < queue.length; i++) {
         const txn = queue[i];
-        index_node_esm_assert(txn.status === 0 /* RUN */, 'tryToSendTransactionQueue_: items in queue should all be run.');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(txn.status === 0 /* RUN */, 'tryToSendTransactionQueue_: items in queue should all be run.');
         txn.status = 1 /* SENT */;
         txn.retryCount++;
         const relativePath = newRelativePath(path, txn.path);
@@ -15571,7 +17676,7 @@ function repoRerunTransactionQueue(repo, queue, path) {
         const transaction = queue[i];
         const relativePath = newRelativePath(path, transaction.path);
         let abortTransaction = false, abortReason;
-        index_node_esm_assert(relativePath !== null, 'rerunTransactionsUnderNode_: relativePath should not be null.');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(relativePath !== null, 'rerunTransactionsUnderNode_: relativePath should not be null.');
         if (transaction.status === 4 /* NEEDS_ABORT */) {
             abortTransaction = true;
             abortReason = transaction.abortReason;
@@ -15593,7 +17698,7 @@ function repoRerunTransactionQueue(repo, queue, path) {
                     let newDataNode = nodeFromJSON(newData);
                     const hasExplicitPriority = typeof newData === 'object' &&
                         newData != null &&
-                        index_node_esm_contains(newData, '.priority');
+                        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.contains)(newData, '.priority');
                     if (!hasExplicitPriority) {
                         // Keep the old priority if there wasn't a priority explicitly specified.
                         newDataNode = newDataNode.updatePriority(currentNode.getPriority());
@@ -15751,14 +17856,14 @@ function repoAbortTransactionsOnNode(repo, node) {
         for (let i = 0; i < queue.length; i++) {
             if (queue[i].status === 3 /* SENT_NEEDS_ABORT */) ;
             else if (queue[i].status === 1 /* SENT */) {
-                index_node_esm_assert(lastSent === i - 1, 'All SENT items should be at beginning of queue.');
+                (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(lastSent === i - 1, 'All SENT items should be at beginning of queue.');
                 lastSent = i;
                 // Mark transaction for abort when it comes back.
                 queue[i].status = 3 /* SENT_NEEDS_ABORT */;
                 queue[i].abortReason = 'set';
             }
             else {
-                index_node_esm_assert(queue[i].status === 0 /* RUN */, 'Unexpected transaction status in abort');
+                (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(queue[i].status === 0 /* RUN */, 'Unexpected transaction status in abort');
                 // We can abort it immediately.
                 queue[i].unwatcher();
                 events = events.concat(syncTreeAckUserWrite(repo.serverSyncTree_, queue[i].currentWriteId, true));
@@ -15980,7 +18085,7 @@ class DataEvent {
             ':' +
             this.eventType +
             ':' +
-            stringify(this.snapshot.exportVal()));
+            (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.stringify)(this.snapshot.exportVal()));
     }
 }
 class CancelEvent {
@@ -16034,7 +18139,7 @@ class CallbackContext {
         this.snapshotCallback.call(null, expDataSnapshot, previousChildName);
     }
     onCancel(error) {
-        assert(this.hasCancelCallback, 'Raising a cancel event on a listener with no cancel callback');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(this.hasCancelCallback, 'Raising a cancel event on a listener with no cancel callback');
         return this.cancelCallback.call(null, error);
     }
     get hasCancelCallback() {
@@ -16102,7 +18207,7 @@ class OnDisconnect {
      * @returns Resolves when synchronization to the server is complete.
      */
     cancel() {
-        const deferred = new Deferred();
+        const deferred = new _firebase_util__WEBPACK_IMPORTED_MODULE_1__.Deferred();
         repoOnDisconnectCancel(this._repo, this._path, deferred.wrapCallback(() => { }));
         return deferred.promise;
     }
@@ -16114,7 +18219,7 @@ class OnDisconnect {
      */
     remove() {
         validateWritablePath('OnDisconnect.remove', this._path);
-        const deferred = new Deferred();
+        const deferred = new _firebase_util__WEBPACK_IMPORTED_MODULE_1__.Deferred();
         repoOnDisconnectSet(this._repo, this._path, null, deferred.wrapCallback(() => { }));
         return deferred.promise;
     }
@@ -16140,7 +18245,7 @@ class OnDisconnect {
     set(value) {
         validateWritablePath('OnDisconnect.set', this._path);
         validateFirebaseDataArg('OnDisconnect.set', value, this._path, false);
-        const deferred = new Deferred();
+        const deferred = new _firebase_util__WEBPACK_IMPORTED_MODULE_1__.Deferred();
         repoOnDisconnectSet(this._repo, this._path, value, deferred.wrapCallback(() => { }));
         return deferred.promise;
     }
@@ -16158,7 +18263,7 @@ class OnDisconnect {
         validateWritablePath('OnDisconnect.setWithPriority', this._path);
         validateFirebaseDataArg('OnDisconnect.setWithPriority', value, this._path, false);
         validatePriority('OnDisconnect.setWithPriority', priority, false);
-        const deferred = new Deferred();
+        const deferred = new _firebase_util__WEBPACK_IMPORTED_MODULE_1__.Deferred();
         repoOnDisconnectSetWithPriority(this._repo, this._path, value, priority, deferred.wrapCallback(() => { }));
         return deferred.promise;
     }
@@ -16181,7 +18286,7 @@ class OnDisconnect {
     update(values) {
         validateWritablePath('OnDisconnect.update', this._path);
         validateFirebaseMergeDataArg('OnDisconnect.update', values, this._path, false);
-        const deferred = new Deferred();
+        const deferred = new _firebase_util__WEBPACK_IMPORTED_MODULE_1__.Deferred();
         repoOnDisconnectUpdate(this._repo, this._path, values, deferred.wrapCallback(() => { }));
         return deferred.promise;
     }
@@ -16239,7 +18344,7 @@ class QueryImpl {
         return queryParamsGetQueryObject(this._queryParams);
     }
     isEqual(other) {
-        other = index_node_esm_getModularInstance(other);
+        other = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.getModularInstance)(other);
         if (!(other instanceof QueryImpl)) {
             return false;
         }
@@ -16308,7 +18413,7 @@ function validateQueryEndpoints(params) {
         }
     }
     else {
-        assert(params.getIndex() instanceof PathIndex ||
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(params.getIndex() instanceof PathIndex ||
             params.getIndex() === VALUE_INDEX, 'unknown index type.');
         if ((startNode != null && typeof startNode === 'object') ||
             (endNode != null && typeof endNode === 'object')) {
@@ -16542,7 +18647,7 @@ class DataSnapshot {
  *   root of the Database.
  */
 function ref(db, path) {
-    db = index_node_esm_getModularInstance(db);
+    db = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.getModularInstance)(db);
     db._checkNotDeleted('ref');
     return path !== undefined ? child(db._root, path) : db._root;
 }
@@ -16563,7 +18668,7 @@ function ref(db, path) {
  *   Firebase URL.
  */
 function refFromURL(db, url) {
-    db = getModularInstance(db);
+    db = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.getModularInstance)(db);
     db._checkNotDeleted('refFromURL');
     const parsedURL = parseRepoInfo(url, db._repo.repoInfo_.nodeAdmin);
     validateUrl('refFromURL', parsedURL);
@@ -16592,7 +18697,7 @@ function refFromURL(db, url) {
  * @returns The specified child location.
  */
 function child(parent, path) {
-    parent = index_node_esm_getModularInstance(parent);
+    parent = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.getModularInstance)(parent);
     if (pathGetFront(parent._path) === null) {
         validateRootPathString('child', 'path', path, false);
     }
@@ -16609,7 +18714,7 @@ function child(parent, path) {
  * @param ref - The reference to add OnDisconnect triggers for.
  */
 function onDisconnect(ref) {
-    ref = getModularInstance(ref);
+    ref = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.getModularInstance)(ref);
     return new OnDisconnect(ref._repo, ref._path);
 }
 /**
@@ -16636,7 +18741,7 @@ function onDisconnect(ref) {
  * but can be used immediately as the `Reference` to the child location.
  */
 function push(parent, value) {
-    parent = getModularInstance(parent);
+    parent = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.getModularInstance)(parent);
     validateWritablePath('push', parent._path);
     validateFirebaseDataArg('push', value, parent._path, true);
     const now = repoServerTime(parent._repo);
@@ -16708,10 +18813,10 @@ function remove(ref) {
  * @returns Resolves when write to server is complete.
  */
 function set(ref, value) {
-    ref = getModularInstance(ref);
+    ref = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.getModularInstance)(ref);
     validateWritablePath('set', ref._path);
     validateFirebaseDataArg('set', value, ref._path, false);
-    const deferred = new Deferred();
+    const deferred = new _firebase_util__WEBPACK_IMPORTED_MODULE_1__.Deferred();
     repoSetWithPriority(ref._repo, ref._path, value, 
     /*priority=*/ null, deferred.wrapCallback(() => { }));
     return deferred.promise;
@@ -16729,10 +18834,10 @@ function set(ref, value) {
  * @returns Resolves when write to server is complete.
  */
 function setPriority(ref, priority) {
-    ref = getModularInstance(ref);
+    ref = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.getModularInstance)(ref);
     validateWritablePath('setPriority', ref._path);
     validatePriority('setPriority', priority, false);
-    const deferred = new Deferred();
+    const deferred = new _firebase_util__WEBPACK_IMPORTED_MODULE_1__.Deferred();
     repoSetWithPriority(ref._repo, pathChild(ref._path, '.priority'), priority, null, deferred.wrapCallback(() => { }));
     return deferred.promise;
 }
@@ -16758,7 +18863,7 @@ function setWithPriority(ref, value, priority) {
     if (ref.key === '.length' || ref.key === '.keys') {
         throw 'setWithPriority failed: ' + ref.key + ' is a read-only object.';
     }
-    const deferred = new Deferred();
+    const deferred = new _firebase_util__WEBPACK_IMPORTED_MODULE_1__.Deferred();
     repoSetWithPriority(ref._repo, ref._path, value, priority, deferred.wrapCallback(() => { }));
     return deferred.promise;
 }
@@ -16799,7 +18904,7 @@ function setWithPriority(ref, value, priority) {
  */
 function update(ref, values) {
     validateFirebaseMergeDataArg('update', values, ref._path, false);
-    const deferred = new Deferred();
+    const deferred = new _firebase_util__WEBPACK_IMPORTED_MODULE_1__.Deferred();
     repoUpdate(ref._repo, ref._path, values, deferred.wrapCallback(() => { }));
     return deferred.promise;
 }
@@ -16812,7 +18917,7 @@ function update(ref, values) {
  * server is unreachable and there is nothing cached).
  */
 function get(query) {
-    query = index_node_esm_getModularInstance(query);
+    query = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.getModularInstance)(query);
     return repoGetValue(query._repo, query).then(node => {
         return new DataSnapshot(node, new ReferenceImpl(query._repo, query._path), query._queryParams.getIndex());
     });
@@ -16886,7 +18991,7 @@ class ChildEventRegistration {
         }
     }
     createEvent(change, query) {
-        assert(change.childName != null, 'Child events should have a childName.');
+        (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.assert)(change.childName != null, 'Child events should have a childName.');
         const childRef = child(new ReferenceImpl(query._repo, query._path), change.childName);
         const index = query._queryParams.getIndex();
         return new DataEvent(change.type, this, new DataSnapshot(change.snapshotNode, childRef, index), change.prevName);
@@ -17000,7 +19105,7 @@ function off(query, eventType, callback) {
  */
 class QueryConstraint {
 }
-class QueryEndAtConstraint extends (/* unused pure expression or super */ null && (QueryConstraint)) {
+class QueryEndAtConstraint extends QueryConstraint {
     constructor(_value, _key) {
         super();
         this._value = _value;
@@ -17045,7 +19150,7 @@ function endAt(value, key) {
     validateKey('endAt', 'key', key, true);
     return new QueryEndAtConstraint(value, key);
 }
-class QueryEndBeforeConstraint extends (/* unused pure expression or super */ null && (QueryConstraint)) {
+class QueryEndBeforeConstraint extends QueryConstraint {
     constructor(_value, _key) {
         super();
         this._value = _value;
@@ -17086,7 +19191,7 @@ function endBefore(value, key) {
     validateKey('endBefore', 'key', key, true);
     return new QueryEndBeforeConstraint(value, key);
 }
-class QueryStartAtConstraint extends (/* unused pure expression or super */ null && (QueryConstraint)) {
+class QueryStartAtConstraint extends QueryConstraint {
     constructor(_value, _key) {
         super();
         this._value = _value;
@@ -17130,7 +19235,7 @@ function startAt(value = null, key) {
     validateKey('startAt', 'key', key, true);
     return new QueryStartAtConstraint(value, key);
 }
-class QueryStartAfterConstraint extends (/* unused pure expression or super */ null && (QueryConstraint)) {
+class QueryStartAfterConstraint extends QueryConstraint {
     constructor(_value, _key) {
         super();
         this._value = _value;
@@ -17170,7 +19275,7 @@ function startAfter(value, key) {
     validateKey('startAfter', 'key', key, true);
     return new QueryStartAfterConstraint(value, key);
 }
-class QueryLimitToFirstConstraint extends (/* unused pure expression or super */ null && (QueryConstraint)) {
+class QueryLimitToFirstConstraint extends QueryConstraint {
     constructor(_limit) {
         super();
         this._limit = _limit;
@@ -17207,7 +19312,7 @@ function limitToFirst(limit) {
     }
     return new QueryLimitToFirstConstraint(limit);
 }
-class QueryLimitToLastConstraint extends (/* unused pure expression or super */ null && (QueryConstraint)) {
+class QueryLimitToLastConstraint extends QueryConstraint {
     constructor(_limit) {
         super();
         this._limit = _limit;
@@ -17244,7 +19349,7 @@ function limitToLast(limit) {
     }
     return new QueryLimitToLastConstraint(limit);
 }
-class QueryOrderByChildConstraint extends (/* unused pure expression or super */ null && (QueryConstraint)) {
+class QueryOrderByChildConstraint extends QueryConstraint {
     constructor(_path) {
         super();
         this._path = _path;
@@ -17292,7 +19397,7 @@ function orderByChild(path) {
     validatePathString('orderByChild', 'path', path, false);
     return new QueryOrderByChildConstraint(path);
 }
-class QueryOrderByKeyConstraint extends (/* unused pure expression or super */ null && (QueryConstraint)) {
+class QueryOrderByKeyConstraint extends QueryConstraint {
     _apply(query) {
         validateNoPreviousOrderByCall(query, 'orderByKey');
         const newParams = queryParamsOrderBy(query._queryParams, KEY_INDEX);
@@ -17312,7 +19417,7 @@ class QueryOrderByKeyConstraint extends (/* unused pure expression or super */ n
 function orderByKey() {
     return new QueryOrderByKeyConstraint();
 }
-class QueryOrderByPriorityConstraint extends (/* unused pure expression or super */ null && (QueryConstraint)) {
+class QueryOrderByPriorityConstraint extends QueryConstraint {
     _apply(query) {
         validateNoPreviousOrderByCall(query, 'orderByPriority');
         const newParams = queryParamsOrderBy(query._queryParams, PRIORITY_INDEX);
@@ -17332,7 +19437,7 @@ class QueryOrderByPriorityConstraint extends (/* unused pure expression or super
 function orderByPriority() {
     return new QueryOrderByPriorityConstraint();
 }
-class QueryOrderByValueConstraint extends (/* unused pure expression or super */ null && (QueryConstraint)) {
+class QueryOrderByValueConstraint extends QueryConstraint {
     _apply(query) {
         validateNoPreviousOrderByCall(query, 'orderByValue');
         const newParams = queryParamsOrderBy(query._queryParams, VALUE_INDEX);
@@ -17353,7 +19458,7 @@ class QueryOrderByValueConstraint extends (/* unused pure expression or super */
 function orderByValue() {
     return new QueryOrderByValueConstraint();
 }
-class QueryEqualToValueConstraint extends (/* unused pure expression or super */ null && (QueryConstraint)) {
+class QueryEqualToValueConstraint extends QueryConstraint {
     constructor(_value, _key) {
         super();
         this._value = _value;
@@ -17409,7 +19514,7 @@ function equalTo(value, key) {
  * existing or new constraints.
  */
 function query(query, ...queryConstraints) {
-    let queryImpl = getModularInstance(query);
+    let queryImpl = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.getModularInstance)(query);
     for (const constraint of queryConstraints) {
         queryImpl = constraint._apply(queryImpl);
     }
@@ -17602,8 +19707,8 @@ class Database {
  * provided, the SDK connects to the default instance of the Firebase App.
  * @returns The `Database` instance of the provided app.
  */
-function getDatabase(app = getApp(), url) {
-    return _getProvider(app, 'database').getImmediate({
+function getDatabase(app = (0,_firebase_app__WEBPACK_IMPORTED_MODULE_3__.getApp)(), url) {
+    return (0,_firebase_app__WEBPACK_IMPORTED_MODULE_3__._getProvider)(app, 'database').getImmediate({
         identifier: url
     });
 }
@@ -17619,7 +19724,7 @@ function getDatabase(app = getApp(), url) {
  * @param options.mockUserToken - the mock auth token to use for unit testing Security Rules
  */
 function connectDatabaseEmulator(db, host, port, options = {}) {
-    db = getModularInstance(db);
+    db = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.getModularInstance)(db);
     db._checkNotDeleted('useEmulator');
     if (db._instanceStarted) {
         fatal('Cannot call useEmulator() after instance has already been initialized.');
@@ -17635,7 +19740,7 @@ function connectDatabaseEmulator(db, host, port, options = {}) {
     else if (options.mockUserToken) {
         const token = typeof options.mockUserToken === 'string'
             ? options.mockUserToken
-            : createMockUserToken(options.mockUserToken, db.app.options.projectId);
+            : (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.createMockUserToken)(options.mockUserToken, db.app.options.projectId);
         tokenProvider = new EmulatorTokenProvider(token);
     }
     // Modify the repo to apply emulator settings
@@ -17663,7 +19768,7 @@ function connectDatabaseEmulator(db, host, port, options = {}) {
  * @param db - The instance to disconnect.
  */
 function goOffline(db) {
-    db = getModularInstance(db);
+    db = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.getModularInstance)(db);
     db._checkNotDeleted('goOffline');
     repoInterrupt(db._repo);
 }
@@ -17679,7 +19784,7 @@ function goOffline(db) {
  * @param db - The instance to reconnect.
  */
 function goOnline(db) {
-    db = getModularInstance(db);
+    db = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.getModularInstance)(db);
     db._checkNotDeleted('goOnline');
     repoResume(db._repo);
 }
@@ -17704,16 +19809,16 @@ function enableLogging(logger, persistent) {
  * limitations under the License.
  */
 function registerDatabase(variant) {
-    setSDKVersion(SDK_VERSION);
-    _registerComponent(new Component('database', (container, { instanceIdentifier: url }) => {
+    setSDKVersion(_firebase_app__WEBPACK_IMPORTED_MODULE_3__.SDK_VERSION);
+    (0,_firebase_app__WEBPACK_IMPORTED_MODULE_3__._registerComponent)(new _firebase_component__WEBPACK_IMPORTED_MODULE_4__.Component('database', (container, { instanceIdentifier: url }) => {
         const app = container.getProvider('app').getImmediate();
         const authProvider = container.getProvider('auth-internal');
         const appCheckProvider = container.getProvider('app-check-internal');
         return repoManagerDatabaseFromApp(app, authProvider, appCheckProvider, url);
     }, "PUBLIC" /* PUBLIC */).setMultipleInstances(true));
-    registerVersion(index_node_esm_name, index_node_esm_version, variant);
+    (0,_firebase_app__WEBPACK_IMPORTED_MODULE_3__.registerVersion)(name, version, variant);
     // BUILD_TARGET will be replaced by values like esm5, esm2017, cjs5, etc during the compilation
-    registerVersion(index_node_esm_name, index_node_esm_version, 'esm2017');
+    (0,_firebase_app__WEBPACK_IMPORTED_MODULE_3__.registerVersion)(name, version, 'esm2017');
 }
 
 /**
@@ -17833,13 +19938,13 @@ function runTransaction(ref,
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 transactionUpdate, options) {
     var _a;
-    ref = getModularInstance(ref);
+    ref = (0,_firebase_util__WEBPACK_IMPORTED_MODULE_1__.getModularInstance)(ref);
     validateWritablePath('Reference.transaction', ref._path);
     if (ref.key === '.length' || ref.key === '.keys') {
         throw ('Reference.transaction failed: ' + ref.key + ' is a read-only object.');
     }
     const applyLocally = (_a = options === null || options === void 0 ? void 0 : options.applyLocally) !== null && _a !== void 0 ? _a : true;
-    const deferred = new Deferred();
+    const deferred = new _firebase_util__WEBPACK_IMPORTED_MODULE_1__.Deferred();
     const promiseComplete = (error, committed, node) => {
         let dataSnapshot = null;
         if (error) {
@@ -17923,3044 +20028,2370 @@ const forceRestClient = function (forceRestClient) {
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-setWebSocketImpl(websocket.Client);
+setWebSocketImpl(faye_websocket__WEBPACK_IMPORTED_MODULE_0__.Client);
 registerDatabase('node');
 
 
 //# sourceMappingURL=index.node.esm.js.map
 
-;// CONCATENATED MODULE: ./node_modules/firebase/database/dist/index.mjs
+
+/***/ }),
+
+/***/ "./node_modules/@firebase/logger/dist/esm/index.esm2017.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/@firebase/logger/dist/esm/index.esm2017.js ***!
+  \*****************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "LogLevel": () => (/* binding */ LogLevel),
+/* harmony export */   "Logger": () => (/* binding */ Logger),
+/* harmony export */   "setLogLevel": () => (/* binding */ setLogLevel),
+/* harmony export */   "setUserLogHandler": () => (/* binding */ setUserLogHandler)
+/* harmony export */ });
+/**
+ * @license
+ * Copyright 2017 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+ * A container for all of the Logger instances
+ */
+const instances = [];
+/**
+ * The JS SDK supports 5 log levels and also allows a user the ability to
+ * silence the logs altogether.
+ *
+ * The order is a follows:
+ * DEBUG < VERBOSE < INFO < WARN < ERROR
+ *
+ * All of the log types above the current log level will be captured (i.e. if
+ * you set the log level to `INFO`, errors will still be logged, but `DEBUG` and
+ * `VERBOSE` logs will not)
+ */
+var LogLevel;
+(function (LogLevel) {
+    LogLevel[LogLevel["DEBUG"] = 0] = "DEBUG";
+    LogLevel[LogLevel["VERBOSE"] = 1] = "VERBOSE";
+    LogLevel[LogLevel["INFO"] = 2] = "INFO";
+    LogLevel[LogLevel["WARN"] = 3] = "WARN";
+    LogLevel[LogLevel["ERROR"] = 4] = "ERROR";
+    LogLevel[LogLevel["SILENT"] = 5] = "SILENT";
+})(LogLevel || (LogLevel = {}));
+const levelStringToEnum = {
+    'debug': LogLevel.DEBUG,
+    'verbose': LogLevel.VERBOSE,
+    'info': LogLevel.INFO,
+    'warn': LogLevel.WARN,
+    'error': LogLevel.ERROR,
+    'silent': LogLevel.SILENT
+};
+/**
+ * The default log level
+ */
+const defaultLogLevel = LogLevel.INFO;
+/**
+ * By default, `console.debug` is not displayed in the developer console (in
+ * chrome). To avoid forcing users to have to opt-in to these logs twice
+ * (i.e. once for firebase, and once in the console), we are sending `DEBUG`
+ * logs to the `console.log` function.
+ */
+const ConsoleMethod = {
+    [LogLevel.DEBUG]: 'log',
+    [LogLevel.VERBOSE]: 'log',
+    [LogLevel.INFO]: 'info',
+    [LogLevel.WARN]: 'warn',
+    [LogLevel.ERROR]: 'error'
+};
+/**
+ * The default log handler will forward DEBUG, VERBOSE, INFO, WARN, and ERROR
+ * messages on to their corresponding console counterparts (if the log method
+ * is supported by the current log level)
+ */
+const defaultLogHandler = (instance, logType, ...args) => {
+    if (logType < instance.logLevel) {
+        return;
+    }
+    const now = new Date().toISOString();
+    const method = ConsoleMethod[logType];
+    if (method) {
+        console[method](`[${now}]  ${instance.name}:`, ...args);
+    }
+    else {
+        throw new Error(`Attempted to log a message with an invalid logType (value: ${logType})`);
+    }
+};
+class Logger {
+    /**
+     * Gives you an instance of a Logger to capture messages according to
+     * Firebase's logging scheme.
+     *
+     * @param name The name that the logs will be associated with
+     */
+    constructor(name) {
+        this.name = name;
+        /**
+         * The log level of the given Logger instance.
+         */
+        this._logLevel = defaultLogLevel;
+        /**
+         * The main (internal) log handler for the Logger instance.
+         * Can be set to a new function in internal package code but not by user.
+         */
+        this._logHandler = defaultLogHandler;
+        /**
+         * The optional, additional, user-defined log handler for the Logger instance.
+         */
+        this._userLogHandler = null;
+        /**
+         * Capture the current instance for later use
+         */
+        instances.push(this);
+    }
+    get logLevel() {
+        return this._logLevel;
+    }
+    set logLevel(val) {
+        if (!(val in LogLevel)) {
+            throw new TypeError(`Invalid value "${val}" assigned to \`logLevel\``);
+        }
+        this._logLevel = val;
+    }
+    // Workaround for setter/getter having to be the same type.
+    setLogLevel(val) {
+        this._logLevel = typeof val === 'string' ? levelStringToEnum[val] : val;
+    }
+    get logHandler() {
+        return this._logHandler;
+    }
+    set logHandler(val) {
+        if (typeof val !== 'function') {
+            throw new TypeError('Value assigned to `logHandler` must be a function');
+        }
+        this._logHandler = val;
+    }
+    get userLogHandler() {
+        return this._userLogHandler;
+    }
+    set userLogHandler(val) {
+        this._userLogHandler = val;
+    }
+    /**
+     * The functions below are all based on the `console` interface
+     */
+    debug(...args) {
+        this._userLogHandler && this._userLogHandler(this, LogLevel.DEBUG, ...args);
+        this._logHandler(this, LogLevel.DEBUG, ...args);
+    }
+    log(...args) {
+        this._userLogHandler &&
+            this._userLogHandler(this, LogLevel.VERBOSE, ...args);
+        this._logHandler(this, LogLevel.VERBOSE, ...args);
+    }
+    info(...args) {
+        this._userLogHandler && this._userLogHandler(this, LogLevel.INFO, ...args);
+        this._logHandler(this, LogLevel.INFO, ...args);
+    }
+    warn(...args) {
+        this._userLogHandler && this._userLogHandler(this, LogLevel.WARN, ...args);
+        this._logHandler(this, LogLevel.WARN, ...args);
+    }
+    error(...args) {
+        this._userLogHandler && this._userLogHandler(this, LogLevel.ERROR, ...args);
+        this._logHandler(this, LogLevel.ERROR, ...args);
+    }
+}
+function setLogLevel(level) {
+    instances.forEach(inst => {
+        inst.setLogLevel(level);
+    });
+}
+function setUserLogHandler(logCallback, options) {
+    for (const instance of instances) {
+        let customLogLevel = null;
+        if (options && options.level) {
+            customLogLevel = levelStringToEnum[options.level];
+        }
+        if (logCallback === null) {
+            instance.userLogHandler = null;
+        }
+        else {
+            instance.userLogHandler = (instance, level, ...args) => {
+                const message = args
+                    .map(arg => {
+                    if (arg == null) {
+                        return null;
+                    }
+                    else if (typeof arg === 'string') {
+                        return arg;
+                    }
+                    else if (typeof arg === 'number' || typeof arg === 'boolean') {
+                        return arg.toString();
+                    }
+                    else if (arg instanceof Error) {
+                        return arg.message;
+                    }
+                    else {
+                        try {
+                            return JSON.stringify(arg);
+                        }
+                        catch (ignored) {
+                            return null;
+                        }
+                    }
+                })
+                    .filter(arg => arg)
+                    .join(' ');
+                if (level >= (customLogLevel !== null && customLogLevel !== void 0 ? customLogLevel : instance.logLevel)) {
+                    logCallback({
+                        level: LogLevel[level].toLowerCase(),
+                        message,
+                        args,
+                        type: instance.name
+                    });
+                }
+            };
+        }
+    }
+}
+
+
+//# sourceMappingURL=index.esm2017.js.map
+
+
+/***/ }),
+
+/***/ "./node_modules/@firebase/util/dist/node-esm/index.node.esm.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/@firebase/util/dist/node-esm/index.node.esm.js ***!
+  \*********************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "CONSTANTS": () => (/* binding */ CONSTANTS),
+/* harmony export */   "Deferred": () => (/* binding */ Deferred),
+/* harmony export */   "ErrorFactory": () => (/* binding */ ErrorFactory),
+/* harmony export */   "FirebaseError": () => (/* binding */ FirebaseError),
+/* harmony export */   "MAX_VALUE_MILLIS": () => (/* binding */ MAX_VALUE_MILLIS),
+/* harmony export */   "RANDOM_FACTOR": () => (/* binding */ RANDOM_FACTOR),
+/* harmony export */   "Sha1": () => (/* binding */ Sha1),
+/* harmony export */   "areCookiesEnabled": () => (/* binding */ areCookiesEnabled),
+/* harmony export */   "assert": () => (/* binding */ assert),
+/* harmony export */   "assertionError": () => (/* binding */ assertionError),
+/* harmony export */   "async": () => (/* binding */ async),
+/* harmony export */   "base64": () => (/* binding */ base64),
+/* harmony export */   "base64Decode": () => (/* binding */ base64Decode),
+/* harmony export */   "base64Encode": () => (/* binding */ base64Encode),
+/* harmony export */   "base64urlEncodeWithoutPadding": () => (/* binding */ base64urlEncodeWithoutPadding),
+/* harmony export */   "calculateBackoffMillis": () => (/* binding */ calculateBackoffMillis),
+/* harmony export */   "contains": () => (/* binding */ contains),
+/* harmony export */   "createMockUserToken": () => (/* binding */ createMockUserToken),
+/* harmony export */   "createSubscribe": () => (/* binding */ createSubscribe),
+/* harmony export */   "decode": () => (/* binding */ decode),
+/* harmony export */   "deepCopy": () => (/* binding */ deepCopy),
+/* harmony export */   "deepEqual": () => (/* binding */ deepEqual),
+/* harmony export */   "deepExtend": () => (/* binding */ deepExtend),
+/* harmony export */   "errorPrefix": () => (/* binding */ errorPrefix),
+/* harmony export */   "extractQuerystring": () => (/* binding */ extractQuerystring),
+/* harmony export */   "getGlobal": () => (/* binding */ getGlobal),
+/* harmony export */   "getModularInstance": () => (/* binding */ getModularInstance),
+/* harmony export */   "getUA": () => (/* binding */ getUA),
+/* harmony export */   "isAdmin": () => (/* binding */ isAdmin),
+/* harmony export */   "isBrowser": () => (/* binding */ isBrowser),
+/* harmony export */   "isBrowserExtension": () => (/* binding */ isBrowserExtension),
+/* harmony export */   "isElectron": () => (/* binding */ isElectron),
+/* harmony export */   "isEmpty": () => (/* binding */ isEmpty),
+/* harmony export */   "isIE": () => (/* binding */ isIE),
+/* harmony export */   "isIndexedDBAvailable": () => (/* binding */ isIndexedDBAvailable),
+/* harmony export */   "isMobileCordova": () => (/* binding */ isMobileCordova),
+/* harmony export */   "isNode": () => (/* binding */ isNode),
+/* harmony export */   "isNodeSdk": () => (/* binding */ isNodeSdk),
+/* harmony export */   "isReactNative": () => (/* binding */ isReactNative),
+/* harmony export */   "isSafari": () => (/* binding */ isSafari),
+/* harmony export */   "isUWP": () => (/* binding */ isUWP),
+/* harmony export */   "isValidFormat": () => (/* binding */ isValidFormat),
+/* harmony export */   "isValidTimestamp": () => (/* binding */ isValidTimestamp),
+/* harmony export */   "issuedAtTime": () => (/* binding */ issuedAtTime),
+/* harmony export */   "jsonEval": () => (/* binding */ jsonEval),
+/* harmony export */   "map": () => (/* binding */ map),
+/* harmony export */   "ordinal": () => (/* binding */ ordinal),
+/* harmony export */   "querystring": () => (/* binding */ querystring),
+/* harmony export */   "querystringDecode": () => (/* binding */ querystringDecode),
+/* harmony export */   "safeGet": () => (/* binding */ safeGet),
+/* harmony export */   "stringLength": () => (/* binding */ stringLength),
+/* harmony export */   "stringToByteArray": () => (/* binding */ stringToByteArray),
+/* harmony export */   "stringify": () => (/* binding */ stringify),
+/* harmony export */   "validateArgCount": () => (/* binding */ validateArgCount),
+/* harmony export */   "validateCallback": () => (/* binding */ validateCallback),
+/* harmony export */   "validateContextObject": () => (/* binding */ validateContextObject),
+/* harmony export */   "validateIndexedDBOpenable": () => (/* binding */ validateIndexedDBOpenable),
+/* harmony export */   "validateNamespace": () => (/* binding */ validateNamespace)
+/* harmony export */ });
+/**
+ * @license
+ * Copyright 2017 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+ * @fileoverview Firebase constants.  Some of these (@defines) can be overridden at compile-time.
+ */
+const CONSTANTS = {
+    /**
+     * @define {boolean} Whether this is the client Node.js SDK.
+     */
+    NODE_CLIENT: false,
+    /**
+     * @define {boolean} Whether this is the Admin Node.js SDK.
+     */
+    NODE_ADMIN: false,
+    /**
+     * Firebase SDK Version
+     */
+    SDK_VERSION: '${JSCORE_VERSION}'
+};
+
+/**
+ * @license
+ * Copyright 2017 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+ * Throws an error if the provided assertion is falsy
+ */
+const assert = function (assertion, message) {
+    if (!assertion) {
+        throw assertionError(message);
+    }
+};
+/**
+ * Returns an Error object suitable for throwing.
+ */
+const assertionError = function (message) {
+    return new Error('Firebase Database (' +
+        CONSTANTS.SDK_VERSION +
+        ') INTERNAL ASSERT FAILED: ' +
+        message);
+};
+
+/**
+ * @license
+ * Copyright 2017 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+const stringToByteArray$1 = function (str) {
+    // TODO(user): Use native implementations if/when available
+    const out = [];
+    let p = 0;
+    for (let i = 0; i < str.length; i++) {
+        let c = str.charCodeAt(i);
+        if (c < 128) {
+            out[p++] = c;
+        }
+        else if (c < 2048) {
+            out[p++] = (c >> 6) | 192;
+            out[p++] = (c & 63) | 128;
+        }
+        else if ((c & 0xfc00) === 0xd800 &&
+            i + 1 < str.length &&
+            (str.charCodeAt(i + 1) & 0xfc00) === 0xdc00) {
+            // Surrogate Pair
+            c = 0x10000 + ((c & 0x03ff) << 10) + (str.charCodeAt(++i) & 0x03ff);
+            out[p++] = (c >> 18) | 240;
+            out[p++] = ((c >> 12) & 63) | 128;
+            out[p++] = ((c >> 6) & 63) | 128;
+            out[p++] = (c & 63) | 128;
+        }
+        else {
+            out[p++] = (c >> 12) | 224;
+            out[p++] = ((c >> 6) & 63) | 128;
+            out[p++] = (c & 63) | 128;
+        }
+    }
+    return out;
+};
+/**
+ * Turns an array of numbers into the string given by the concatenation of the
+ * characters to which the numbers correspond.
+ * @param bytes Array of numbers representing characters.
+ * @return Stringification of the array.
+ */
+const byteArrayToString = function (bytes) {
+    // TODO(user): Use native implementations if/when available
+    const out = [];
+    let pos = 0, c = 0;
+    while (pos < bytes.length) {
+        const c1 = bytes[pos++];
+        if (c1 < 128) {
+            out[c++] = String.fromCharCode(c1);
+        }
+        else if (c1 > 191 && c1 < 224) {
+            const c2 = bytes[pos++];
+            out[c++] = String.fromCharCode(((c1 & 31) << 6) | (c2 & 63));
+        }
+        else if (c1 > 239 && c1 < 365) {
+            // Surrogate Pair
+            const c2 = bytes[pos++];
+            const c3 = bytes[pos++];
+            const c4 = bytes[pos++];
+            const u = (((c1 & 7) << 18) | ((c2 & 63) << 12) | ((c3 & 63) << 6) | (c4 & 63)) -
+                0x10000;
+            out[c++] = String.fromCharCode(0xd800 + (u >> 10));
+            out[c++] = String.fromCharCode(0xdc00 + (u & 1023));
+        }
+        else {
+            const c2 = bytes[pos++];
+            const c3 = bytes[pos++];
+            out[c++] = String.fromCharCode(((c1 & 15) << 12) | ((c2 & 63) << 6) | (c3 & 63));
+        }
+    }
+    return out.join('');
+};
+// We define it as an object literal instead of a class because a class compiled down to es5 can't
+// be treeshaked. https://github.com/rollup/rollup/issues/1691
+// Static lookup maps, lazily populated by init_()
+const base64 = {
+    /**
+     * Maps bytes to characters.
+     */
+    byteToCharMap_: null,
+    /**
+     * Maps characters to bytes.
+     */
+    charToByteMap_: null,
+    /**
+     * Maps bytes to websafe characters.
+     * @private
+     */
+    byteToCharMapWebSafe_: null,
+    /**
+     * Maps websafe characters to bytes.
+     * @private
+     */
+    charToByteMapWebSafe_: null,
+    /**
+     * Our default alphabet, shared between
+     * ENCODED_VALS and ENCODED_VALS_WEBSAFE
+     */
+    ENCODED_VALS_BASE: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' + 'abcdefghijklmnopqrstuvwxyz' + '0123456789',
+    /**
+     * Our default alphabet. Value 64 (=) is special; it means "nothing."
+     */
+    get ENCODED_VALS() {
+        return this.ENCODED_VALS_BASE + '+/=';
+    },
+    /**
+     * Our websafe alphabet.
+     */
+    get ENCODED_VALS_WEBSAFE() {
+        return this.ENCODED_VALS_BASE + '-_.';
+    },
+    /**
+     * Whether this browser supports the atob and btoa functions. This extension
+     * started at Mozilla but is now implemented by many browsers. We use the
+     * ASSUME_* variables to avoid pulling in the full useragent detection library
+     * but still allowing the standard per-browser compilations.
+     *
+     */
+    HAS_NATIVE_SUPPORT: typeof atob === 'function',
+    /**
+     * Base64-encode an array of bytes.
+     *
+     * @param input An array of bytes (numbers with
+     *     value in [0, 255]) to encode.
+     * @param webSafe Boolean indicating we should use the
+     *     alternative alphabet.
+     * @return The base64 encoded string.
+     */
+    encodeByteArray(input, webSafe) {
+        if (!Array.isArray(input)) {
+            throw Error('encodeByteArray takes an array as a parameter');
+        }
+        this.init_();
+        const byteToCharMap = webSafe
+            ? this.byteToCharMapWebSafe_
+            : this.byteToCharMap_;
+        const output = [];
+        for (let i = 0; i < input.length; i += 3) {
+            const byte1 = input[i];
+            const haveByte2 = i + 1 < input.length;
+            const byte2 = haveByte2 ? input[i + 1] : 0;
+            const haveByte3 = i + 2 < input.length;
+            const byte3 = haveByte3 ? input[i + 2] : 0;
+            const outByte1 = byte1 >> 2;
+            const outByte2 = ((byte1 & 0x03) << 4) | (byte2 >> 4);
+            let outByte3 = ((byte2 & 0x0f) << 2) | (byte3 >> 6);
+            let outByte4 = byte3 & 0x3f;
+            if (!haveByte3) {
+                outByte4 = 64;
+                if (!haveByte2) {
+                    outByte3 = 64;
+                }
+            }
+            output.push(byteToCharMap[outByte1], byteToCharMap[outByte2], byteToCharMap[outByte3], byteToCharMap[outByte4]);
+        }
+        return output.join('');
+    },
+    /**
+     * Base64-encode a string.
+     *
+     * @param input A string to encode.
+     * @param webSafe If true, we should use the
+     *     alternative alphabet.
+     * @return The base64 encoded string.
+     */
+    encodeString(input, webSafe) {
+        // Shortcut for Mozilla browsers that implement
+        // a native base64 encoder in the form of "btoa/atob"
+        if (this.HAS_NATIVE_SUPPORT && !webSafe) {
+            return btoa(input);
+        }
+        return this.encodeByteArray(stringToByteArray$1(input), webSafe);
+    },
+    /**
+     * Base64-decode a string.
+     *
+     * @param input to decode.
+     * @param webSafe True if we should use the
+     *     alternative alphabet.
+     * @return string representing the decoded value.
+     */
+    decodeString(input, webSafe) {
+        // Shortcut for Mozilla browsers that implement
+        // a native base64 encoder in the form of "btoa/atob"
+        if (this.HAS_NATIVE_SUPPORT && !webSafe) {
+            return atob(input);
+        }
+        return byteArrayToString(this.decodeStringToByteArray(input, webSafe));
+    },
+    /**
+     * Base64-decode a string.
+     *
+     * In base-64 decoding, groups of four characters are converted into three
+     * bytes.  If the encoder did not apply padding, the input length may not
+     * be a multiple of 4.
+     *
+     * In this case, the last group will have fewer than 4 characters, and
+     * padding will be inferred.  If the group has one or two characters, it decodes
+     * to one byte.  If the group has three characters, it decodes to two bytes.
+     *
+     * @param input Input to decode.
+     * @param webSafe True if we should use the web-safe alphabet.
+     * @return bytes representing the decoded value.
+     */
+    decodeStringToByteArray(input, webSafe) {
+        this.init_();
+        const charToByteMap = webSafe
+            ? this.charToByteMapWebSafe_
+            : this.charToByteMap_;
+        const output = [];
+        for (let i = 0; i < input.length;) {
+            const byte1 = charToByteMap[input.charAt(i++)];
+            const haveByte2 = i < input.length;
+            const byte2 = haveByte2 ? charToByteMap[input.charAt(i)] : 0;
+            ++i;
+            const haveByte3 = i < input.length;
+            const byte3 = haveByte3 ? charToByteMap[input.charAt(i)] : 64;
+            ++i;
+            const haveByte4 = i < input.length;
+            const byte4 = haveByte4 ? charToByteMap[input.charAt(i)] : 64;
+            ++i;
+            if (byte1 == null || byte2 == null || byte3 == null || byte4 == null) {
+                throw Error();
+            }
+            const outByte1 = (byte1 << 2) | (byte2 >> 4);
+            output.push(outByte1);
+            if (byte3 !== 64) {
+                const outByte2 = ((byte2 << 4) & 0xf0) | (byte3 >> 2);
+                output.push(outByte2);
+                if (byte4 !== 64) {
+                    const outByte3 = ((byte3 << 6) & 0xc0) | byte4;
+                    output.push(outByte3);
+                }
+            }
+        }
+        return output;
+    },
+    /**
+     * Lazy static initialization function. Called before
+     * accessing any of the static map variables.
+     * @private
+     */
+    init_() {
+        if (!this.byteToCharMap_) {
+            this.byteToCharMap_ = {};
+            this.charToByteMap_ = {};
+            this.byteToCharMapWebSafe_ = {};
+            this.charToByteMapWebSafe_ = {};
+            // We want quick mappings back and forth, so we precompute two maps.
+            for (let i = 0; i < this.ENCODED_VALS.length; i++) {
+                this.byteToCharMap_[i] = this.ENCODED_VALS.charAt(i);
+                this.charToByteMap_[this.byteToCharMap_[i]] = i;
+                this.byteToCharMapWebSafe_[i] = this.ENCODED_VALS_WEBSAFE.charAt(i);
+                this.charToByteMapWebSafe_[this.byteToCharMapWebSafe_[i]] = i;
+                // Be forgiving when decoding and correctly decode both encodings.
+                if (i >= this.ENCODED_VALS_BASE.length) {
+                    this.charToByteMap_[this.ENCODED_VALS_WEBSAFE.charAt(i)] = i;
+                    this.charToByteMapWebSafe_[this.ENCODED_VALS.charAt(i)] = i;
+                }
+            }
+        }
+    }
+};
+/**
+ * URL-safe base64 encoding
+ */
+const base64Encode = function (str) {
+    const utf8Bytes = stringToByteArray$1(str);
+    return base64.encodeByteArray(utf8Bytes, true);
+};
+/**
+ * URL-safe base64 encoding (without "." padding in the end).
+ * e.g. Used in JSON Web Token (JWT) parts.
+ */
+const base64urlEncodeWithoutPadding = function (str) {
+    // Use base64url encoding and remove padding in the end (dot characters).
+    return base64Encode(str).replace(/\./g, '');
+};
+/**
+ * URL-safe base64 decoding
+ *
+ * NOTE: DO NOT use the global atob() function - it does NOT support the
+ * base64Url variant encoding.
+ *
+ * @param str To be decoded
+ * @return Decoded result, if possible
+ */
+const base64Decode = function (str) {
+    try {
+        return base64.decodeString(str, true);
+    }
+    catch (e) {
+        console.error('base64Decode failed: ', e);
+    }
+    return null;
+};
+
+/**
+ * @license
+ * Copyright 2017 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+ * Do a deep-copy of basic JavaScript Objects or Arrays.
+ */
+function deepCopy(value) {
+    return deepExtend(undefined, value);
+}
+/**
+ * Copy properties from source to target (recursively allows extension
+ * of Objects and Arrays).  Scalar values in the target are over-written.
+ * If target is undefined, an object of the appropriate type will be created
+ * (and returned).
+ *
+ * We recursively copy all child properties of plain Objects in the source- so
+ * that namespace- like dictionaries are merged.
+ *
+ * Note that the target can be a function, in which case the properties in
+ * the source Object are copied onto it as static properties of the Function.
+ *
+ * Note: we don't merge __proto__ to prevent prototype pollution
+ */
+function deepExtend(target, source) {
+    if (!(source instanceof Object)) {
+        return source;
+    }
+    switch (source.constructor) {
+        case Date:
+            // Treat Dates like scalars; if the target date object had any child
+            // properties - they will be lost!
+            const dateValue = source;
+            return new Date(dateValue.getTime());
+        case Object:
+            if (target === undefined) {
+                target = {};
+            }
+            break;
+        case Array:
+            // Always copy the array source and overwrite the target.
+            target = [];
+            break;
+        default:
+            // Not a plain Object - treat it as a scalar.
+            return source;
+    }
+    for (const prop in source) {
+        // use isValidKey to guard against prototype pollution. See https://snyk.io/vuln/SNYK-JS-LODASH-450202
+        if (!source.hasOwnProperty(prop) || !isValidKey(prop)) {
+            continue;
+        }
+        target[prop] = deepExtend(target[prop], source[prop]);
+    }
+    return target;
+}
+function isValidKey(key) {
+    return key !== '__proto__';
+}
+
+/**
+ * @license
+ * Copyright 2017 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+class Deferred {
+    constructor() {
+        this.reject = () => { };
+        this.resolve = () => { };
+        this.promise = new Promise((resolve, reject) => {
+            this.resolve = resolve;
+            this.reject = reject;
+        });
+    }
+    /**
+     * Our API internals are not promiseified and cannot because our callback APIs have subtle expectations around
+     * invoking promises inline, which Promises are forbidden to do. This method accepts an optional node-style callback
+     * and returns a node-style callback which will resolve or reject the Deferred's promise.
+     */
+    wrapCallback(callback) {
+        return (error, value) => {
+            if (error) {
+                this.reject(error);
+            }
+            else {
+                this.resolve(value);
+            }
+            if (typeof callback === 'function') {
+                // Attaching noop handler just in case developer wasn't expecting
+                // promises
+                this.promise.catch(() => { });
+                // Some of our callbacks don't expect a value and our own tests
+                // assert that the parameter length is 1
+                if (callback.length === 1) {
+                    callback(error);
+                }
+                else {
+                    callback(error, value);
+                }
+            }
+        };
+    }
+}
+
+/**
+ * @license
+ * Copyright 2021 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+function createMockUserToken(token, projectId) {
+    if (token.uid) {
+        throw new Error('The "uid" field is no longer supported by mockUserToken. Please use "sub" instead for Firebase Auth User ID.');
+    }
+    // Unsecured JWTs use "none" as the algorithm.
+    const header = {
+        alg: 'none',
+        type: 'JWT'
+    };
+    const project = projectId || 'demo-project';
+    const iat = token.iat || 0;
+    const sub = token.sub || token.user_id;
+    if (!sub) {
+        throw new Error("mockUserToken must contain 'sub' or 'user_id' field!");
+    }
+    const payload = Object.assign({ 
+        // Set all required fields to decent defaults
+        iss: `https://securetoken.google.com/${project}`, aud: project, iat, exp: iat + 3600, auth_time: iat, sub, user_id: sub, firebase: {
+            sign_in_provider: 'custom',
+            identities: {}
+        } }, token);
+    // Unsecured JWTs use the empty string as a signature.
+    const signature = '';
+    return [
+        base64urlEncodeWithoutPadding(JSON.stringify(header)),
+        base64urlEncodeWithoutPadding(JSON.stringify(payload)),
+        signature
+    ].join('.');
+}
+
+/**
+ * @license
+ * Copyright 2017 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+ * Returns navigator.userAgent string or '' if it's not defined.
+ * @return user agent string
+ */
+function getUA() {
+    if (typeof navigator !== 'undefined' &&
+        typeof navigator['userAgent'] === 'string') {
+        return navigator['userAgent'];
+    }
+    else {
+        return '';
+    }
+}
+/**
+ * Detect Cordova / PhoneGap / Ionic frameworks on a mobile device.
+ *
+ * Deliberately does not rely on checking `file://` URLs (as this fails PhoneGap
+ * in the Ripple emulator) nor Cordova `onDeviceReady`, which would normally
+ * wait for a callback.
+ */
+function isMobileCordova() {
+    return (typeof window !== 'undefined' &&
+        // @ts-ignore Setting up an broadly applicable index signature for Window
+        // just to deal with this case would probably be a bad idea.
+        !!(window['cordova'] || window['phonegap'] || window['PhoneGap']) &&
+        /ios|iphone|ipod|ipad|android|blackberry|iemobile/i.test(getUA()));
+}
+/**
+ * Detect Node.js.
+ *
+ * @return true if Node.js environment is detected.
+ */
+// Node detection logic from: https://github.com/iliakan/detect-node/
+function isNode() {
+    try {
+        return (Object.prototype.toString.call(global.process) === '[object process]');
+    }
+    catch (e) {
+        return false;
+    }
+}
+/**
+ * Detect Browser Environment
+ */
+function isBrowser() {
+    return typeof self === 'object' && self.self === self;
+}
+function isBrowserExtension() {
+    const runtime = typeof chrome === 'object'
+        ? chrome.runtime
+        : typeof browser === 'object'
+            ? browser.runtime
+            : undefined;
+    return typeof runtime === 'object' && runtime.id !== undefined;
+}
+/**
+ * Detect React Native.
+ *
+ * @return true if ReactNative environment is detected.
+ */
+function isReactNative() {
+    return (typeof navigator === 'object' && navigator['product'] === 'ReactNative');
+}
+/** Detects Electron apps. */
+function isElectron() {
+    return getUA().indexOf('Electron/') >= 0;
+}
+/** Detects Internet Explorer. */
+function isIE() {
+    const ua = getUA();
+    return ua.indexOf('MSIE ') >= 0 || ua.indexOf('Trident/') >= 0;
+}
+/** Detects Universal Windows Platform apps. */
+function isUWP() {
+    return getUA().indexOf('MSAppHost/') >= 0;
+}
+/**
+ * Detect whether the current SDK build is the Node version.
+ *
+ * @return true if it's the Node SDK build.
+ */
+function isNodeSdk() {
+    return CONSTANTS.NODE_CLIENT === true || CONSTANTS.NODE_ADMIN === true;
+}
+/** Returns true if we are running in Safari. */
+function isSafari() {
+    return (!isNode() &&
+        navigator.userAgent.includes('Safari') &&
+        !navigator.userAgent.includes('Chrome'));
+}
+/**
+ * This method checks if indexedDB is supported by current browser/service worker context
+ * @return true if indexedDB is supported by current browser/service worker context
+ */
+function isIndexedDBAvailable() {
+    return typeof indexedDB === 'object';
+}
+/**
+ * This method validates browser/sw context for indexedDB by opening a dummy indexedDB database and reject
+ * if errors occur during the database open operation.
+ *
+ * @throws exception if current browser/sw context can't run idb.open (ex: Safari iframe, Firefox
+ * private browsing)
+ */
+function validateIndexedDBOpenable() {
+    return new Promise((resolve, reject) => {
+        try {
+            let preExist = true;
+            const DB_CHECK_NAME = 'validate-browser-context-for-indexeddb-analytics-module';
+            const request = self.indexedDB.open(DB_CHECK_NAME);
+            request.onsuccess = () => {
+                request.result.close();
+                // delete database only when it doesn't pre-exist
+                if (!preExist) {
+                    self.indexedDB.deleteDatabase(DB_CHECK_NAME);
+                }
+                resolve(true);
+            };
+            request.onupgradeneeded = () => {
+                preExist = false;
+            };
+            request.onerror = () => {
+                var _a;
+                reject(((_a = request.error) === null || _a === void 0 ? void 0 : _a.message) || '');
+            };
+        }
+        catch (error) {
+            reject(error);
+        }
+    });
+}
+/**
+ *
+ * This method checks whether cookie is enabled within current browser
+ * @return true if cookie is enabled within current browser
+ */
+function areCookiesEnabled() {
+    if (typeof navigator === 'undefined' || !navigator.cookieEnabled) {
+        return false;
+    }
+    return true;
+}
+/**
+ * Polyfill for `globalThis` object.
+ * @returns the `globalThis` object for the given environment.
+ */
+function getGlobal() {
+    if (typeof self !== 'undefined') {
+        return self;
+    }
+    if (typeof window !== 'undefined') {
+        return window;
+    }
+    if (typeof global !== 'undefined') {
+        return global;
+    }
+    throw new Error('Unable to locate global object.');
+}
+
+/**
+ * @license
+ * Copyright 2017 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+ * @fileoverview Standardized Firebase Error.
+ *
+ * Usage:
+ *
+ *   // Typescript string literals for type-safe codes
+ *   type Err =
+ *     'unknown' |
+ *     'object-not-found'
+ *     ;
+ *
+ *   // Closure enum for type-safe error codes
+ *   // at-enum {string}
+ *   var Err = {
+ *     UNKNOWN: 'unknown',
+ *     OBJECT_NOT_FOUND: 'object-not-found',
+ *   }
+ *
+ *   let errors: Map<Err, string> = {
+ *     'generic-error': "Unknown error",
+ *     'file-not-found': "Could not find file: {$file}",
+ *   };
+ *
+ *   // Type-safe function - must pass a valid error code as param.
+ *   let error = new ErrorFactory<Err>('service', 'Service', errors);
+ *
+ *   ...
+ *   throw error.create(Err.GENERIC);
+ *   ...
+ *   throw error.create(Err.FILE_NOT_FOUND, {'file': fileName});
+ *   ...
+ *   // Service: Could not file file: foo.txt (service/file-not-found).
+ *
+ *   catch (e) {
+ *     assert(e.message === "Could not find file: foo.txt.");
+ *     if (e.code === 'service/file-not-found') {
+ *       console.log("Could not read file: " + e['file']);
+ *     }
+ *   }
+ */
+const ERROR_NAME = 'FirebaseError';
+// Based on code from:
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error#Custom_Error_Types
+class FirebaseError extends Error {
+    constructor(code, message, customData) {
+        super(message);
+        this.code = code;
+        this.customData = customData;
+        this.name = ERROR_NAME;
+        // Fix For ES5
+        // https://github.com/Microsoft/TypeScript-wiki/blob/master/Breaking-Changes.md#extending-built-ins-like-error-array-and-map-may-no-longer-work
+        Object.setPrototypeOf(this, FirebaseError.prototype);
+        // Maintains proper stack trace for where our error was thrown.
+        // Only available on V8.
+        if (Error.captureStackTrace) {
+            Error.captureStackTrace(this, ErrorFactory.prototype.create);
+        }
+    }
+}
+class ErrorFactory {
+    constructor(service, serviceName, errors) {
+        this.service = service;
+        this.serviceName = serviceName;
+        this.errors = errors;
+    }
+    create(code, ...data) {
+        const customData = data[0] || {};
+        const fullCode = `${this.service}/${code}`;
+        const template = this.errors[code];
+        const message = template ? replaceTemplate(template, customData) : 'Error';
+        // Service Name: Error message (service/code).
+        const fullMessage = `${this.serviceName}: ${message} (${fullCode}).`;
+        const error = new FirebaseError(fullCode, fullMessage, customData);
+        return error;
+    }
+}
+function replaceTemplate(template, data) {
+    return template.replace(PATTERN, (_, key) => {
+        const value = data[key];
+        return value != null ? String(value) : `<${key}?>`;
+    });
+}
+const PATTERN = /\{\$([^}]+)}/g;
+
+/**
+ * @license
+ * Copyright 2017 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+ * Evaluates a JSON string into a javascript object.
+ *
+ * @param {string} str A string containing JSON.
+ * @return {*} The javascript object representing the specified JSON.
+ */
+function jsonEval(str) {
+    return JSON.parse(str);
+}
+/**
+ * Returns JSON representing a javascript object.
+ * @param {*} data Javascript object to be stringified.
+ * @return {string} The JSON contents of the object.
+ */
+function stringify(data) {
+    return JSON.stringify(data);
+}
+
+/**
+ * @license
+ * Copyright 2017 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+ * Decodes a Firebase auth. token into constituent parts.
+ *
+ * Notes:
+ * - May return with invalid / incomplete claims if there's no native base64 decoding support.
+ * - Doesn't check if the token is actually valid.
+ */
+const decode = function (token) {
+    let header = {}, claims = {}, data = {}, signature = '';
+    try {
+        const parts = token.split('.');
+        header = jsonEval(base64Decode(parts[0]) || '');
+        claims = jsonEval(base64Decode(parts[1]) || '');
+        signature = parts[2];
+        data = claims['d'] || {};
+        delete claims['d'];
+    }
+    catch (e) { }
+    return {
+        header,
+        claims,
+        data,
+        signature
+    };
+};
+/**
+ * Decodes a Firebase auth. token and checks the validity of its time-based claims. Will return true if the
+ * token is within the time window authorized by the 'nbf' (not-before) and 'iat' (issued-at) claims.
+ *
+ * Notes:
+ * - May return a false negative if there's no native base64 decoding support.
+ * - Doesn't check if the token is actually valid.
+ */
+const isValidTimestamp = function (token) {
+    const claims = decode(token).claims;
+    const now = Math.floor(new Date().getTime() / 1000);
+    let validSince = 0, validUntil = 0;
+    if (typeof claims === 'object') {
+        if (claims.hasOwnProperty('nbf')) {
+            validSince = claims['nbf'];
+        }
+        else if (claims.hasOwnProperty('iat')) {
+            validSince = claims['iat'];
+        }
+        if (claims.hasOwnProperty('exp')) {
+            validUntil = claims['exp'];
+        }
+        else {
+            // token will expire after 24h by default
+            validUntil = validSince + 86400;
+        }
+    }
+    return (!!now &&
+        !!validSince &&
+        !!validUntil &&
+        now >= validSince &&
+        now <= validUntil);
+};
+/**
+ * Decodes a Firebase auth. token and returns its issued at time if valid, null otherwise.
+ *
+ * Notes:
+ * - May return null if there's no native base64 decoding support.
+ * - Doesn't check if the token is actually valid.
+ */
+const issuedAtTime = function (token) {
+    const claims = decode(token).claims;
+    if (typeof claims === 'object' && claims.hasOwnProperty('iat')) {
+        return claims['iat'];
+    }
+    return null;
+};
+/**
+ * Decodes a Firebase auth. token and checks the validity of its format. Expects a valid issued-at time.
+ *
+ * Notes:
+ * - May return a false negative if there's no native base64 decoding support.
+ * - Doesn't check if the token is actually valid.
+ */
+const isValidFormat = function (token) {
+    const decoded = decode(token), claims = decoded.claims;
+    return !!claims && typeof claims === 'object' && claims.hasOwnProperty('iat');
+};
+/**
+ * Attempts to peer into an auth token and determine if it's an admin auth token by looking at the claims portion.
+ *
+ * Notes:
+ * - May return a false negative if there's no native base64 decoding support.
+ * - Doesn't check if the token is actually valid.
+ */
+const isAdmin = function (token) {
+    const claims = decode(token).claims;
+    return typeof claims === 'object' && claims['admin'] === true;
+};
+
+/**
+ * @license
+ * Copyright 2017 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+function contains(obj, key) {
+    return Object.prototype.hasOwnProperty.call(obj, key);
+}
+function safeGet(obj, key) {
+    if (Object.prototype.hasOwnProperty.call(obj, key)) {
+        return obj[key];
+    }
+    else {
+        return undefined;
+    }
+}
+function isEmpty(obj) {
+    for (const key in obj) {
+        if (Object.prototype.hasOwnProperty.call(obj, key)) {
+            return false;
+        }
+    }
+    return true;
+}
+function map(obj, fn, contextObj) {
+    const res = {};
+    for (const key in obj) {
+        if (Object.prototype.hasOwnProperty.call(obj, key)) {
+            res[key] = fn.call(contextObj, obj[key], key, obj);
+        }
+    }
+    return res;
+}
+/**
+ * Deep equal two objects. Support Arrays and Objects.
+ */
+function deepEqual(a, b) {
+    if (a === b) {
+        return true;
+    }
+    const aKeys = Object.keys(a);
+    const bKeys = Object.keys(b);
+    for (const k of aKeys) {
+        if (!bKeys.includes(k)) {
+            return false;
+        }
+        const aProp = a[k];
+        const bProp = b[k];
+        if (isObject(aProp) && isObject(bProp)) {
+            if (!deepEqual(aProp, bProp)) {
+                return false;
+            }
+        }
+        else if (aProp !== bProp) {
+            return false;
+        }
+    }
+    for (const k of bKeys) {
+        if (!aKeys.includes(k)) {
+            return false;
+        }
+    }
+    return true;
+}
+function isObject(thing) {
+    return thing !== null && typeof thing === 'object';
+}
+
+/**
+ * @license
+ * Copyright 2017 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+ * Returns a querystring-formatted string (e.g. &arg=val&arg2=val2) from a
+ * params object (e.g. {arg: 'val', arg2: 'val2'})
+ * Note: You must prepend it with ? when adding it to a URL.
+ */
+function querystring(querystringParams) {
+    const params = [];
+    for (const [key, value] of Object.entries(querystringParams)) {
+        if (Array.isArray(value)) {
+            value.forEach(arrayVal => {
+                params.push(encodeURIComponent(key) + '=' + encodeURIComponent(arrayVal));
+            });
+        }
+        else {
+            params.push(encodeURIComponent(key) + '=' + encodeURIComponent(value));
+        }
+    }
+    return params.length ? '&' + params.join('&') : '';
+}
+/**
+ * Decodes a querystring (e.g. ?arg=val&arg2=val2) into a params object
+ * (e.g. {arg: 'val', arg2: 'val2'})
+ */
+function querystringDecode(querystring) {
+    const obj = {};
+    const tokens = querystring.replace(/^\?/, '').split('&');
+    tokens.forEach(token => {
+        if (token) {
+            const [key, value] = token.split('=');
+            obj[decodeURIComponent(key)] = decodeURIComponent(value);
+        }
+    });
+    return obj;
+}
+/**
+ * Extract the query string part of a URL, including the leading question mark (if present).
+ */
+function extractQuerystring(url) {
+    const queryStart = url.indexOf('?');
+    if (!queryStart) {
+        return '';
+    }
+    const fragmentStart = url.indexOf('#', queryStart);
+    return url.substring(queryStart, fragmentStart > 0 ? fragmentStart : undefined);
+}
+
+/**
+ * @license
+ * Copyright 2017 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+ * @fileoverview SHA-1 cryptographic hash.
+ * Variable names follow the notation in FIPS PUB 180-3:
+ * http://csrc.nist.gov/publications/fips/fips180-3/fips180-3_final.pdf.
+ *
+ * Usage:
+ *   var sha1 = new sha1();
+ *   sha1.update(bytes);
+ *   var hash = sha1.digest();
+ *
+ * Performance:
+ *   Chrome 23:   ~400 Mbit/s
+ *   Firefox 16:  ~250 Mbit/s
+ *
+ */
+/**
+ * SHA-1 cryptographic hash constructor.
+ *
+ * The properties declared here are discussed in the above algorithm document.
+ * @constructor
+ * @final
+ * @struct
+ */
+class Sha1 {
+    constructor() {
+        /**
+         * Holds the previous values of accumulated variables a-e in the compress_
+         * function.
+         * @private
+         */
+        this.chain_ = [];
+        /**
+         * A buffer holding the partially computed hash result.
+         * @private
+         */
+        this.buf_ = [];
+        /**
+         * An array of 80 bytes, each a part of the message to be hashed.  Referred to
+         * as the message schedule in the docs.
+         * @private
+         */
+        this.W_ = [];
+        /**
+         * Contains data needed to pad messages less than 64 bytes.
+         * @private
+         */
+        this.pad_ = [];
+        /**
+         * @private {number}
+         */
+        this.inbuf_ = 0;
+        /**
+         * @private {number}
+         */
+        this.total_ = 0;
+        this.blockSize = 512 / 8;
+        this.pad_[0] = 128;
+        for (let i = 1; i < this.blockSize; ++i) {
+            this.pad_[i] = 0;
+        }
+        this.reset();
+    }
+    reset() {
+        this.chain_[0] = 0x67452301;
+        this.chain_[1] = 0xefcdab89;
+        this.chain_[2] = 0x98badcfe;
+        this.chain_[3] = 0x10325476;
+        this.chain_[4] = 0xc3d2e1f0;
+        this.inbuf_ = 0;
+        this.total_ = 0;
+    }
+    /**
+     * Internal compress helper function.
+     * @param buf Block to compress.
+     * @param offset Offset of the block in the buffer.
+     * @private
+     */
+    compress_(buf, offset) {
+        if (!offset) {
+            offset = 0;
+        }
+        const W = this.W_;
+        // get 16 big endian words
+        if (typeof buf === 'string') {
+            for (let i = 0; i < 16; i++) {
+                // TODO(user): [bug 8140122] Recent versions of Safari for Mac OS and iOS
+                // have a bug that turns the post-increment ++ operator into pre-increment
+                // during JIT compilation.  We have code that depends heavily on SHA-1 for
+                // correctness and which is affected by this bug, so I've removed all uses
+                // of post-increment ++ in which the result value is used.  We can revert
+                // this change once the Safari bug
+                // (https://bugs.webkit.org/show_bug.cgi?id=109036) has been fixed and
+                // most clients have been updated.
+                W[i] =
+                    (buf.charCodeAt(offset) << 24) |
+                        (buf.charCodeAt(offset + 1) << 16) |
+                        (buf.charCodeAt(offset + 2) << 8) |
+                        buf.charCodeAt(offset + 3);
+                offset += 4;
+            }
+        }
+        else {
+            for (let i = 0; i < 16; i++) {
+                W[i] =
+                    (buf[offset] << 24) |
+                        (buf[offset + 1] << 16) |
+                        (buf[offset + 2] << 8) |
+                        buf[offset + 3];
+                offset += 4;
+            }
+        }
+        // expand to 80 words
+        for (let i = 16; i < 80; i++) {
+            const t = W[i - 3] ^ W[i - 8] ^ W[i - 14] ^ W[i - 16];
+            W[i] = ((t << 1) | (t >>> 31)) & 0xffffffff;
+        }
+        let a = this.chain_[0];
+        let b = this.chain_[1];
+        let c = this.chain_[2];
+        let d = this.chain_[3];
+        let e = this.chain_[4];
+        let f, k;
+        // TODO(user): Try to unroll this loop to speed up the computation.
+        for (let i = 0; i < 80; i++) {
+            if (i < 40) {
+                if (i < 20) {
+                    f = d ^ (b & (c ^ d));
+                    k = 0x5a827999;
+                }
+                else {
+                    f = b ^ c ^ d;
+                    k = 0x6ed9eba1;
+                }
+            }
+            else {
+                if (i < 60) {
+                    f = (b & c) | (d & (b | c));
+                    k = 0x8f1bbcdc;
+                }
+                else {
+                    f = b ^ c ^ d;
+                    k = 0xca62c1d6;
+                }
+            }
+            const t = (((a << 5) | (a >>> 27)) + f + e + k + W[i]) & 0xffffffff;
+            e = d;
+            d = c;
+            c = ((b << 30) | (b >>> 2)) & 0xffffffff;
+            b = a;
+            a = t;
+        }
+        this.chain_[0] = (this.chain_[0] + a) & 0xffffffff;
+        this.chain_[1] = (this.chain_[1] + b) & 0xffffffff;
+        this.chain_[2] = (this.chain_[2] + c) & 0xffffffff;
+        this.chain_[3] = (this.chain_[3] + d) & 0xffffffff;
+        this.chain_[4] = (this.chain_[4] + e) & 0xffffffff;
+    }
+    update(bytes, length) {
+        // TODO(johnlenz): tighten the function signature and remove this check
+        if (bytes == null) {
+            return;
+        }
+        if (length === undefined) {
+            length = bytes.length;
+        }
+        const lengthMinusBlock = length - this.blockSize;
+        let n = 0;
+        // Using local instead of member variables gives ~5% speedup on Firefox 16.
+        const buf = this.buf_;
+        let inbuf = this.inbuf_;
+        // The outer while loop should execute at most twice.
+        while (n < length) {
+            // When we have no data in the block to top up, we can directly process the
+            // input buffer (assuming it contains sufficient data). This gives ~25%
+            // speedup on Chrome 23 and ~15% speedup on Firefox 16, but requires that
+            // the data is provided in large chunks (or in multiples of 64 bytes).
+            if (inbuf === 0) {
+                while (n <= lengthMinusBlock) {
+                    this.compress_(bytes, n);
+                    n += this.blockSize;
+                }
+            }
+            if (typeof bytes === 'string') {
+                while (n < length) {
+                    buf[inbuf] = bytes.charCodeAt(n);
+                    ++inbuf;
+                    ++n;
+                    if (inbuf === this.blockSize) {
+                        this.compress_(buf);
+                        inbuf = 0;
+                        // Jump to the outer loop so we use the full-block optimization.
+                        break;
+                    }
+                }
+            }
+            else {
+                while (n < length) {
+                    buf[inbuf] = bytes[n];
+                    ++inbuf;
+                    ++n;
+                    if (inbuf === this.blockSize) {
+                        this.compress_(buf);
+                        inbuf = 0;
+                        // Jump to the outer loop so we use the full-block optimization.
+                        break;
+                    }
+                }
+            }
+        }
+        this.inbuf_ = inbuf;
+        this.total_ += length;
+    }
+    /** @override */
+    digest() {
+        const digest = [];
+        let totalBits = this.total_ * 8;
+        // Add pad 0x80 0x00*.
+        if (this.inbuf_ < 56) {
+            this.update(this.pad_, 56 - this.inbuf_);
+        }
+        else {
+            this.update(this.pad_, this.blockSize - (this.inbuf_ - 56));
+        }
+        // Add # bits.
+        for (let i = this.blockSize - 1; i >= 56; i--) {
+            this.buf_[i] = totalBits & 255;
+            totalBits /= 256; // Don't use bit-shifting here!
+        }
+        this.compress_(this.buf_);
+        let n = 0;
+        for (let i = 0; i < 5; i++) {
+            for (let j = 24; j >= 0; j -= 8) {
+                digest[n] = (this.chain_[i] >> j) & 255;
+                ++n;
+            }
+        }
+        return digest;
+    }
+}
+
+/**
+ * Helper to make a Subscribe function (just like Promise helps make a
+ * Thenable).
+ *
+ * @param executor Function which can make calls to a single Observer
+ *     as a proxy.
+ * @param onNoObservers Callback when count of Observers goes to zero.
+ */
+function createSubscribe(executor, onNoObservers) {
+    const proxy = new ObserverProxy(executor, onNoObservers);
+    return proxy.subscribe.bind(proxy);
+}
+/**
+ * Implement fan-out for any number of Observers attached via a subscribe
+ * function.
+ */
+class ObserverProxy {
+    /**
+     * @param executor Function which can make calls to a single Observer
+     *     as a proxy.
+     * @param onNoObservers Callback when count of Observers goes to zero.
+     */
+    constructor(executor, onNoObservers) {
+        this.observers = [];
+        this.unsubscribes = [];
+        this.observerCount = 0;
+        // Micro-task scheduling by calling task.then().
+        this.task = Promise.resolve();
+        this.finalized = false;
+        this.onNoObservers = onNoObservers;
+        // Call the executor asynchronously so subscribers that are called
+        // synchronously after the creation of the subscribe function
+        // can still receive the very first value generated in the executor.
+        this.task
+            .then(() => {
+            executor(this);
+        })
+            .catch(e => {
+            this.error(e);
+        });
+    }
+    next(value) {
+        this.forEachObserver((observer) => {
+            observer.next(value);
+        });
+    }
+    error(error) {
+        this.forEachObserver((observer) => {
+            observer.error(error);
+        });
+        this.close(error);
+    }
+    complete() {
+        this.forEachObserver((observer) => {
+            observer.complete();
+        });
+        this.close();
+    }
+    /**
+     * Subscribe function that can be used to add an Observer to the fan-out list.
+     *
+     * - We require that no event is sent to a subscriber sychronously to their
+     *   call to subscribe().
+     */
+    subscribe(nextOrObserver, error, complete) {
+        let observer;
+        if (nextOrObserver === undefined &&
+            error === undefined &&
+            complete === undefined) {
+            throw new Error('Missing Observer.');
+        }
+        // Assemble an Observer object when passed as callback functions.
+        if (implementsAnyMethods(nextOrObserver, [
+            'next',
+            'error',
+            'complete'
+        ])) {
+            observer = nextOrObserver;
+        }
+        else {
+            observer = {
+                next: nextOrObserver,
+                error,
+                complete
+            };
+        }
+        if (observer.next === undefined) {
+            observer.next = noop;
+        }
+        if (observer.error === undefined) {
+            observer.error = noop;
+        }
+        if (observer.complete === undefined) {
+            observer.complete = noop;
+        }
+        const unsub = this.unsubscribeOne.bind(this, this.observers.length);
+        // Attempt to subscribe to a terminated Observable - we
+        // just respond to the Observer with the final error or complete
+        // event.
+        if (this.finalized) {
+            // eslint-disable-next-line @typescript-eslint/no-floating-promises
+            this.task.then(() => {
+                try {
+                    if (this.finalError) {
+                        observer.error(this.finalError);
+                    }
+                    else {
+                        observer.complete();
+                    }
+                }
+                catch (e) {
+                    // nothing
+                }
+                return;
+            });
+        }
+        this.observers.push(observer);
+        return unsub;
+    }
+    // Unsubscribe is synchronous - we guarantee that no events are sent to
+    // any unsubscribed Observer.
+    unsubscribeOne(i) {
+        if (this.observers === undefined || this.observers[i] === undefined) {
+            return;
+        }
+        delete this.observers[i];
+        this.observerCount -= 1;
+        if (this.observerCount === 0 && this.onNoObservers !== undefined) {
+            this.onNoObservers(this);
+        }
+    }
+    forEachObserver(fn) {
+        if (this.finalized) {
+            // Already closed by previous event....just eat the additional values.
+            return;
+        }
+        // Since sendOne calls asynchronously - there is no chance that
+        // this.observers will become undefined.
+        for (let i = 0; i < this.observers.length; i++) {
+            this.sendOne(i, fn);
+        }
+    }
+    // Call the Observer via one of it's callback function. We are careful to
+    // confirm that the observe has not been unsubscribed since this asynchronous
+    // function had been queued.
+    sendOne(i, fn) {
+        // Execute the callback asynchronously
+        // eslint-disable-next-line @typescript-eslint/no-floating-promises
+        this.task.then(() => {
+            if (this.observers !== undefined && this.observers[i] !== undefined) {
+                try {
+                    fn(this.observers[i]);
+                }
+                catch (e) {
+                    // Ignore exceptions raised in Observers or missing methods of an
+                    // Observer.
+                    // Log error to console. b/31404806
+                    if (typeof console !== 'undefined' && console.error) {
+                        console.error(e);
+                    }
+                }
+            }
+        });
+    }
+    close(err) {
+        if (this.finalized) {
+            return;
+        }
+        this.finalized = true;
+        if (err !== undefined) {
+            this.finalError = err;
+        }
+        // Proxy is no longer needed - garbage collect references
+        // eslint-disable-next-line @typescript-eslint/no-floating-promises
+        this.task.then(() => {
+            this.observers = undefined;
+            this.onNoObservers = undefined;
+        });
+    }
+}
+/** Turn synchronous function into one called asynchronously. */
+// eslint-disable-next-line @typescript-eslint/ban-types
+function async(fn, onError) {
+    return (...args) => {
+        Promise.resolve(true)
+            .then(() => {
+            fn(...args);
+        })
+            .catch((error) => {
+            if (onError) {
+                onError(error);
+            }
+        });
+    };
+}
+/**
+ * Return true if the object passed in implements any of the named methods.
+ */
+function implementsAnyMethods(obj, methods) {
+    if (typeof obj !== 'object' || obj === null) {
+        return false;
+    }
+    for (const method of methods) {
+        if (method in obj && typeof obj[method] === 'function') {
+            return true;
+        }
+    }
+    return false;
+}
+function noop() {
+    // do nothing
+}
+
+/**
+ * @license
+ * Copyright 2017 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+ * Check to make sure the appropriate number of arguments are provided for a public function.
+ * Throws an error if it fails.
+ *
+ * @param fnName The function name
+ * @param minCount The minimum number of arguments to allow for the function call
+ * @param maxCount The maximum number of argument to allow for the function call
+ * @param argCount The actual number of arguments provided.
+ */
+const validateArgCount = function (fnName, minCount, maxCount, argCount) {
+    let argError;
+    if (argCount < minCount) {
+        argError = 'at least ' + minCount;
+    }
+    else if (argCount > maxCount) {
+        argError = maxCount === 0 ? 'none' : 'no more than ' + maxCount;
+    }
+    if (argError) {
+        const error = fnName +
+            ' failed: Was called with ' +
+            argCount +
+            (argCount === 1 ? ' argument.' : ' arguments.') +
+            ' Expects ' +
+            argError +
+            '.';
+        throw new Error(error);
+    }
+};
+/**
+ * Generates a string to prefix an error message about failed argument validation
+ *
+ * @param fnName The function name
+ * @param argName The name of the argument
+ * @return The prefix to add to the error thrown for validation.
+ */
+function errorPrefix(fnName, argName) {
+    return `${fnName} failed: ${argName} argument `;
+}
+/**
+ * @param fnName
+ * @param argumentNumber
+ * @param namespace
+ * @param optional
+ */
+function validateNamespace(fnName, namespace, optional) {
+    if (optional && !namespace) {
+        return;
+    }
+    if (typeof namespace !== 'string') {
+        //TODO: I should do more validation here. We only allow certain chars in namespaces.
+        throw new Error(errorPrefix(fnName, 'namespace') + 'must be a valid firebase namespace.');
+    }
+}
+function validateCallback(fnName, argumentName, 
+// eslint-disable-next-line @typescript-eslint/ban-types
+callback, optional) {
+    if (optional && !callback) {
+        return;
+    }
+    if (typeof callback !== 'function') {
+        throw new Error(errorPrefix(fnName, argumentName) + 'must be a valid function.');
+    }
+}
+function validateContextObject(fnName, argumentName, context, optional) {
+    if (optional && !context) {
+        return;
+    }
+    if (typeof context !== 'object' || context === null) {
+        throw new Error(errorPrefix(fnName, argumentName) + 'must be a valid context object.');
+    }
+}
+
+/**
+ * @license
+ * Copyright 2017 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+// Code originally came from goog.crypt.stringToUtf8ByteArray, but for some reason they
+// automatically replaced '\r\n' with '\n', and they didn't handle surrogate pairs,
+// so it's been modified.
+// Note that not all Unicode characters appear as single characters in JavaScript strings.
+// fromCharCode returns the UTF-16 encoding of a character - so some Unicode characters
+// use 2 characters in Javascript.  All 4-byte UTF-8 characters begin with a first
+// character in the range 0xD800 - 0xDBFF (the first character of a so-called surrogate
+// pair).
+// See http://www.ecma-international.org/ecma-262/5.1/#sec-15.1.3
+/**
+ * @param {string} str
+ * @return {Array}
+ */
+const stringToByteArray = function (str) {
+    const out = [];
+    let p = 0;
+    for (let i = 0; i < str.length; i++) {
+        let c = str.charCodeAt(i);
+        // Is this the lead surrogate in a surrogate pair?
+        if (c >= 0xd800 && c <= 0xdbff) {
+            const high = c - 0xd800; // the high 10 bits.
+            i++;
+            assert(i < str.length, 'Surrogate pair missing trail surrogate.');
+            const low = str.charCodeAt(i) - 0xdc00; // the low 10 bits.
+            c = 0x10000 + (high << 10) + low;
+        }
+        if (c < 128) {
+            out[p++] = c;
+        }
+        else if (c < 2048) {
+            out[p++] = (c >> 6) | 192;
+            out[p++] = (c & 63) | 128;
+        }
+        else if (c < 65536) {
+            out[p++] = (c >> 12) | 224;
+            out[p++] = ((c >> 6) & 63) | 128;
+            out[p++] = (c & 63) | 128;
+        }
+        else {
+            out[p++] = (c >> 18) | 240;
+            out[p++] = ((c >> 12) & 63) | 128;
+            out[p++] = ((c >> 6) & 63) | 128;
+            out[p++] = (c & 63) | 128;
+        }
+    }
+    return out;
+};
+/**
+ * Calculate length without actually converting; useful for doing cheaper validation.
+ * @param {string} str
+ * @return {number}
+ */
+const stringLength = function (str) {
+    let p = 0;
+    for (let i = 0; i < str.length; i++) {
+        const c = str.charCodeAt(i);
+        if (c < 128) {
+            p++;
+        }
+        else if (c < 2048) {
+            p += 2;
+        }
+        else if (c >= 0xd800 && c <= 0xdbff) {
+            // Lead surrogate of a surrogate pair.  The pair together will take 4 bytes to represent.
+            p += 4;
+            i++; // skip trail surrogate.
+        }
+        else {
+            p += 3;
+        }
+    }
+    return p;
+};
+
+/**
+ * @license
+ * Copyright 2019 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+ * The amount of milliseconds to exponentially increase.
+ */
+const DEFAULT_INTERVAL_MILLIS = 1000;
+/**
+ * The factor to backoff by.
+ * Should be a number greater than 1.
+ */
+const DEFAULT_BACKOFF_FACTOR = 2;
+/**
+ * The maximum milliseconds to increase to.
+ *
+ * <p>Visible for testing
+ */
+const MAX_VALUE_MILLIS = 4 * 60 * 60 * 1000; // Four hours, like iOS and Android.
+/**
+ * The percentage of backoff time to randomize by.
+ * See
+ * http://go/safe-client-behavior#step-1-determine-the-appropriate-retry-interval-to-handle-spike-traffic
+ * for context.
+ *
+ * <p>Visible for testing
+ */
+const RANDOM_FACTOR = 0.5;
+/**
+ * Based on the backoff method from
+ * https://github.com/google/closure-library/blob/master/closure/goog/math/exponentialbackoff.js.
+ * Extracted here so we don't need to pass metadata and a stateful ExponentialBackoff object around.
+ */
+function calculateBackoffMillis(backoffCount, intervalMillis = DEFAULT_INTERVAL_MILLIS, backoffFactor = DEFAULT_BACKOFF_FACTOR) {
+    // Calculates an exponentially increasing value.
+    // Deviation: calculates value from count and a constant interval, so we only need to save value
+    // and count to restore state.
+    const currBaseValue = intervalMillis * Math.pow(backoffFactor, backoffCount);
+    // A random "fuzz" to avoid waves of retries.
+    // Deviation: randomFactor is required.
+    const randomWait = Math.round(
+    // A fraction of the backoff value to add/subtract.
+    // Deviation: changes multiplication order to improve readability.
+    RANDOM_FACTOR *
+        currBaseValue *
+        // A random float (rounded to int by Math.round above) in the range [-1, 1]. Determines
+        // if we add or subtract.
+        (Math.random() - 0.5) *
+        2);
+    // Limits backoff to max to avoid effectively permanent backoff.
+    return Math.min(MAX_VALUE_MILLIS, currBaseValue + randomWait);
+}
+
+/**
+ * @license
+ * Copyright 2020 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+ * Provide English ordinal letters after a number
+ */
+function ordinal(i) {
+    if (!Number.isFinite(i)) {
+        return `${i}`;
+    }
+    return i + indicator(i);
+}
+function indicator(i) {
+    i = Math.abs(i);
+    const cent = i % 100;
+    if (cent >= 10 && cent <= 20) {
+        return 'th';
+    }
+    const dec = i % 10;
+    if (dec === 1) {
+        return 'st';
+    }
+    if (dec === 2) {
+        return 'nd';
+    }
+    if (dec === 3) {
+        return 'rd';
+    }
+    return 'th';
+}
+
+/**
+ * @license
+ * Copyright 2021 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+function getModularInstance(service) {
+    if (service && service._delegate) {
+        return service._delegate;
+    }
+    else {
+        return service;
+    }
+}
+
+/**
+ * @license
+ * Copyright 2017 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+// Overriding the constant (we should be the only ones doing this)
+CONSTANTS.NODE_CLIENT = true;
+
+
+//# sourceMappingURL=index.node.esm.js.map
+
+
+/***/ }),
+
+/***/ "./node_modules/firebase/app/dist/index.mjs":
+/*!**************************************************!*\
+  !*** ./node_modules/firebase/app/dist/index.mjs ***!
+  \**************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "FirebaseError": () => (/* reexport safe */ _firebase_app__WEBPACK_IMPORTED_MODULE_0__.FirebaseError),
+/* harmony export */   "SDK_VERSION": () => (/* reexport safe */ _firebase_app__WEBPACK_IMPORTED_MODULE_0__.SDK_VERSION),
+/* harmony export */   "_DEFAULT_ENTRY_NAME": () => (/* reexport safe */ _firebase_app__WEBPACK_IMPORTED_MODULE_0__._DEFAULT_ENTRY_NAME),
+/* harmony export */   "_addComponent": () => (/* reexport safe */ _firebase_app__WEBPACK_IMPORTED_MODULE_0__._addComponent),
+/* harmony export */   "_addOrOverwriteComponent": () => (/* reexport safe */ _firebase_app__WEBPACK_IMPORTED_MODULE_0__._addOrOverwriteComponent),
+/* harmony export */   "_apps": () => (/* reexport safe */ _firebase_app__WEBPACK_IMPORTED_MODULE_0__._apps),
+/* harmony export */   "_clearComponents": () => (/* reexport safe */ _firebase_app__WEBPACK_IMPORTED_MODULE_0__._clearComponents),
+/* harmony export */   "_components": () => (/* reexport safe */ _firebase_app__WEBPACK_IMPORTED_MODULE_0__._components),
+/* harmony export */   "_getProvider": () => (/* reexport safe */ _firebase_app__WEBPACK_IMPORTED_MODULE_0__._getProvider),
+/* harmony export */   "_registerComponent": () => (/* reexport safe */ _firebase_app__WEBPACK_IMPORTED_MODULE_0__._registerComponent),
+/* harmony export */   "_removeServiceInstance": () => (/* reexport safe */ _firebase_app__WEBPACK_IMPORTED_MODULE_0__._removeServiceInstance),
+/* harmony export */   "deleteApp": () => (/* reexport safe */ _firebase_app__WEBPACK_IMPORTED_MODULE_0__.deleteApp),
+/* harmony export */   "getApp": () => (/* reexport safe */ _firebase_app__WEBPACK_IMPORTED_MODULE_0__.getApp),
+/* harmony export */   "getApps": () => (/* reexport safe */ _firebase_app__WEBPACK_IMPORTED_MODULE_0__.getApps),
+/* harmony export */   "initializeApp": () => (/* reexport safe */ _firebase_app__WEBPACK_IMPORTED_MODULE_0__.initializeApp),
+/* harmony export */   "onLog": () => (/* reexport safe */ _firebase_app__WEBPACK_IMPORTED_MODULE_0__.onLog),
+/* harmony export */   "registerVersion": () => (/* reexport safe */ _firebase_app__WEBPACK_IMPORTED_MODULE_0__.registerVersion),
+/* harmony export */   "setLogLevel": () => (/* reexport safe */ _firebase_app__WEBPACK_IMPORTED_MODULE_0__.setLogLevel)
+/* harmony export */ });
+/* harmony import */ var _firebase_app__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @firebase/app */ "./node_modules/@firebase/app/dist/esm/index.esm2017.js");
+
+
+
+var name = "firebase";
+var version = "9.6.1";
+
+/**
+ * @license
+ * Copyright 2020 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+(0,_firebase_app__WEBPACK_IMPORTED_MODULE_0__.registerVersion)(name, version, 'app');
+//# sourceMappingURL=index.mjs.map
+
+
+/***/ }),
+
+/***/ "./node_modules/firebase/database/dist/index.mjs":
+/*!*******************************************************!*\
+  !*** ./node_modules/firebase/database/dist/index.mjs ***!
+  \*******************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "DataSnapshot": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.DataSnapshot),
+/* harmony export */   "Database": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.Database),
+/* harmony export */   "OnDisconnect": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.OnDisconnect),
+/* harmony export */   "QueryConstraint": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.QueryConstraint),
+/* harmony export */   "TransactionResult": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.TransactionResult),
+/* harmony export */   "_QueryImpl": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__._QueryImpl),
+/* harmony export */   "_QueryParams": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__._QueryParams),
+/* harmony export */   "_ReferenceImpl": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__._ReferenceImpl),
+/* harmony export */   "_TEST_ACCESS_forceRestClient": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__._TEST_ACCESS_forceRestClient),
+/* harmony export */   "_TEST_ACCESS_hijackHash": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__._TEST_ACCESS_hijackHash),
+/* harmony export */   "_repoManagerDatabaseFromApp": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__._repoManagerDatabaseFromApp),
+/* harmony export */   "_setSDKVersion": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__._setSDKVersion),
+/* harmony export */   "_validatePathString": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__._validatePathString),
+/* harmony export */   "_validateWritablePath": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__._validateWritablePath),
+/* harmony export */   "child": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.child),
+/* harmony export */   "connectDatabaseEmulator": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.connectDatabaseEmulator),
+/* harmony export */   "enableLogging": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.enableLogging),
+/* harmony export */   "endAt": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.endAt),
+/* harmony export */   "endBefore": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.endBefore),
+/* harmony export */   "equalTo": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.equalTo),
+/* harmony export */   "get": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.get),
+/* harmony export */   "getDatabase": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.getDatabase),
+/* harmony export */   "goOffline": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.goOffline),
+/* harmony export */   "goOnline": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.goOnline),
+/* harmony export */   "increment": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.increment),
+/* harmony export */   "limitToFirst": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.limitToFirst),
+/* harmony export */   "limitToLast": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.limitToLast),
+/* harmony export */   "off": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.off),
+/* harmony export */   "onChildAdded": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.onChildAdded),
+/* harmony export */   "onChildChanged": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.onChildChanged),
+/* harmony export */   "onChildMoved": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.onChildMoved),
+/* harmony export */   "onChildRemoved": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.onChildRemoved),
+/* harmony export */   "onDisconnect": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.onDisconnect),
+/* harmony export */   "onValue": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.onValue),
+/* harmony export */   "orderByChild": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.orderByChild),
+/* harmony export */   "orderByKey": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.orderByKey),
+/* harmony export */   "orderByPriority": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.orderByPriority),
+/* harmony export */   "orderByValue": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.orderByValue),
+/* harmony export */   "push": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.push),
+/* harmony export */   "query": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.query),
+/* harmony export */   "ref": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.ref),
+/* harmony export */   "refFromURL": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.refFromURL),
+/* harmony export */   "remove": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.remove),
+/* harmony export */   "runTransaction": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.runTransaction),
+/* harmony export */   "serverTimestamp": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.serverTimestamp),
+/* harmony export */   "set": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.set),
+/* harmony export */   "setPriority": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.setPriority),
+/* harmony export */   "setWithPriority": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.setWithPriority),
+/* harmony export */   "startAfter": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.startAfter),
+/* harmony export */   "startAt": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.startAt),
+/* harmony export */   "update": () => (/* reexport safe */ _firebase_database__WEBPACK_IMPORTED_MODULE_0__.update)
+/* harmony export */ });
+/* harmony import */ var _firebase_database__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @firebase/database */ "./node_modules/@firebase/database/dist/node-esm/index.node.esm.js");
 
 //# sourceMappingURL=index.mjs.map
 
-;// CONCATENATED MODULE: ./src/atoms/firebase.jsx
-// Import the functions you need from the SDKs you need
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig={apiKey:({}).API_KEY,authDomain:({}).AUTH_DOMAIN,projectId:({}).PROJECT_ID,storageBucket:({}).STORAGE_BUCKET,messagingSenderId:({}).MESSAGING_SENDER_ID,appId:({}).APP_ID,measurementId:({}).MEASUREMENT_ID,databaseURL:({}).DATABASE_URL};// Initialize Firebase
-const app=initializeApp(firebaseConfig);// Get a reference to the database service
-const database=getDatabase(app,"https://sbrikkis-books-website-default-rtdb.firebaseio.com/");/* harmony default export */ const firebase = (database);
-;// CONCATENATED MODULE: ./src/atoms/meetingQuality/meetingQuality.module.scss
-// Exports
-var graphs = "meetingQuality-module--graphs--V0ksk";
-
-;// CONCATENATED MODULE: ./src/atoms/meetingQuality/meetingQuality.jsx
-const titles=["Chill mood","Alcohol","Pfizer","Reading","Meeting organization","Length of the meeting","Meeting quality"];const MeetingQuality=({elem})=>{return/*#__PURE__*/index_js_default().createElement("div",null,elem.map((value,k)=>{return/*#__PURE__*/index_js_default().createElement("div",{className:graphs,key:k},/*#__PURE__*/index_js_default().createElement("p",null,titles[k]),/*#__PURE__*/index_js_default().createElement("div",null,/*#__PURE__*/index_js_default().createElement("progress",{id:titles[k],value:value*1/5*100,max:"100"}," ",value*1/5*100+"%"," ")),/*#__PURE__*/index_js_default().createElement("p",null,parseFloat(value*1/5*100).toFixed(2)+"%"));}));};/* harmony default export */ const meetingQuality = (MeetingQuality);
-;// CONCATENATED MODULE: ./src/components/qualities/qualities.module.scss
-// Exports
-var wrap = "qualities-module--wrap--BEX5j";
-
-;// CONCATENATED MODULE: ./src/components/qualities/qualities.jsx
-const Qualities=({quality})=>{return/*#__PURE__*/index_js_default().createElement("div",null,quality.map((elem,i)=>{return/*#__PURE__*/index_js_default().createElement("div",{className:wrap,key:i,id:"meeting"+i*1+1,hidden:true},/*#__PURE__*/index_js_default().createElement("p",null,"Meeting ",i*1+1),/*#__PURE__*/index_js_default().createElement("div",null,/*#__PURE__*/index_js_default().createElement(meetingQuality,{elem:elem})));}));};/* harmony default export */ const qualities = (Qualities);
-// EXTERNAL MODULE: ./src/components/layout/layout.jsx + 18 modules
-var layout = __webpack_require__(4421);
-// EXTERNAL MODULE: ./src/components/seo/seo.jsx
-var seo = __webpack_require__(7018);
-;// CONCATENATED MODULE: ./src/pages/stats.jsx
-const Stats=()=>{const{0:data,1:setData}=(0,index_js_.useState)([]);const{0:quality,1:setQuality}=(0,index_js_.useState)([]);const{0:fetched,1:setFetched}=(0,index_js_.useState)(false);const{0:loaded,1:setLoaded}=(0,index_js_.useState)(false);const{0:error1,1:setError1}=(0,index_js_.useState)(Error());const{0:error2,1:setError2}=(0,index_js_.useState)(Error());const{0:error3,1:setError3}=(0,index_js_.useState)(false);const fetchData=async()=>{let tmpArray=[[]];const dbRef=ref(firebase);get(child(dbRef,`meeting/`)).then(snapshot=>{setFetched(true);setLoaded(true);if(snapshot.exists()){tmpArray=JSON.stringify(snapshot.toJSON()).replace("{","").replace("}","").replaceAll('"',"").split(/(?<=[,])/);for(let i=0;i<tmpArray.length;i++){tmpArray[i]=tmpArray[i].replace(",","").split(/(?<=[:])/);tmpArray[i][0]=tmpArray[i][0].replace(":","");}setData(tmpArray);}else{setError3(true);}}).catch(err=>{setFetched(false);setLoaded(true);setError1(err);});get(child(dbRef,`meetingQuality/`)).then(snapshot=>{setFetched(true);setLoaded(true);if(snapshot.exists()){tmpArray=JSON.stringify(snapshot.toJSON()).replace("{","").replace("}","").split(/(?<=["])/);for(let i=0;i<tmpArray.length;i++){tmpArray[i]=tmpArray[i].replace('"',"");if(tmpArray[i]===":"||tmpArray[i]===","||tmpArray[i].match(/^\d+$/))tmpArray[i]="";}for(let i=0;i<tmpArray.length;i++){if(tmpArray[i]===""){for(let j=i+1;j<tmpArray.length;j++)tmpArray[j-1]=tmpArray[j];tmpArray.length-=1;i--;}}for(let i=0;i<tmpArray.length;i++)tmpArray[i]=tmpArray[i].split("_");setQuality(tmpArray);}else{setError3(true);}}).catch(err=>{setFetched(false);setLoaded(true);setError2(err);});};const setVisibility=id=>{if(document.getElementById(id))document.getElementById(id).hidden=!document.getElementById(id).hidden;};(0,index_js_.useEffect)(()=>{fetchData();},[]);return/*#__PURE__*/index_js_default().createElement(layout/* default */.Z,null,/*#__PURE__*/index_js_default().createElement(seo/* default */.Z,{title:"Stats",description:"Look at our stats"}),/*#__PURE__*/index_js_default().createElement("div",{className:tmp},/*#__PURE__*/index_js_default().createElement("h1",null,"Sbrikki's Books SEO score"),/*#__PURE__*/index_js_default().createElement("p",null,/*#__PURE__*/index_js_default().createElement("strong",null,"SEO")," is a very important thing ",/*#__PURE__*/index_js_default().createElement("br",null),"That's why I'm studying ways to ",/*#__PURE__*/index_js_default().createElement("strong",null,"improve")," it ",/*#__PURE__*/index_js_default().createElement("br",null),"See our ",/*#__PURE__*/index_js_default().createElement("strong",null,"score")," by clicking on the link below"),/*#__PURE__*/index_js_default().createElement("a",{className:stats_module_link,href:"https://freetools.seobility.net/en/seocheck/check?url=https%3A%2F%2Fmike-cheek.github.io%2Fsbrikkisbooks%2F&crawltype=1"},"SEOBILITY"),/*#__PURE__*/index_js_default().createElement(separator/* default */.Z,null),loaded?fetched?/*#__PURE__*/index_js_default().createElement("div",{className:lastMeetings},/*#__PURE__*/index_js_default().createElement("p",null,"Here there are last meetings info"),data.map((elem,i)=>{return/*#__PURE__*/index_js_default().createElement("div",{onClick:setVisibility("meeting"+i),onKeyDown:setVisibility("meeting"+i),role:"button",key:i,tabIndex:i},/*#__PURE__*/index_js_default().createElement("p",{className:meeting},"Meeting "+elem[0]+", Date: "+elem[1]));}),/*#__PURE__*/index_js_default().createElement(qualities,{quality:quality})):/*#__PURE__*/index_js_default().createElement("p",null,error1.message+/*#__PURE__*/index_js_default().createElement("br",null)+error2.message+/*#__PURE__*/index_js_default().createElement("br",null)+error3?"No data avaiable":null):/*#__PURE__*/index_js_default().createElement(loadingBooks/* default */.Z,null),/*#__PURE__*/index_js_default().createElement(separator/* default */.Z,null)));};/* harmony default export */ const stats = (Stats);
 
 /***/ }),
 
-/***/ 772:
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-var __webpack_unused_export__;
-/*jshint node:true */
-
-var assert = __webpack_require__(9084);
-
-exports.m = HTTPParser;
-function HTTPParser(type) {
-  assert.ok(type === HTTPParser.REQUEST || type === HTTPParser.RESPONSE || type === undefined);
-  if (type === undefined) {
-    // Node v12+
-  } else {
-    this.initialize(type);
-  }
-}
-HTTPParser.prototype.initialize = function (type, async_resource) {
-  assert.ok(type === HTTPParser.REQUEST || type === HTTPParser.RESPONSE);
-  this.type = type;
-  this.state = type + '_LINE';
-  this.info = {
-    headers: [],
-    upgrade: false
-  };
-  this.trailers = [];
-  this.line = '';
-  this.isChunked = false;
-  this.connection = '';
-  this.headerSize = 0; // for preventing too big headers
-  this.body_bytes = null;
-  this.isUserCall = false;
-  this.hadError = false;
-};
-
-HTTPParser.encoding = 'ascii';
-HTTPParser.maxHeaderSize = 80 * 1024; // maxHeaderSize (in bytes) is configurable, but 80kb by default;
-HTTPParser.REQUEST = 'REQUEST';
-HTTPParser.RESPONSE = 'RESPONSE';
-
-// Note: *not* starting with kOnHeaders=0 line the Node parser, because any
-//   newly added constants (kOnTimeout in Node v12.19.0) will overwrite 0!
-var kOnHeaders = HTTPParser.kOnHeaders = 1;
-var kOnHeadersComplete = HTTPParser.kOnHeadersComplete = 2;
-var kOnBody = HTTPParser.kOnBody = 3;
-var kOnMessageComplete = HTTPParser.kOnMessageComplete = 4;
-
-// Some handler stubs, needed for compatibility
-HTTPParser.prototype[kOnHeaders] =
-HTTPParser.prototype[kOnHeadersComplete] =
-HTTPParser.prototype[kOnBody] =
-HTTPParser.prototype[kOnMessageComplete] = function () {};
-
-var compatMode0_12 = true;
-Object.defineProperty(HTTPParser, 'kOnExecute', {
-    get: function () {
-      // hack for backward compatibility
-      compatMode0_12 = false;
-      return 99;
-    }
-  });
-
-var methods = __webpack_unused_export__ = HTTPParser.methods = [
-  'DELETE',
-  'GET',
-  'HEAD',
-  'POST',
-  'PUT',
-  'CONNECT',
-  'OPTIONS',
-  'TRACE',
-  'COPY',
-  'LOCK',
-  'MKCOL',
-  'MOVE',
-  'PROPFIND',
-  'PROPPATCH',
-  'SEARCH',
-  'UNLOCK',
-  'BIND',
-  'REBIND',
-  'UNBIND',
-  'ACL',
-  'REPORT',
-  'MKACTIVITY',
-  'CHECKOUT',
-  'MERGE',
-  'M-SEARCH',
-  'NOTIFY',
-  'SUBSCRIBE',
-  'UNSUBSCRIBE',
-  'PATCH',
-  'PURGE',
-  'MKCALENDAR',
-  'LINK',
-  'UNLINK'
-];
-var method_connect = methods.indexOf('CONNECT');
-HTTPParser.prototype.reinitialize = HTTPParser;
-HTTPParser.prototype.close =
-HTTPParser.prototype.pause =
-HTTPParser.prototype.resume =
-HTTPParser.prototype.free = function () {};
-HTTPParser.prototype._compatMode0_11 = false;
-HTTPParser.prototype.getAsyncId = function() { return 0; };
-
-var headerState = {
-  REQUEST_LINE: true,
-  RESPONSE_LINE: true,
-  HEADER: true
-};
-HTTPParser.prototype.execute = function (chunk, start, length) {
-  if (!(this instanceof HTTPParser)) {
-    throw new TypeError('not a HTTPParser');
-  }
-
-  // backward compat to node < 0.11.4
-  // Note: the start and length params were removed in newer version
-  start = start || 0;
-  length = typeof length === 'number' ? length : chunk.length;
-
-  this.chunk = chunk;
-  this.offset = start;
-  var end = this.end = start + length;
-  try {
-    while (this.offset < end) {
-      if (this[this.state]()) {
-        break;
-      }
-    }
-  } catch (err) {
-    if (this.isUserCall) {
-      throw err;
-    }
-    this.hadError = true;
-    return err;
-  }
-  this.chunk = null;
-  length = this.offset - start;
-  if (headerState[this.state]) {
-    this.headerSize += length;
-    if (this.headerSize > HTTPParser.maxHeaderSize) {
-      return new Error('max header size exceeded');
-    }
-  }
-  return length;
-};
-
-var stateFinishAllowed = {
-  REQUEST_LINE: true,
-  RESPONSE_LINE: true,
-  BODY_RAW: true
-};
-HTTPParser.prototype.finish = function () {
-  if (this.hadError) {
-    return;
-  }
-  if (!stateFinishAllowed[this.state]) {
-    return new Error('invalid state for EOF');
-  }
-  if (this.state === 'BODY_RAW') {
-    this.userCall()(this[kOnMessageComplete]());
-  }
-};
-
-// These three methods are used for an internal speed optimization, and it also
-// works if theses are noops. Basically consume() asks us to read the bytes
-// ourselves, but if we don't do it we get them through execute().
-HTTPParser.prototype.consume =
-HTTPParser.prototype.unconsume =
-HTTPParser.prototype.getCurrentBuffer = function () {};
-
-//For correct error handling - see HTTPParser#execute
-//Usage: this.userCall()(userFunction('arg'));
-HTTPParser.prototype.userCall = function () {
-  this.isUserCall = true;
-  var self = this;
-  return function (ret) {
-    self.isUserCall = false;
-    return ret;
-  };
-};
-
-HTTPParser.prototype.nextRequest = function () {
-  this.userCall()(this[kOnMessageComplete]());
-  this.reinitialize(this.type);
-};
-
-HTTPParser.prototype.consumeLine = function () {
-  var end = this.end,
-      chunk = this.chunk;
-  for (var i = this.offset; i < end; i++) {
-    if (chunk[i] === 0x0a) { // \n
-      var line = this.line + chunk.toString(HTTPParser.encoding, this.offset, i);
-      if (line.charAt(line.length - 1) === '\r') {
-        line = line.substr(0, line.length - 1);
-      }
-      this.line = '';
-      this.offset = i + 1;
-      return line;
-    }
-  }
-  //line split over multiple chunks
-  this.line += chunk.toString(HTTPParser.encoding, this.offset, this.end);
-  this.offset = this.end;
-};
-
-var headerExp = /^([^: \t]+):[ \t]*((?:.*[^ \t])|)/;
-var headerContinueExp = /^[ \t]+(.*[^ \t])/;
-HTTPParser.prototype.parseHeader = function (line, headers) {
-  if (line.indexOf('\r') !== -1) {
-    throw parseErrorCode('HPE_LF_EXPECTED');
-  }
-
-  var match = headerExp.exec(line);
-  var k = match && match[1];
-  if (k) { // skip empty string (malformed header)
-    headers.push(k);
-    headers.push(match[2]);
-  } else {
-    var matchContinue = headerContinueExp.exec(line);
-    if (matchContinue && headers.length) {
-      if (headers[headers.length - 1]) {
-        headers[headers.length - 1] += ' ';
-      }
-      headers[headers.length - 1] += matchContinue[1];
-    }
-  }
-};
-
-var requestExp = /^([A-Z-]+) ([^ ]+) HTTP\/(\d)\.(\d)$/;
-HTTPParser.prototype.REQUEST_LINE = function () {
-  var line = this.consumeLine();
-  if (!line) {
-    return;
-  }
-  var match = requestExp.exec(line);
-  if (match === null) {
-    throw parseErrorCode('HPE_INVALID_CONSTANT');
-  }
-  this.info.method = this._compatMode0_11 ? match[1] : methods.indexOf(match[1]);
-  if (this.info.method === -1) {
-    throw new Error('invalid request method');
-  }
-  this.info.url = match[2];
-  this.info.versionMajor = +match[3];
-  this.info.versionMinor = +match[4];
-  this.body_bytes = 0;
-  this.state = 'HEADER';
-};
-
-var responseExp = /^HTTP\/(\d)\.(\d) (\d{3}) ?(.*)$/;
-HTTPParser.prototype.RESPONSE_LINE = function () {
-  var line = this.consumeLine();
-  if (!line) {
-    return;
-  }
-  var match = responseExp.exec(line);
-  if (match === null) {
-    throw parseErrorCode('HPE_INVALID_CONSTANT');
-  }
-  this.info.versionMajor = +match[1];
-  this.info.versionMinor = +match[2];
-  var statusCode = this.info.statusCode = +match[3];
-  this.info.statusMessage = match[4];
-  // Implied zero length.
-  if ((statusCode / 100 | 0) === 1 || statusCode === 204 || statusCode === 304) {
-    this.body_bytes = 0;
-  }
-  this.state = 'HEADER';
-};
-
-HTTPParser.prototype.shouldKeepAlive = function () {
-  if (this.info.versionMajor > 0 && this.info.versionMinor > 0) {
-    if (this.connection.indexOf('close') !== -1) {
-      return false;
-    }
-  } else if (this.connection.indexOf('keep-alive') === -1) {
-    return false;
-  }
-  if (this.body_bytes !== null || this.isChunked) { // || skipBody
-    return true;
-  }
-  return false;
-};
-
-HTTPParser.prototype.HEADER = function () {
-  var line = this.consumeLine();
-  if (line === undefined) {
-    return;
-  }
-  var info = this.info;
-  if (line) {
-    this.parseHeader(line, info.headers);
-  } else {
-    var headers = info.headers;
-    var hasContentLength = false;
-    var currentContentLengthValue;
-    var hasUpgradeHeader = false;
-    for (var i = 0; i < headers.length; i += 2) {
-      switch (headers[i].toLowerCase()) {
-        case 'transfer-encoding':
-          this.isChunked = headers[i + 1].toLowerCase() === 'chunked';
-          break;
-        case 'content-length':
-          currentContentLengthValue = +headers[i + 1];
-          if (hasContentLength) {
-            // Fix duplicate Content-Length header with same values.
-            // Throw error only if values are different.
-            // Known issues:
-            // https://github.com/request/request/issues/2091#issuecomment-328715113
-            // https://github.com/nodejs/node/issues/6517#issuecomment-216263771
-            if (currentContentLengthValue !== this.body_bytes) {
-              throw parseErrorCode('HPE_UNEXPECTED_CONTENT_LENGTH');
-            }
-          } else {
-            hasContentLength = true;
-            this.body_bytes = currentContentLengthValue;
-          }
-          break;
-        case 'connection':
-          this.connection += headers[i + 1].toLowerCase();
-          break;
-        case 'upgrade':
-          hasUpgradeHeader = true;
-          break;
-      }
-    }
-
-    // if both isChunked and hasContentLength, isChunked wins
-    // This is required so the body is parsed using the chunked method, and matches
-    // Chrome's behavior.  We could, maybe, ignore them both (would get chunked
-    // encoding into the body), and/or disable shouldKeepAlive to be more
-    // resilient.
-    if (this.isChunked && hasContentLength) {
-      hasContentLength = false;
-      this.body_bytes = null;
-    }
-
-    // Logic from https://github.com/nodejs/http-parser/blob/921d5585515a153fa00e411cf144280c59b41f90/http_parser.c#L1727-L1737
-    // "For responses, "Upgrade: foo" and "Connection: upgrade" are
-    //   mandatory only when it is a 101 Switching Protocols response,
-    //   otherwise it is purely informational, to announce support.
-    if (hasUpgradeHeader && this.connection.indexOf('upgrade') != -1) {
-      info.upgrade = this.type === HTTPParser.REQUEST || info.statusCode === 101;
-    } else {
-      info.upgrade = info.method === method_connect;
-    }
-
-    if (this.isChunked && info.upgrade) {
-      this.isChunked = false;
-    }
-
-    info.shouldKeepAlive = this.shouldKeepAlive();
-    //problem which also exists in original node: we should know skipBody before calling onHeadersComplete
-    var skipBody;
-    if (compatMode0_12) {
-      skipBody = this.userCall()(this[kOnHeadersComplete](info));
-    } else {
-      skipBody = this.userCall()(this[kOnHeadersComplete](info.versionMajor,
-          info.versionMinor, info.headers, info.method, info.url, info.statusCode,
-          info.statusMessage, info.upgrade, info.shouldKeepAlive));
-    }
-    if (skipBody === 2) {
-      this.nextRequest();
-      return true;
-    } else if (this.isChunked && !skipBody) {
-      this.state = 'BODY_CHUNKHEAD';
-    } else if (skipBody || this.body_bytes === 0) {
-      this.nextRequest();
-      // For older versions of node (v6.x and older?), that return skipBody=1 or skipBody=true,
-      //   need this "return true;" if it's an upgrade request.
-      return info.upgrade;
-    } else if (this.body_bytes === null) {
-      this.state = 'BODY_RAW';
-    } else {
-      this.state = 'BODY_SIZED';
-    }
-  }
-};
-
-HTTPParser.prototype.BODY_CHUNKHEAD = function () {
-  var line = this.consumeLine();
-  if (line === undefined) {
-    return;
-  }
-  this.body_bytes = parseInt(line, 16);
-  if (!this.body_bytes) {
-    this.state = 'BODY_CHUNKTRAILERS';
-  } else {
-    this.state = 'BODY_CHUNK';
-  }
-};
-
-HTTPParser.prototype.BODY_CHUNK = function () {
-  var length = Math.min(this.end - this.offset, this.body_bytes);
-  this.userCall()(this[kOnBody](this.chunk, this.offset, length));
-  this.offset += length;
-  this.body_bytes -= length;
-  if (!this.body_bytes) {
-    this.state = 'BODY_CHUNKEMPTYLINE';
-  }
-};
-
-HTTPParser.prototype.BODY_CHUNKEMPTYLINE = function () {
-  var line = this.consumeLine();
-  if (line === undefined) {
-    return;
-  }
-  assert.equal(line, '');
-  this.state = 'BODY_CHUNKHEAD';
-};
-
-HTTPParser.prototype.BODY_CHUNKTRAILERS = function () {
-  var line = this.consumeLine();
-  if (line === undefined) {
-    return;
-  }
-  if (line) {
-    this.parseHeader(line, this.trailers);
-  } else {
-    if (this.trailers.length) {
-      this.userCall()(this[kOnHeaders](this.trailers, ''));
-    }
-    this.nextRequest();
-  }
-};
-
-HTTPParser.prototype.BODY_RAW = function () {
-  var length = this.end - this.offset;
-  this.userCall()(this[kOnBody](this.chunk, this.offset, length));
-  this.offset = this.end;
-};
-
-HTTPParser.prototype.BODY_SIZED = function () {
-  var length = Math.min(this.end - this.offset, this.body_bytes);
-  this.userCall()(this[kOnBody](this.chunk, this.offset, length));
-  this.offset += length;
-  this.body_bytes -= length;
-  if (!this.body_bytes) {
-    this.nextRequest();
-  }
-};
-
-// backward compat to node < 0.11.6
-['Headers', 'HeadersComplete', 'Body', 'MessageComplete'].forEach(function (name) {
-  var k = HTTPParser['kOn' + name];
-  Object.defineProperty(HTTPParser.prototype, 'on' + name, {
-    get: function () {
-      return this[k];
-    },
-    set: function (to) {
-      // hack for backward compatibility
-      this._compatMode0_11 = true;
-      method_connect = 'CONNECT';
-      return (this[k] = to);
-    }
-  });
-});
-
-function parseErrorCode(code) {
-  var err = new Error('Parse Error');
-  err.code = code;
-  return err;
-}
-
-
-/***/ }),
-
-/***/ 9509:
-/***/ ((module, exports, __webpack_require__) => {
-
-/*! safe-buffer. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
-/* eslint-disable node/no-deprecated-api */
-var buffer = __webpack_require__(871)
-var Buffer = buffer.Buffer
-
-// alternative to using Object.keys for old browsers
-function copyProps (src, dst) {
-  for (var key in src) {
-    dst[key] = src[key]
-  }
-}
-if (Buffer.from && Buffer.alloc && Buffer.allocUnsafe && Buffer.allocUnsafeSlow) {
-  module.exports = buffer
-} else {
-  // Copy properties from require('buffer')
-  copyProps(buffer, exports)
-  exports.Buffer = SafeBuffer
-}
-
-function SafeBuffer (arg, encodingOrOffset, length) {
-  return Buffer(arg, encodingOrOffset, length)
-}
-
-SafeBuffer.prototype = Object.create(Buffer.prototype)
-
-// Copy static methods from Buffer
-copyProps(Buffer, SafeBuffer)
-
-SafeBuffer.from = function (arg, encodingOrOffset, length) {
-  if (typeof arg === 'number') {
-    throw new TypeError('Argument must not be a number')
-  }
-  return Buffer(arg, encodingOrOffset, length)
-}
-
-SafeBuffer.alloc = function (size, fill, encoding) {
-  if (typeof size !== 'number') {
-    throw new TypeError('Argument must be a number')
-  }
-  var buf = Buffer(size)
-  if (fill !== undefined) {
-    if (typeof encoding === 'string') {
-      buf.fill(fill, encoding)
-    } else {
-      buf.fill(fill)
-    }
-  } else {
-    buf.fill(0)
-  }
-  return buf
-}
-
-SafeBuffer.allocUnsafe = function (size) {
-  if (typeof size !== 'number') {
-    throw new TypeError('Argument must be a number')
-  }
-  return Buffer(size)
-}
-
-SafeBuffer.allocUnsafeSlow = function (size) {
-  if (typeof size !== 'number') {
-    throw new TypeError('Argument must be a number')
-  }
-  return buffer.SlowBuffer(size)
-}
-
-
-/***/ }),
-
-/***/ 1649:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-
-
-// Protocol references:
-//
-// * http://tools.ietf.org/html/draft-hixie-thewebsocketprotocol-75
-// * http://tools.ietf.org/html/draft-hixie-thewebsocketprotocol-76
-// * http://tools.ietf.org/html/draft-ietf-hybi-thewebsocketprotocol-17
-
-var Base   = __webpack_require__(6887),
-    Client = __webpack_require__(2889),
-    Server = __webpack_require__(3720);
-
-var Driver = {
-  client: function(url, options) {
-    options = options || {};
-    if (options.masking === undefined) options.masking = true;
-    return new Client(url, options);
-  },
-
-  server: function(options) {
-    options = options || {};
-    if (options.requireMasking === undefined) options.requireMasking = true;
-    return new Server(options);
-  },
-
-  http: function() {
-    return Server.http.apply(Server, arguments);
-  },
-
-  isSecureRequest: function(request) {
-    return Server.isSecureRequest(request);
-  },
-
-  isWebSocket: function(request) {
-    return Base.isWebSocket(request);
-  },
-
-  validateOptions: function(options, validKeys) {
-    Base.validateOptions(options, validKeys);
-  }
-};
-
-module.exports = Driver;
-
-
-/***/ }),
-
-/***/ 6887:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-
-
-var Buffer  = (__webpack_require__(9509).Buffer),
-    Emitter = (__webpack_require__(1239).EventEmitter),
-    util    = __webpack_require__(6464),
-    streams = __webpack_require__(7742),
-    Headers = __webpack_require__(2290),
-    Reader  = __webpack_require__(7365);
-
-var Base = function(request, url, options) {
-  Emitter.call(this);
-  Base.validateOptions(options || {}, ['maxLength', 'masking', 'requireMasking', 'protocols']);
-
-  this._request   = request;
-  this._reader    = new Reader();
-  this._options   = options || {};
-  this._maxLength = this._options.maxLength || this.MAX_LENGTH;
-  this._headers   = new Headers();
-  this.__queue    = [];
-  this.readyState = 0;
-  this.url        = url;
-
-  this.io = new streams.IO(this);
-  this.messages = new streams.Messages(this);
-  this._bindEventListeners();
-};
-util.inherits(Base, Emitter);
-
-Base.isWebSocket = function(request) {
-  var connection = request.headers.connection || '',
-      upgrade    = request.headers.upgrade || '';
-
-  return request.method === 'GET' &&
-         connection.toLowerCase().split(/ *, */).indexOf('upgrade') >= 0 &&
-         upgrade.toLowerCase() === 'websocket';
-};
-
-Base.validateOptions = function(options, validKeys) {
-  for (var key in options) {
-    if (validKeys.indexOf(key) < 0)
-      throw new Error('Unrecognized option: ' + key);
-  }
-};
-
-var instance = {
-  // This is 64MB, small enough for an average VPS to handle without
-  // crashing from process out of memory
-  MAX_LENGTH: 0x3ffffff,
-
-  STATES: ['connecting', 'open', 'closing', 'closed'],
-
-  _bindEventListeners: function() {
-    var self = this;
-
-    // Protocol errors are informational and do not have to be handled
-    this.messages.on('error', function() {});
-
-    this.on('message', function(event) {
-      var messages = self.messages;
-      if (messages.readable) messages.emit('data', event.data);
-    });
-
-    this.on('error', function(error) {
-      var messages = self.messages;
-      if (messages.readable) messages.emit('error', error);
-    });
-
-    this.on('close', function() {
-      var messages = self.messages;
-      if (!messages.readable) return;
-      messages.readable = messages.writable = false;
-      messages.emit('end');
-    });
-  },
-
-  getState: function() {
-    return this.STATES[this.readyState] || null;
-  },
-
-  addExtension: function(extension) {
-    return false;
-  },
-
-  setHeader: function(name, value) {
-    if (this.readyState > 0) return false;
-    this._headers.set(name, value);
-    return true;
-  },
-
-  start: function() {
-    if (this.readyState !== 0) return false;
-
-    if (!Base.isWebSocket(this._request))
-      return this._failHandshake(new Error('Not a WebSocket request'));
-
-    var response;
-
-    try {
-      response = this._handshakeResponse();
-    } catch (error) {
-      return this._failHandshake(error);
-    }
-
-    this._write(response);
-    if (this._stage !== -1) this._open();
-    return true;
-  },
-
-  _failHandshake: function(error) {
-    var headers = new Headers();
-    headers.set('Content-Type', 'text/plain');
-    headers.set('Content-Length', Buffer.byteLength(error.message, 'utf8'));
-
-    headers = ['HTTP/1.1 400 Bad Request', headers.toString(), error.message];
-    this._write(Buffer.from(headers.join('\r\n'), 'utf8'));
-    this._fail('protocol_error', error.message);
-
-    return false;
-  },
-
-  text: function(message) {
-    return this.frame(message);
-  },
-
-  binary: function(message) {
-    return false;
-  },
-
-  ping: function() {
-    return false;
-  },
-
-  pong: function() {
-      return false;
-  },
-
-  close: function(reason, code) {
-    if (this.readyState !== 1) return false;
-    this.readyState = 3;
-    this.emit('close', new Base.CloseEvent(null, null));
-    return true;
-  },
-
-  _open: function() {
-    this.readyState = 1;
-    this.__queue.forEach(function(args) { this.frame.apply(this, args) }, this);
-    this.__queue = [];
-    this.emit('open', new Base.OpenEvent());
-  },
-
-  _queue: function(message) {
-    this.__queue.push(message);
-    return true;
-  },
-
-  _write: function(chunk) {
-    var io = this.io;
-    if (io.readable) io.emit('data', chunk);
-  },
-
-  _fail: function(type, message) {
-    this.readyState = 2;
-    this.emit('error', new Error(message));
-    this.close();
-  }
-};
-
-for (var key in instance)
-  Base.prototype[key] = instance[key];
-
-
-Base.ConnectEvent = function() {};
-
-Base.OpenEvent = function() {};
-
-Base.CloseEvent = function(code, reason) {
-  this.code   = code;
-  this.reason = reason;
-};
-
-Base.MessageEvent = function(data) {
-  this.data = data;
-};
-
-Base.PingEvent = function(data) {
-  this.data = data;
-};
-
-Base.PongEvent = function(data) {
-  this.data = data;
-};
-
-module.exports = Base;
-
-
-/***/ }),
-
-/***/ 2889:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-
-
-var Buffer     = (__webpack_require__(9509).Buffer),
-    crypto     = __webpack_require__(4347),
-    url        = __webpack_require__(4269),
-    util       = __webpack_require__(6464),
-    HttpParser = __webpack_require__(3361),
-    Base       = __webpack_require__(6887),
-    Hybi       = __webpack_require__(2666),
-    Proxy      = __webpack_require__(1212);
-
-var Client = function(_url, options) {
-  this.version = 'hybi-' + Hybi.VERSION;
-  Hybi.call(this, null, _url, options);
-
-  this.readyState = -1;
-  this._key       = Client.generateKey();
-  this._accept    = Hybi.generateAccept(this._key);
-  this._http      = new HttpParser('response');
-
-  var uri  = url.parse(this.url),
-      auth = uri.auth && Buffer.from(uri.auth, 'utf8').toString('base64');
-
-  if (this.VALID_PROTOCOLS.indexOf(uri.protocol) < 0)
-    throw new Error(this.url + ' is not a valid WebSocket URL');
-
-  this._pathname = (uri.pathname || '/') + (uri.search || '');
-
-  this._headers.set('Host', uri.host);
-  this._headers.set('Upgrade', 'websocket');
-  this._headers.set('Connection', 'Upgrade');
-  this._headers.set('Sec-WebSocket-Key', this._key);
-  this._headers.set('Sec-WebSocket-Version', Hybi.VERSION);
-
-  if (this._protocols.length > 0)
-    this._headers.set('Sec-WebSocket-Protocol', this._protocols.join(', '));
-
-  if (auth)
-    this._headers.set('Authorization', 'Basic ' + auth);
-};
-util.inherits(Client, Hybi);
-
-Client.generateKey = function() {
-  return crypto.randomBytes(16).toString('base64');
-};
-
-var instance = {
-  VALID_PROTOCOLS: ['ws:', 'wss:'],
-
-  proxy: function(origin, options) {
-    return new Proxy(this, origin, options);
-  },
-
-  start: function() {
-    if (this.readyState !== -1) return false;
-    this._write(this._handshakeRequest());
-    this.readyState = 0;
-    return true;
-  },
-
-  parse: function(chunk) {
-    if (this.readyState === 3) return;
-    if (this.readyState > 0) return Hybi.prototype.parse.call(this, chunk);
-
-    this._http.parse(chunk);
-    if (!this._http.isComplete()) return;
-
-    this._validateHandshake();
-    if (this.readyState === 3) return;
-
-    this._open();
-    this.parse(this._http.body);
-  },
-
-  _handshakeRequest: function() {
-    var extensions = this._extensions.generateOffer();
-    if (extensions)
-      this._headers.set('Sec-WebSocket-Extensions', extensions);
-
-    var start   = 'GET ' + this._pathname + ' HTTP/1.1',
-        headers = [start, this._headers.toString(), ''];
-
-    return Buffer.from(headers.join('\r\n'), 'utf8');
-  },
-
-  _failHandshake: function(message) {
-    message = 'Error during WebSocket handshake: ' + message;
-    this.readyState = 3;
-    this.emit('error', new Error(message));
-    this.emit('close', new Base.CloseEvent(this.ERRORS.protocol_error, message));
-  },
-
-  _validateHandshake: function() {
-    this.statusCode = this._http.statusCode;
-    this.headers    = this._http.headers;
-
-    if (this._http.error)
-      return this._failHandshake(this._http.error.message);
-
-    if (this._http.statusCode !== 101)
-      return this._failHandshake('Unexpected response code: ' + this._http.statusCode);
-
-    var headers    = this._http.headers,
-        upgrade    = headers['upgrade'] || '',
-        connection = headers['connection'] || '',
-        accept     = headers['sec-websocket-accept'] || '',
-        protocol   = headers['sec-websocket-protocol'] || '';
-
-    if (upgrade === '')
-      return this._failHandshake("'Upgrade' header is missing");
-    if (upgrade.toLowerCase() !== 'websocket')
-      return this._failHandshake("'Upgrade' header value is not 'WebSocket'");
-
-    if (connection === '')
-      return this._failHandshake("'Connection' header is missing");
-    if (connection.toLowerCase() !== 'upgrade')
-      return this._failHandshake("'Connection' header value is not 'Upgrade'");
-
-    if (accept !== this._accept)
-      return this._failHandshake('Sec-WebSocket-Accept mismatch');
-
-    this.protocol = null;
-
-    if (protocol !== '') {
-      if (this._protocols.indexOf(protocol) < 0)
-        return this._failHandshake('Sec-WebSocket-Protocol mismatch');
-      else
-        this.protocol = protocol;
-    }
-
-    try {
-      this._extensions.activate(this.headers['sec-websocket-extensions']);
-    } catch (e) {
-      return this._failHandshake(e.message);
-    }
-  }
-};
-
-for (var key in instance)
-  Client.prototype[key] = instance[key];
-
-module.exports = Client;
-
-
-/***/ }),
-
-/***/ 2432:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-
-
-var Buffer = (__webpack_require__(9509).Buffer),
-    Base   = __webpack_require__(6887),
-    util   = __webpack_require__(6464);
-
-var Draft75 = function(request, url, options) {
-  Base.apply(this, arguments);
-  this._stage  = 0;
-  this.version = 'hixie-75';
-
-  this._headers.set('Upgrade', 'WebSocket');
-  this._headers.set('Connection', 'Upgrade');
-  this._headers.set('WebSocket-Origin', this._request.headers.origin);
-  this._headers.set('WebSocket-Location', this.url);
-};
-util.inherits(Draft75, Base);
-
-var instance = {
-  close: function() {
-    if (this.readyState === 3) return false;
-    this.readyState = 3;
-    this.emit('close', new Base.CloseEvent(null, null));
-    return true;
-  },
-
-  parse: function(chunk) {
-    if (this.readyState > 1) return;
-
-    this._reader.put(chunk);
-
-    this._reader.eachByte(function(octet) {
-      var message;
-
-      switch (this._stage) {
-        case -1:
-          this._body.push(octet);
-          this._sendHandshakeBody();
-          break;
-
-        case 0:
-          this._parseLeadingByte(octet);
-          break;
-
-        case 1:
-          this._length = (octet & 0x7F) + 128 * this._length;
-
-          if (this._closing && this._length === 0) {
-            return this.close();
-          }
-          else if ((octet & 0x80) !== 0x80) {
-            if (this._length === 0) {
-              this._stage = 0;
-            }
-            else {
-              this._skipped = 0;
-              this._stage   = 2;
-            }
-          }
-          break;
-
-        case 2:
-          if (octet === 0xFF) {
-            this._stage = 0;
-            message = Buffer.from(this._buffer).toString('utf8', 0, this._buffer.length);
-            this.emit('message', new Base.MessageEvent(message));
-          }
-          else {
-            if (this._length) {
-              this._skipped += 1;
-              if (this._skipped === this._length)
-                this._stage = 0;
-            } else {
-              this._buffer.push(octet);
-              if (this._buffer.length > this._maxLength) return this.close();
-            }
-          }
-          break;
-      }
-    }, this);
-  },
-
-  frame: function(buffer) {
-    if (this.readyState === 0) return this._queue([buffer]);
-    if (this.readyState > 1) return false;
-
-    if (typeof buffer !== 'string') buffer = buffer.toString();
-
-    var length = Buffer.byteLength(buffer),
-        frame  = Buffer.allocUnsafe(length + 2);
-
-    frame[0] = 0x00;
-    frame.write(buffer, 1);
-    frame[frame.length - 1] = 0xFF;
-
-    this._write(frame);
-    return true;
-  },
-
-  _handshakeResponse: function() {
-    var start   = 'HTTP/1.1 101 Web Socket Protocol Handshake',
-        headers = [start, this._headers.toString(), ''];
-
-    return Buffer.from(headers.join('\r\n'), 'utf8');
-  },
-
-  _parseLeadingByte: function(octet) {
-    if ((octet & 0x80) === 0x80) {
-      this._length = 0;
-      this._stage  = 1;
-    } else {
-      delete this._length;
-      delete this._skipped;
-      this._buffer = [];
-      this._stage  = 2;
-    }
-  }
-};
-
-for (var key in instance)
-  Draft75.prototype[key] = instance[key];
-
-module.exports = Draft75;
-
-
-/***/ }),
-
-/***/ 8541:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-
-
-var Buffer  = (__webpack_require__(9509).Buffer),
-    Base    = __webpack_require__(6887),
-    Draft75 = __webpack_require__(2432),
-    crypto  = __webpack_require__(4347),
-    util    = __webpack_require__(6464);
-
-
-var numberFromKey = function(key) {
-  return parseInt((key.match(/[0-9]/g) || []).join(''), 10);
-};
-
-var spacesInKey = function(key) {
-  return (key.match(/ /g) || []).length;
-};
-
-
-var Draft76 = function(request, url, options) {
-  Draft75.apply(this, arguments);
-  this._stage  = -1;
-  this._body   = [];
-  this.version = 'hixie-76';
-
-  this._headers.clear();
-
-  this._headers.set('Upgrade', 'WebSocket');
-  this._headers.set('Connection', 'Upgrade');
-  this._headers.set('Sec-WebSocket-Origin', this._request.headers.origin);
-  this._headers.set('Sec-WebSocket-Location', this.url);
-};
-util.inherits(Draft76, Draft75);
-
-var instance = {
-  BODY_SIZE: 8,
-
-  start: function() {
-    if (!Draft75.prototype.start.call(this)) return false;
-    this._started = true;
-    this._sendHandshakeBody();
-    return true;
-  },
-
-  close: function() {
-    if (this.readyState === 3) return false;
-    if (this.readyState === 1) this._write(Buffer.from([0xFF, 0x00]));
-    this.readyState = 3;
-    this.emit('close', new Base.CloseEvent(null, null));
-    return true;
-  },
-
-  _handshakeResponse: function() {
-    var headers = this._request.headers,
-        key1    = headers['sec-websocket-key1'],
-        key2    = headers['sec-websocket-key2'];
-
-    if (!key1) throw new Error('Missing required header: Sec-WebSocket-Key1');
-    if (!key2) throw new Error('Missing required header: Sec-WebSocket-Key2');
-
-    var number1 = numberFromKey(key1),
-        spaces1 = spacesInKey(key1),
-
-        number2 = numberFromKey(key2),
-        spaces2 = spacesInKey(key2);
-
-    if (number1 % spaces1 !== 0 || number2 % spaces2 !== 0)
-      throw new Error('Client sent invalid Sec-WebSocket-Key headers');
-
-    this._keyValues = [number1 / spaces1, number2 / spaces2];
-
-    var start   = 'HTTP/1.1 101 WebSocket Protocol Handshake',
-        headers = [start, this._headers.toString(), ''];
-
-    return Buffer.from(headers.join('\r\n'), 'binary');
-  },
-
-  _handshakeSignature: function() {
-    if (this._body.length < this.BODY_SIZE) return null;
-
-    var md5    = crypto.createHash('md5'),
-        buffer = Buffer.allocUnsafe(8 + this.BODY_SIZE);
-
-    buffer.writeUInt32BE(this._keyValues[0], 0);
-    buffer.writeUInt32BE(this._keyValues[1], 4);
-    Buffer.from(this._body).copy(buffer, 8, 0, this.BODY_SIZE);
-
-    md5.update(buffer);
-    return Buffer.from(md5.digest('binary'), 'binary');
-  },
-
-  _sendHandshakeBody: function() {
-    if (!this._started) return;
-    var signature = this._handshakeSignature();
-    if (!signature) return;
-
-    this._write(signature);
-    this._stage = 0;
-    this._open();
-
-    if (this._body.length > this.BODY_SIZE)
-      this.parse(this._body.slice(this.BODY_SIZE));
-  },
-
-  _parseLeadingByte: function(octet) {
-    if (octet !== 0xFF)
-      return Draft75.prototype._parseLeadingByte.call(this, octet);
-
-    this._closing = true;
-    this._length  = 0;
-    this._stage   = 1;
-  }
-};
-
-for (var key in instance)
-  Draft76.prototype[key] = instance[key];
-
-module.exports = Draft76;
-
-
-/***/ }),
-
-/***/ 2290:
+/***/ "./public/page-data/sq/d/2094259327.json":
+/*!***********************************************!*\
+  !*** ./public/page-data/sq/d/2094259327.json ***!
+  \***********************************************/
 /***/ ((module) => {
 
 "use strict";
-
-
-var Headers = function() {
-  this.clear();
-};
-
-Headers.prototype.ALLOWED_DUPLICATES = ['set-cookie', 'set-cookie2', 'warning', 'www-authenticate'];
-
-Headers.prototype.clear = function() {
-  this._sent  = {};
-  this._lines = [];
-};
-
-Headers.prototype.set = function(name, value) {
-  if (value === undefined) return;
-
-  name = this._strip(name);
-  value = this._strip(value);
-
-  var key = name.toLowerCase();
-  if (!this._sent.hasOwnProperty(key) || this.ALLOWED_DUPLICATES.indexOf(key) >= 0) {
-    this._sent[key] = true;
-    this._lines.push(name + ': ' + value + '\r\n');
-  }
-};
-
-Headers.prototype.toString = function() {
-  return this._lines.join('');
-};
-
-Headers.prototype._strip = function(string) {
-  return string.toString().replace(/^ */, '').replace(/ *$/, '');
-};
-
-module.exports = Headers;
-
-
-/***/ }),
-
-/***/ 2666:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-
-
-var Buffer     = (__webpack_require__(9509).Buffer),
-    crypto     = __webpack_require__(4347),
-    util       = __webpack_require__(6464),
-    Extensions = __webpack_require__(8951),
-    Base       = __webpack_require__(6887),
-    Frame      = __webpack_require__(5592),
-    Message    = __webpack_require__(7083);
-
-var Hybi = function(request, url, options) {
-  Base.apply(this, arguments);
-
-  this._extensions     = new Extensions();
-  this._stage          = 0;
-  this._masking        = this._options.masking;
-  this._protocols      = this._options.protocols || [];
-  this._requireMasking = this._options.requireMasking;
-  this._pingCallbacks  = {};
-
-  if (typeof this._protocols === 'string')
-    this._protocols = this._protocols.split(/ *, */);
-
-  if (!this._request) return;
-
-  var protos    = this._request.headers['sec-websocket-protocol'],
-      supported = this._protocols;
-
-  if (protos !== undefined) {
-    if (typeof protos === 'string') protos = protos.split(/ *, */);
-    this.protocol = protos.filter(function(p) { return supported.indexOf(p) >= 0 })[0];
-  }
-
-  this.version = 'hybi-' + Hybi.VERSION;
-};
-util.inherits(Hybi, Base);
-
-Hybi.VERSION = '13';
-
-Hybi.mask = function(payload, mask, offset) {
-  if (!mask || mask.length === 0) return payload;
-  offset = offset || 0;
-
-  for (var i = 0, n = payload.length - offset; i < n; i++) {
-    payload[offset + i] = payload[offset + i] ^ mask[i % 4];
-  }
-  return payload;
-};
-
-Hybi.generateAccept = function(key) {
-  var sha1 = crypto.createHash('sha1');
-  sha1.update(key + Hybi.GUID);
-  return sha1.digest('base64');
-};
-
-Hybi.GUID = '258EAFA5-E914-47DA-95CA-C5AB0DC85B11';
-
-var instance = {
-  FIN:    0x80,
-  MASK:   0x80,
-  RSV1:   0x40,
-  RSV2:   0x20,
-  RSV3:   0x10,
-  OPCODE: 0x0F,
-  LENGTH: 0x7F,
-
-  OPCODES: {
-    continuation: 0,
-    text:         1,
-    binary:       2,
-    close:        8,
-    ping:         9,
-    pong:         10
-  },
-
-  OPCODE_CODES:    [0, 1, 2, 8, 9, 10],
-  MESSAGE_OPCODES: [0, 1, 2],
-  OPENING_OPCODES: [1, 2],
-
-  ERRORS: {
-    normal_closure:       1000,
-    going_away:           1001,
-    protocol_error:       1002,
-    unacceptable:         1003,
-    encoding_error:       1007,
-    policy_violation:     1008,
-    too_large:            1009,
-    extension_error:      1010,
-    unexpected_condition: 1011
-  },
-
-  ERROR_CODES:        [1000, 1001, 1002, 1003, 1007, 1008, 1009, 1010, 1011],
-  DEFAULT_ERROR_CODE: 1000,
-  MIN_RESERVED_ERROR: 3000,
-  MAX_RESERVED_ERROR: 4999,
-
-  // http://www.w3.org/International/questions/qa-forms-utf-8.en.php
-  UTF8_MATCH: /^([\x00-\x7F]|[\xC2-\xDF][\x80-\xBF]|\xE0[\xA0-\xBF][\x80-\xBF]|[\xE1-\xEC\xEE\xEF][\x80-\xBF]{2}|\xED[\x80-\x9F][\x80-\xBF]|\xF0[\x90-\xBF][\x80-\xBF]{2}|[\xF1-\xF3][\x80-\xBF]{3}|\xF4[\x80-\x8F][\x80-\xBF]{2})*$/,
-
-  addExtension: function(extension) {
-    this._extensions.add(extension);
-    return true;
-  },
-
-  parse: function(chunk) {
-    this._reader.put(chunk);
-    var buffer = true;
-    while (buffer) {
-      switch (this._stage) {
-        case 0:
-          buffer = this._reader.read(1);
-          if (buffer) this._parseOpcode(buffer[0]);
-          break;
-
-        case 1:
-          buffer = this._reader.read(1);
-          if (buffer) this._parseLength(buffer[0]);
-          break;
-
-        case 2:
-          buffer = this._reader.read(this._frame.lengthBytes);
-          if (buffer) this._parseExtendedLength(buffer);
-          break;
-
-        case 3:
-          buffer = this._reader.read(4);
-          if (buffer) {
-            this._stage = 4;
-            this._frame.maskingKey = buffer;
-          }
-          break;
-
-        case 4:
-          buffer = this._reader.read(this._frame.length);
-          if (buffer) {
-            this._stage = 0;
-            this._emitFrame(buffer);
-          }
-          break;
-
-        default:
-          buffer = null;
-      }
-    }
-  },
-
-  text: function(message) {
-    if (this.readyState > 1) return false;
-    return this.frame(message, 'text');
-  },
-
-  binary: function(message) {
-    if (this.readyState > 1) return false;
-    return this.frame(message, 'binary');
-  },
-
-  ping: function(message, callback) {
-    if (this.readyState > 1) return false;
-    message = message || '';
-    if (callback) this._pingCallbacks[message] = callback;
-    return this.frame(message, 'ping');
-  },
-
-  pong: function(message) {
-      if (this.readyState > 1) return false;
-      message = message ||'';
-      return this.frame(message, 'pong');
-  },
-
-  close: function(reason, code) {
-    reason = reason || '';
-    code   = code   || this.ERRORS.normal_closure;
-
-    if (this.readyState <= 0) {
-      this.readyState = 3;
-      this.emit('close', new Base.CloseEvent(code, reason));
-      return true;
-    } else if (this.readyState === 1) {
-      this.readyState = 2;
-      this._extensions.close(function() { this.frame(reason, 'close', code) }, this);
-      return true;
-    } else {
-      return false;
-    }
-  },
-
-  frame: function(buffer, type, code) {
-    if (this.readyState <= 0) return this._queue([buffer, type, code]);
-    if (this.readyState > 2) return false;
-
-    if (buffer instanceof Array)    buffer = Buffer.from(buffer);
-    if (typeof buffer === 'number') buffer = buffer.toString();
-
-    var message = new Message(),
-        isText  = (typeof buffer === 'string'),
-        payload, copy;
-
-    message.rsv1   = message.rsv2 = message.rsv3 = false;
-    message.opcode = this.OPCODES[type || (isText ? 'text' : 'binary')];
-
-    payload = isText ? Buffer.from(buffer, 'utf8') : buffer;
-
-    if (code) {
-      copy = payload;
-      payload = Buffer.allocUnsafe(2 + copy.length);
-      payload.writeUInt16BE(code, 0);
-      copy.copy(payload, 2);
-    }
-    message.data = payload;
-
-    var onMessageReady = function(message) {
-      var frame = new Frame();
-
-      frame.final   = true;
-      frame.rsv1    = message.rsv1;
-      frame.rsv2    = message.rsv2;
-      frame.rsv3    = message.rsv3;
-      frame.opcode  = message.opcode;
-      frame.masked  = !!this._masking;
-      frame.length  = message.data.length;
-      frame.payload = message.data;
-
-      if (frame.masked) frame.maskingKey = crypto.randomBytes(4);
-
-      this._sendFrame(frame);
-    };
-
-    if (this.MESSAGE_OPCODES.indexOf(message.opcode) >= 0)
-      this._extensions.processOutgoingMessage(message, function(error, message) {
-        if (error) return this._fail('extension_error', error.message);
-        onMessageReady.call(this, message);
-      }, this);
-    else
-      onMessageReady.call(this, message);
-
-    return true;
-  },
-
-  _sendFrame: function(frame) {
-    var length = frame.length,
-        header = (length <= 125) ? 2 : (length <= 65535 ? 4 : 10),
-        offset = header + (frame.masked ? 4 : 0),
-        buffer = Buffer.allocUnsafe(offset + length),
-        masked = frame.masked ? this.MASK : 0;
-
-    buffer[0] = (frame.final ? this.FIN : 0) |
-                (frame.rsv1 ? this.RSV1 : 0) |
-                (frame.rsv2 ? this.RSV2 : 0) |
-                (frame.rsv3 ? this.RSV3 : 0) |
-                frame.opcode;
-
-    if (length <= 125) {
-      buffer[1] = masked | length;
-    } else if (length <= 65535) {
-      buffer[1] = masked | 126;
-      buffer.writeUInt16BE(length, 2);
-    } else {
-      buffer[1] = masked | 127;
-      buffer.writeUInt32BE(Math.floor(length / 0x100000000), 2);
-      buffer.writeUInt32BE(length % 0x100000000, 6);
-    }
-
-    frame.payload.copy(buffer, offset);
-
-    if (frame.masked) {
-      frame.maskingKey.copy(buffer, header);
-      Hybi.mask(buffer, frame.maskingKey, offset);
-    }
-
-    this._write(buffer);
-  },
-
-  _handshakeResponse: function() {
-    var secKey  = this._request.headers['sec-websocket-key'],
-        version = this._request.headers['sec-websocket-version'];
-
-    if (version !== Hybi.VERSION)
-      throw new Error('Unsupported WebSocket version: ' + version);
-
-    if (typeof secKey !== 'string')
-      throw new Error('Missing handshake request header: Sec-WebSocket-Key');
-
-    this._headers.set('Upgrade', 'websocket');
-    this._headers.set('Connection', 'Upgrade');
-    this._headers.set('Sec-WebSocket-Accept', Hybi.generateAccept(secKey));
-
-    if (this.protocol) this._headers.set('Sec-WebSocket-Protocol', this.protocol);
-
-    var extensions = this._extensions.generateResponse(this._request.headers['sec-websocket-extensions']);
-    if (extensions) this._headers.set('Sec-WebSocket-Extensions', extensions);
-
-    var start   = 'HTTP/1.1 101 Switching Protocols',
-        headers = [start, this._headers.toString(), ''];
-
-    return Buffer.from(headers.join('\r\n'), 'utf8');
-  },
-
-  _shutdown: function(code, reason, error) {
-    delete this._frame;
-    delete this._message;
-    this._stage = 5;
-
-    var sendCloseFrame = (this.readyState === 1);
-    this.readyState = 2;
-
-    this._extensions.close(function() {
-      if (sendCloseFrame) this.frame(reason, 'close', code);
-      this.readyState = 3;
-      if (error) this.emit('error', new Error(reason));
-      this.emit('close', new Base.CloseEvent(code, reason));
-    }, this);
-  },
-
-  _fail: function(type, message) {
-    if (this.readyState > 1) return;
-    this._shutdown(this.ERRORS[type], message, true);
-  },
-
-  _parseOpcode: function(octet) {
-    var rsvs = [this.RSV1, this.RSV2, this.RSV3].map(function(rsv) {
-      return (octet & rsv) === rsv;
-    });
-
-    var frame = this._frame = new Frame();
-
-    frame.final  = (octet & this.FIN) === this.FIN;
-    frame.rsv1   = rsvs[0];
-    frame.rsv2   = rsvs[1];
-    frame.rsv3   = rsvs[2];
-    frame.opcode = (octet & this.OPCODE);
-
-    this._stage = 1;
-
-    if (!this._extensions.validFrameRsv(frame))
-      return this._fail('protocol_error',
-          'One or more reserved bits are on: reserved1 = ' + (frame.rsv1 ? 1 : 0) +
-          ', reserved2 = ' + (frame.rsv2 ? 1 : 0) +
-          ', reserved3 = ' + (frame.rsv3 ? 1 : 0));
-
-    if (this.OPCODE_CODES.indexOf(frame.opcode) < 0)
-      return this._fail('protocol_error', 'Unrecognized frame opcode: ' + frame.opcode);
-
-    if (this.MESSAGE_OPCODES.indexOf(frame.opcode) < 0 && !frame.final)
-      return this._fail('protocol_error', 'Received fragmented control frame: opcode = ' + frame.opcode);
-
-    if (this._message && this.OPENING_OPCODES.indexOf(frame.opcode) >= 0)
-      return this._fail('protocol_error', 'Received new data frame but previous continuous frame is unfinished');
-  },
-
-  _parseLength: function(octet) {
-    var frame = this._frame;
-    frame.masked = (octet & this.MASK) === this.MASK;
-    frame.length = (octet & this.LENGTH);
-
-    if (frame.length >= 0 && frame.length <= 125) {
-      this._stage = frame.masked ? 3 : 4;
-      if (!this._checkFrameLength()) return;
-    } else {
-      this._stage = 2;
-      frame.lengthBytes = (frame.length === 126 ? 2 : 8);
-    }
-
-    if (this._requireMasking && !frame.masked)
-      return this._fail('unacceptable', 'Received unmasked frame but masking is required');
-  },
-
-  _parseExtendedLength: function(buffer) {
-    var frame = this._frame;
-    frame.length = this._readUInt(buffer);
-
-    this._stage = frame.masked ? 3 : 4;
-
-    if (this.MESSAGE_OPCODES.indexOf(frame.opcode) < 0 && frame.length > 125)
-      return this._fail('protocol_error', 'Received control frame having too long payload: ' + frame.length);
-
-    if (!this._checkFrameLength()) return;
-  },
-
-  _checkFrameLength: function() {
-    var length = this._message ? this._message.length : 0;
-
-    if (length + this._frame.length > this._maxLength) {
-      this._fail('too_large', 'WebSocket frame length too large');
-      return false;
-    } else {
-      return true;
-    }
-  },
-
-  _emitFrame: function(buffer) {
-    var frame   = this._frame,
-        payload = frame.payload = Hybi.mask(buffer, frame.maskingKey),
-        opcode  = frame.opcode,
-        message,
-        code, reason,
-        callbacks, callback;
-
-    delete this._frame;
-
-    if (opcode === this.OPCODES.continuation) {
-      if (!this._message) return this._fail('protocol_error', 'Received unexpected continuation frame');
-      this._message.pushFrame(frame);
-    }
-
-    if (opcode === this.OPCODES.text || opcode === this.OPCODES.binary) {
-      this._message = new Message();
-      this._message.pushFrame(frame);
-    }
-
-    if (frame.final && this.MESSAGE_OPCODES.indexOf(opcode) >= 0)
-      return this._emitMessage(this._message);
-
-    if (opcode === this.OPCODES.close) {
-      code   = (payload.length >= 2) ? payload.readUInt16BE(0) : null;
-      reason = (payload.length > 2) ? this._encode(payload.slice(2)) : null;
-
-      if (!(payload.length === 0) &&
-          !(code !== null && code >= this.MIN_RESERVED_ERROR && code <= this.MAX_RESERVED_ERROR) &&
-          this.ERROR_CODES.indexOf(code) < 0)
-        code = this.ERRORS.protocol_error;
-
-      if (payload.length > 125 || (payload.length > 2 && !reason))
-        code = this.ERRORS.protocol_error;
-
-      this._shutdown(code || this.DEFAULT_ERROR_CODE, reason || '');
-    }
-
-    if (opcode === this.OPCODES.ping) {
-      this.frame(payload, 'pong');
-      this.emit('ping', new Base.PingEvent(payload.toString()))
-    }
-
-    if (opcode === this.OPCODES.pong) {
-      callbacks = this._pingCallbacks;
-      message   = this._encode(payload);
-      callback  = callbacks[message];
-
-      delete callbacks[message];
-      if (callback) callback()
-
-      this.emit('pong', new Base.PongEvent(payload.toString()))
-    }
-  },
-
-  _emitMessage: function(message) {
-    var message = this._message;
-    message.read();
-
-    delete this._message;
-
-    this._extensions.processIncomingMessage(message, function(error, message) {
-      if (error) return this._fail('extension_error', error.message);
-
-      var payload = message.data;
-      if (message.opcode === this.OPCODES.text) payload = this._encode(payload);
-
-      if (payload === null)
-        return this._fail('encoding_error', 'Could not decode a text frame as UTF-8');
-      else
-        this.emit('message', new Base.MessageEvent(payload));
-    }, this);
-  },
-
-  _encode: function(buffer) {
-    try {
-      var string = buffer.toString('binary', 0, buffer.length);
-      if (!this.UTF8_MATCH.test(string)) return null;
-    } catch (e) {}
-    return buffer.toString('utf8', 0, buffer.length);
-  },
-
-  _readUInt: function(buffer) {
-    if (buffer.length === 2) return buffer.readUInt16BE(0);
-
-    return buffer.readUInt32BE(0) * 0x100000000 +
-           buffer.readUInt32BE(4);
-  }
-};
-
-for (var key in instance)
-  Hybi.prototype[key] = instance[key];
-
-module.exports = Hybi;
-
-
-/***/ }),
-
-/***/ 5592:
-/***/ ((module) => {
-
-"use strict";
-
-
-var Frame = function() {};
-
-var instance = {
-  final:        false,
-  rsv1:         false,
-  rsv2:         false,
-  rsv3:         false,
-  opcode:       null,
-  masked:       false,
-  maskingKey:   null,
-  lengthBytes:  1,
-  length:       0,
-  payload:      null
-};
-
-for (var key in instance)
-  Frame.prototype[key] = instance[key];
-
-module.exports = Frame;
-
-
-/***/ }),
-
-/***/ 7083:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-
-
-var Buffer = (__webpack_require__(9509).Buffer);
-
-var Message = function() {
-  this.rsv1    = false;
-  this.rsv2    = false;
-  this.rsv3    = false;
-  this.opcode  = null;
-  this.length  = 0;
-  this._chunks = [];
-};
-
-var instance = {
-  read: function() {
-    return this.data = this.data || Buffer.concat(this._chunks, this.length);
-  },
-
-  pushFrame: function(frame) {
-    this.rsv1 = this.rsv1 || frame.rsv1;
-    this.rsv2 = this.rsv2 || frame.rsv2;
-    this.rsv3 = this.rsv3 || frame.rsv3;
-
-    if (this.opcode === null) this.opcode = frame.opcode;
-
-    this._chunks.push(frame.payload);
-    this.length += frame.length;
-  }
-};
-
-for (var key in instance)
-  Message.prototype[key] = instance[key];
-
-module.exports = Message;
-
-
-/***/ }),
-
-/***/ 1212:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-
-
-var Buffer     = (__webpack_require__(9509).Buffer),
-    Stream     = (__webpack_require__(8311).Stream),
-    url        = __webpack_require__(4269),
-    util       = __webpack_require__(6464),
-    Base       = __webpack_require__(6887),
-    Headers    = __webpack_require__(2290),
-    HttpParser = __webpack_require__(3361);
-
-var PORTS = { 'ws:': 80, 'wss:': 443 };
-
-var Proxy = function(client, origin, options) {
-  this._client  = client;
-  this._http    = new HttpParser('response');
-  this._origin  = (typeof client.url === 'object') ? client.url : url.parse(client.url);
-  this._url     = (typeof origin === 'object') ? origin : url.parse(origin);
-  this._options = options || {};
-  this._state   = 0;
-
-  this.readable = this.writable = true;
-  this._paused  = false;
-
-  this._headers = new Headers();
-  this._headers.set('Host', this._origin.host);
-  this._headers.set('Connection', 'keep-alive');
-  this._headers.set('Proxy-Connection', 'keep-alive');
-
-  var auth = this._url.auth && Buffer.from(this._url.auth, 'utf8').toString('base64');
-  if (auth) this._headers.set('Proxy-Authorization', 'Basic ' + auth);
-};
-util.inherits(Proxy, Stream);
-
-var instance = {
-  setHeader: function(name, value) {
-    if (this._state !== 0) return false;
-    this._headers.set(name, value);
-    return true;
-  },
-
-  start: function() {
-    if (this._state !== 0) return false;
-    this._state = 1;
-
-    var origin = this._origin,
-        port   = origin.port || PORTS[origin.protocol],
-        start  = 'CONNECT ' + origin.hostname + ':' + port + ' HTTP/1.1';
-
-    var headers = [start, this._headers.toString(), ''];
-
-    this.emit('data', Buffer.from(headers.join('\r\n'), 'utf8'));
-    return true;
-  },
-
-  pause: function() {
-    this._paused = true;
-  },
-
-  resume: function() {
-    this._paused = false;
-    this.emit('drain');
-  },
-
-  write: function(chunk) {
-    if (!this.writable) return false;
-
-    this._http.parse(chunk);
-    if (!this._http.isComplete()) return !this._paused;
-
-    this.statusCode = this._http.statusCode;
-    this.headers    = this._http.headers;
-
-    if (this.statusCode === 200) {
-      this.emit('connect', new Base.ConnectEvent());
-    } else {
-      var message = "Can't establish a connection to the server at " + this._origin.href;
-      this.emit('error', new Error(message));
-    }
-    this.end();
-    return !this._paused;
-  },
-
-  end: function(chunk) {
-    if (!this.writable) return;
-    if (chunk !== undefined) this.write(chunk);
-    this.readable = this.writable = false;
-    this.emit('close');
-    this.emit('end');
-  },
-
-  destroy: function() {
-    this.end();
-  }
-};
-
-for (var key in instance)
-  Proxy.prototype[key] = instance[key];
-
-module.exports = Proxy;
-
-
-/***/ }),
-
-/***/ 3720:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-
-
-var util       = __webpack_require__(6464),
-    HttpParser = __webpack_require__(3361),
-    Base       = __webpack_require__(6887),
-    Draft75    = __webpack_require__(2432),
-    Draft76    = __webpack_require__(8541),
-    Hybi       = __webpack_require__(2666);
-
-var Server = function(options) {
-  Base.call(this, null, null, options);
-  this._http = new HttpParser('request');
-};
-util.inherits(Server, Base);
-
-var instance = {
-  EVENTS: ['open', 'message', 'error', 'close', 'ping', 'pong'],
-
-  _bindEventListeners: function() {
-    this.messages.on('error', function() {});
-    this.on('error', function() {});
-  },
-
-  parse: function(chunk) {
-    if (this._delegate) return this._delegate.parse(chunk);
-
-    this._http.parse(chunk);
-    if (!this._http.isComplete()) return;
-
-    this.method  = this._http.method;
-    this.url     = this._http.url;
-    this.headers = this._http.headers;
-    this.body    = this._http.body;
-
-    var self = this;
-    this._delegate = Server.http(this, this._options);
-    this._delegate.messages = this.messages;
-    this._delegate.io = this.io;
-    this._open();
-
-    this.EVENTS.forEach(function(event) {
-      this._delegate.on(event, function(e) { self.emit(event, e) });
-    }, this);
-
-    this.protocol = this._delegate.protocol;
-    this.version  = this._delegate.version;
-
-    this.parse(this._http.body);
-    this.emit('connect', new Base.ConnectEvent());
-  },
-
-  _open: function() {
-    this.__queue.forEach(function(msg) {
-      this._delegate[msg[0]].apply(this._delegate, msg[1]);
-    }, this);
-    this.__queue = [];
-  }
-};
-
-['addExtension', 'setHeader', 'start', 'frame', 'text', 'binary', 'ping', 'close'].forEach(function(method) {
-  instance[method] = function() {
-    if (this._delegate) {
-      return this._delegate[method].apply(this._delegate, arguments);
-    } else {
-      this.__queue.push([method, arguments]);
-      return true;
-    }
-  };
-});
-
-for (var key in instance)
-  Server.prototype[key] = instance[key];
-
-Server.isSecureRequest = function(request) {
-  if (request.connection && request.connection.authorized !== undefined) return true;
-  if (request.socket && request.socket.secure) return true;
-
-  var headers = request.headers;
-  if (!headers) return false;
-  if (headers['https'] === 'on') return true;
-  if (headers['x-forwarded-ssl'] === 'on') return true;
-  if (headers['x-forwarded-scheme'] === 'https') return true;
-  if (headers['x-forwarded-proto'] === 'https') return true;
-
-  return false;
-};
-
-Server.determineUrl = function(request) {
-  var scheme = this.isSecureRequest(request) ? 'wss:' : 'ws:';
-  return scheme + '//' + request.headers.host + request.url;
-};
-
-Server.http = function(request, options) {
-  options = options || {};
-  if (options.requireMasking === undefined) options.requireMasking = true;
-
-  var headers = request.headers,
-      version = headers['sec-websocket-version'],
-      key     = headers['sec-websocket-key'],
-      key1    = headers['sec-websocket-key1'],
-      key2    = headers['sec-websocket-key2'],
-      url     = this.determineUrl(request);
-
-  if (version || key)
-    return new Hybi(request, url, options);
-  else if (key1 || key2)
-    return new Draft76(request, url, options);
-  else
-    return new Draft75(request, url, options);
-};
-
-module.exports = Server;
-
-
-/***/ }),
-
-/***/ 7365:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-
-
-var Buffer = (__webpack_require__(9509).Buffer);
-
-var StreamReader = function() {
-  this._queue     = [];
-  this._queueSize = 0;
-  this._offset    = 0;
-};
-
-StreamReader.prototype.put = function(buffer) {
-  if (!buffer || buffer.length === 0) return;
-  if (!Buffer.isBuffer(buffer)) buffer = Buffer.from(buffer);
-  this._queue.push(buffer);
-  this._queueSize += buffer.length;
-};
-
-StreamReader.prototype.read = function(length) {
-  if (length > this._queueSize) return null;
-  if (length === 0) return Buffer.alloc(0);
-
-  this._queueSize -= length;
-
-  var queue  = this._queue,
-      remain = length,
-      first  = queue[0],
-      buffers, buffer;
-
-  if (first.length >= length) {
-    if (first.length === length) {
-      return queue.shift();
-    } else {
-      buffer = first.slice(0, length);
-      queue[0] = first.slice(length);
-      return buffer;
-    }
-  }
-
-  for (var i = 0, n = queue.length; i < n; i++) {
-    if (remain < queue[i].length) break;
-    remain -= queue[i].length;
-  }
-  buffers = queue.splice(0, i);
-
-  if (remain > 0 && queue.length > 0) {
-    buffers.push(queue[0].slice(0, remain));
-    queue[0] = queue[0].slice(remain);
-  }
-  return Buffer.concat(buffers, length);
-};
-
-StreamReader.prototype.eachByte = function(callback, context) {
-  var buffer, n, index;
-
-  while (this._queue.length > 0) {
-    buffer = this._queue[0];
-    n = buffer.length;
-
-    while (this._offset < n) {
-      index = this._offset;
-      this._offset += 1;
-      callback.call(context, buffer[index]);
-    }
-    this._offset = 0;
-    this._queue.shift();
-  }
-};
-
-module.exports = StreamReader;
-
-
-/***/ }),
-
-/***/ 3361:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-
-
-var NodeHTTPParser = (__webpack_require__(772)/* .HTTPParser */ .m),
-    Buffer         = (__webpack_require__(9509).Buffer);
-
-var TYPES = {
-  request:  NodeHTTPParser.REQUEST  || 'request',
-  response: NodeHTTPParser.RESPONSE || 'response'
-};
-
-var HttpParser = function(type) {
-  this._type     = type;
-  this._parser   = new NodeHTTPParser(TYPES[type]);
-  this._complete = false;
-  this.headers   = {};
-
-  var current = null,
-      self    = this;
-
-  this._parser.onHeaderField = function(b, start, length) {
-    current = b.toString('utf8', start, start + length).toLowerCase();
-  };
-
-  this._parser.onHeaderValue = function(b, start, length) {
-    var value = b.toString('utf8', start, start + length);
-
-    if (self.headers.hasOwnProperty(current))
-      self.headers[current] += ', ' + value;
-    else
-      self.headers[current] = value;
-  };
-
-  this._parser.onHeadersComplete = this._parser[NodeHTTPParser.kOnHeadersComplete] =
-  function(majorVersion, minorVersion, headers, method, pathname, statusCode) {
-    var info = arguments[0];
-
-    if (typeof info === 'object') {
-      method     = info.method;
-      pathname   = info.url;
-      statusCode = info.statusCode;
-      headers    = info.headers;
-    }
-
-    self.method     = (typeof method === 'number') ? HttpParser.METHODS[method] : method;
-    self.statusCode = statusCode;
-    self.url        = pathname;
-
-    if (!headers) return;
-
-    for (var i = 0, n = headers.length, key, value; i < n; i += 2) {
-      key   = headers[i].toLowerCase();
-      value = headers[i+1];
-      if (self.headers.hasOwnProperty(key))
-        self.headers[key] += ', ' + value;
-      else
-        self.headers[key] = value;
-    }
-
-    self._complete = true;
-  };
-};
-
-HttpParser.METHODS = {
-  0:  'DELETE',
-  1:  'GET',
-  2:  'HEAD',
-  3:  'POST',
-  4:  'PUT',
-  5:  'CONNECT',
-  6:  'OPTIONS',
-  7:  'TRACE',
-  8:  'COPY',
-  9:  'LOCK',
-  10: 'MKCOL',
-  11: 'MOVE',
-  12: 'PROPFIND',
-  13: 'PROPPATCH',
-  14: 'SEARCH',
-  15: 'UNLOCK',
-  16: 'BIND',
-  17: 'REBIND',
-  18: 'UNBIND',
-  19: 'ACL',
-  20: 'REPORT',
-  21: 'MKACTIVITY',
-  22: 'CHECKOUT',
-  23: 'MERGE',
-  24: 'M-SEARCH',
-  25: 'NOTIFY',
-  26: 'SUBSCRIBE',
-  27: 'UNSUBSCRIBE',
-  28: 'PATCH',
-  29: 'PURGE',
-  30: 'MKCALENDAR',
-  31: 'LINK',
-  32: 'UNLINK'
-};
-
-var VERSION = process.version
-  ? process.version.match(/[0-9]+/g).map(function(n) { return parseInt(n, 10) })
-  : [];
-
-if (VERSION[0] === 0 && VERSION[1] === 12) {
-  HttpParser.METHODS[16] = 'REPORT';
-  HttpParser.METHODS[17] = 'MKACTIVITY';
-  HttpParser.METHODS[18] = 'CHECKOUT';
-  HttpParser.METHODS[19] = 'MERGE';
-  HttpParser.METHODS[20] = 'M-SEARCH';
-  HttpParser.METHODS[21] = 'NOTIFY';
-  HttpParser.METHODS[22] = 'SUBSCRIBE';
-  HttpParser.METHODS[23] = 'UNSUBSCRIBE';
-  HttpParser.METHODS[24] = 'PATCH';
-  HttpParser.METHODS[25] = 'PURGE';
-}
-
-HttpParser.prototype.isComplete = function() {
-  return this._complete;
-};
-
-HttpParser.prototype.parse = function(chunk) {
-  var consumed = this._parser.execute(chunk, 0, chunk.length);
-
-  if (typeof consumed !== 'number') {
-    this.error     = consumed;
-    this._complete = true;
-    return;
-  }
-
-  if (this._complete)
-    this.body = (consumed < chunk.length)
-              ? chunk.slice(consumed)
-              : Buffer.alloc(0);
-};
-
-module.exports = HttpParser;
-
-
-/***/ }),
-
-/***/ 7742:
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-
-
-/**
-
-Streams in a WebSocket connection
----------------------------------
-
-We model a WebSocket as two duplex streams: one stream is for the wire protocol
-over an I/O socket, and the other is for incoming/outgoing messages.
-
-
-                        +----------+      +---------+      +----------+
-    [1] write(chunk) -->| ~~~~~~~~ +----->| parse() +----->| ~~~~~~~~ +--> emit('data') [2]
-                        |          |      +----+----+      |          |
-                        |          |           |           |          |
-                        |    IO    |           | [5]       | Messages |
-                        |          |           V           |          |
-                        |          |      +---------+      |          |
-    [4] emit('data') <--+ ~~~~~~~~ |<-----+ frame() |<-----+ ~~~~~~~~ |<-- write(chunk) [3]
-                        +----------+      +---------+      +----------+
-
-
-Message transfer in each direction is simple: IO receives a byte stream [1] and
-sends this stream for parsing. The parser will periodically emit a complete
-message text on the Messages stream [2]. Similarly, when messages are written
-to the Messages stream [3], they are framed using the WebSocket wire format and
-emitted via IO [4].
-
-There is a feedback loop via [5] since some input from [1] will be things like
-ping, pong and close frames. In these cases the protocol responds by emitting
-responses directly back to [4] rather than emitting messages via [2].
-
-For the purposes of flow control, we consider the sources of each Readable
-stream to be as follows:
-
-* [2] receives input from [1]
-* [4] receives input from [1] and [3]
-
-The classes below express the relationships described above without prescribing
-anything about how parse() and frame() work, other than assuming they emit
-'data' events to the IO and Messages streams. They will work with any protocol
-driver having these two methods.
-**/
-
-
-var Stream = (__webpack_require__(8311).Stream),
-    util   = __webpack_require__(6464);
-
-
-var IO = function(driver) {
-  this.readable = this.writable = true;
-  this._paused  = false;
-  this._driver  = driver;
-};
-util.inherits(IO, Stream);
-
-// The IO pause() and resume() methods will be called when the socket we are
-// piping to gets backed up and drains. Since IO output [4] comes from IO input
-// [1] and Messages input [3], we need to tell both of those to return false
-// from write() when this stream is paused.
-
-IO.prototype.pause = function() {
-  this._paused = true;
-  this._driver.messages._paused = true;
-};
-
-IO.prototype.resume = function() {
-  this._paused = false;
-  this.emit('drain');
-
-  var messages = this._driver.messages;
-  messages._paused = false;
-  messages.emit('drain');
-};
-
-// When we receive input from a socket, send it to the parser and tell the
-// source whether to back off.
-IO.prototype.write = function(chunk) {
-  if (!this.writable) return false;
-  this._driver.parse(chunk);
-  return !this._paused;
-};
-
-// The IO end() method will be called when the socket piping into it emits
-// 'close' or 'end', i.e. the socket is closed. In this situation the Messages
-// stream will not emit any more data so we emit 'end'.
-IO.prototype.end = function(chunk) {
-  if (!this.writable) return;
-  if (chunk !== undefined) this.write(chunk);
-  this.writable = false;
-
-  var messages = this._driver.messages;
-  if (messages.readable) {
-    messages.readable = messages.writable = false;
-    messages.emit('end');
-  }
-};
-
-IO.prototype.destroy = function() {
-  this.end();
-};
-
-
-var Messages = function(driver) {
-  this.readable = this.writable = true;
-  this._paused  = false;
-  this._driver  = driver;
-};
-util.inherits(Messages, Stream);
-
-// The Messages pause() and resume() methods will be called when the app that's
-// processing the messages gets backed up and drains. If we're emitting
-// messages too fast we should tell the source to slow down. Message output [2]
-// comes from IO input [1].
-
-Messages.prototype.pause = function() {
-  this._driver.io._paused = true;
-};
-
-Messages.prototype.resume = function() {
-  this._driver.io._paused = false;
-  this._driver.io.emit('drain');
-};
-
-// When we receive messages from the user, send them to the formatter and tell
-// the source whether to back off.
-Messages.prototype.write = function(message) {
-  if (!this.writable) return false;
-  if (typeof message === 'string') this._driver.text(message);
-  else this._driver.binary(message);
-  return !this._paused;
-};
-
-// The Messages end() method will be called when a stream piping into it emits
-// 'end'. Many streams may be piped into the WebSocket and one of them ending
-// does not mean the whole socket is done, so just process the input and move
-// on leaving the socket open.
-Messages.prototype.end = function(message) {
-  if (message !== undefined) this.write(message);
-};
-
-Messages.prototype.destroy = function() {};
-
-
-exports.IO = IO;
-exports.Messages = Messages;
-
-
-/***/ }),
-
-/***/ 5282:
-/***/ ((module) => {
-
-"use strict";
-
-
-var TOKEN    = /([!#\$%&'\*\+\-\.\^_`\|~0-9A-Za-z]+)/,
-    NOTOKEN  = /([^!#\$%&'\*\+\-\.\^_`\|~0-9A-Za-z])/g,
-    QUOTED   = /"((?:\\[\x00-\x7f]|[^\x00-\x08\x0a-\x1f\x7f"\\])*)"/,
-    PARAM    = new RegExp(TOKEN.source + '(?:=(?:' + TOKEN.source + '|' + QUOTED.source + '))?'),
-    EXT      = new RegExp(TOKEN.source + '(?: *; *' + PARAM.source + ')*', 'g'),
-    EXT_LIST = new RegExp('^' + EXT.source + '(?: *, *' + EXT.source + ')*$'),
-    NUMBER   = /^-?(0|[1-9][0-9]*)(\.[0-9]+)?$/;
-
-var hasOwnProperty = Object.prototype.hasOwnProperty;
-
-var Parser = {
-  parseHeader: function(header) {
-    var offers = new Offers();
-    if (header === '' || header === undefined) return offers;
-
-    if (!EXT_LIST.test(header))
-      throw new SyntaxError('Invalid Sec-WebSocket-Extensions header: ' + header);
-
-    var values = header.match(EXT);
-
-    values.forEach(function(value) {
-      var params = value.match(new RegExp(PARAM.source, 'g')),
-          name   = params.shift(),
-          offer  = {};
-
-      params.forEach(function(param) {
-        var args = param.match(PARAM), key = args[1], data;
-
-        if (args[2] !== undefined) {
-          data = args[2];
-        } else if (args[3] !== undefined) {
-          data = args[3].replace(/\\/g, '');
-        } else {
-          data = true;
-        }
-        if (NUMBER.test(data)) data = parseFloat(data);
-
-        if (hasOwnProperty.call(offer, key)) {
-          offer[key] = [].concat(offer[key]);
-          offer[key].push(data);
-        } else {
-          offer[key] = data;
-        }
-      }, this);
-      offers.push(name, offer);
-    }, this);
-
-    return offers;
-  },
-
-  serializeParams: function(name, params) {
-    var values = [];
-
-    var print = function(key, value) {
-      if (value instanceof Array) {
-        value.forEach(function(v) { print(key, v) });
-      } else if (value === true) {
-        values.push(key);
-      } else if (typeof value === 'number') {
-        values.push(key + '=' + value);
-      } else if (NOTOKEN.test(value)) {
-        values.push(key + '="' + value.replace(/"/g, '\\"') + '"');
-      } else {
-        values.push(key + '=' + value);
-      }
-    };
-
-    for (var key in params) print(key, params[key]);
-
-    return [name].concat(values).join('; ');
-  }
-};
-
-var Offers = function() {
-  this._byName  = {};
-  this._inOrder = [];
-};
-
-Offers.prototype.push = function(name, params) {
-  if (!hasOwnProperty.call(this._byName, name))
-    this._byName[name] = [];
-
-  this._byName[name].push(params);
-  this._inOrder.push({ name: name, params: params });
-};
-
-Offers.prototype.eachOffer = function(callback, context) {
-  var list = this._inOrder;
-  for (var i = 0, n = list.length; i < n; i++)
-    callback.call(context, list[i].name, list[i].params);
-};
-
-Offers.prototype.byName = function(name) {
-  return this._byName[name] || [];
-};
-
-Offers.prototype.toArray = function() {
-  return this._inOrder.slice();
-};
-
-module.exports = Parser;
-
-
-/***/ }),
-
-/***/ 3647:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-
-
-var Functor = __webpack_require__(785),
-    Pledge  = __webpack_require__(344);
-
-var Cell = function(tuple) {
-  this._ext     = tuple[0];
-  this._session = tuple[1];
-
-  this._functors = {
-    incoming: new Functor(this._session, 'processIncomingMessage'),
-    outgoing: new Functor(this._session, 'processOutgoingMessage')
-  };
-};
-
-Cell.prototype.pending = function(direction) {
-  var functor = this._functors[direction];
-  if (!functor._stopped) functor.pending += 1;
-};
-
-Cell.prototype.incoming = function(error, message, callback, context) {
-  this._exec('incoming', error, message, callback, context);
-};
-
-Cell.prototype.outgoing = function(error, message, callback, context) {
-  this._exec('outgoing', error, message, callback, context);
-};
-
-Cell.prototype.close = function() {
-  this._closed = this._closed || new Pledge();
-  this._doClose();
-  return this._closed;
-};
-
-Cell.prototype._exec = function(direction, error, message, callback, context) {
-  this._functors[direction].call(error, message, function(err, msg) {
-    if (err) err.message = this._ext.name + ': ' + err.message;
-    callback.call(context, err, msg);
-    this._doClose();
-  }, this);
-};
-
-Cell.prototype._doClose = function() {
-  var fin  = this._functors.incoming,
-      fout = this._functors.outgoing;
-
-  if (!this._closed || fin.pending + fout.pending !== 0) return;
-  if (this._session) this._session.close();
-  this._session = null;
-  this._closed.done();
-};
-
-module.exports = Cell;
-
-
-/***/ }),
-
-/***/ 785:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-
-
-var RingBuffer = __webpack_require__(3646);
-
-var Functor = function(session, method) {
-  this._session = session;
-  this._method  = method;
-  this._queue   = new RingBuffer(Functor.QUEUE_SIZE);
-  this._stopped = false;
-  this.pending  = 0;
-};
-
-Functor.QUEUE_SIZE = 8;
-
-Functor.prototype.call = function(error, message, callback, context) {
-  if (this._stopped) return;
-
-  var record = { error: error, message: message, callback: callback, context: context, done: false },
-      called = false,
-      self   = this;
-
-  this._queue.push(record);
-
-  if (record.error) {
-    record.done = true;
-    this._stop();
-    return this._flushQueue();
-  }
-
-  var handler = function(err, msg) {
-    if (!(called ^ (called = true))) return;
-
-    if (err) {
-      self._stop();
-      record.error   = err;
-      record.message = null;
-    } else {
-      record.message = msg;
-    }
-
-    record.done = true;
-    self._flushQueue();
-  };
-
-  try {
-    this._session[this._method](message, handler);
-  } catch (err) {
-    handler(err);
-  }
-};
-
-Functor.prototype._stop = function() {
-  this.pending  = this._queue.length;
-  this._stopped = true;
-};
-
-Functor.prototype._flushQueue = function() {
-  var queue = this._queue, record;
-
-  while (queue.length > 0 && queue.peek().done) {
-    record = queue.shift();
-    if (record.error) {
-      this.pending = 0;
-      queue.clear();
-    } else {
-      this.pending -= 1;
-    }
-    record.callback.call(record.context, record.error, record.message);
-  }
-};
-
-module.exports = Functor;
-
-
-/***/ }),
-
-/***/ 204:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-
-
-var Cell   = __webpack_require__(3647),
-    Pledge = __webpack_require__(344);
-
-var Pipeline = function(sessions) {
-  this._cells   = sessions.map(function(session) { return new Cell(session) });
-  this._stopped = { incoming: false, outgoing: false };
-};
-
-Pipeline.prototype.processIncomingMessage = function(message, callback, context) {
-  if (this._stopped.incoming) return;
-  this._loop('incoming', this._cells.length - 1, -1, -1, message, callback, context);
-};
-
-Pipeline.prototype.processOutgoingMessage = function(message, callback, context) {
-  if (this._stopped.outgoing) return;
-  this._loop('outgoing', 0, this._cells.length, 1, message, callback, context);
-};
-
-Pipeline.prototype.close = function(callback, context) {
-  this._stopped = { incoming: true, outgoing: true };
-
-  var closed = this._cells.map(function(a) { return a.close() });
-  if (callback)
-    Pledge.all(closed).then(function() { callback.call(context) });
-};
-
-Pipeline.prototype._loop = function(direction, start, end, step, message, callback, context) {
-  var cells = this._cells,
-      n     = cells.length,
-      self  = this;
-
-  while (n--) cells[n].pending(direction);
-
-  var pipe = function(index, error, msg) {
-    if (index === end) return callback.call(context, error, msg);
-
-    cells[index][direction](error, msg, function(err, m) {
-      if (err) self._stopped[direction] = true;
-      pipe(index + step, err, m);
-    });
-  };
-  pipe(start, null, message);
-};
-
-module.exports = Pipeline;
-
-
-/***/ }),
-
-/***/ 344:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-
-
-var RingBuffer = __webpack_require__(3646);
-
-var Pledge = function() {
-  this._complete  = false;
-  this._callbacks = new RingBuffer(Pledge.QUEUE_SIZE);
-};
-
-Pledge.QUEUE_SIZE = 4;
-
-Pledge.all = function(list) {
-  var pledge  = new Pledge(),
-      pending = list.length,
-      n       = pending;
-
-  if (pending === 0) pledge.done();
-
-  while (n--) list[n].then(function() {
-    pending -= 1;
-    if (pending === 0) pledge.done();
-  });
-  return pledge;
-};
-
-Pledge.prototype.then = function(callback) {
-  if (this._complete) callback();
-  else this._callbacks.push(callback);
-};
-
-Pledge.prototype.done = function() {
-  this._complete = true;
-  var callbacks = this._callbacks, callback;
-  while (callback = callbacks.shift()) callback();
-};
-
-module.exports = Pledge;
-
-
-/***/ }),
-
-/***/ 3646:
-/***/ ((module) => {
-
-"use strict";
-
-
-var RingBuffer = function(bufferSize) {
-  this._bufferSize = bufferSize;
-  this.clear();
-};
-
-RingBuffer.prototype.clear = function() {
-  this._buffer     = new Array(this._bufferSize);
-  this._ringOffset = 0;
-  this._ringSize   = this._bufferSize;
-  this._head       = 0;
-  this._tail       = 0;
-  this.length      = 0;
-};
-
-RingBuffer.prototype.push = function(value) {
-  var expandBuffer = false,
-      expandRing   = false;
-
-  if (this._ringSize < this._bufferSize) {
-    expandBuffer = (this._tail === 0);
-  } else if (this._ringOffset === this._ringSize) {
-    expandBuffer = true;
-    expandRing   = (this._tail === 0);
-  }
-
-  if (expandBuffer) {
-    this._tail       = this._bufferSize;
-    this._buffer     = this._buffer.concat(new Array(this._bufferSize));
-    this._bufferSize = this._buffer.length;
-
-    if (expandRing)
-      this._ringSize = this._bufferSize;
-  }
-
-  this._buffer[this._tail] = value;
-  this.length += 1;
-  if (this._tail < this._ringSize) this._ringOffset += 1;
-  this._tail = (this._tail + 1) % this._bufferSize;
-};
-
-RingBuffer.prototype.peek = function() {
-  if (this.length === 0) return void 0;
-  return this._buffer[this._head];
-};
-
-RingBuffer.prototype.shift = function() {
-  if (this.length === 0) return void 0;
-
-  var value = this._buffer[this._head];
-  this._buffer[this._head] = void 0;
-  this.length -= 1;
-  this._ringOffset -= 1;
-
-  if (this._ringOffset === 0 && this.length > 0) {
-    this._head       = this._ringSize;
-    this._ringOffset = this.length;
-    this._ringSize   = this._bufferSize;
-  } else {
-    this._head = (this._head + 1) % this._ringSize;
-  }
-  return value;
-};
-
-module.exports = RingBuffer;
-
-
-/***/ }),
-
-/***/ 8951:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-
-
-var Parser   = __webpack_require__(5282),
-    Pipeline = __webpack_require__(204);
-
-var Extensions = function() {
-  this._rsv1 = this._rsv2 = this._rsv3 = null;
-
-  this._byName   = {};
-  this._inOrder  = [];
-  this._sessions = [];
-  this._index    = {};
-};
-
-Extensions.MESSAGE_OPCODES = [1, 2];
-
-var instance = {
-  add: function(ext) {
-    if (typeof ext.name !== 'string') throw new TypeError('extension.name must be a string');
-    if (ext.type !== 'permessage') throw new TypeError('extension.type must be "permessage"');
-
-    if (typeof ext.rsv1 !== 'boolean') throw new TypeError('extension.rsv1 must be true or false');
-    if (typeof ext.rsv2 !== 'boolean') throw new TypeError('extension.rsv2 must be true or false');
-    if (typeof ext.rsv3 !== 'boolean') throw new TypeError('extension.rsv3 must be true or false');
-
-    if (this._byName.hasOwnProperty(ext.name))
-      throw new TypeError('An extension with name "' + ext.name + '" is already registered');
-
-    this._byName[ext.name] = ext;
-    this._inOrder.push(ext);
-  },
-
-  generateOffer: function() {
-    var sessions = [],
-        offer    = [],
-        index    = {};
-
-    this._inOrder.forEach(function(ext) {
-      var session = ext.createClientSession();
-      if (!session) return;
-
-      var record = [ext, session];
-      sessions.push(record);
-      index[ext.name] = record;
-
-      var offers = session.generateOffer();
-      offers = offers ? [].concat(offers) : [];
-
-      offers.forEach(function(off) {
-        offer.push(Parser.serializeParams(ext.name, off));
-      }, this);
-    }, this);
-
-    this._sessions = sessions;
-    this._index    = index;
-
-    return offer.length > 0 ? offer.join(', ') : null;
-  },
-
-  activate: function(header) {
-    var responses = Parser.parseHeader(header),
-        sessions  = [];
-
-    responses.eachOffer(function(name, params) {
-      var record = this._index[name];
-
-      if (!record)
-        throw new Error('Server sent an extension response for unknown extension "' + name + '"');
-
-      var ext      = record[0],
-          session  = record[1],
-          reserved = this._reserved(ext);
-
-      if (reserved)
-        throw new Error('Server sent two extension responses that use the RSV' +
-                        reserved[0] + ' bit: "' +
-                        reserved[1] + '" and "' + ext.name + '"');
-
-      if (session.activate(params) !== true)
-        throw new Error('Server sent unacceptable extension parameters: ' +
-                        Parser.serializeParams(name, params));
-
-      this._reserve(ext);
-      sessions.push(record);
-    }, this);
-
-    this._sessions = sessions;
-    this._pipeline = new Pipeline(sessions);
-  },
-
-  generateResponse: function(header) {
-    var sessions = [],
-        response = [],
-        offers   = Parser.parseHeader(header);
-
-    this._inOrder.forEach(function(ext) {
-      var offer = offers.byName(ext.name);
-      if (offer.length === 0 || this._reserved(ext)) return;
-
-      var session = ext.createServerSession(offer);
-      if (!session) return;
-
-      this._reserve(ext);
-      sessions.push([ext, session]);
-      response.push(Parser.serializeParams(ext.name, session.generateResponse()));
-    }, this);
-
-    this._sessions = sessions;
-    this._pipeline = new Pipeline(sessions);
-
-    return response.length > 0 ? response.join(', ') : null;
-  },
-
-  validFrameRsv: function(frame) {
-    var allowed = { rsv1: false, rsv2: false, rsv3: false },
-        ext;
-
-    if (Extensions.MESSAGE_OPCODES.indexOf(frame.opcode) >= 0) {
-      for (var i = 0, n = this._sessions.length; i < n; i++) {
-        ext = this._sessions[i][0];
-        allowed.rsv1 = allowed.rsv1 || ext.rsv1;
-        allowed.rsv2 = allowed.rsv2 || ext.rsv2;
-        allowed.rsv3 = allowed.rsv3 || ext.rsv3;
-      }
-    }
-
-    return (allowed.rsv1 || !frame.rsv1) &&
-           (allowed.rsv2 || !frame.rsv2) &&
-           (allowed.rsv3 || !frame.rsv3);
-  },
-
-  processIncomingMessage: function(message, callback, context) {
-    this._pipeline.processIncomingMessage(message, callback, context);
-  },
-
-  processOutgoingMessage: function(message, callback, context) {
-    this._pipeline.processOutgoingMessage(message, callback, context);
-  },
-
-  close: function(callback, context) {
-    if (!this._pipeline) return callback.call(context);
-    this._pipeline.close(callback, context);
-  },
-
-  _reserve: function(ext) {
-    this._rsv1 = this._rsv1 || (ext.rsv1 && ext.name);
-    this._rsv2 = this._rsv2 || (ext.rsv2 && ext.name);
-    this._rsv3 = this._rsv3 || (ext.rsv3 && ext.name);
-  },
-
-  _reserved: function(ext) {
-    if (this._rsv1 && ext.rsv1) return [1, this._rsv1];
-    if (this._rsv2 && ext.rsv2) return [2, this._rsv2];
-    if (this._rsv3 && ext.rsv3) return [3, this._rsv3];
-    return false;
-  }
-};
-
-for (var key in instance)
-  Extensions.prototype[key] = instance[key];
-
-module.exports = Extensions;
-
+module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"defaultTitle":"Sbrikki\'s Books","titleTemplate":"%s | Sbrikki\'s Books","defaultDescription":"Sbrikki\'s Books is an apolitical book club for everyone. The main aim is the growth of every member from a cultural point of view. We also drink.","siteUrl":"https://Mike-cheek.github.io/sbrikkisbooks","defaultImage":"/icon.png"}}}}');
 
 /***/ })
 
