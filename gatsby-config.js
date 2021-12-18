@@ -1,9 +1,9 @@
-const siteUrl = process.env.URL || `https://Mike-cheek.github.io/sbrikkisbooks`
+const siteUrl = process.env.URL || `https://sbrikkisbooks.ga`
 
 module.exports = {
-  pathPrefix: "/sbrikkisbooks",
+  pathPrefix: "/",
   siteMetadata: {
-    siteUrl: "https://Mike-cheek.github.io/sbrikkisbooks",
+    siteUrl: "https://sbrikkisbooks.ga",
     title: "Sbrikki's Books",
     titleTemplate: "%s | Sbrikki's Books",
     description:
