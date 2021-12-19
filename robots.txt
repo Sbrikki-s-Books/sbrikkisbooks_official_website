@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://sbrikkisbooks.ga/sitemap/sitemap-0.xml
+Sitemap: https://sbrikkisbooks.ga/sitemap.xml
 Host: https://sbrikkisbooks.ga
