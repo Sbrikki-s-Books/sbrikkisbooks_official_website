@@ -8,6 +8,8 @@ function BookAnimation() {
             src={bookLoading}
             alt="Sbrikki's Books Reading..." 
             className={styles.gif}
+            width={"100px"}
+            height={"100px"}
         />
     )
 }

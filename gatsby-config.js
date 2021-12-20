@@ -8,6 +8,7 @@ module.exports = {
       "Sbrikki's Books is an apolitical book club for everyone. The main aim is the growth of every member from a cultural point of view. We also drink.",
     url: "https://Mike-cheek.github.io/sbrikkisbooks", // No trailing slash allowed!
     image: "/icon.png", // Path to the image placed in the 'static' folder, in the project's root directory.
+    defaultImage: "/icon.png"
   },
   plugins: [
     "gatsby-plugin-sass",
