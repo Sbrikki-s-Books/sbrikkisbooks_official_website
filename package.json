@@ -5,7 +5,12 @@
   "description": "sbrikkisbooks",
   "author": "Mike-cheek",
   "keywords": [
-    "sbrikki", "books", "sbrikki's books", "book club", "sbrikkisbooks", "gatsby"
+    "sbrikki",
+    "books",
+    "sbrikki's books",
+    "book club",
+    "sbrikkisbooks",
+    "gatsby"
   ],
   "scripts": {
     "develop": "gatsby develop",
@@ -36,5 +41,8 @@
     "react-helmet": "^6.1.0",
     "sass": "^1.45.0",
     "typewriter-effect": "^2.18.2"
+  },
+  "devDependencies": {
+    "eslint-config-react-app": "^7.0.0"
   }
 }
