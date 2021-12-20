@@ -19,7 +19,6 @@ function Footer(props) {
 
     return (
         <div className={styles.footer} id="contactUs">
-            <p> PREVIEW </p>
             <p>
                 Join us!
             </p>
