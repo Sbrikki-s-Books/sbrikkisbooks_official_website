@@ -8,21 +8,6 @@ import BookClub from '../atoms/bookClub/bookClub';
 import Layout from '../components/layout/layout'
 import Seo from '../components/seo/seo'
 
-const Gigi = (props) => {
-
-    function handleKeyPress(e) {
-        console.log(e)
-        if(e.key === 'g'){
-            props.setShowGigi(!props.showGigi);
-        }
-    }
-    return (
-        <div>
-            <input type="text" className={styles.hiddenInput} onKeyPress={(e) => handleKeyPress(e)} />
-        </div>
-    )
-}
-
 const Home = () => {
     const [showGigi, setShowGigi] = useState(false);
 
@@ -33,12 +18,7 @@ const Home = () => {
                 <div className={styles.head}>
                     <h1><strong>Sbrikki's Books</strong> - Book Club</h1>
                 </div>
-                {
-                    showGigi ?
-                        <NotFoundPage />
-                    :
-                        <Hero />
-                }
+                <Hero />
                 <Separator />
                 <div className={styles.description}>
                     <h4 className={styles.title}>Who we are</h4>
@@ -63,7 +43,6 @@ const Home = () => {
                         The <strong>discussion</strong> begins after each "chapter" read and concerns what has just been heard.  
                     </p>
                 </div>
-                <Gigi showGigi={showGigi} setShowGigi={setShowGigi} />
                 {/*<LoadingBooks />*/}
                 <Separator />
             </div>
