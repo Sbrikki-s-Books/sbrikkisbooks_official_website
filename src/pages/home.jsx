@@ -56,10 +56,10 @@ const Home = () => {
                 <div className={styles.description}>
                     <h4 className={styles.title}>What we do</h4>
                     <p className={styles.description} >
-                        The idea comes from the <strong>need</strong> of some of us to have a space in which <strong>to share</strong> the passion for culture and the growth of personality while attending an environment where it is difficult to have access to cultural resources.<br/>
-                        Thus was born Sbrikki's Books, <strong>our</strong> Book Club, in which we try, Socratically, to broaden our horizons of thought.
+                        The idea comes from the <strong>need</strong> of some of us to have a space in which <strong>to share</strong> the passion for culture and the growth of personality while attending an environment where it is difficult to have access to cultural resources.<br/><br/>
+                        Thus was born Sbrikki's Books, <strong>our</strong> Book Club, in which we try, Socratically, to broaden our horizons of thought.<br/><br/>
                         The format is very simple: divided into work groups, we organize the weekly appointment on <strong>Thursday</strong> evening.
-                        We read a good book, drink wine, eat, other things and <strong>debate</strong>.
+                        We read a good book, drink wine, eat, other things and <strong>debate</strong>.<br/><br/>
                         The <strong>discussion</strong> begins after each "chapter" read and concerns what has just been heard.  
                     </p>
                 </div>
