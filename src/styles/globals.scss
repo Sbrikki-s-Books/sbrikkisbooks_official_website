@@ -1,9 +1,15 @@
 :root {
-    --red-sbrikki: var(--aubergine);
+    --red-sbrikki: #3D0C0C;;
     --green-sbrikki: #011601;
     --white-sbrikki: var(--silver);    
     --grey-sbrikki: rgb(167, 167, 167);
     --black-sbrikki: #1d0303;
+    --lightblue-sbrikki: #78accb;
+    --blue-sbrikki: #155d8a;
+    --pink-sbrikki: #C77676;
+
+    --shadow-sbrikki: var(--blue-sbrikki);
+
 
         /* SCSS RGB palette */
     --aubergine: rgba(60,12,12,1);
@@ -17,13 +23,11 @@
     --sand-dune: rgba(132,100,100,1);
 
 
-    font-family: 'Times', 'Helvetica';  
-    
-    
-
+    font-family: 'Times', 'Helvetica';
 }
+
 html{
-    background-color: var(--white-sbrikki); 
+    background-color: var(--lightblue-sbrikki); 
     color: var(--red-sbrikki);
     overflow-x: hidden;
     font-size: 1.2rem;

@@ -35,12 +35,12 @@ $breakpoints: (
     flex-direction: column;
     z-index: 1;
     width: 100vw;
-    height: auto;
+    height: 100vw;
     left: 0;
     top: 75px;
     align-items: center;
     justify-content: flex-start;
-    background-color: var(--grey-sbrikki);
+    background-color: var(--blue-sbrikki);
     animation: rotateMenu 600ms ease-in-out forwards;
     transform-origin: top center;
 

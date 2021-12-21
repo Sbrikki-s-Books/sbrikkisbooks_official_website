@@ -9,12 +9,12 @@ function Footer(props) {
 
     const openForm = () => {
         setFormOpened(true);
-        props.setNotScrolling();
+        //props.setNotScrolling();
     }
 
     const closeForm = () => {
         setFormOpened(false);
-        props.setScrolling();
+        //props.setScrolling();
     }
 
     return (

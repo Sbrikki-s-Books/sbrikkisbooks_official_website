@@ -11,7 +11,7 @@ $breakpoints: (
     height: auto;
     align-items: center;
     justify-content: space-evenly;
-    box-shadow: 0px 0px 10px 10px var(--grey-sbrikki);
+    box-shadow: 0px 0px 10px 10px var(--shadow-sbrikki);
     padding: 50px 50px 50px;
     margin-top: 100px;
     border-radius: 10% 10% 0 0;
@@ -40,6 +40,6 @@ $breakpoints: (
     border-right: 0.5 solid;
     border-top: 0.5 solid;
     border-bottom: 1 solid;
-    border-color: var(--grey-sbrikki);
+    border-color: var(--shadow-sbrikki);
     background-color: transparent;
 }
