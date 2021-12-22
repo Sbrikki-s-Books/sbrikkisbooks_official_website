@@ -44,9 +44,10 @@ $breakpoints: (
   }
   .description{
     display: block;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
+    text-align: center;
     @media screen and (min-width: 768px) {
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
   }
 }
@@ -66,15 +67,4 @@ $breakpoints: (
 ::-webkit-scrollbar-thumb {
   background: var(--red-sbrikki);
   border-radius: 10px;
-}
-
-ul{
-  list-style: none;
-
-}
-
-li::before {
-  content: "-";
-  padding-inline: 1ch;
-  margin-inline-end: 1ch;
 }
