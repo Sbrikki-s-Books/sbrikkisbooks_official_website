@@ -26,13 +26,6 @@ $breakpoints: (
   }
 }
 
-.hiddenInput{
-  background: none;
-  border: none;
-  height: 30px;
-  opacity: 0.1;
-}
-
 .description{
   display: flex;
   flex-direction: column;
@@ -50,6 +43,10 @@ $breakpoints: (
   }
   .description{
     display: block;
+    font-size: 1.2rem;
+    @media screen and (min-width: 768px) {
+      font-size: 1.5rem;
+    }
   }
 }
 
