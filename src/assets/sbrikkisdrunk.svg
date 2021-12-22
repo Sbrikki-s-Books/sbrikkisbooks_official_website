@@ -19,7 +19,7 @@
    svg-elem-10  first bubble left line
  -->
 
-<svg width="100%" height="100%" viewBox="0 0 263.69376 209.49431" version="1.1" id="svg5" sodipodi:docname="sbrikkisdrunk.svg" inkscape:version="1.1.1 (3bf5ae0, 2021-09-20)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<svg width="100%" height="100%" viewBox="0 -20 263.69376 229.49431" version="1.1" id="svg5" sodipodi:docname="sbrikkisdrunk.svg" inkscape:version="1.1.1 (3bf5ae0, 2021-09-20)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview id="namedview7" pagecolor="#505050" bordercolor="#eeeeee" borderopacity="1" inkscape:pageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="0" inkscape:document-units="mm" showgrid="false" inkscape:zoom="0.48016975" inkscape:cx="834.08003" inkscape:cy="276.98538" inkscape:window-width="1366" inkscape:window-height="709" inkscape:window-x="0" inkscape:window-y="28" inkscape:window-maximized="1" inkscape:current-layer="layer1" inkscape:lockguides="false"></sodipodi:namedview>
   <defs id="defs2">
     <style id="style532">
@@ -144,7 +144,7 @@
 
   100% {
     transform: translateY(-70px);
-    
+    opacity: 0;
   }
 }
 
