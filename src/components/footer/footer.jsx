@@ -21,7 +21,7 @@ function Footer(props) {
 
     return (
         <div className={styles.footer}>
-            <Logo width={200} />
+            <Logo width={200} to={'#top'} title={'Go to top'} />
             <Separator />
             <div className={styles.subFooter} id="contactUs">
                 <p>

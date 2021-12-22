@@ -8,7 +8,7 @@ const Layout = ({children, isBlocking}) => {
     return (
         <>
             <NavBar isBlocking={isBlocking} />
-            <div className={styles.layout} >
+            <div className={styles.layout} id="top" >
                 {children}
             </div>
             <Footer />

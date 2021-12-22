@@ -2,9 +2,9 @@ import React from 'react'
 import logo from '../../assets/sbrikkislogoextended.svg'
 import * as styles from './logo.module.scss'
 
-const Logo = ({width = 100}) => {
+const Logo = ({width = 100, to = '/', title = 'Go to Home Page' }) => {
     return (
-        <a href="/" title='Go to Home Page'>
+        <a href={to} title={title}>
             <img 
                 src={logo} 
                 alt="Sbrikki's Books Logo"

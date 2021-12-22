@@ -34,12 +34,14 @@ $breakpoints: (
   margin-left: 10%;
   margin-right: 10%;
   text-align: center;
+
   .title{
-    font-size: 1rem;
     text-transform: uppercase;
     margin: 0 0 10px;
+    font-weight: bold;
+    font-size: 1.4rem;
     @media screen and (min-width: 768px) {
-      font-size: 1.2rem;
+      font-size: 1.8rem;
     }
   }
   .description{
@@ -50,21 +52,4 @@ $breakpoints: (
       font-size: 1.2rem;
     }
   }
-}
-
-/* width */
-::-webkit-scrollbar {
-  width: 7px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px var(--shadow-sbrikki);
-  border-radius: 7px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: var(--red-sbrikki);
-  border-radius: 10px;
 }
