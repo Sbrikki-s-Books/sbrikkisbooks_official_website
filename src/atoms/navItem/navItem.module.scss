@@ -19,6 +19,27 @@ $breakpoints: (
   animation: hov 200ms ease-in-out forwards;
 }
 
+.hoverWrap{
+  @extend .item;
+  align-items: center;
+  justify-content: center;
+
+  :nth-child(1){
+    display: inline;
+  }
+  :nth-child(2){
+    display: none;
+  }
+}
+.hoverWrap:hover{
+  :nth-child(1){
+    display: none;
+  }
+  :nth-child(2){
+    display: inline;
+  }
+}
+
 @keyframes hov{
   0%{
     transform: scale(1);
@@ -27,4 +48,4 @@ $breakpoints: (
     transform: scale(1.1);
     color:var(--red-sbrikki);
   }
-}
+} 

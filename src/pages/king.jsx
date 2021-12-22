@@ -8,7 +8,7 @@ import Seo from "../components/seo/seo";
 
 const King = () => {
   //const [isBlocking, setIsBlocking] = useState(true);
-  const isBlocking = true;
+  const isBlocking = false;
 
   useEffect(() => {
     window.addEventListener("beforeunload", (e) => {

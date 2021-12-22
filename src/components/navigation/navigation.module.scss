@@ -11,10 +11,11 @@ $breakpoints: (
         display: flex;
         justify-content: space-around;
         width: 500px;
-        animation: slideIn 1000ms ease-out;
+        //animation: slideIn 1000ms ease-out;
+        align-items: center;
     }
 }
-
+/*
 @keyframes slideIn{
     0%{
         width: 1000px;
@@ -25,7 +26,7 @@ $breakpoints: (
         transform: translateX(0);
     }
 }
-
+*/
 .navMobile{
     @media (min-width: 768px) {
         display: none;
