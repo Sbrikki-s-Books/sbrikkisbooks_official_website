@@ -6,6 +6,19 @@
  * W. https://svgartista.net
  **************************************************/-->
 
+ <!--
+   svg-elem-1   body left
+   svg-elem-2   head left
+   svg-elem-3   back left
+   svg-elem-4   beer bottle
+   svg-elem-5   first bubble right line
+   svg-elem-6   third bubble right line
+   svg-elem-7   second bubble right line
+   svg-elem-8   second bubble left line
+   svg-elem-9   third bubble left line
+   svg-elem-10  first bubble left line
+ -->
+
 <svg width="100%" height="100%" viewBox="0 0 263.69376 209.49431" version="1.1" id="svg5" sodipodi:docname="sbrikkisdrunk.svg" inkscape:version="1.1.1 (3bf5ae0, 2021-09-20)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview id="namedview7" pagecolor="#505050" bordercolor="#eeeeee" borderopacity="1" inkscape:pageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="0" inkscape:document-units="mm" showgrid="false" inkscape:zoom="0.48016975" inkscape:cx="834.08003" inkscape:cy="276.98538" inkscape:window-width="1366" inkscape:window-height="709" inkscape:window-x="0" inkscape:window-y="28" inkscape:window-maximized="1" inkscape:current-layer="layer1" inkscape:lockguides="false"></sodipodi:namedview>
   <defs id="defs2">
@@ -118,10 +131,6 @@
     transform: translateY(0);
   }
 
-  50%{
-     opacity: 0;
-  }
-
   100% {
     transform: translateY(-70px);
     opacity: 0;
@@ -133,10 +142,6 @@
     transform: translateY(0);
   }
 
-  50%{
-     opacity: 0;
-  }
-
   100% {
     transform: translateY(-70px);
     
@@ -144,133 +149,143 @@
 }
 
 .svg-elem-5 {
-  -webkit-animation: animate-svg-fill-5 5s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
-          animation: animate-svg-fill-5 5s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+  -webkit-animation: animate-svg-fill-5 7.3s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+          animation: animate-svg-fill-5 7.3s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
 }
 
 @-webkit-keyframes animate-svg-fill-6 {
   0% {
-    fill: transparent;
+    transform: translateY(0);
   }
 
   100% {
-    fill: rgb(61, 12, 12);
+    transform: translateY(-70px);
+    opacity: 0;
   }
 }
 
 @keyframes animate-svg-fill-6 {
   0% {
-    fill: transparent;
+    transform: translateY(0);
   }
 
   100% {
-    fill: rgb(61, 12, 12);
+    transform: translateY(-70px);
+    opacity: 0;
   }
 }
 
 .svg-elem-6 {
-  -webkit-animation: animate-svg-fill-6 1s cubic-bezier(0.645, 0.045, 0.355, 1) 1s both;
-          animation: animate-svg-fill-6 1s cubic-bezier(0.645, 0.045, 0.355, 1) 1s both;
+  -webkit-animation: animate-svg-fill-6 5s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+          animation: animate-svg-fill-6 5s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
 }
 
 @-webkit-keyframes animate-svg-fill-7 {
   0% {
-    fill: transparent;
+    transform: translateY(0);
   }
 
   100% {
-    fill: rgb(61, 12, 12);
+    transform: translateY(-70px);
+    opacity: 0;
   }
 }
 
 @keyframes animate-svg-fill-7 {
   0% {
-    fill: transparent;
+    transform: translateY(0);
   }
 
   100% {
-    fill: rgb(61, 12, 12);
+    transform: translateY(-70px);
+    opacity: 0;
   }
 }
 
 .svg-elem-7 {
-  -webkit-animation: animate-svg-fill-7 1s cubic-bezier(0.645, 0.045, 0.355, 1) 1.2000000000000002s both;
-          animation: animate-svg-fill-7 1s cubic-bezier(0.645, 0.045, 0.355, 1) 1.2000000000000002s both;
+  -webkit-animation: animate-svg-fill-7 5.7s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+          animation: animate-svg-fill-7 5.7s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
 }
 
 @-webkit-keyframes animate-svg-fill-8 {
   0% {
-    fill: transparent;
+    transform: translateY(0);
   }
 
   100% {
-    fill: rgb(61, 12, 12);
+    transform: translateY(-70px);
+    opacity: 0;
   }
 }
 
 @keyframes animate-svg-fill-8 {
   0% {
-    fill: transparent;
+    transform: translateY(0);
   }
 
   100% {
-    fill: rgb(61, 12, 12);
+    transform: translateY(-70px);
+    opacity: 0;
   }
 }
 
 .svg-elem-8 {
-  -webkit-animation: animate-svg-fill-8 1s cubic-bezier(0.645, 0.045, 0.355, 1) 1.4000000000000001s both;
-          animation: animate-svg-fill-8 1s cubic-bezier(0.645, 0.045, 0.355, 1) 1.4000000000000001s both;
+  -webkit-animation: animate-svg-fill-8 6.8s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+          animation: animate-svg-fill-8 6.8s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
 }
 
 @-webkit-keyframes animate-svg-fill-9 {
   0% {
-    fill: transparent;
+    transform: translateY(0);
   }
 
   100% {
-    fill: rgb(61, 12, 12);
+    transform: translateY(-70px);
+    opacity: 0;
   }
 }
 
 @keyframes animate-svg-fill-9 {
   0% {
-    fill: transparent;
+    transform: translateY(0);
   }
 
   100% {
-    fill: rgb(61, 12, 12);
+    transform: translateY(-70px);
+    opacity: 0;
   }
 }
 
 .svg-elem-9 {
-  -webkit-animation: animate-svg-fill-9 1s cubic-bezier(0.645, 0.045, 0.355, 1) 1.6s both;
-          animation: animate-svg-fill-9 1s cubic-bezier(0.645, 0.045, 0.355, 1) 1.6s both;
+  -webkit-animation: animate-svg-fill-9 4.4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+          animation: animate-svg-fill-9 4.4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
 }
 
 @-webkit-keyframes animate-svg-fill-10 {
   0% {
-    fill: transparent;
+    transform: translateY(0);
   }
 
   100% {
-    fill: rgb(61, 12, 12);
+    transform: translateY(-70px);
+    opacity: 0;
   }
 }
 
 @keyframes animate-svg-fill-10 {
   0% {
-    fill: transparent;
+    transform: translateY(0);
   }
 
   100% {
-    fill: rgb(61, 12, 12);
+    transform: translateY(-70px);
+    opacity: 0;
   }
 }
 
 .svg-elem-10 {
-  -webkit-animation: animate-svg-fill-10 1s cubic-bezier(0.645, 0.045, 0.355, 1) 1.8s both;
-          animation: animate-svg-fill-10 1s cubic-bezier(0.645, 0.045, 0.355, 1) 1.8s both;
+  -webkit-animation: animate-svg-fill-10 6.5s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+          animation: animate-svg-fill-10 6.5s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
 }
 
 @-webkit-keyframes animate-svg-fill-11 {
