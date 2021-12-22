@@ -15,7 +15,7 @@ const NavItem = (props) => {
           href={props.path}
           className={styles.item}
           onClick={props.onClick}
-          title={"Go to " + props.text + " page"}
+          title={"Go to " + props.text + " section"}
         >
           {props.text}
         </a>

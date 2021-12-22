@@ -26,7 +26,7 @@ $breakpoints: (
   }
 }
 
-.description{
+.descrWrap{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,17 +35,18 @@ $breakpoints: (
   margin-right: 10%;
   text-align: center;
   .title{
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-transform: uppercase;
+    margin: 0 0 10px;
     @media screen and (min-width: 768px) {
-      font-size: 2rem;
+      font-size: 1.2rem;
     }
   }
   .description{
     display: block;
-    font-size: 1.2rem;
+    font-size: 0.7rem;
     @media screen and (min-width: 768px) {
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
   }
 }
@@ -65,4 +66,15 @@ $breakpoints: (
 ::-webkit-scrollbar-thumb {
   background: var(--red-sbrikki);
   border-radius: 10px;
+}
+
+ul{
+  list-style: none;
+
+}
+
+li::before {
+  content: "-";
+  padding-inline: 1ch;
+  margin-inline-end: 1ch;
 }

@@ -14,14 +14,14 @@ const Navigation = (props) => {
                 <NavItem text="Spotify" path="/spotify" image={SpotifyLogo}/>
                 <NavItem text="Stats" path="/stats" image={StatsLogo}/>
                 <NavItem text="King" path="/king" image={KingLogo}/>
-                <NavItem text="Contact us" path="#contactUs" isHref={true} />
+                <NavItem text="Contacts" path="#contactUs" isHref={true} />
             </div>
             <div className={styles.navMobile}>
                 <NavItem text="Home" path="/" onClick={props.onClick} />
                 <NavItem text="Spotify" path="/spotify" onClick={props.onClick} />
                 <NavItem text="Stats" path="/stats" onClick={props.onClick} />
                 <NavItem text="King" path="/king" onClick={props.onClick} />
-                <NavItem text="Contact us" path="#contactUs" onClick={props.onClick} isHref={true} />
+                <NavItem text="Contacts" path="#contactUs" onClick={props.onClick} isHref={true} />
             </div>
         </>
     )

@@ -20,7 +20,7 @@ const Home = () => {
                 </div>
                 <Hero />
                 <Separator />
-                <div className={styles.description}>
+                <div className={styles.descrWrap}>
                     <h4 className={styles.title}>Who we are</h4>
                     <p className={styles.description} >
                         <strong>Sbrikki's Books </strong> is an apolitical book club for 
@@ -33,15 +33,23 @@ const Home = () => {
                 <Separator />
                 <BookClub />
                 <Separator />
-                <div className={styles.description}>
+                <div className={styles.descrWrap}>
                     <h4 className={styles.title}>What we do</h4>
-                    <p className={styles.description} >
-                        The idea comes from the <strong>need</strong> of some of us to have a space in which <strong>to share</strong> the passion for culture and the growth of personality while attending an environment where it is difficult to have access to cultural resources.<br/><br/>
-                        Thus was born Sbrikki's Books, <strong>our</strong> Book Club, in which we try, Socratically, to broaden our horizons of thought.<br/><br/>
-                        The format is very simple: divided into work groups, we organize the weekly appointment on <strong>Thursday</strong> evening.
-                        We read a good book, drink wine, eat, other things and <strong>debate</strong>.<br/><br/>
-                        The <strong>discussion</strong> begins after each "chapter" read and concerns what has just been heard.  
-                    </p>
+                    <ul className={styles.description} >
+                        <li>
+                            The idea comes from the <strong>need</strong> of some of us to have a space in which <strong>to share</strong> the passion for culture and the growth of personality while attending an environment where it is difficult to have access to cultural resources.<br/><br/>
+                        </li>
+                        <li>
+                            Thus was born Sbrikki's Books, <strong>our</strong> Book Club, in which we try, Socratically, to broaden our horizons of thought.<br/><br/>
+                        </li>
+                        <li>
+                            The format is very simple: divided into work groups, we organize the weekly appointment on <strong>Thursday</strong> evening.
+                            We read a good book, drink wine, eat, other things and <strong>debate</strong>.<br/><br/>
+                        </li>
+                        <li>
+                            The <strong>discussion</strong> begins after each "chapter" read and concerns what has just been heard.  
+                        </li>
+                    </ul>
                 </div>
                 {/*<LoadingBooks />*/}
                 <Separator />
