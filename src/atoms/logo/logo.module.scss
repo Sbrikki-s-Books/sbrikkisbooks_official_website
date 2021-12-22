@@ -6,11 +6,11 @@ $breakpoints: (
 );
 
 .logo{
-    width: 45px;
+    width: 100px;
     height: auto;
     animation: pop 500ms;
     @media(min-width: 768px){
-        width: 50px;
+        //width: 50px;
     }
 }
 

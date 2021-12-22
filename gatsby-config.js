@@ -1,3 +1,6 @@
+require("dotenv").config()
+
+
 module.exports = {
   pathPrefix: "/sbrikkisbooks",
   siteMetadata: {
@@ -25,6 +28,14 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        typekit: {
+          id: process.env.TYPEKIT_ID,
+        },
+      },
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "assets",
@@ -39,6 +50,17 @@ module.exports = {
         path: "./src/pages/",
       },
       __key: "pages",
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Merriweather`,
+          'Roboto',
+          //`source sans pro\:300,400,400i,700` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      }
     },
     "gatsby-plugin-sitemap",
     {
