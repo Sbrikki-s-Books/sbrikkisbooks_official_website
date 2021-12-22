@@ -7,16 +7,20 @@
  **************************************************/-->
 
  <!--
-   svg-elem-1   body left
-   svg-elem-2   head left
-   svg-elem-3   back left
-   svg-elem-4   beer bottle
-   svg-elem-5   first bubble right line
-   svg-elem-6   third bubble right line
-   svg-elem-7   second bubble right line
-   svg-elem-8   second bubble left line
-   svg-elem-9   third bubble left line
-   svg-elem-10  first bubble left line
+    svg-elem-1   body left
+    svg-elem-2   head left
+    svg-elem-3   back left
+    svg-elem-4   beer bottle
+    svg-elem-5   first bubble right line
+    svg-elem-6   third bubble right line
+    svg-elem-7   second bubble right line
+    svg-elem-8   second bubble left line
+    svg-elem-9   third bubble left line
+    svg-elem-10  first bubble left line
+    svg-elem-11  beer logo
+    svg-elem-12  body right
+    svg-elem-13  head right
+    svg-elem-14  pouf right
  -->
 
 <svg width="100%" height="100%" viewBox="0 -20 263.69376 229.49431" version="1.1" id="svg5" sodipodi:docname="sbrikkisdrunk.svg" inkscape:version="1.1.1 (3bf5ae0, 2021-09-20)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
@@ -47,33 +51,33 @@
 }
 
 .svg-elem-1 {
-  -webkit-animation: animate-svg-fill-1 1s cubic-bezier(0.645, 0.045, 0.355, 1) 0s both;
-          animation: animate-svg-fill-1 1s cubic-bezier(0.645, 0.045, 0.355, 1) 0s both;
+  -webkit-animation: animate-svg-fill-1 0.1s cubic-bezier(0.645, 0.045, 0.355, 1) 0s both;
+          animation: animate-svg-fill-1 0.1s cubic-bezier(0.645, 0.045, 0.355, 1) 0s both;
 }
 
 @-webkit-keyframes animate-svg-fill-2 {
   0% {
-    fill: transparent;
+    transform: none;
   }
 
   100% {
-    fill: rgb(61, 12, 12);
+    transform: rotateZ(-5deg);
   }
 }
 
 @keyframes animate-svg-fill-2 {
   0% {
-    fill: transparent;
+    transform: none;
   }
 
   100% {
-    fill: rgb(61, 12, 12);
+    transform: rotateZ(-5deg) translateY(3px);
   }
 }
 
 .svg-elem-2 {
-  -webkit-animation: animate-svg-fill-2 1s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s both;
-          animation: animate-svg-fill-2 1s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s both;
+  -webkit-animation: animate-svg-fill-2 7s cubic-bezier(0.645, 0.045, 0.355, 1) infinite alternate;
+          animation: animate-svg-fill-2 7s cubic-bezier(0.645, 0.045, 0.355, 1) infinite alternate;
 }
 
 @-webkit-keyframes animate-svg-fill-3 {
@@ -97,8 +101,8 @@
 }
 
 .svg-elem-3 {
-  -webkit-animation: animate-svg-fill-3 1s cubic-bezier(0.645, 0.045, 0.355, 1) 0.4s both;
-          animation: animate-svg-fill-3 1s cubic-bezier(0.645, 0.045, 0.355, 1) 0.4s both;
+  -webkit-animation: animate-svg-fill-3 0.1s cubic-bezier(0.645, 0.045, 0.355, 1) 0s both;
+          animation: animate-svg-fill-3 0.1s cubic-bezier(0.645, 0.045, 0.355, 1) 0s both;
 }
 
 @-webkit-keyframes animate-svg-fill-4 {
@@ -122,8 +126,8 @@
 }
 
 .svg-elem-4 {
-  -webkit-animation: animate-svg-fill-4 1s cubic-bezier(0.645, 0.045, 0.355, 1) 0.6000000000000001s both;
-          animation: animate-svg-fill-4 1s cubic-bezier(0.645, 0.045, 0.355, 1) 0.6000000000000001s both;
+  -webkit-animation: animate-svg-fill-4 0.1s cubic-bezier(0.645, 0.045, 0.355, 1) 0s both;
+          animation: animate-svg-fill-4 0.1s cubic-bezier(0.645, 0.045, 0.355, 1) 0s both;
 }
 
 @-webkit-keyframes animate-svg-fill-5 {
@@ -309,8 +313,8 @@
 }
 
 .svg-elem-11 {
-  -webkit-animation: animate-svg-fill-11 1s cubic-bezier(0.645, 0.045, 0.355, 1) 2s both;
-          animation: animate-svg-fill-11 1s cubic-bezier(0.645, 0.045, 0.355, 1) 2s both;
+  -webkit-animation: animate-svg-fill-11 0.1s cubic-bezier(0.645, 0.045, 0.355, 1) 0s both;
+          animation: animate-svg-fill-11 0.1s cubic-bezier(0.645, 0.045, 0.355, 1) 0s both;
 }
 
 @-webkit-keyframes animate-svg-fill-12 {
@@ -334,33 +338,33 @@
 }
 
 .svg-elem-12 {
-  -webkit-animation: animate-svg-fill-12 1s cubic-bezier(0.645, 0.045, 0.355, 1) 2.2s both;
-          animation: animate-svg-fill-12 1s cubic-bezier(0.645, 0.045, 0.355, 1) 2.2s both;
+  -webkit-animation: animate-svg-fill-12 0.1s cubic-bezier(0.645, 0.045, 0.355, 1) 0s both;
+          animation: animate-svg-fill-12 0.1s cubic-bezier(0.645, 0.045, 0.355, 1) 0s both;
 }
 
 @-webkit-keyframes animate-svg-fill-13 {
   0% {
-    fill: transparent;
+    transform: none;
   }
 
   100% {
-    fill: rgb(61, 12, 12);
+    transform: rotateY(12deg) translateY(10px);
   }
 }
 
 @keyframes animate-svg-fill-13 {
   0% {
-    fill: transparent;
+    transform: none;
   }
 
   100% {
-    fill: rgb(61, 12, 12);
+    transform: rotateY(12deg) translateY(10px);
   }
 }
 
 .svg-elem-13 {
-  -webkit-animation: animate-svg-fill-13 1s cubic-bezier(0.645, 0.045, 0.355, 1) 2.4000000000000004s both;
-          animation: animate-svg-fill-13 1s cubic-bezier(0.645, 0.045, 0.355, 1) 2.4000000000000004s both;
+  -webkit-animation: animate-svg-fill-13 6s cubic-bezier(0.645, 0.045, 0.355, 1) infinite alternate;
+          animation: animate-svg-fill-13 6s cubic-bezier(0.645, 0.045, 0.355, 1) infinite alternate;
 }
 
 @-webkit-keyframes animate-svg-fill-14 {
@@ -384,8 +388,8 @@
 }
 
 .svg-elem-14 {
-  -webkit-animation: animate-svg-fill-14 1s cubic-bezier(0.645, 0.045, 0.355, 1) 2.6s both;
-          animation: animate-svg-fill-14 1s cubic-bezier(0.645, 0.045, 0.355, 1) 2.6s both;
+  -webkit-animation: animate-svg-fill-14 0.1s cubic-bezier(0.645, 0.045, 0.355, 1) 0s both;
+          animation: animate-svg-fill-14 0.1s cubic-bezier(0.645, 0.045, 0.355, 1) 0s both;
 }
 
    </style>
