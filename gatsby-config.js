@@ -81,7 +81,7 @@ module.exports = {
            themeColor: '#3D0C0C',
            display: 'standalone',
            defaultBackgroundColor: '#3D0C0C',
-           defaultMargin: '10%',
+           //defaultMargin: '10%',
            compression: 3,
            scalingAlgorithm: 'Lanczos',
            ios: {
