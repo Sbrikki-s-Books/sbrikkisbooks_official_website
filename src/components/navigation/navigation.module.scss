@@ -10,9 +10,11 @@ $breakpoints: (
     @media (min-width: 768px) {
         display: flex;
         justify-content: space-around;
-        width: 500px;
         //animation: slideIn 1000ms ease-out;
         align-items: center;
+        > * {
+            margin: 0 10px 0;
+        }
     }
 }
 /*

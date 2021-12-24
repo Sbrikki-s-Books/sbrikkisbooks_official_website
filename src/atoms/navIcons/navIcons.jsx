@@ -4,6 +4,7 @@ import HomeLogo from '../../assets/homelogo.svg'
 import SpotifyLogo from '../../assets/spotifylogo.svg'
 import StatsLogo from '../../assets/statslogo.svg'
 import KingLogo from '../../assets/kinglogo.svg'
+import * as styles from './navIcons.module.scss'
 
 const icons = {
     home: {
@@ -29,7 +30,7 @@ const NavIcons = () => {
     const pathname = location.pathname === '/' ? "home" : location.pathname.replace('/', '').replace('/', '');
 
     return (
-        <div>
+        <div className={styles.icon} >
             {
                 icons[pathname] ? 
                     <img 
