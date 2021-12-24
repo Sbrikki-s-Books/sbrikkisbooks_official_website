@@ -8,7 +8,7 @@ $breakpoints: (
 .item {
     text-decoration: none;
     text-transform: uppercase;
-    color: var(--red-sbrikki);
+    color: black;
     font-weight: bold;
     background-color: transparent;
     border: none;
@@ -17,27 +17,6 @@ $breakpoints: (
 
 .item:hover{
   animation: hov 200ms ease-in-out forwards;
-}
-
-.hoverWrap{
-  @extend .item;
-  align-items: center;
-  justify-content: center;
-
-  :nth-child(1){
-    display: inline;
-  }
-  :nth-child(2){
-    display: none;
-  }
-}
-.hoverWrap:hover{
-  :nth-child(1){
-    display: none;
-  }
-  :nth-child(2){
-    display: inline;
-  }
 }
 
 @keyframes hov{

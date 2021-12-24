@@ -3,6 +3,7 @@ import * as styles from './navBar.module.scss'
 import Logo from '../../atoms/logo/logo'
 import Navigation from '../navigation/navigation'
 import Hamburger from '../../atoms/hamburger/hamburger'
+import NavIcons from '../../atoms/navIcons/navIcons'
 
 const NavBar = (props) => {
 
@@ -47,6 +48,9 @@ const NavBar = (props) => {
             <div className={styles.logo}>
                 <Logo />
             </div>
+
+            <NavIcons />
+
             {props.isBlocking ?
                 null
                 :
