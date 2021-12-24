@@ -5,6 +5,10 @@ $breakpoints: (
   desktop: 1440px,
 );
 
+.link{
+  text-decoration: none;
+}
+
 .item {
     text-decoration: none;
     text-transform: uppercase;
@@ -13,6 +17,8 @@ $breakpoints: (
     background-color: transparent;
     border: none;
     font-size: 0.9rem;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .item:hover{

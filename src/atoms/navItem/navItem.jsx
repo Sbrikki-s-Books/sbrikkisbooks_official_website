@@ -15,14 +15,16 @@ const NavItem = (props) => {
           {props.text}
         </a>
       ) : (
-        <Link
-          className={styles.item}
-          to={props.path}
-          onClick={props.onClick}
-          title={"Go to " + props.text + " page"}
-        >
-          <p className={styles.item}>{props.text}</p>
-        </Link>
+        <div>
+          <Link
+            className={styles.link}
+            to={props.path}
+            onClick={props.onClick}
+            title={"Go to " + props.text + " page"}
+          >
+            <p className={styles.item}>{props.text}</p>
+          </Link>
+        </div>
       )}
     </>
   );
