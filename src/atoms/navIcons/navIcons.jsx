@@ -30,11 +30,17 @@ const NavIcons = () => {
 
     return (
         <div>
-            <img 
-                src={icons[pathname]["img"]}
-                width={"50px"}
-                alt={pathname}
-            />
+            {
+                icons[pathname] ? 
+                    <img 
+                        src={icons[pathname]["img"]}
+                        width={"50px"}
+                        alt={pathname}
+                    />
+                :
+                    <p><strong>404</strong></p>
+            }
+            
         </div>
     )
 }
