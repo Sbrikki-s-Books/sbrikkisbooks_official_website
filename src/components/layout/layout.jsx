@@ -6,13 +6,13 @@ import Footer from '../footer/footer'
 const Layout = ({children, isBlocking}) => {
 
     return (
-        <>
+        <div id="top">
             <NavBar isBlocking={isBlocking} />
-            <div className={styles.layout} id="top" >
+            <div className={styles.layout} >
                 {children}
             </div>
             <Footer />
-        </>
+        </div>
         
     )
 }
