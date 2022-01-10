@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
 Sitemap: https://www.sbrikkisbooks.ga/sitemap/sitemap-0.xml
-Host: https://mike-cheek.github.io
