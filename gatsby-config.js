@@ -65,8 +65,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://sbrikkisbooks.ga',
-        sitemap: 'https://sbrikkisbooks.ga/sitemap/sitemap-0.xml',
+        sitemap: 'https://www.sbrikkisbooks.ga/sitemap/sitemap-0.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },
