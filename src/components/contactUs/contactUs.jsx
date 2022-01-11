@@ -33,7 +33,7 @@ function ContactUs(props) {
                 <input type="text" id="surnameIn" onChange={changeSurname} className={styles.nsInput} placeholder="Surname"/>
                 {console.log(name + " " + surname )}
                 <MailTo
-                    email="sbrikkisbooks@gmail.com" 
+                    email="admin@sbrikkisbooks.ga" 
                     subject="I want to join!" 
                     body={"Hi, I'm "+name+" "+surname+". I want to join to your Book Club!"}
                     enabled={checkNameSurname() ? true : false}
