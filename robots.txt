@@ -4,5 +4,5 @@ Disallow: /king/
 Disallow: /spotify/
 Disallow: /stats/
 
-Sitemap: https://www.sbrikkisbooks.ga/sitemap/sitemap-0.xml
+Sitemap: https://www.sbrikkisbooks.ga/sitemap/sitemap.xml
 Sitemap: https://www.sbrikkisbooks.ga/sitemap.xml
