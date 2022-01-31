@@ -1,3 +1,6 @@
+require("dotenv").config()
+
+
 module.exports = {
   pathPrefix: "/sbrikkisbooks",
   siteMetadata: {
@@ -25,6 +28,14 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        typekit: {
+          id: process.env.TYPEKIT_ID,
+        },
+      },
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "assets",
@@ -40,6 +51,16 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Merriweather`,
+          //`source sans pro\:300,400,400i,700` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      }
+    },
     "gatsby-plugin-sitemap",
     {
       resolve: 'gatsby-plugin-robots-txt',
@@ -47,6 +68,58 @@ module.exports = {
         sitemap: 'https://www.sbrikkisbooks.ga/sitemap/sitemap-0.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
+    },
+    {
+      resolve: `gatsby-plugin-realfavicongenerator`,
+        options: {
+           apiKey: '3ad03ec8f11cfc2e1d930c3fcf838b0072e4dfa5',
+           masterPicture: 'src/assets/icon.png',
+           appName: "Sbrikki's Books - Book Club",
+           startUrl: '/',
+           themeColor: '#3D0C0C',
+           display: 'standalone',
+           defaultBackgroundColor: '#3D0C0C',
+           //defaultMargin: '10%',
+           compression: 3,
+           scalingAlgorithm: 'Lanczos',
+           ios: {
+             enabled: true,
+             onlyDefaultIcons: false,
+             legacyIcons: true,
+             precomposedIcons: true,
+           },
+           windows: {
+             enabled: true,
+             silhouette: true,
+           },
+           android: {
+             enabled: true,
+             legacyIcons: true,
+             lowResIcons: true,
+           },
+           safariPinnedTab: {
+             enabled: true,
+             threshold: 60,
+             silhouette: true,
+           },
+           openGraph: {
+             enabled: true,
+             ratio: 'square',
+           },
+           transformGeneratedManifest: (manifest) => {
+             manifest.scope = '/';
+             if (manifest.icons) {
+               manifest.icons = manifest.icons.map((icon) => {
+                 return {
+                   ...icon,
+                   purpose: 'maskable',
+                 };
+               });
+             }
+   
+             return manifest;
+           },
+        },
     },
   ],
 };

@@ -1,16 +1,17 @@
 import React from 'react'
-import logo from '../../assets/logo.svg'
+import logo from '../../assets/sbrikkislogoextended.svg'
 import * as styles from './logo.module.scss'
 
-const Logo = (props) => {
+const Logo = ({width = 100, to = '/', title = 'Go to Home Page' }) => {
     return (
-        <a href="/" title='Go to Home Page'>
+        <a href={to} title={title}>
             <img 
                 src={logo} 
                 alt="Sbrikki's Books Logo"
                 className={styles.logo}
-                width={"50px"}
-                height={"50px"}
+                width={width + "px"}
+                height={"auto"}
+                title="Sbrikki's Books Logo"
             />
         </a>
     )

@@ -8,7 +8,7 @@ import Seo from "../components/seo/seo";
 
 const King = () => {
   //const [isBlocking, setIsBlocking] = useState(true);
-  const isBlocking = true;
+  const isBlocking = false;
 
   useEffect(() => {
     window.addEventListener("beforeunload", (e) => {
@@ -28,15 +28,15 @@ const King = () => {
     <Layout isBlocking={isBlocking}>
       <Seo title={"King"} description={"Let's play king!"} />
       <div className={styles.kingPage}>
-        {isBlocking ? (
-          <button className={styles.buttonBlocked} /*onClick={unBlock()}*/>
+        {/*isBlocking ? (
+          <button className={styles.buttonBlocked} onClick={unBlock()}>
             Click to allow exit
           </button>
         ) : (
-          <button className={styles.buttonUnblocked} /*onClick={block()}*/>
+          <button className={styles.buttonUnblocked} onClick={block()}>
             Click to block exit
           </button>
-        )}
+        )*/}
         <p>
           <strong>King</strong> is a very good <strong>card game</strong> mbare.
           <br />

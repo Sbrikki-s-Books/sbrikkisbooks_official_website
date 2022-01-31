@@ -5,13 +5,20 @@ $breakpoints: (
   desktop: 1440px,
 );
 
+.link{
+  text-decoration: none;
+}
+
 .item {
     text-decoration: none;
     text-transform: uppercase;
-    color: var(--green-sbrikki);
+    color: black;
+    font-weight: bold;
     background-color: transparent;
     border: none;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .item:hover{
@@ -26,4 +33,4 @@ $breakpoints: (
     transform: scale(1.1);
     color:var(--red-sbrikki);
   }
-}
+} 

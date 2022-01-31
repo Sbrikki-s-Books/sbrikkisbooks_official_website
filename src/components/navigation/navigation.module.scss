@@ -10,11 +10,14 @@ $breakpoints: (
     @media (min-width: 768px) {
         display: flex;
         justify-content: space-around;
-        width: 500px;
-        animation: slideIn 1000ms ease-out;
+        //animation: slideIn 1000ms ease-out;
+        align-items: center;
+        > * {
+            margin: 0 10px 0;
+        }
     }
 }
-
+/*
 @keyframes slideIn{
     0%{
         width: 1000px;
@@ -25,7 +28,7 @@ $breakpoints: (
         transform: translateX(0);
     }
 }
-
+*/
 .navMobile{
     @media (min-width: 768px) {
         display: none;
@@ -40,7 +43,7 @@ $breakpoints: (
     top: 75px;
     align-items: center;
     justify-content: flex-start;
-    background-color: var(--grey-sbrikki);
+    background-color: var(--blue-sbrikki);
     animation: rotateMenu 600ms ease-in-out forwards;
     transform-origin: top center;
 

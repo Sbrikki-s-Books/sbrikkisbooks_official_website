@@ -1,9 +1,15 @@
 :root {
-    --red-sbrikki: var(--aubergine);
+    --red-sbrikki: #3D0C0C;;
     --green-sbrikki: #011601;
     --white-sbrikki: var(--silver);    
     --grey-sbrikki: rgb(167, 167, 167);
     --black-sbrikki: #1d0303;
+    --lightblue-sbrikki: #78accb;
+    --blue-sbrikki: #155d8a;
+    --pink-sbrikki: #C77676;
+
+    --shadow-sbrikki: var(--blue-sbrikki);
+
 
         /* SCSS RGB palette */
     --aubergine: rgba(60,12,12,1);
@@ -17,17 +23,41 @@
     --sand-dune: rgba(132,100,100,1);
 
 
-    font-family: 'Times', 'Helvetica';  
-    
-    
+    font-family: 'Merriweather', Helvetica, Arial, Georgia, serif;
+    font-weight: normal;
 
+    scroll-behavior: smooth;
 }
+
 html{
-    background-color: var(--white-sbrikki); 
-    color: var(--red-sbrikki);
+    background-color: var(--lightblue-sbrikki); 
+    color: black;
     overflow-x: hidden;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     body{
       margin: 0;
     }
+
+    ::-webkit-scrollbar {
+      display: none;
+    }
+
+    /*
+    // width
+    ::-webkit-scrollbar {
+      width: 7px;
+    }
+
+    // Track
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px var(--shadow-sbrikki);
+      border-radius: 7px;
+    }
+
+    // Handle
+    ::-webkit-scrollbar-thumb {
+      background: var(--red-sbrikki);
+      border-radius: 10px;
+    }
+    */
   }

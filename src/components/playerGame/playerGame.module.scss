@@ -8,6 +8,7 @@ $breakpoints: (
 .playerGame {
   display: flex;
   flex-direction: column;
+  border-color: var(--lightblue-sbrikki);
 }
 
 th, td {
@@ -31,8 +32,8 @@ tr {
 
 .name{
   position: absolute;
-  background-color: var(--white-sbrikki);
-  border: outset var(--white-sbrikki);
+  background-color: var(--lightblue-sbrikki);
+  border: outset var(--lightblue-sbrikki);
   border-radius: 8px;
   padding: 5px;
   margin-top: 10px;
