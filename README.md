@@ -60,6 +60,8 @@
     
 4. **Install dependencies**
 
+   Install the project dependencies
+
       ```shell
       yarn
       ```
@@ -69,6 +71,8 @@
       ```
     
 4.  **Start developing**
+
+    Now you're ready to develop
 
     ```shell
     yarn develop
