@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.sbrikkisbooks.ga">
-    <img alt="Gatsby" src="https://github.com/Mike-cheek/sbrikkisbooks/raw/gh-pages/icons/icon-96x96.png" width="80" />
+    <img alt="Sbrikki's Books" src="https://www.sbrikkisbooks.ga/icons/icon-96x96.png" width="80" />
   </a>
 </p>
 <h1 align="center">
@@ -43,15 +43,30 @@
     
     (for a full guide <a href="https://devconnected.com/how-to-switch-branch-on-git/">click here</a>)
     
-3.  **Install dependencies**
+3.  **Install node**
 
+    - Download/install NodeJs on your machine (<a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm" >guide here</a>)
+    
+    - Check that you have done everything correctly
     ```shell
-    yarn
+    node -v
+    npm -v
     ```
+    
+    - Then, if you want, install yarn (a better package manager than npm)
+    ```shell
+    npm install --global yarn
+    ```
+    
+4. **Install dependencies**
+
+      ```shell
+      yarn
+      ```
     or
-    ```shell
-    npm install
-    ```
+      ```shell
+      npm install
+      ```
     
 4.  **Start developing**
 
