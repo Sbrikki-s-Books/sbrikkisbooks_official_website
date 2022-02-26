@@ -65,6 +65,16 @@
 
     Edit files in `src` and save to see your site update in real-time!
     
+6. **Start a pull request**
+    Once you've finished, commit and push your changes and start a pull request
+    
+    ```shell
+    git commit -m <commit_message>
+    git push
+    ```
+    
+    <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request" >How to do a pull request</a>
+    
 <h2></h2>
 
 <p align="center">
