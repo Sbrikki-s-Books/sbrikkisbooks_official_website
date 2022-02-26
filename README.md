@@ -8,6 +8,7 @@
 </h1>
 
 1.  **Clone locally the repository**
+ 
     - Clone the repo
     ```shell
     git clone https://github.com/Mike-cheek/sbrikkisbooks.git
@@ -19,6 +20,7 @@
     ```
     
 2.  **Create a branch from `develop`**
+
     - If you're not in develop branch
     ```shell
     git checkout develop
@@ -42,6 +44,7 @@
     (for a full guide <a href="https://devconnected.com/how-to-switch-branch-on-git/">click here</a>)
     
 3.  **Install dependencies**
+
     ```shell
     yarn
     ```
@@ -51,6 +54,7 @@
     ```
     
 4.  **Start developing**
+
     ```shell
     yarn develop
     ```
@@ -66,6 +70,7 @@
     Edit files in `src` and save to see your site update in real-time!
     
 6. **Start a pull request**
+
     Once you've finished, commit and push your changes and start a pull request
     
     ```shell
