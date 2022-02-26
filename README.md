@@ -93,6 +93,7 @@
     Once you've finished, commit and push your changes and start a pull request
     
     ```shell
+    git add .
     git commit -m <commit_message>
     git push
     ```
