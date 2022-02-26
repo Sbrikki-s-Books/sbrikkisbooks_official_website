@@ -4,10 +4,78 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  If you want to collaborate 🚀
 </h1>
 
-## 🚀 Quick start
+1.  **Clone locally the repository**
+    - Clone the repo
+    ```shell
+    git clone https://github.com/Mike-cheek/sbrikkisbooks.git
+    ```
+    
+    - Navigate into the site’s directory
+    ```shell
+    cd sbrikkisbooks
+    ```
+    
+2.  **Create a branch from `develop`**
+    - If you're not in develop branch
+    ```shell
+    git checkout develop
+    ```
+    
+    - Create the new branch
+    ```shell
+    git checkout -b <new_branch>
+    ```
+    
+    - Make sure that the target branch exists 
+    ```shell
+    git branch
+    ```
+    
+    - Switch to the created branch
+    ```shell
+    git checkout <new_branch>
+    ```
+    
+    (for a full guide <a href="https://devconnected.com/how-to-switch-branch-on-git/">click here</a>)
+    
+3.  **Install dependencies**
+    ```shell
+    yarn
+    ```
+    or
+    ```shell
+    npm install
+    ```
+    
+4.  **Start developing**
+    ```shell
+    yarn develop
+    ```
+    or
+    ```shell
+    npm run develop
+    ```
+    
+5.  **Open the browser and start customizing!**
+
+    The site is now running at http://localhost:8000!
+
+    Edit files in `src` and save to see your site update in real-time!
+    
+<h2></h2>
+
+<p align="center">
+  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  </a>
+</p>
+
+<h1 align="center">
+  Gatsby minimal starter 🚀
+</h1>
 
 1.  **Create a Gatsby site.**
 
