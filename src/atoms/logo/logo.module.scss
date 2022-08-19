@@ -5,22 +5,19 @@ $breakpoints: (
   desktop: 1440px,
 );
 
-.logo{
-    height: auto;
-    animation: pop 500ms;
-    @media(min-width: 768px){
-        //width: 50px;
-    }
+.logo {
+  height: auto;
+  animation: pop 500ms;
 }
 
-@keyframes pop{
-    0% {
-        transform: scale(0.8);
-    }
-    70%{
-        transform: scale(1.2)
-    }
-    100%{
-        transform: scale(1)
-    }
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
