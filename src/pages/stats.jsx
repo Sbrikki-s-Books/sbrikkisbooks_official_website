@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from "react";
-import * as styles from "../styles/stats.module.scss";
+import React, { useState, useEffect } from 'react';
+import * as styles from '../styles/stats.module.scss';
 
-import Separator from "../atoms/separator/separator";
-import LoadingBooks from "../atoms/loadingBooks/loadingBooks";
-import database from "../atoms/firebase";
-import { ref, get, child } from "firebase/database";
-import Qualities from "../components/qualities/qualities";
-import Layout from "../components/layout/layout";
-import Seo from '../components/seo/seo'
+import Layout from '../components/layout/layout';
+import Separator from '../atoms/separator/separator';
+import LoadingBooks from '../atoms/loadingBooks/loadingBooks';
+import database from '../atoms/firebase';
+import { ref, get, child } from 'firebase/database';
+import Qualities from '../components/qualities/qualities';
+import Seo from '../components/seo/seo';
 
 const Stats = () => {
   const [data, setData] = useState([]);
@@ -27,17 +27,17 @@ const Stats = () => {
         setLoaded(true);
         if (snapshot.exists()) {
           tmpArray = JSON.stringify(snapshot.toJSON())
-            .replace("{", "")
-            .replace("}", "")
-            .replaceAll('"', "")
+            .replace('{', '')
+            .replace('}', '')
+            .replaceAll('"', '')
             .split(/(?<=[,])/);
           for (let i = 0; i < tmpArray.length; i++) {
-            tmpArray[i] = tmpArray[i].replace(",", "").split(/(?<=[:])/);
-            tmpArray[i][0] = tmpArray[i][0].replace(":", "");
+            tmpArray[i] = tmpArray[i].replace(',', '').split(/(?<=[:])/);
+            tmpArray[i][0] = tmpArray[i][0].replace(':', '');
           }
           setData(tmpArray);
         } else {
-            setError3(true)
+          setError3(true);
         }
       })
       .catch((err) => {
@@ -52,31 +52,24 @@ const Stats = () => {
         setLoaded(true);
         if (snapshot.exists()) {
           tmpArray = JSON.stringify(snapshot.toJSON())
-            .replace("{", "")
-            .replace("}", "")
+            .replace('{', '')
+            .replace('}', '')
             .split(/(?<=["])/);
           for (let i = 0; i < tmpArray.length; i++) {
-            tmpArray[i] = tmpArray[i].replace('"', "");
-            if (
-              tmpArray[i] === ":" ||
-              tmpArray[i] === "," ||
-              tmpArray[i].match(/^\d+$/)
-            )
-              tmpArray[i] = "";
+            tmpArray[i] = tmpArray[i].replace('"', '');
+            if (tmpArray[i] === ':' || tmpArray[i] === ',' || tmpArray[i].match(/^\d+$/)) tmpArray[i] = '';
           }
           for (let i = 0; i < tmpArray.length; i++) {
-            if (tmpArray[i] === "") {
-              for (let j = i + 1; j < tmpArray.length; j++)
-                tmpArray[j - 1] = tmpArray[j];
+            if (tmpArray[i] === '') {
+              for (let j = i + 1; j < tmpArray.length; j++) tmpArray[j - 1] = tmpArray[j];
               tmpArray.length -= 1;
               i--;
             }
           }
-          for (let i = 0; i < tmpArray.length; i++)
-            tmpArray[i] = tmpArray[i].split("_");
+          for (let i = 0; i < tmpArray.length; i++) tmpArray[i] = tmpArray[i].split('_');
           setQuality(tmpArray);
         } else {
-            setError3(true);
+          setError3(true);
         }
       })
       .catch((err) => {
@@ -87,8 +80,7 @@ const Stats = () => {
   };
 
   const setVisibility = (id) => {
-    if (document.getElementById(id))
-      document.getElementById(id).hidden = !document.getElementById(id).hidden;
+    if (document.getElementById(id)) document.getElementById(id).hidden = !document.getElementById(id).hidden;
   };
 
   useEffect(() => {
@@ -97,7 +89,7 @@ const Stats = () => {
 
   return (
     <Layout>
-      <Seo title={"Stats"} description={"Look at our stats"} />
+      <Seo title={'Stats'} description={'Look at our stats'} />
       <div className={styles.tmp}>
         <h1>Sbrikki's Books SEO score</h1>
         <p>
@@ -105,7 +97,12 @@ const Stats = () => {
           That's why I'm studying ways to <strong>improve</strong> it <br />
           See our <strong>score</strong> by clicking on the link below
         </p>
-        <a href="https://freetools.seobility.net/en/seocheck/sbrikkisbooks.ga"><img src="https://freetools.seobility.net/widget/widget.png?url=sbrikkisbooks.ga" alt="Seobility Score für sbrikkisbooks.ga" /></a>
+        <a href="https://freetools.seobility.net/en/seocheck/sbrikkisbooks.ga">
+          <img
+            src="https://freetools.seobility.net/widget/widget.png?url=sbrikkisbooks.ga"
+            alt="Seobility Score für sbrikkisbooks.ga"
+          />
+        </a>
         <Separator />
         {loaded ? (
           fetched ? (
@@ -113,17 +110,21 @@ const Stats = () => {
               <p>Here there are last meetings info</p>
               {data.map((elem, i) => {
                 return (
-                  <div onClick={setVisibility("meeting" + i)} onKeyDown={setVisibility("meeting" + i)} role={"button"} key={i} tabIndex={i}>
-                    <p className={styles.meeting}>
-                      {"Meeting " + elem[0] + ", Date: " + elem[1]}
-                    </p>
+                  <div
+                    onClick={setVisibility('meeting' + i)}
+                    onKeyDown={setVisibility('meeting' + i)}
+                    role={'button'}
+                    key={i}
+                    tabIndex={i}
+                  >
+                    <p className={styles.meeting}>{'Meeting ' + elem[0] + ', Date: ' + elem[1]}</p>
                   </div>
                 );
               })}
               <Qualities quality={quality} />
             </div>
           ) : (
-              <p>{error1.message + <br/> + error2.message + <br/> + error3? "No data avaiable" : null}</p>
+            <p>{error1.message + <br /> + error2.message + <br /> + error3 ? 'No data avaiable' : null}</p>
           )
         ) : (
           <LoadingBooks />

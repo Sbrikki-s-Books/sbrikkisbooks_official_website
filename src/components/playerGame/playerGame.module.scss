@@ -8,10 +8,11 @@ $breakpoints: (
 .playerGame {
   display: flex;
   flex-direction: column;
-  border-color: var(--lightblue-sbrikki);
+  border-color: var(--shadow-sbrikki);
 }
 
-th, td {
+th,
+td {
   border: 1px;
   border-radius: 10px;
   border-style: outset;
@@ -20,7 +21,7 @@ th, td {
   text-align: -webkit-center;
 }
 
-.round{
+.round {
   padding: 0 50px 0;
 }
 
@@ -30,10 +31,10 @@ tr {
   scroll-behavior: smooth;
 }
 
-.name{
+.name {
   position: absolute;
-  background-color: var(--lightblue-sbrikki);
-  border: outset var(--lightblue-sbrikki);
+  border: outset var(--shadow-sbrikki);
+  background-color: var(--shadow-sbrikki);
   border-radius: 8px;
   padding: 5px;
   margin-top: 10px;
@@ -49,7 +50,7 @@ tr {
   }
 }
 
-h3{
+h3 {
   color: var(--green-sbrikki);
 }
 
@@ -57,32 +58,31 @@ h5 {
   color: var(--red-sbrikki);
 }
 
-h6{
+h6 {
   margin-bottom: 5px;
   width: max-content;
 }
 
-select{
+select {
   border-radius: 2px;
   padding: 2px;
 }
 
-.field{
+.field {
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
   margin: 5px;
-  > *{
+  > * {
     margin: 1px;
   }
 }
 
-
-.bet{
+.bet {
   @extend .field;
 }
 
-.win{
+.win {
   @extend .field;
 }

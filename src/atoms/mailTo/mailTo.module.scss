@@ -5,13 +5,13 @@ $breakpoints: (
   desktop: 1440px,
 );
 
-.mailto{
-    font-size: 1 rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-decoration: none;
-    background-color: var(--red-sbrikki);
-  border-radius: 20%;
+.mailto {
+  font-size: 1 rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: var(--red-sbrikki);
+  border-radius: 10px;
   border: 3px;
   padding: 20px;
   border-left: 0.5 solid;
@@ -21,15 +21,15 @@ $breakpoints: (
   border-color: var(--blue-sbrikki);
   color: var(--white-sbrikki);
 
-  &Disabled{
-      @extend .mailto;
-      pointer-events: none;
-      cursor: default;
-      opacity: 0.3;
+  &Disabled {
+    @extend .mailto;
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.3;
   }
 }
 
-.suggestion{
+.suggestion {
   font-size: 0.7rem;
   margin-top: -3%;
 }

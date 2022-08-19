@@ -5,39 +5,38 @@ $breakpoints: (
   desktop: 1440px,
 );
 
-.kingHero{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-width: 70%;
+.kingHero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 70%;
 }
 
-.play{
+.play {
   overflow-x: scroll;
   width: 100%;
   margin-left: 10px;
-  @media screen and (min-width: tablet){
+  @media screen and (min-width: tablet) {
     width: auto;
   }
 }
 
-.changeRound{
+.changeRound {
   position: fixed;
   bottom: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  border-radius: 20%;
-  border-style: ridge;
-  background-color: var(--lightblue-sbrikki);
-  border-color: var(--lightblue-sbrikki);
+  border-radius: 10px;
+  background-color: var(--grey-sbrikki);
+  border: outset var(--shadow-sbrikki);
   width: 70%;
   z-index: 5;
 }
 
-.roundText{
+.roundText {
   text-transform: uppercase;
   padding: 0 10px 0;
   font-weight: bold;

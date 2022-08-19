@@ -5,32 +5,32 @@ $breakpoints: (
   desktop: 1440px,
 );
 
-.link{
+.link {
   text-decoration: none;
 }
 
 .item {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: black;
-    font-weight: bold;
-    background-color: transparent;
-    border: none;
-    font-size: 0.8rem;
-    margin-top: auto;
-    margin-bottom: auto;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  font-size: 0.8rem;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
-.item:hover{
+.item:hover {
   animation: hov 200ms ease-in-out forwards;
 }
 
-@keyframes hov{
-  0%{
+@keyframes hov {
+  0% {
     transform: scale(1);
   }
-  100%{
+  100% {
     transform: scale(1.1);
-    color:var(--red-sbrikki);
+    color: var(--red-sbrikki);
   }
-} 
+}

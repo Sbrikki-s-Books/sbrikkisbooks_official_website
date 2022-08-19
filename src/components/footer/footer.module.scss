@@ -5,49 +5,49 @@ $breakpoints: (
   desktop: 1440px,
 );
 
-.footer{
-    display: flex;
-    flex-direction: column;
-    width: 100vm;
-    height: auto;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0px 0px 10px 10px var(--shadow-sbrikki);
-    padding: 50px 50px 50px;
-    margin-top: 100px;
-    border-radius: 10% 10% 0 0;
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100vm;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 50px 50px;
+  margin-top: 100px;
+  border-radius: 10% 10% 0 0;
 }
 
-.subFooter{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-    
-    @media screen and (min-width: 768px) {
-        flex-direction: row;
-    }
-    :first-child{
-        color: var(--black-sbrikki);
-        font-weight: bold;
-    }
-    
+.subFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 50px;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
+  :first-child {
+    color: var(--black-sbrikki);
+    font-weight: bold;
+  }
 }
 
-.formButton{
-    > * {
-        align-self: center;
+.formButton {
+  > * {
+    align-self: center;
     justify-self: center;
     margin-left: 10px;
     margin-right: 10px;
-    }
-    border-radius: 20%;
-    padding: 20px;
-    border-left: 0.5 solid;
-    border-right: 0.5 solid;
-    border-top: 0.5 solid;
-    border-bottom: 1 solid;
-    border-color: var(--shadow-sbrikki);
-    background-color: transparent;
+  }
+  border-radius: 10px;
+  padding: 20px;
+  border-left: 0.5 solid;
+  border-right: 0.5 solid;
+  border-top: 0.5 solid;
+  border-bottom: 1 solid;
+  border-color: var(--shadow-sbrikki);
+  cursor: pointer;
+  background-color: transparent;
 }
