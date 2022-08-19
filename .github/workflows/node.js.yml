@@ -5,18 +5,17 @@ name: (Not yet) Deploy to GH Pages
 
 on:
   push:
-    branches: [ master ]
+    branches: [none]
   pull_request:
-    branches: [ master ]
+    branches: [none]
 
 jobs:
-  
   deploy:
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        node-version: [16.x] 
+        node-version: [16.x]
 
     steps:
       - uses: actions/checkout@v2
