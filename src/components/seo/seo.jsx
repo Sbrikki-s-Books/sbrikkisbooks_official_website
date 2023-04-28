@@ -1,21 +1,14 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { Helmet } from "react-helmet";
-import { useLocation } from "@reach/router";
-import { useStaticQuery, graphql } from "gatsby";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Helmet } from 'react-helmet';
+import { useLocation } from '@reach/router';
+import { useStaticQuery, graphql } from 'gatsby';
 
 const Seo = ({ title, description, image, article }) => {
   const { pathname } = useLocation();
   const { site } = useStaticQuery(query);
 
-  const {
-    defaultTitle,
-    titleTemplate,
-    defaultDescription,
-    siteUrl,
-    defaultImage,
-    twitterUsername,
-  } = site.siteMetadata;
+  const { defaultTitle, titleTemplate, defaultDescription, siteUrl, defaultImage, twitterUsername } = site.siteMetadata;
 
   const seo = {
     title: title || defaultTitle,
@@ -29,39 +22,31 @@ const Seo = ({ title, description, image, article }) => {
       title={seo.title}
       titleTemplate={titleTemplate}
       htmlAttributes={{
-        lang: "en",
+        lang: 'en',
       }}
     >
+      <meta name="google-site-verification" content="6CEt2yawsIZqWfyMh9IkmQa2U75Qu41kO92hyIV0R0M" />
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
-      <meta
-        name="keywords"
-        content="sbrikki, books, sbrikki's books, book club, sbrikkisbooks"
-      />
+      <meta name="keywords" content="sbrikki, books, sbrikki's books, book club, sbrikkisbooks" />
 
       {seo.url && <meta property="og:url" content={seo.url} />}
 
-      {article ?  <meta property="og:type" content="article" /> : <meta property="og:type" content="website" />}
+      {article ? <meta property="og:type" content="article" /> : <meta property="og:type" content="website" />}
 
       {seo.title && <meta property="og:title" content={seo.title} />}
 
-      {seo.description && (
-        <meta property="og:description" content={seo.description} />
-      )}
+      {seo.description && <meta property="og:description" content={seo.description} />}
 
       {seo.image && <meta property="og:image" content={seo.image} />}
 
       <meta name="twitter:card" content="summary_large_image" />
 
-      {twitterUsername && (
-        <meta name="twitter:creator" content={twitterUsername} />
-      )}
+      {twitterUsername && <meta name="twitter:creator" content={twitterUsername} />}
 
       {seo.title && <meta name="twitter:title" content={seo.title} />}
 
-      {seo.description && (
-        <meta name="twitter:description" content={seo.description} />
-      )}
+      {seo.description && <meta name="twitter:description" content={seo.description} />}
 
       {seo.image && <meta name="twitter:image" content={seo.image} />}
     </Helmet>
