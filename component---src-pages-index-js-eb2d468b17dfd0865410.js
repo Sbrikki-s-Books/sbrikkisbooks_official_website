@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunksbrikkisbooks=self.webpackChunksbrikkisbooks||[]).push([[678],{7704:function(e,t,l){l.r(t);var n=l(7294),u=l(6775);t.default=function(){return n.createElement("main",null,n.createElement("title",null,"Home Page"),n.createElement(u.default,null))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-eb2d468b17dfd0865410.js.map
