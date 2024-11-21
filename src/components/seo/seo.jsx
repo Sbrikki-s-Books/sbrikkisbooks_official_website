@@ -25,7 +25,7 @@ const Seo = ({ title, description, image, article }) => {
         lang: 'en',
       }}
     >
-      <meta name="google-site-verification" content="6CEt2yawsIZqWfyMh9IkmQa2U75Qu41kO92hyIV0R0M" />
+      <meta name="google-site-verification" content="BVVgceaNomTWw5Odkz-pObz4XqhTzkZAdj6NREbLLUY" />
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
       <meta name="keywords" content="sbrikki, books, sbrikki's books, book club, sbrikkisbooks" />
